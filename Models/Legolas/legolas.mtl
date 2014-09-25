@@ -1,0 +1,62 @@
+# Exported from Fuse 1.2.0
+
+newmtl Bottom
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd legolas_Bottom_diffuse.png
+map_Ks legolas_Bottom_specular.png
+bump legolas_Bottom_normal.png
+map_Ns legolas_Bottom_gloss.png
+
+newmtl Body
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd legolas_Body_diffuse.png
+map_Ks legolas_Body_specular.png
+bump legolas_Body_normal.png
+map_Ns legolas_Body_gloss.png
+
+newmtl Top
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd legolas_Top_diffuse.png
+map_Ks legolas_Top_specular.png
+bump legolas_Top_normal.png
+map_Ns legolas_Top_gloss.png
+
+newmtl Shoes
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd legolas_Shoes_diffuse.png
+map_Ks legolas_Shoes_specular.png
+bump legolas_Shoes_normal.png
+map_Ns legolas_Shoes_gloss.png
+
+newmtl Hair
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd legolas_Hair_diffuse.png
+map_Ks legolas_Hair_specular.png
+bump legolas_Hair_normal.png
+map_Ns legolas_Hair_gloss.png
+
