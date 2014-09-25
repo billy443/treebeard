@@ -1,0 +1,86 @@
+# Exported from Fuse 1.2.0
+
+newmtl Shoes
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd gimili_Shoes_diffuse.png
+map_Ks gimili_Shoes_specular.png
+bump gimili_Shoes_normal.png
+map_Ns gimili_Shoes_gloss.png
+
+newmtl Bottom
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd gimili_Bottom_diffuse.png
+map_Ks gimili_Bottom_specular.png
+bump gimili_Bottom_normal.png
+map_Ns gimili_Bottom_gloss.png
+
+newmtl Beard
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd gimili_Beard_diffuse.png
+map_Ks gimili_Beard_specular.png
+bump gimili_Beard_normal.png
+map_Ns gimili_Beard_gloss.png
+
+newmtl Body
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd gimili_Body_diffuse.png
+map_Ks gimili_Body_specular.png
+bump gimili_Body_normal.png
+map_Ns gimili_Body_gloss.png
+
+newmtl Hair
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd gimili_Hair_diffuse.png
+map_Ks gimili_Hair_specular.png
+bump gimili_Hair_normal.png
+map_Ns gimili_Hair_gloss.png
+
+newmtl Moustache
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd gimili_Moustache_diffuse.png
+map_Ks gimili_Moustache_specular.png
+bump gimili_Moustache_normal.png
+map_Ns gimili_Moustache_gloss.png
+
+newmtl Top
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd gimili_Top_diffuse.png
+map_Ks gimili_Top_specular.png
+bump gimili_Top_normal.png
+map_Ns gimili_Top_gloss.png
+
