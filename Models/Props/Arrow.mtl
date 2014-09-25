@@ -1,0 +1,42 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Metal_Rough
+Ka 0.000000 0.000000 0.000000
+Kd 0.600000 0.615686 0.627451
+Ks 0.330000 0.330000 0.330000
+map_Kd Arrow/Metal_Rough.jpg
+
+newmtl Color_F17
+Ka 0.000000 0.000000 0.000000
+Kd 0.239216 0.400000 0.078431
+Ks 0.330000 0.330000 0.330000
+
+newmtl Metal_Aluminum_Anodized
+Ka 0.000000 0.000000 0.000000
+Kd 0.792157 0.819608 0.858824
+Ks 0.330000 0.330000 0.330000
+map_Kd Arrow/Metal_Aluminum_Anodized.jpg
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl _Gray4_
+Ka 0.000000 0.000000 0.000000
+Kd 0.666667 0.666667 0.666667
+Ks 0.330000 0.330000 0.330000
+
+newmtl _CoolGray5_
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.568627 0.600000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Vegetation_Grass_Artificial
+Ka 0.000000 0.000000 0.000000
+Kd 0.384314 0.549020 0.290196
+Ks 0.330000 0.330000 0.330000
+map_Kd Arrow/Vegetation_Grass_Artificial.jpg
+
