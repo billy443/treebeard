@@ -1,0 +1,702 @@
+Log file open, 09/30/14 15:54:46
+LogInit:Display: Running engine for game: RealScene
+LogInit: Version: 4.4.1-2270799+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Aug 25 2014 14:19:12
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.09.30-21.54.46:398][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.09.30-21.54.46:424][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.09.30-21.54.46:432][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.09.30-21.54.46:440][  0]LogInit: Object subsystem initialized
+[2014.09.30-21.54.46:442][  0]LogInit: Selected Device Profile: [Windows]
+[2014.09.30-21.54.46:442][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.09.30-21.54.46:448][  0]LogInit: Computer: TCPC-07
+[2014.09.30-21.54.46:448][  0]LogInit: User: u0568887
+[2014.09.30-21.54.46:449][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.09.30-21.54.46:449][  0]LogInit: High frequency timer resolution =3.906347 MHz
+[2014.09.30-21.54.46:449][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
+[2014.09.30-21.54.46:449][  0]LogMemory: Platform Memory Stats for Windows
+[2014.09.30-21.54.46:449][  0]LogMemory: Process Physical Memory: 61.66 MB used, 61.66 MB peak
+[2014.09.30-21.54.46:449][  0]LogMemory: Process Virtual Memory: 38.19 MB used, 38.19 MB peak
+[2014.09.30-21.54.46:449][  0]LogMemory: Physical Memory: 2982.57 MB used, 8173.54 MB total
+[2014.09.30-21.54.46:449][  0]LogMemory: Virtual Memory: 261.05 MB used, 8388608.00 MB total
+[2014.09.30-21.54.46:476][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 630 (Feature Level 11_0)
+[2014.09.30-21.54.46:476][  0]LogD3D11RHI: Adapter has 978MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
+[2014.09.30-21.54.46:476][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.09.30-21.54.46:481][  0]LogRHI: Texture pool is 684 MB (70% of 978 MB)
+[2014.09.30-21.54.46:488][  0]LogD3D11RHI: Async texture creation enabled
+[2014.09.30-21.54.46:611][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.09.30-21.54.48:000][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.30-21.54.48:335][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.30-21.54.48:369][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.09.30-21.54.48:430][  0]LogDerivedDataCache: Loaded boot cache 0.06s 39MB C:/Users/u0568887/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.30-21.54.48:430][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/u0568887/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.09.30-21.54.48:430][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/u0568887/Documents/GitHub/treebeard/Unreal Project/RealScene/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.09.30-21.54.48:430][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.09.30-21.54.48:446][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.09.30-21.54.48:457][  0]LogDerivedDataCache: Using Local data cache path C:/Users/u0568887/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.09.30-21.54.48:611][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.09.30-21.54.48:611][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.09.30-21.54.48:966][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.09.30-21.54.49:679][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_2b8_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_d0c_0///////STATCAT_Advanced////
+[2014.09.30-21.54.49:679][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.09.30-21.54.49:769][  0]SourceControl: Info Source control is disabled
+[2014.09.30-21.54.49:769][  0]SourceControl: Info Source control is disabled
+[2014.09.30-21.54.49:774][  0]SourceControl: Info Source control is disabled
+[2014.09.30-21.54.49:912][  0]BlueprintLog: New page: Editor Load
+[2014.09.30-21.54.49:984][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.09.30-21.54.49:984][  0]LogUObjectAllocator: 4218648 out of 0 bytes used by permanent object pool.
+[2014.09.30-21.54.50:143][  0]LogEngine: Initializing Engine...
+[2014.09.30-21.54.50:244][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (4- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.09.30-21.54.50:275][  0]LogInit: FAudioDevice initialized.
+[2014.09.30-21.54.50:289][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.09.30-21.54.50:323][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/u0568887/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.30-21.54.50:333][  0]LogInit: Texture streaming: Enabled
+[2014.09.30-21.54.50:358][  0]LogInit: Transaction tracking system initialized
+[2014.09.30-21.54.50:443][  0]LogAssetRegistry: FAssetRegistry took 0.0097 seconds to start up
+[2014.09.30-21.54.50:845][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.30-21.54.51:121][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.30-21.54.51:220][  0]LogConsoleResponse:Display: 
+[2014.09.30-21.54.51:353][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_18c4_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_d0c_0///////STATCAT_Advanced////
+[2014.09.30-21.54.51:353][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_21cc_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_d0c_0///////STATCAT_Advanced////
+[2014.09.30-21.54.51:353][  0]SourceControl: Info Source control is disabled
+[2014.09.30-21.54.51:353][  0]Cmd: MAP LOAD FILE="../../../../../../Users/u0568887/Documents/GitHub/treebeard/Unreal Project/RealScene/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.09.30-21.54.51:353][  0]LightingResults: New page: Lighting Build
+[2014.09.30-21.54.51:359][  0]MapCheck: New page: Map Check
+[2014.09.30-21.54.51:359][  0]LightingResults: New page: Lighting Build
+[2014.09.30-21.54.51:371][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011245300
+[2014.09.30-21.54.51:600][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.30-21.54.51:600][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.09.30-21.54.51:601][  0]Cmd: MAP CHECKDEP
+[2014.09.30-21.54.51:601][  0]MapCheck: New page: Minimal_Default - Sep 30, 2014, 9:54:51 AM
+[2014.09.30-21.54.51:656][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [55.294ms] ==========
+[2014.09.30-21.54.51:656][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.304
+[2014.09.30-21.54.51:741][  0]LogCollectionManager: Loaded 0 collections in 0.000835 seconds
+[2014.09.30-21.54.51:802][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.09.30-21.54.51:845][  0]LogLoad: Full Startup: 7.07 seconds (BP compile: 0.06 seconds)
+[2014.09.30-21.54.52:024][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x896.
+[2014.09.30-21.54.52:492][  1]LogAssetRegistry: Asset discovery search completed in 2.0588 seconds
+[2014.09.30-21.54.53:617][ 17]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2014.09.30-21.54.55:195][ 38]Cmd: DELETE
+[2014.09.30-21.54.55:195][ 38]Cmd: ACTOR DELETE
+[2014.09.30-21.54.55:198][ 38]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-21.54.55:269][ 38]LogEditorActor: Deleted 1 Actors (0.074 secs)
+[2014.09.30-21.54.55:817][ 47]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2014.09.30-21.54.55:999][ 48]Cmd: DELETE
+[2014.09.30-21.54.55:999][ 48]Cmd: ACTOR DELETE
+[2014.09.30-21.54.55:999][ 48]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-21.54.56:014][ 48]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2014.09.30-21.54.56:529][ 56]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2014.09.30-21.54.57:004][ 62]Cmd: DELETE
+[2014.09.30-21.54.57:004][ 62]Cmd: ACTOR DELETE
+[2014.09.30-21.54.57:004][ 62]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-21.54.57:019][ 62]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2014.09.30-21.54.57:509][ 71]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2014.09.30-21.54.57:790][ 73]Cmd: DELETE
+[2014.09.30-21.54.57:790][ 73]Cmd: ACTOR DELETE
+[2014.09.30-21.54.57:790][ 73]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-21.54.57:805][ 73]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2014.09.30-21.54.58:286][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2014.09.30-21.54.58:410][ 84]Cmd: DELETE
+[2014.09.30-21.54.58:410][ 84]Cmd: ACTOR DELETE
+[2014.09.30-21.54.58:410][ 84]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-21.54.58:425][ 84]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2014.09.30-21.55.00:808][120]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2014.09.30-21.55.01:666][134]Cmd: DELETE
+[2014.09.30-21.55.01:666][134]Cmd: ACTOR DELETE
+[2014.09.30-21.55.01:666][134]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-21.55.01:681][134]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2014.09.30-21.55.11:353][322]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1
+[2014.09.30-21.55.11:353][322]LightingResults: New page: Lighting Build
+[2014.09.30-21.55.11:365][322]LoadErrors: New page: Loading map: Template_Default.umap
+[2014.09.30-21.55.11:366][322]MapCheck: New page: Map Check
+[2014.09.30-21.55.11:366][322]LightingResults: New page: Lighting Build
+[2014.09.30-21.55.11:383][322]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013395580
+[2014.09.30-21.55.11:412][322]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.30-21.55.11:412][322]LogAIModule: Creating AISystem for world Template_Default
+[2014.09.30-21.55.11:412][322]Cmd: MAP CHECKDEP
+[2014.09.30-21.55.11:413][322]MapCheck: New page: Untitled_1 - Sep 30, 2014, 9:55:11 AM
+[2014.09.30-21.55.11:466][322]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [54.131ms] ==========
+[2014.09.30-21.55.11:466][322]LogFileHelpers: Loading map 'Template_Default' took 0.114
+[2014.09.30-21.55.25:353][463]LogSavePackage: Save=25.342091ms
+[2014.09.30-21.55.25:353][463]LogSavePackage: Moving '../../../../../../Users/u0568887/Documents/GitHub/treebeard/Unreal Project/RealScene/Saved/deathScene00122BB0203482A425BB77D49805418480C.tmp' to '../../../../../../Users/u0568887/Documents/GitHub/treebeard/Unreal Project/RealScene/Content/Maps/deathScene001.umap'
+[2014.09.30-21.55.25:371][463]LogFileHelpers: Saving map 'deathScene001' took 0.417
+[2014.09.30-21.55.26:454][480]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.09.30-21.55.27:251][493]Cmd: DELETE
+[2014.09.30-21.55.27:251][493]Cmd: ACTOR DELETE
+[2014.09.30-21.55.27:254][493]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-21.55.27:268][493]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2014.09.30-21.55.34:423][616]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.30-21.55.35:476][675]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.30-21.55.39:151][739]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2014.09.30-21.55.48:964][218]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2014.09.30-21.55.49:030][219]Cmd: UpdateLandscapeEditorData
+[2014.09.30-21.56.22:697][621]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.09.30-21.56.43:060][498]LogMaterial: 0.002107 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.09.30-21.56.43:102][499]Cmd: UpdateLandscapeEditorData
+[2014.09.30-21.56.43:102][499]Cmd: UpdateLandscapeMIC
+[2014.09.30-22.00.48:614][386]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.09.30-22.02.03:616][187]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.09.30-22.02.03:675][188]Cmd: UpdateLandscapeEditorData
+[2014.09.30-22.02.04:872][201]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.09.30-22.02.04:872][201]Aligned camera to fit all selected actors.
+[2014.09.30-22.02.41:203][ 48]Cmd: UpdateLandscapeEditorData
+[2014.09.30-22.02.44:280][ 82]Cmd: UpdateLandscapeEditorData
+[2014.09.30-22.02.55:374][235]Cmd: UpdateLandscapeEditorData
+[2014.09.30-22.05.14:784][ 26]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2014.09.30-22.05.14:897][ 26]LogSavePackage: Save=117.759377ms
+[2014.09.30-22.05.14:897][ 26]LogSavePackage: Moving '../../../../../../Users/u0568887/Documents/GitHub/treebeard/Unreal Project/RealScene/Saved/deathScene001_Auto1BF6732D54C09E0871AE47396455132A0.tmp' to '../../../../../../Users/u0568887/Documents/GitHub/treebeard/Unreal Project/RealScene/Saved/Autosaves/Game/Maps/deathScene001_Auto1.umap'
+[2014.09.30-22.05.14:903][ 26]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/deathScene001' took 0.282
+[2014.09.30-22.05.14:903][ 26]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.282
+[2014.09.30-22.05.38:128][266]Cmd: TRANSACTION UNDO
+[2014.09.30-22.05.38:128][266]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2014.09.30-22.05.38:279][266]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2014.09.30-22.05.47:687][406]Cmd: UpdateLandscapeEditorData
+[2014.09.30-22.05.51:130][442]Cmd: UpdateLandscapeEditorData
+[2014.09.30-22.05.54:495][477]Cmd: UpdateLandscapeEditorData
+[2014.09.30-22.05.56:691][500]Cmd: UpdateLandscapeEditorData
+[2014.09.30-22.08.33:860][248]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/u0568887/Documents/GitHub/treebeard/Models/Props/orthanc_model_newer.fbx)
+[2014.09.30-22.08.33:881][248]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2014.09.30-22.08.33:881][248]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2014.09.30-22.08.33:881][248]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2014.09.30-22.08.33:881][248]LogFbx: ItemName: Geometry, ItemCount : 1
+[2014.09.30-22.08.33:881][248]LogFbx: ItemName: Material, ItemCount : 1
+[2014.09.30-22.08.33:881][248]LogFbx: ItemName: Model, ItemCount : 1
+[2014.09.30-22.08.35:330][248]LogFbx: Loading FBX Scene from ../../../../../../Users/u0568887/Documents/GitHub/treebeard/Models/Props/orthanc_model_newer.fbx
+[2014.09.30-22.08.35:361][248]LogFbx: FBX Scene Loaded Succesfully
+[2014.09.30-22.08.35:716][248]LogFbx:Warning: Triangulating static mesh pCube3
+[2014.09.30-22.08.39:872][248]LogFbx: == Initial material list:
+[2014.09.30-22.08.39:872][248]LogFbx: 0: lambert2
+[2014.09.30-22.08.39:872][248]LogFbx: == After sorting:
+[2014.09.30-22.08.39:872][248]LogFbx: 0: lambert2
+[2014.09.30-22.08.39:872][248]LogFbx: == Mapping table:
+[2014.09.30-22.08.39:872][248]LogFbx:   sort 0 -> 0
+[2014.09.30-22.08.39:902][248]LogStaticMesh: Building static mesh orthanc_model_newer...
+[2014.09.30-22.08.42:869][248]LogStaticMesh: Built static mesh [2967.828857ms] /Game/Materials/orthanc_model_newer.orthanc_model_newer
+[2014.09.30-22.08.43:428][248]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.09.30-22.08.43:429][248]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.09.30-22.08.46:392][275]LogActorFactory: Actor Factory created orthanc_model_newer
+[2014.09.30-22.08.48:621][299]LogActorFactory: Actor Factory created orthanc_model_newer
+[2014.09.30-22.08.58:830][411]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.09.30-22.08.58:830][411]Can't find target actor.
+[2014.09.30-22.09.05:900][488]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.09.30-22.09.05:900][488]Aligned camera to fit all selected actors.
+[2014.09.30-22.09.28:194][739]MapCheck: New page: Map Check
+[2014.09.30-22.09.28:235][739]Cmd: MAP REBUILD ALLVISIBLE
+[2014.09.30-22.09.28:244][739]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.09.30-22.09.28:266][739]LightingResults: New page: Lighting Build - Sep 30, 2014, 10:09:28 AM
+[2014.09.30-22.09.33:862][739]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2014.09.30-22.09.33:882][739]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.09.30-22.09.33:882][739]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.09.30-22.09.33:882][739]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.09.30-22.09.33:882][739]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.09.30-22.09.33:882][739]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.09.30-22.09.34:442][739]LogEditorBuildUtils: Build time 0:00:06
+[2014.09.30-22.09.34:445][739]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_52, compiling.
+[2014.09.30-22.09.34:450][739]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_52, compiling.
+[2014.09.30-22.09.34:453][739]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_52, compiling.
+[2014.09.30-22.09.34:468][740]Cmd: UpdateLandscapeEditorData
+[2014.09.30-22.09.34:560][740]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling.
+[2014.09.30-22.09.34:562][740]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling.
+[2014.09.30-22.09.34:564][740]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling.
+[2014.09.30-22.09.34:577][741]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2, compiling.
+[2014.09.30-22.09.34:579][741]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2, compiling.
+[2014.09.30-22.09.34:580][741]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2, compiling.
+[2014.09.30-22.09.34:581][741]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_3, compiling.
+[2014.09.30-22.09.34:583][741]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_3, compiling.
+[2014.09.30-22.09.34:584][741]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_3, compiling.
+[2014.09.30-22.09.34:597][742]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_4, compiling.
+[2014.09.30-22.09.34:599][742]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_4, compiling.
+[2014.09.30-22.09.34:601][742]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_4, compiling.
+[2014.09.30-22.09.34:614][743]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_5, compiling.
+[2014.09.30-22.09.34:616][743]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_5, compiling.
+[2014.09.30-22.09.34:618][743]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_5, compiling.
+[2014.09.30-22.09.34:658][744]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_6, compiling.
+[2014.09.30-22.09.34:661][744]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_6, compiling.
+[2014.09.30-22.09.34:664][744]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_6, compiling.
+[2014.09.30-22.09.34:709][745]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_7, compiling.
+[2014.09.30-22.09.34:711][745]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_7, compiling.
+[2014.09.30-22.09.34:713][745]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_7, compiling.
+[2014.09.30-22.09.34:750][746]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_8, compiling.
+[2014.09.30-22.09.34:753][746]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_8, compiling.
+[2014.09.30-22.09.34:754][746]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_8, compiling.
+[2014.09.30-22.09.34:817][747]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_9, compiling.
+[2014.09.30-22.09.34:819][747]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_9, compiling.
+[2014.09.30-22.09.34:820][747]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_9, compiling.
+[2014.09.30-22.09.34:867][748]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_10, compiling.
+[2014.09.30-22.09.34:868][748]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_10, compiling.
+[2014.09.30-22.09.34:869][748]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_10, compiling.
+[2014.09.30-22.09.34:871][748]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_11, compiling.
+[2014.09.30-22.09.34:873][748]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_11, compiling.
+[2014.09.30-22.09.34:874][748]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_11, compiling.
+[2014.09.30-22.09.34:907][749]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_12, compiling.
+[2014.09.30-22.09.34:909][749]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_12, compiling.
+[2014.09.30-22.09.34:911][749]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_12, compiling.
+[2014.09.30-22.09.34:949][750]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13, compiling.
+[2014.09.30-22.09.34:951][750]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13, compiling.
+[2014.09.30-22.09.34:953][750]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13, compiling.
+[2014.09.30-22.09.34:966][751]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_14, compiling.
+[2014.09.30-22.09.34:968][751]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_14, compiling.
+[2014.09.30-22.09.34:970][751]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_14, compiling.
+[2014.09.30-22.09.35:016][752]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_15, compiling.
+[2014.09.30-22.09.35:018][752]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_15, compiling.
+[2014.09.30-22.09.35:019][752]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_15, compiling.
+[2014.09.30-22.09.35:021][752]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_16, compiling.
+[2014.09.30-22.09.35:022][752]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_16, compiling.
+[2014.09.30-22.09.35:023][752]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_16, compiling.
+[2014.09.30-22.09.35:056][753]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_17, compiling.
+[2014.09.30-22.09.35:058][753]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_17, compiling.
+[2014.09.30-22.09.35:060][753]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_17, compiling.
+[2014.09.30-22.09.35:099][754]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_18, compiling.
+[2014.09.30-22.09.35:102][754]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_18, compiling.
+[2014.09.30-22.09.35:103][754]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_18, compiling.
+[2014.09.30-22.09.35:139][755]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_19, compiling.
+[2014.09.30-22.09.35:141][755]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_19, compiling.
+[2014.09.30-22.09.35:143][755]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_19, compiling.
+[2014.09.30-22.09.35:184][756]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_20, compiling.
+[2014.09.30-22.09.35:186][756]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_20, compiling.
+[2014.09.30-22.09.35:187][756]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_20, compiling.
+[2014.09.30-22.09.35:223][757]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_21, compiling.
+[2014.09.30-22.09.35:225][757]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_21, compiling.
+[2014.09.30-22.09.35:227][757]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_21, compiling.
+[2014.09.30-22.09.35:267][758]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_22, compiling.
+[2014.09.30-22.09.35:269][758]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_22, compiling.
+[2014.09.30-22.09.35:271][758]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_22, compiling.
+[2014.09.30-22.09.35:307][759]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_23, compiling.
+[2014.09.30-22.09.35:309][759]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_23, compiling.
+[2014.09.30-22.09.35:311][759]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_23, compiling.
+[2014.09.30-22.09.35:329][760]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_24, compiling.
+[2014.09.30-22.09.35:331][760]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_24, compiling.
+[2014.09.30-22.09.35:333][760]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_24, compiling.
+[2014.09.30-22.09.35:347][761]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_25, compiling.
+[2014.09.30-22.09.35:350][761]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_25, compiling.
+[2014.09.30-22.09.35:351][761]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_25, compiling.
+[2014.09.30-22.09.35:364][762]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_26, compiling.
+[2014.09.30-22.09.35:366][762]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_26, compiling.
+[2014.09.30-22.09.35:367][762]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_26, compiling.
+[2014.09.30-22.09.35:424][763]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_27, compiling.
+[2014.09.30-22.09.35:425][763]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_27, compiling.
+[2014.09.30-22.09.35:427][763]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_27, compiling.
+[2014.09.30-22.09.35:428][763]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_28, compiling.
+[2014.09.30-22.09.35:430][763]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_28, compiling.
+[2014.09.30-22.09.35:431][763]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_28, compiling.
+[2014.09.30-22.09.35:452][764]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_29, compiling.
+[2014.09.30-22.09.35:454][764]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_29, compiling.
+[2014.09.30-22.09.35:456][764]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_29, compiling.
+[2014.09.30-22.09.35:469][765]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_30, compiling.
+[2014.09.30-22.09.35:471][765]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_30, compiling.
+[2014.09.30-22.09.35:472][765]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_30, compiling.
+[2014.09.30-22.09.35:486][766]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_31, compiling.
+[2014.09.30-22.09.35:488][766]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_31, compiling.
+[2014.09.30-22.09.35:490][766]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_31, compiling.
+[2014.09.30-22.09.35:503][767]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_32, compiling.
+[2014.09.30-22.09.35:505][767]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_32, compiling.
+[2014.09.30-22.09.35:507][767]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_32, compiling.
+[2014.09.30-22.09.35:521][768]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_33, compiling.
+[2014.09.30-22.09.35:523][768]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_33, compiling.
+[2014.09.30-22.09.35:525][768]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_33, compiling.
+[2014.09.30-22.09.35:538][769]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_34, compiling.
+[2014.09.30-22.09.35:540][769]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_34, compiling.
+[2014.09.30-22.09.35:542][769]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_34, compiling.
+[2014.09.30-22.09.35:600][770]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_35, compiling.
+[2014.09.30-22.09.35:603][770]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_35, compiling.
+[2014.09.30-22.09.35:604][770]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_35, compiling.
+[2014.09.30-22.09.35:625][771]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_36, compiling.
+[2014.09.30-22.09.35:627][771]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_36, compiling.
+[2014.09.30-22.09.35:629][771]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_36, compiling.
+[2014.09.30-22.09.35:644][772]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_37, compiling.
+[2014.09.30-22.09.35:646][772]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_37, compiling.
+[2014.09.30-22.09.35:648][772]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_37, compiling.
+[2014.09.30-22.09.35:664][773]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_38, compiling.
+[2014.09.30-22.09.35:666][773]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_38, compiling.
+[2014.09.30-22.09.35:668][773]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_38, compiling.
+[2014.09.30-22.09.35:681][774]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_39, compiling.
+[2014.09.30-22.09.35:683][774]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_39, compiling.
+[2014.09.30-22.09.35:685][774]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_39, compiling.
+[2014.09.30-22.09.35:747][775]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_40, compiling.
+[2014.09.30-22.09.35:749][775]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_40, compiling.
+[2014.09.30-22.09.35:750][775]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_40, compiling.
+[2014.09.30-22.09.35:772][776]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_41, compiling.
+[2014.09.30-22.09.35:774][776]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_41, compiling.
+[2014.09.30-22.09.35:776][776]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_41, compiling.
+[2014.09.30-22.09.35:789][777]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_42, compiling.
+[2014.09.30-22.09.35:791][777]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_42, compiling.
+[2014.09.30-22.09.35:793][777]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_42, compiling.
+[2014.09.30-22.09.35:808][778]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_43, compiling.
+[2014.09.30-22.09.35:810][778]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_43, compiling.
+[2014.09.30-22.09.35:812][778]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_43, compiling.
+[2014.09.30-22.09.35:855][779]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_44, compiling.
+[2014.09.30-22.09.35:857][779]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_44, compiling.
+[2014.09.30-22.09.35:859][779]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_44, compiling.
+[2014.09.30-22.09.35:889][780]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_45, compiling.
+[2014.09.30-22.09.35:892][780]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_45, compiling.
+[2014.09.30-22.09.35:893][780]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_45, compiling.
+[2014.09.30-22.09.35:982][781]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_46, compiling.
+[2014.09.30-22.09.35:984][781]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_46, compiling.
+[2014.09.30-22.09.35:986][781]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_46, compiling.
+[2014.09.30-22.09.36:086][782]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_47, compiling.
+[2014.09.30-22.09.36:088][782]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_47, compiling.
+[2014.09.30-22.09.36:090][782]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_47, compiling.
+[2014.09.30-22.09.36:171][783]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_48, compiling.
+[2014.09.30-22.09.36:173][783]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_48, compiling.
+[2014.09.30-22.09.36:175][783]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_48, compiling.
+[2014.09.30-22.09.36:258][784]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_49, compiling.
+[2014.09.30-22.09.36:260][784]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_49, compiling.
+[2014.09.30-22.09.36:262][784]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_49, compiling.
+[2014.09.30-22.09.36:349][785]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_50, compiling.
+[2014.09.30-22.09.36:351][785]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_50, compiling.
+[2014.09.30-22.09.36:353][785]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_50, compiling.
+[2014.09.30-22.09.36:444][786]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_51, compiling.
+[2014.09.30-22.09.36:446][786]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_51, compiling.
+[2014.09.30-22.09.36:447][786]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_51, compiling.
+[2014.09.30-22.09.36:530][787]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_52, compiling.
+[2014.09.30-22.09.36:532][787]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_52, compiling.
+[2014.09.30-22.09.36:535][787]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_52, compiling.
+[2014.09.30-22.09.36:625][788]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_53, compiling.
+[2014.09.30-22.09.36:629][788]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_53, compiling.
+[2014.09.30-22.09.36:631][788]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_53, compiling.
+[2014.09.30-22.09.36:714][789]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_54, compiling.
+[2014.09.30-22.09.36:716][789]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_54, compiling.
+[2014.09.30-22.09.36:717][789]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_54, compiling.
+[2014.09.30-22.09.36:806][790]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_55, compiling.
+[2014.09.30-22.09.36:808][790]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_55, compiling.
+[2014.09.30-22.09.36:810][790]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_55, compiling.
+[2014.09.30-22.09.36:897][791]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_56, compiling.
+[2014.09.30-22.09.36:899][791]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_56, compiling.
+[2014.09.30-22.09.36:901][791]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_56, compiling.
+[2014.09.30-22.09.36:989][792]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_57, compiling.
+[2014.09.30-22.09.36:992][792]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_57, compiling.
+[2014.09.30-22.09.36:993][792]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_57, compiling.
+[2014.09.30-22.09.37:209][793]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_58, compiling.
+[2014.09.30-22.09.37:212][793]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_58, compiling.
+[2014.09.30-22.09.37:214][793]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_58, compiling.
+[2014.09.30-22.09.37:305][794]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_59, compiling.
+[2014.09.30-22.09.37:312][794]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_59, compiling.
+[2014.09.30-22.09.37:313][794]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_59, compiling.
+[2014.09.30-22.09.37:328][795]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_60, compiling.
+[2014.09.30-22.09.37:330][795]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_60, compiling.
+[2014.09.30-22.09.37:331][795]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_60, compiling.
+[2014.09.30-22.09.37:371][796]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_61, compiling.
+[2014.09.30-22.09.37:373][796]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_61, compiling.
+[2014.09.30-22.09.37:374][796]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_61, compiling.
+[2014.09.30-22.09.37:468][797]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_62, compiling.
+[2014.09.30-22.09.37:470][797]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_62, compiling.
+[2014.09.30-22.09.37:471][797]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_62, compiling.
+[2014.09.30-22.09.37:557][798]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_63, compiling.
+[2014.09.30-22.09.37:559][798]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_63, compiling.
+[2014.09.30-22.09.37:561][798]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_63, compiling.
+[2014.09.30-22.09.37:649][799]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_64, compiling.
+[2014.09.30-22.09.37:651][799]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_64, compiling.
+[2014.09.30-22.09.37:653][799]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_64, compiling.
+[2014.09.30-22.09.37:743][800]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling.
+[2014.09.30-22.09.37:746][800]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling.
+[2014.09.30-22.09.37:748][800]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling.
+[2014.09.30-22.09.37:838][801]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer M_Ground_Grass, compiling.
+[2014.09.30-22.09.37:840][801]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer M_Ground_Grass, compiling.
+[2014.09.30-22.09.37:842][801]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer M_Ground_Grass, compiling.
+[2014.09.30-22.09.37:931][802]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Water_Lake, compiling.
+[2014.09.30-22.09.37:933][802]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Water_Lake, compiling.
+[2014.09.30-22.09.37:935][802]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Water_Lake, compiling.
+[2014.09.30-22.10.31:638][262]LightingResults:Error: Error orthanc_model_newer Object has overlapping UVs.
+[2014.09.30-22.10.31:638][262]LightingResults: Info orthanc_model_newer Lightmap UV are overlapping by 91.4%. Please adjust content - Enable Error Coloring to visualize.
+[2014.09.30-22.10.56:340][536]Job is a success!
+[2014.09.30-22.10.57:788][537]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2014.09.30-22.10.58:450][537]LogTexture:Display: Building textures: LQ_Lightmap_0_66 (DXT1)
+[2014.09.30-22.10.58:461][537]LogTexture:Display: Building textures: HQ_Lightmap0_66 (AutoDXT)
+[2014.09.30-22.10.58:468][537]LogTexture:Display: Building textures: SkyOcclusion0_66 (AutoDXT)
+[2014.09.30-22.10.58:475][537]LogTexture:Display: Building textures: LQ_Lightmap_0_65 (DXT1)
+[2014.09.30-22.10.58:490][537]LogTexture:Display: Building textures: HQ_Lightmap0_65 (AutoDXT)
+[2014.09.30-22.10.58:508][537]LogTexture:Display: Building textures: SkyOcclusion0_65 (AutoDXT)
+[2014.09.30-22.10.58:521][537]LogTexture:Display: Building textures: LQ_Lightmap_0_64 (DXT1)
+[2014.09.30-22.10.58:538][537]LogTexture:Display: Building textures: HQ_Lightmap0_64 (AutoDXT)
+[2014.09.30-22.10.58:558][537]LogTexture:Display: Building textures: SkyOcclusion0_64 (AutoDXT)
+[2014.09.30-22.10.58:571][537]LogTexture:Display: Building textures: LQ_Lightmap_0_63 (DXT1)
+[2014.09.30-22.10.58:588][537]LogTexture:Display: Building textures: HQ_Lightmap0_63 (AutoDXT)
+[2014.09.30-22.10.58:606][537]LogTexture:Display: Building textures: SkyOcclusion0_63 (AutoDXT)
+[2014.09.30-22.10.58:619][537]LogTexture:Display: Building textures: LQ_Lightmap_0_62 (DXT1)
+[2014.09.30-22.10.58:635][537]LogTexture:Display: Building textures: HQ_Lightmap0_62 (AutoDXT)
+[2014.09.30-22.10.58:653][537]LogTexture:Display: Building textures: SkyOcclusion0_62 (AutoDXT)
+[2014.09.30-22.10.58:666][537]LogTexture:Display: Building textures: LQ_Lightmap_0_61 (DXT1)
+[2014.09.30-22.10.58:683][537]LogTexture:Display: Building textures: HQ_Lightmap0_61 (AutoDXT)
+[2014.09.30-22.10.58:701][537]LogTexture:Display: Building textures: SkyOcclusion0_61 (AutoDXT)
+[2014.09.30-22.10.58:715][537]LogTexture:Display: Building textures: LQ_Lightmap_0_60 (DXT1)
+[2014.09.30-22.10.58:732][537]LogTexture:Display: Building textures: HQ_Lightmap0_60 (AutoDXT)
+[2014.09.30-22.10.58:750][537]LogTexture:Display: Building textures: SkyOcclusion0_60 (AutoDXT)
+[2014.09.30-22.10.58:763][537]LogTexture:Display: Building textures: LQ_Lightmap_0_59 (DXT1)
+[2014.09.30-22.10.58:782][537]LogTexture:Display: Building textures: HQ_Lightmap0_59 (AutoDXT)
+[2014.09.30-22.10.58:800][537]LogTexture:Display: Building textures: SkyOcclusion0_59 (AutoDXT)
+[2014.09.30-22.10.58:813][537]LogTexture:Display: Building textures: LQ_Lightmap_0_58 (DXT1)
+[2014.09.30-22.10.58:831][537]LogTexture:Display: Building textures: HQ_Lightmap0_58 (AutoDXT)
+[2014.09.30-22.10.58:850][537]LogTexture:Display: Building textures: SkyOcclusion0_58 (AutoDXT)
+[2014.09.30-22.10.58:863][537]LogTexture:Display: Building textures: LQ_Lightmap_0_57 (DXT1)
+[2014.09.30-22.10.58:881][537]LogTexture:Display: Building textures: HQ_Lightmap0_57 (AutoDXT)
+[2014.09.30-22.10.58:900][537]LogTexture:Display: Building textures: SkyOcclusion0_57 (AutoDXT)
+[2014.09.30-22.10.58:913][537]LogTexture:Display: Building textures: LQ_Lightmap_0_56 (DXT1)
+[2014.09.30-22.10.58:931][537]LogTexture:Display: Building textures: HQ_Lightmap0_56 (AutoDXT)
+[2014.09.30-22.10.58:950][537]LogTexture:Display: Building textures: SkyOcclusion0_56 (AutoDXT)
+[2014.09.30-22.10.58:963][537]LogTexture:Display: Building textures: LQ_Lightmap_0_55 (DXT1)
+[2014.09.30-22.10.58:976][537]LogTexture:Display: Building textures: HQ_Lightmap0_55 (AutoDXT)
+[2014.09.30-22.10.58:994][537]LogTexture:Display: Building textures: SkyOcclusion0_55 (AutoDXT)
+[2014.09.30-22.10.59:008][537]LogTexture:Display: Building textures: LQ_Lightmap_0_54 (DXT1)
+[2014.09.30-22.10.59:020][537]LogTexture:Display: Building textures: HQ_Lightmap0_54 (AutoDXT)
+[2014.09.30-22.10.59:038][537]LogTexture:Display: Building textures: SkyOcclusion0_54 (AutoDXT)
+[2014.09.30-22.10.59:052][537]LogTexture:Display: Building textures: LQ_Lightmap_0_53 (DXT1)
+[2014.09.30-22.10.59:069][537]LogTexture:Display: Building textures: HQ_Lightmap0_53 (AutoDXT)
+[2014.09.30-22.10.59:088][537]LogTexture:Display: Building textures: SkyOcclusion0_53 (AutoDXT)
+[2014.09.30-22.10.59:101][537]LogTexture:Display: Building textures: LQ_Lightmap_0_52 (DXT1)
+[2014.09.30-22.10.59:120][537]LogTexture:Display: Building textures: HQ_Lightmap0_52 (AutoDXT)
+[2014.09.30-22.10.59:138][537]LogTexture:Display: Building textures: SkyOcclusion0_52 (AutoDXT)
+[2014.09.30-22.10.59:152][537]LogTexture:Display: Building textures: LQ_Lightmap_0_51 (DXT1)
+[2014.09.30-22.10.59:170][537]LogTexture:Display: Building textures: HQ_Lightmap0_51 (AutoDXT)
+[2014.09.30-22.10.59:188][537]LogTexture:Display: Building textures: SkyOcclusion0_51 (AutoDXT)
+[2014.09.30-22.10.59:201][537]LogTexture:Display: Building textures: LQ_Lightmap_0_50 (DXT1)
+[2014.09.30-22.10.59:219][537]LogTexture:Display: Building textures: HQ_Lightmap0_50 (AutoDXT)
+[2014.09.30-22.10.59:237][537]LogTexture:Display: Building textures: SkyOcclusion0_50 (AutoDXT)
+[2014.09.30-22.10.59:250][537]LogTexture:Display: Building textures: LQ_Lightmap_0_49 (DXT1)
+[2014.09.30-22.10.59:269][537]LogTexture:Display: Building textures: HQ_Lightmap0_49 (AutoDXT)
+[2014.09.30-22.10.59:288][537]LogTexture:Display: Building textures: SkyOcclusion0_49 (AutoDXT)
+[2014.09.30-22.10.59:301][537]LogTexture:Display: Building textures: LQ_Lightmap_0_48 (DXT1)
+[2014.09.30-22.10.59:316][537]LogTexture:Display: Building textures: HQ_Lightmap0_48 (AutoDXT)
+[2014.09.30-22.10.59:336][537]LogTexture:Display: Building textures: SkyOcclusion0_48 (AutoDXT)
+[2014.09.30-22.10.59:348][537]LogTexture:Display: Building textures: LQ_Lightmap_0_47 (DXT1)
+[2014.09.30-22.10.59:358][537]LogTexture:Display: Building textures: HQ_Lightmap0_47 (AutoDXT)
+[2014.09.30-22.10.59:370][537]LogTexture:Display: Building textures: SkyOcclusion0_47 (AutoDXT)
+[2014.09.30-22.10.59:375][537]LogTexture:Display: Building textures: LQ_Lightmap_0_46 (DXT1)
+[2014.09.30-22.10.59:387][537]LogTexture:Display: Building textures: HQ_Lightmap0_46 (AutoDXT)
+[2014.09.30-22.10.59:400][537]LogTexture:Display: Building textures: SkyOcclusion0_46 (AutoDXT)
+[2014.09.30-22.10.59:406][537]LogTexture:Display: Building textures: LQ_Lightmap_0_45 (DXT1)
+[2014.09.30-22.10.59:419][537]LogTexture:Display: Building textures: HQ_Lightmap0_45 (AutoDXT)
+[2014.09.30-22.10.59:436][537]LogTexture:Display: Building textures: SkyOcclusion0_45 (AutoDXT)
+[2014.09.30-22.10.59:447][537]LogTexture:Display: Building textures: LQ_Lightmap_0_44 (DXT1)
+[2014.09.30-22.10.59:464][537]LogTexture:Display: Building textures: HQ_Lightmap0_44 (AutoDXT)
+[2014.09.30-22.10.59:482][537]LogTexture:Display: Building textures: SkyOcclusion0_44 (AutoDXT)
+[2014.09.30-22.10.59:494][537]LogTexture:Display: Building textures: LQ_Lightmap_0_43 (DXT1)
+[2014.09.30-22.10.59:511][537]LogTexture:Display: Building textures: HQ_Lightmap0_43 (AutoDXT)
+[2014.09.30-22.10.59:529][537]LogTexture:Display: Building textures: SkyOcclusion0_43 (AutoDXT)
+[2014.09.30-22.10.59:541][537]LogTexture:Display: Building textures: LQ_Lightmap_0_42 (DXT1)
+[2014.09.30-22.10.59:559][537]LogTexture:Display: Building textures: HQ_Lightmap0_42 (AutoDXT)
+[2014.09.30-22.10.59:577][537]LogTexture:Display: Building textures: SkyOcclusion0_42 (AutoDXT)
+[2014.09.30-22.10.59:590][537]LogTexture:Display: Building textures: LQ_Lightmap_0_41 (DXT1)
+[2014.09.30-22.10.59:608][537]LogTexture:Display: Building textures: HQ_Lightmap0_41 (AutoDXT)
+[2014.09.30-22.10.59:626][537]LogTexture:Display: Building textures: SkyOcclusion0_41 (AutoDXT)
+[2014.09.30-22.10.59:638][537]LogTexture:Display: Building textures: LQ_Lightmap_0_40 (DXT1)
+[2014.09.30-22.10.59:651][537]LogTexture:Display: Building textures: HQ_Lightmap0_40 (AutoDXT)
+[2014.09.30-22.10.59:668][537]LogTexture:Display: Building textures: SkyOcclusion0_40 (AutoDXT)
+[2014.09.30-22.10.59:678][537]LogTexture:Display: Building textures: LQ_Lightmap_0_39 (DXT1)
+[2014.09.30-22.10.59:682][537]LogTexture:Display: Building textures: HQ_Lightmap0_39 (AutoDXT)
+[2014.09.30-22.10.59:686][537]LogTexture:Display: Building textures: SkyOcclusion0_39 (AutoDXT)
+[2014.09.30-22.10.59:689][537]LogTexture:Display: Building textures: LQ_Lightmap_0_38 (DXT1)
+[2014.09.30-22.10.59:694][537]LogTexture:Display: Building textures: HQ_Lightmap0_38 (AutoDXT)
+[2014.09.30-22.10.59:699][537]LogTexture:Display: Building textures: SkyOcclusion0_38 (AutoDXT)
+[2014.09.30-22.10.59:702][537]LogTexture:Display: Building textures: LQ_Lightmap_0_37 (DXT1)
+[2014.09.30-22.10.59:714][537]LogTexture:Display: Building textures: HQ_Lightmap0_37 (AutoDXT)
+[2014.09.30-22.10.59:731][537]LogTexture:Display: Building textures: SkyOcclusion0_37 (AutoDXT)
+[2014.09.30-22.10.59:740][537]LogTexture:Display: Building textures: LQ_Lightmap_0_36 (DXT1)
+[2014.09.30-22.10.59:757][537]LogTexture:Display: Building textures: HQ_Lightmap0_36 (AutoDXT)
+[2014.09.30-22.10.59:774][537]LogTexture:Display: Building textures: SkyOcclusion0_36 (AutoDXT)
+[2014.09.30-22.10.59:787][537]LogTexture:Display: Building textures: LQ_Lightmap_0_35 (DXT1)
+[2014.09.30-22.10.59:806][537]LogTexture:Display: Building textures: HQ_Lightmap0_35 (AutoDXT)
+[2014.09.30-22.10.59:823][537]LogTexture:Display: Building textures: SkyOcclusion0_35 (AutoDXT)
+[2014.09.30-22.10.59:836][537]LogTexture:Display: Building textures: LQ_Lightmap_0_34 (DXT1)
+[2014.09.30-22.10.59:855][537]LogTexture:Display: Building textures: HQ_Lightmap0_34 (AutoDXT)
+[2014.09.30-22.10.59:873][537]LogTexture:Display: Building textures: SkyOcclusion0_34 (AutoDXT)
+[2014.09.30-22.10.59:886][537]LogTexture:Display: Building textures: LQ_Lightmap_0_33 (DXT1)
+[2014.09.30-22.10.59:903][537]LogTexture:Display: Building textures: HQ_Lightmap0_33 (AutoDXT)
+[2014.09.30-22.10.59:920][537]LogTexture:Display: Building textures: SkyOcclusion0_33 (AutoDXT)
+[2014.09.30-22.10.59:933][537]LogTexture:Display: Building textures: LQ_Lightmap_0_32 (DXT1)
+[2014.09.30-22.10.59:951][537]LogTexture:Display: Building textures: HQ_Lightmap0_32 (AutoDXT)
+[2014.09.30-22.10.59:969][537]LogTexture:Display: Building textures: SkyOcclusion0_32 (AutoDXT)
+[2014.09.30-22.10.59:982][537]LogTexture:Display: Building textures: LQ_Lightmap_0_31 (DXT1)
+[2014.09.30-22.10.59:989][537]LogTexture:Display: Building textures: HQ_Lightmap0_31 (AutoDXT)
+[2014.09.30-22.10.59:999][537]LogTexture:Display: Building textures: SkyOcclusion0_31 (AutoDXT)
+[2014.09.30-22.11.00:004][537]LogTexture:Display: Building textures: LQ_Lightmap_0_30 (DXT1)
+[2014.09.30-22.11.00:012][537]LogTexture:Display: Building textures: HQ_Lightmap0_30 (AutoDXT)
+[2014.09.30-22.11.00:023][537]LogTexture:Display: Building textures: SkyOcclusion0_30 (AutoDXT)
+[2014.09.30-22.11.00:029][537]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1)
+[2014.09.30-22.11.00:041][537]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT)
+[2014.09.30-22.11.00:059][537]LogTexture:Display: Building textures: SkyOcclusion0_29 (AutoDXT)
+[2014.09.30-22.11.00:070][537]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1)
+[2014.09.30-22.11.00:088][537]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT)
+[2014.09.30-22.11.00:106][537]LogTexture:Display: Building textures: SkyOcclusion0_28 (AutoDXT)
+[2014.09.30-22.11.00:119][537]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1)
+[2014.09.30-22.11.00:136][537]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT)
+[2014.09.30-22.11.00:154][537]LogTexture:Display: Building textures: SkyOcclusion0_27 (AutoDXT)
+[2014.09.30-22.11.00:167][537]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1)
+[2014.09.30-22.11.00:184][537]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT)
+[2014.09.30-22.11.00:203][537]LogTexture:Display: Building textures: SkyOcclusion0_26 (AutoDXT)
+[2014.09.30-22.11.00:215][537]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1)
+[2014.09.30-22.11.00:236][537]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT)
+[2014.09.30-22.11.00:256][537]LogTexture:Display: Building textures: SkyOcclusion0_25 (AutoDXT)
+[2014.09.30-22.11.00:268][537]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1)
+[2014.09.30-22.11.00:288][537]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT)
+[2014.09.30-22.11.00:307][537]LogTexture:Display: Building textures: SkyOcclusion0_24 (AutoDXT)
+[2014.09.30-22.11.00:320][537]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1)
+[2014.09.30-22.11.00:336][537]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT)
+[2014.09.30-22.11.00:357][537]LogTexture:Display: Building textures: SkyOcclusion0_23 (AutoDXT)
+[2014.09.30-22.11.00:369][537]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2014.09.30-22.11.00:383][537]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2014.09.30-22.11.00:401][537]LogTexture:Display: Building textures: SkyOcclusion0_22 (AutoDXT)
+[2014.09.30-22.11.00:413][537]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2014.09.30-22.11.00:430][537]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2014.09.30-22.11.00:448][537]LogTexture:Display: Building textures: SkyOcclusion0_21 (AutoDXT)
+[2014.09.30-22.11.00:460][537]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2014.09.30-22.11.00:478][537]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2014.09.30-22.11.00:498][537]LogTexture:Display: Building textures: SkyOcclusion0_20 (AutoDXT)
+[2014.09.30-22.11.00:511][537]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
+[2014.09.30-22.11.00:529][537]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
+[2014.09.30-22.11.00:548][537]LogTexture:Display: Building textures: SkyOcclusion0_19 (AutoDXT)
+[2014.09.30-22.11.00:562][537]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2014.09.30-22.11.00:580][537]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2014.09.30-22.11.00:599][537]LogTexture:Display: Building textures: SkyOcclusion0_18 (AutoDXT)
+[2014.09.30-22.11.00:612][537]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2014.09.30-22.11.00:631][537]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2014.09.30-22.11.00:649][537]LogTexture:Display: Building textures: SkyOcclusion0_17 (AutoDXT)
+[2014.09.30-22.11.00:663][537]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2014.09.30-22.11.00:680][537]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2014.09.30-22.11.00:699][537]LogTexture:Display: Building textures: SkyOcclusion0_16 (AutoDXT)
+[2014.09.30-22.11.00:713][537]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2014.09.30-22.11.00:733][537]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2014.09.30-22.11.00:751][537]LogTexture:Display: Building textures: SkyOcclusion0_15 (AutoDXT)
+[2014.09.30-22.11.00:765][537]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2014.09.30-22.11.00:783][537]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2014.09.30-22.11.00:801][537]LogTexture:Display: Building textures: SkyOcclusion0_14 (AutoDXT)
+[2014.09.30-22.11.00:814][537]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2014.09.30-22.11.00:834][537]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2014.09.30-22.11.00:852][537]LogTexture:Display: Building textures: SkyOcclusion0_13 (AutoDXT)
+[2014.09.30-22.11.00:865][537]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2014.09.30-22.11.00:882][537]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2014.09.30-22.11.00:901][537]LogTexture:Display: Building textures: SkyOcclusion0_12 (AutoDXT)
+[2014.09.30-22.11.00:914][537]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2014.09.30-22.11.00:931][537]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2014.09.30-22.11.00:950][537]LogTexture:Display: Building textures: SkyOcclusion0_11 (AutoDXT)
+[2014.09.30-22.11.00:963][537]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2014.09.30-22.11.00:981][537]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2014.09.30-22.11.01:000][537]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT)
+[2014.09.30-22.11.01:013][537]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2014.09.30-22.11.01:031][537]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2014.09.30-22.11.01:050][537]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT)
+[2014.09.30-22.11.01:063][537]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2014.09.30-22.11.01:082][537]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2014.09.30-22.11.01:100][537]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT)
+[2014.09.30-22.11.01:113][537]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2014.09.30-22.11.01:131][537]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2014.09.30-22.11.01:151][537]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT)
+[2014.09.30-22.11.01:164][537]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2014.09.30-22.11.01:182][537]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2014.09.30-22.11.01:204][537]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
+[2014.09.30-22.11.01:217][537]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2014.09.30-22.11.01:237][537]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2014.09.30-22.11.01:255][537]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2014.09.30-22.11.01:268][537]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2014.09.30-22.11.01:281][537]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2014.09.30-22.11.01:299][537]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2014.09.30-22.11.01:310][537]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2014.09.30-22.11.01:327][537]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2014.09.30-22.11.01:348][537]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2014.09.30-22.11.01:361][537]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.09.30-22.11.01:378][537]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.09.30-22.11.01:396][537]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2014.09.30-22.11.01:423][537]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.09.30-22.11.01:979][537]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.09.30-22.11.03:759][537]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2014.09.30-22.11.04:610][537]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2014.09.30-22.11.04:789][537]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2014.09.30-22.11.04:799][537]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2014.09.30-22.11.04:804][537]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2014.09.30-22.11.04:808][537]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2014.09.30-22.11.04:813][537]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2014.09.30-22.11.04:818][537]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2014.09.30-22.11.04:823][537]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2014.09.30-22.11.04:828][537]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2014.09.30-22.11.04:833][537]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2014.09.30-22.11.04:838][537]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2014.09.30-22.11.04:842][537]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2014.09.30-22.11.04:847][537]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
+[2014.09.30-22.11.04:851][537]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2014.09.30-22.11.04:856][537]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
+[2014.09.30-22.11.04:860][537]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (BGRA8)
+[2014.09.30-22.11.04:865][537]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8)
+[2014.09.30-22.11.04:869][537]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8)
+[2014.09.30-22.11.04:874][537]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8)
+[2014.09.30-22.11.04:880][537]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8)
+[2014.09.30-22.11.04:886][537]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (BGRA8)
+[2014.09.30-22.11.04:891][537]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (BGRA8)
+[2014.09.30-22.11.04:896][537]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (BGRA8)
+[2014.09.30-22.11.04:901][537]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (BGRA8)
+[2014.09.30-22.11.04:905][537]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (BGRA8)
+[2014.09.30-22.11.04:910][537]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (BGRA8)
+[2014.09.30-22.11.04:914][537]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (BGRA8)
+[2014.09.30-22.11.04:919][537]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (BGRA8)
+[2014.09.30-22.11.04:925][537]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (BGRA8)
+[2014.09.30-22.11.04:930][537]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (BGRA8)
+[2014.09.30-22.11.04:934][537]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (BGRA8)
+[2014.09.30-22.11.04:939][537]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (BGRA8)
+[2014.09.30-22.11.04:943][537]LogTexture:Display: Building textures: ShadowMapTexture2D_33 (BGRA8)
+[2014.09.30-22.11.04:949][537]LogTexture:Display: Building textures: ShadowMapTexture2D_34 (BGRA8)
+[2014.09.30-22.11.04:954][537]LogTexture:Display: Building textures: ShadowMapTexture2D_35 (BGRA8)
+[2014.09.30-22.11.04:958][537]LogTexture:Display: Building textures: ShadowMapTexture2D_36 (BGRA8)
+[2014.09.30-22.11.04:963][537]LogTexture:Display: Building textures: ShadowMapTexture2D_37 (BGRA8)
+[2014.09.30-22.11.04:968][537]LogTexture:Display: Building textures: ShadowMapTexture2D_38 (BGRA8)
+[2014.09.30-22.11.04:973][537]LogTexture:Display: Building textures: ShadowMapTexture2D_39 (BGRA8)
+[2014.09.30-22.11.04:978][537]LogTexture:Display: Building textures: ShadowMapTexture2D_40 (BGRA8)
+[2014.09.30-22.11.04:983][537]LogTexture:Display: Building textures: ShadowMapTexture2D_41 (BGRA8)
+[2014.09.30-22.11.04:988][537]LogTexture:Display: Building textures: ShadowMapTexture2D_42 (BGRA8)
+[2014.09.30-22.11.04:993][537]LogTexture:Display: Building textures: ShadowMapTexture2D_43 (BGRA8)
+[2014.09.30-22.11.04:998][537]LogTexture:Display: Building textures: ShadowMapTexture2D_44 (BGRA8)
+[2014.09.30-22.11.05:003][537]LogTexture:Display: Building textures: ShadowMapTexture2D_45 (BGRA8)
+[2014.09.30-22.11.05:008][537]LogTexture:Display: Building textures: ShadowMapTexture2D_46 (BGRA8)
+[2014.09.30-22.11.05:013][537]LogTexture:Display: Building textures: ShadowMapTexture2D_47 (BGRA8)
+[2014.09.30-22.11.05:018][537]LogTexture:Display: Building textures: ShadowMapTexture2D_48 (BGRA8)
+[2014.09.30-22.11.05:023][537]LogTexture:Display: Building textures: ShadowMapTexture2D_49 (BGRA8)
+[2014.09.30-22.11.05:029][537]LogTexture:Display: Building textures: ShadowMapTexture2D_50 (BGRA8)
+[2014.09.30-22.11.05:034][537]LogTexture:Display: Building textures: ShadowMapTexture2D_51 (BGRA8)
+[2014.09.30-22.11.05:039][537]LogTexture:Display: Building textures: ShadowMapTexture2D_52 (BGRA8)
+[2014.09.30-22.11.05:044][537]LogTexture:Display: Building textures: ShadowMapTexture2D_53 (BGRA8)
+[2014.09.30-22.11.05:049][537]LogTexture:Display: Building textures: ShadowMapTexture2D_54 (BGRA8)
+[2014.09.30-22.11.05:053][537]LogTexture:Display: Building textures: ShadowMapTexture2D_55 (BGRA8)
+[2014.09.30-22.11.05:058][537]LogTexture:Display: Building textures: ShadowMapTexture2D_56 (BGRA8)
+[2014.09.30-22.11.05:063][537]LogTexture:Display: Building textures: ShadowMapTexture2D_57 (BGRA8)
+[2014.09.30-22.11.05:067][537]LogTexture:Display: Building textures: ShadowMapTexture2D_58 (BGRA8)
+[2014.09.30-22.11.05:072][537]LogTexture:Display: Building textures: ShadowMapTexture2D_59 (BGRA8)
+[2014.09.30-22.11.05:078][537]LogTexture:Display: Building textures: ShadowMapTexture2D_60 (BGRA8)
+[2014.09.30-22.11.05:083][537]LogTexture:Display: Building textures: ShadowMapTexture2D_61 (BGRA8)
+[2014.09.30-22.11.05:087][537]LogTexture:Display: Building textures: ShadowMapTexture2D_62 (BGRA8)
+[2014.09.30-22.11.05:092][537]LogTexture:Display: Building textures: ShadowMapTexture2D_63 (BGRA8)
+[2014.09.30-22.11.05:097][537]LogTexture:Display: Building textures: ShadowMapTexture2D_64 (BGRA8)
+[2014.09.30-22.11.05:102][537]LogTexture:Display: Building textures: ShadowMapTexture2D_65 (BGRA8)
+[2014.09.30-22.11.05:104][537]LogTexture:Display: Building textures: ShadowMapTexture2D_66 (BGRA8)
+[2014.09.30-22.11.05:250][537]Lightmass on TCPC-07: 59.7 sec total, 1.13 sec importing, 1.25 sec setup, 2.57 sec photons, 54.7 sec processing, 0 ms extra exporting [72/72 mappings]. Threads: 8:12 min total, 3:14 min processing.
+[2014.09.30-22.11.05:279][537]LogStaticLightingSystem:Warning: Illumination: 1:36 min (7.87 sec encoding lightmaps)
+[2014.09.30-22.11.05:279][537]LogStaticLightingSystem: Lightmap texture memory:  6.7 MB (1.3 MB streaming, 5.3 MB non-streaming), 132 textures
+[2014.09.30-22.11.05:279][537]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 67 textures
+[2014.09.30-22.11.05:995][538]Cmd: UpdateLandscapeEditorData
+[2014.09.30-22.11.05:996][538]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.09.30-22.11.05:996][538]MapCheck: New page: deathScene001 - Sep 30, 2014, 10:11:05 AM
+[2014.09.30-22.11.06:089][538]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [92.862ms] ==========
+[2014.09.30-22.11.18:599][716]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.30-22.11.18:599][716]PIE: New page: PIE session: deathScene001 (Sep 30, 2014, 10:11:18 AM)
+[2014.09.30-22.11.18:632][716]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032258s)
+[2014.09.30-22.11.18:633][716]LogPlayLevel: PIE: World Init took: (0.000764s)
+[2014.09.30-22.11.18:633][716]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/deathScene001.deathScene001 to /Game/Maps/UEDPIE_0_deathScene001.deathScene001 (0.033342s)
+[2014.09.30-22.11.18:675][716]LogWorld: Game class is 'GameMode'
+[2014.09.30-22.11.18:685][716]LogAIModule: Creating AISystem for world deathScene001
+[2014.09.30-22.11.18:689][716]LogWorld: Bringing World /Game/Maps/UEDPIE_0_deathScene001.deathScene001 up for play (max tick rate 0) at 2014.09.30-16.11.18
+[2014.09.30-22.11.18:690][716]LogWorld: Bringing up level for play took: 0.004685
+[2014.09.30-22.11.18:696][716]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_deathScene001 0.079
+[2014.09.30-22.11.18:834][717]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2014.09.30-22.11.28:246][898]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021DCAC00
+[2014.09.30-22.11.34:700][  2]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.09.30-22.11.34:700][  2]Aligned camera to fit all selected actors.
+[2014.09.30-22.11.37:372][ 44]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.09.30-22.11.38:011][ 54]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.09.30-22.11.38:011][ 54]Aligned camera to fit all selected actors.
+[2014.09.30-22.11.42:172][121]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.09.30-22.11.46:690][193]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.09.30-22.11.47:431][205]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.09.30-22.11.47:431][205]Aligned camera to fit all selected actors.
+[2014.09.30-22.11.51:419][265]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.09.30-22.11.56:064][334]LogNavigationPoint: PostEditMove 
