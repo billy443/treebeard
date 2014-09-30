@@ -1,0 +1,1158 @@
+Log file open, 09/30/14 16:24:17
+LogInit:Display: Running engine for game: MyProject2
+LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.09.30-22.24.17:553][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.09.30-22.24.17:585][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.09.30-22.24.17:598][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.09.30-22.24.17:605][  0]LogInit: Object subsystem initialized
+[2014.09.30-22.24.17:607][  0]LogInit: Selected Device Profile: [Windows]
+[2014.09.30-22.24.17:607][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.09.30-22.24.17:615][  0]LogInit: Computer: TCPC-06
+[2014.09.30-22.24.17:615][  0]LogInit: User: u0483206
+[2014.09.30-22.24.17:616][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.09.30-22.24.17:616][  0]LogInit: High frequency timer resolution =3.906347 MHz
+[2014.09.30-22.24.17:616][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
+[2014.09.30-22.24.17:616][  0]LogMemory: Platform Memory Stats for Windows
+[2014.09.30-22.24.17:616][  0]LogMemory: Process Physical Memory: 62.38 MB used, 62.38 MB peak
+[2014.09.30-22.24.17:616][  0]LogMemory: Process Virtual Memory: 38.21 MB used, 38.21 MB peak
+[2014.09.30-22.24.17:616][  0]LogMemory: Physical Memory: 2852.98 MB used, 8173.54 MB total
+[2014.09.30-22.24.17:616][  0]LogMemory: Virtual Memory: 261.05 MB used, 8388608.00 MB total
+[2014.09.30-22.24.17:651][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 630 (Feature Level 11_0)
+[2014.09.30-22.24.17:651][  0]LogD3D11RHI: Adapter has 978MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
+[2014.09.30-22.24.17:651][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.09.30-22.24.17:657][  0]LogRHI: Texture pool is 684 MB (70% of 978 MB)
+[2014.09.30-22.24.17:668][  0]LogD3D11RHI: Async texture creation enabled
+[2014.09.30-22.24.17:784][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.09.30-22.24.19:345][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.30-22.24.19:779][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.30-22.24.19:833][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.09.30-22.24.19:892][  0]LogDerivedDataCache: Loaded boot cache 0.06s 39MB C:/Users/u0483206/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.30-22.24.19:892][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/u0483206/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.09.30-22.24.19:892][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/u0483206/Documents/treebeard/Unreal Project/saruman_death_scene/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.09.30-22.24.19:892][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.09.30-22.24.19:908][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.09.30-22.24.19:920][  0]LogDerivedDataCache: Using Local data cache path C:/Users/u0483206/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.09.30-22.24.20:110][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.09.30-22.24.20:110][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.09.30-22.24.20:534][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.09.30-22.24.21:392][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_200c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_52c_0///////STATCAT_Advanced////
+[2014.09.30-22.24.21:392][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.09.30-22.24.21:522][  0]SourceControl: Info Source control is disabled
+[2014.09.30-22.24.21:522][  0]SourceControl: Info Source control is disabled
+[2014.09.30-22.24.21:531][  0]SourceControl: Info Source control is disabled
+[2014.09.30-22.24.21:752][  0]BlueprintLog: New page: Editor Load
+[2014.09.30-22.24.21:885][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.09.30-22.24.21:885][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.09.30-22.24.22:059][  0]LogEngine: Initializing Engine...
+[2014.09.30-22.24.22:173][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (4- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.09.30-22.24.22:220][  0]LogInit: FAudioDevice initialized.
+[2014.09.30-22.24.22:243][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.09.30-22.24.22:502][  0]LogDerivedDataCache: Saved boot cache 0.26s 39MB C:/Users/u0483206/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.30-22.24.22:512][  0]LogInit: Texture streaming: Enabled
+[2014.09.30-22.24.22:556][  0]LogInit: Transaction tracking system initialized
+[2014.09.30-22.24.22:709][  0]LogAssetRegistry: FAssetRegistry took 0.0093 seconds to start up
+[2014.09.30-22.24.23:238][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.30-22.24.23:580][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.30-22.24.23:752][  0]LogConsoleResponse:Display: 
+[2014.09.30-22.24.23:962][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_2048_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_52c_0///////STATCAT_Advanced////
+[2014.09.30-22.24.23:962][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_22d8_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_52c_0///////STATCAT_Advanced////
+[2014.09.30-22.24.23:962][  0]SourceControl: Info Source control is disabled
+[2014.09.30-22.24.23:962][  0]Cmd: MAP LOAD FILE="../../../../../../Users/u0483206/Documents/treebeard/Unreal Project/saruman_death_scene/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.09.30-22.24.23:963][  0]LightingResults: New page: Lighting Build
+[2014.09.30-22.24.23:974][  0]MapCheck: New page: Map Check
+[2014.09.30-22.24.23:974][  0]LightingResults: New page: Lighting Build
+[2014.09.30-22.24.23:987][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010BC5300
+[2014.09.30-22.24.24:229][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.30-22.24.24:230][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.09.30-22.24.24:230][  0]Cmd: MAP CHECKDEP
+[2014.09.30-22.24.24:230][  0]MapCheck: New page: Minimal_Default - Sep 30, 2014, 10:24:24 AM
+[2014.09.30-22.24.24:353][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [123.013ms] ==========
+[2014.09.30-22.24.24:353][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.391
+[2014.09.30-22.24.24:481][  0]LogCollectionManager: Loaded 0 collections in 0.001089 seconds
+[2014.09.30-22.24.24:580][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.09.30-22.24.24:640][  0]LogLoad: Full Startup: 9.03 seconds (BP compile: 0.06 seconds)
+[2014.09.30-22.24.24:652][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.09.30-22.24.24:870][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x896.
+[2014.09.30-22.24.25:218][  2]LogAssetRegistry: Asset discovery search completed in 2.5184 seconds
+[2014.09.30-22.24.35:242][272]Cmd: MAP LOAD FILE="../../../../../../Users/u0483206/Documents/treebeard/Unreal Project/saruman_death_scene/Content/LOTR001.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.09.30-22.24.35:243][272]LightingResults: New page: Lighting Build
+[2014.09.30-22.24.35:259][272]LoadErrors: New page: Loading map: LOTR001.umap
+[2014.09.30-22.24.35:260][272]MapCheck: New page: Map Check
+[2014.09.30-22.24.35:260][272]LightingResults: New page: Lighting Build
+[2014.09.30-22.24.35:285][272]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CCE1C60
+[2014.09.30-22.24.35:306][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:306][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading ../../../../../../Users/u0483206/Documents/treebeard/Unreal Project/saruman_death_scene/Content/LOTR001.umap.
+[2014.09.30-22.24.35:306][272]LoadErrors:Error: Error /Game/LOTR001 : Can't find file for asset. /Game/Materials/grass_LayerInfo
+[2014.09.30-22.24.35:306][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:306][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading ../../../../../../Users/u0483206/Documents/treebeard/Unreal Project/saruman_death_scene/Content/LOTR001.umap.
+[2014.09.30-22.24.35:306][272]LoadErrors:Error: Error /Game/LOTR001 : Can't find file for asset. /Game/Materials/gravel_LayerInfo
+[2014.09.30-22.24.35:307][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:307][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading ../../../../../../Users/u0483206/Documents/treebeard/Unreal Project/saruman_death_scene/Content/LOTR001.umap.
+[2014.09.30-22.24.35:307][272]LoadErrors:Error: Error /Game/LOTR001 : Can't find file for asset. /Game/Materials/rock_LayerInfo
+[2014.09.30-22.24.35:308][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:308][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading ../../../../../../Users/u0483206/Documents/treebeard/Unreal Project/saruman_death_scene/Content/LOTR001.umap.
+[2014.09.30-22.24.35:308][272]LoadErrors:Error: Error /Game/LOTR001 : Can't find file for asset. /Game/Materials/lotrMat
+[2014.09.30-22.24.35:318][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:318][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading ../../../../../../Users/u0483206/Documents/treebeard/Unreal Project/saruman_death_scene/Content/LOTR001.umap.
+[2014.09.30-22.24.35:319][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:319][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading ../../../../../../Users/u0483206/Documents/treebeard/Unreal Project/saruman_death_scene/Content/LOTR001.umap.
+[2014.09.30-22.24.35:319][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:319][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading ../../../../../../Users/u0483206/Documents/treebeard/Unreal Project/saruman_death_scene/Content/LOTR001.umap.
+[2014.09.30-22.24.35:320][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:320][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading ../../../../../../Users/u0483206/Documents/treebeard/Unreal Project/saruman_death_scene/Content/LOTR001.umap.
+[2014.09.30-22.24.35:320][272]LogLinker:Warning: Can't find file '/Game/Materials/Tower'
+[2014.09.30-22.24.35:320][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/Tower' while loading ../../../../../../Users/u0483206/Documents/treebeard/Unreal Project/saruman_death_scene/Content/LOTR001.umap.
+[2014.09.30-22.24.35:321][272]LoadErrors:Error: Error /Game/LOTR001 : Can't find file for asset. /Game/Materials/Tower
+[2014.09.30-22.24.35:337][272]LogLinker:Warning: Can't find file '/Game/Materials/Tower'
+[2014.09.30-22.24.35:337][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/Tower' while loading ../../../../../../Users/u0483206/Documents/treebeard/Unreal Project/saruman_death_scene/Content/LOTR001.umap.
+[2014.09.30-22.24.35:365][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:365][272]LoadErrors: Info Failed to load /Game/Materials/rock_LayerInfo.rock_LayerInfo Referenced by Landscape_2 Property /Script/Engine.LandscapeComponent:WeightmapLayerAllocationInfo.LayerInfo
+[2014.09.30-22.24.35:366][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:366][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:366][272]LoadErrors: Info Failed to load /Game/Materials/gravel_LayerInfo.gravel_LayerInfo Referenced by Landscape_2 Property /Script/Engine.LandscapeComponent:WeightmapLayerAllocationInfo.LayerInfo
+[2014.09.30-22.24.35:366][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:366][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:367][272]LoadErrors: Info Failed to load /Game/Materials/grass_LayerInfo.grass_LayerInfo Referenced by Landscape_2 Property /Script/Engine.LandscapeComponent:WeightmapLayerAllocationInfo.LayerInfo
+[2014.09.30-22.24.35:367][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:370][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:370][272]LoadErrors: Info Failed to load /Game/Materials/lotrMat.lotrMat Referenced by Landscape_2 Property /Script/Engine.LandscapeProxy:LandscapeMaterial
+[2014.09.30-22.24.35:370][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:370][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:370][272]LoadErrors: Info Failed to load /Game/Materials/grass_LayerInfo.grass_LayerInfo Referenced by Landscape_2 Property /Script/Engine.LandscapeProxy:LandscapeEditorLayerSettings.LayerInfoObj
+[2014.09.30-22.24.35:371][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:371][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:371][272]LoadErrors: Info Failed to load /Game/Materials/gravel_LayerInfo.gravel_LayerInfo Referenced by Landscape_2 Property /Script/Engine.LandscapeProxy:LandscapeEditorLayerSettings.LayerInfoObj
+[2014.09.30-22.24.35:371][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:372][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:372][272]LoadErrors: Info Failed to load /Game/Materials/rock_LayerInfo.rock_LayerInfo Referenced by Landscape_2 Property /Script/Engine.LandscapeProxy:LandscapeEditorLayerSettings.LayerInfoObj
+[2014.09.30-22.24.35:372][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:372][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:373][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:373][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:373][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:373][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:374][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:374][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:374][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:374][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:375][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:375][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:375][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:375][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:376][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:376][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:376][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:376][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:377][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:377][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:377][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:377][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:378][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:378][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:378][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:378][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:379][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:379][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:379][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:379][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:380][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:380][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:380][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:380][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:381][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:381][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:381][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:381][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:382][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:382][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:382][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:383][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:383][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:383][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:383][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:384][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:384][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:384][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:384][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:385][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:385][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:385][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:385][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:386][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:386][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:386][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:386][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:387][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:387][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:387][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:387][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:388][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:388][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:388][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:388][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:389][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:389][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:389][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:389][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:390][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:390][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:390][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:390][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:391][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:391][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:391][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:391][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:392][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:392][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:392][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:392][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:393][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:393][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:393][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:393][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:394][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:394][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:394][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:394][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:395][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:395][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:395][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:395][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:396][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:396][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:396][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:396][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:397][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:397][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:397][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:397][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:398][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:398][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:398][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:398][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:399][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:399][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:399][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:399][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:400][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:400][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:400][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:400][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:401][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:401][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:401][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:401][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:402][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:402][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:402][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:402][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:403][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:403][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:403][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:403][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:404][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:404][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:404][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:404][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:405][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:405][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:405][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:405][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:406][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:406][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:406][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:406][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:407][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:407][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:407][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:407][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:408][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:408][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:408][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:408][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:409][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:409][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:409][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:409][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:410][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:410][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:410][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:410][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:411][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:411][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:411][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:411][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:412][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:412][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:412][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:412][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:413][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:413][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:413][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:414][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:414][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:414][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:414][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:415][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:415][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:415][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:415][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:416][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:416][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:416][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:416][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:417][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:417][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:417][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:417][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:418][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:418][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:418][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:418][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:419][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:419][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:419][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:419][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:420][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:420][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:420][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:420][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:421][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:421][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:421][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:421][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:422][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:422][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:422][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:422][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:423][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:423][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:423][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:424][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:424][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:424][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:424][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:425][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:425][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:425][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:425][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:426][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:426][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:426][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:426][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:427][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:427][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:427][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:427][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:428][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:428][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:428][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:428][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:429][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:429][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:429][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:429][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:430][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:430][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:430][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:430][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:431][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:431][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:431][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:431][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:432][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:432][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:432][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:433][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:433][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:433][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:433][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:434][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:434][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:434][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:434][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:435][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:435][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:435][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:435][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:436][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:436][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:436][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:436][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:437][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:437][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:437][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:438][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:438][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:438][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:438][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:439][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:439][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:439][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:439][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:440][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:440][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:440][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:440][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:441][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:441][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:441][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:441][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:442][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:442][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:442][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:442][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:443][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:443][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:443][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:443][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:444][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:444][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:444][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:445][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:445][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:445][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:445][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:446][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:446][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:446][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:446][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:447][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:447][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:447][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:447][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:448][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:448][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:448][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:448][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:449][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:449][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:449][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:449][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:450][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:450][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:450][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:450][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:451][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:451][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:451][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:452][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:452][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:452][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:452][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:452][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:453][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:453][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:453][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:454][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:454][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:454][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:454][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:455][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:455][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:455][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:455][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:456][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:456][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:456][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:456][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:457][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:457][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:457][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:457][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:458][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:458][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:458][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:458][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:459][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:459][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:459][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:459][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:460][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:460][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:460][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:461][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:461][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:461][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:461][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:462][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:462][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:462][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:462][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:463][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:463][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:463][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:463][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:464][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:464][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:464][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:464][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:465][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:465][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:465][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:466][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:466][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:466][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:466][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:467][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:467][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:467][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:467][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:468][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:468][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:468][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:468][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:469][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:469][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:469][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:469][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:470][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:470][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:470][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:470][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:471][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:471][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:471][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:472][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:472][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:472][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:472][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:473][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:473][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:473][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:473][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:474][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:474][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:474][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:474][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:475][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:475][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:475][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:475][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:476][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:476][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:476][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:476][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:477][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:477][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:477][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:477][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:478][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:478][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:478][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:478][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:479][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:479][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:479][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:479][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:480][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:480][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:480][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:480][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:481][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:481][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:481][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:481][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:482][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:482][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:482][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:482][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:483][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:483][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:483][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:484][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:484][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:484][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:484][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:485][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:485][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:485][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:485][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:486][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:486][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:486][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:486][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:487][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:487][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:487][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:487][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:488][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:488][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:488][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:488][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:489][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:489][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:489][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:489][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:490][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:490][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:490][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:490][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:491][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:491][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:491][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:491][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:492][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:492][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:492][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:492][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:493][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:493][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:493][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:493][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:494][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:494][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:494][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:495][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:495][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:495][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:495][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:496][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:496][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:496][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:496][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:497][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:497][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:497][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:497][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:498][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:498][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:498][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:498][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:499][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:499][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:499][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:499][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:500][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:500][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:500][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:500][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:501][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:501][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:501][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:501][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:502][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:502][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:502][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:502][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:503][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:503][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:503][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:503][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:504][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:504][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:504][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:504][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:505][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:505][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:505][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:505][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:506][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:506][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:506][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:506][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:507][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:507][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:507][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:507][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:508][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:508][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:508][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:509][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:509][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:509][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:509][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:509][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:510][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:510][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:510][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:510][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:511][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:511][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:511][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:511][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:512][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:512][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:512][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:512][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:513][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:513][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:513][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:513][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:514][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:514][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:514][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:514][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:515][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:515][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:515][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:515][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:516][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:516][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:516][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:516][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:517][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:517][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:517][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:517][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:518][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:518][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:518][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:518][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:519][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:519][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:519][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:520][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:520][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:520][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:520][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:521][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:521][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:521][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:521][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:521][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:522][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:522][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:522][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:523][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:523][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:523][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:523][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:524][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:524][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:524][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:525][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:525][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:525][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:525][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:525][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:526][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:526][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:526][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:526][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:527][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:527][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:527][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:527][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:528][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:528][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:528][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:529][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:529][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:529][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:529][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:530][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:530][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:530][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:530][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:531][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:531][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:531][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:531][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:532][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:532][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:532][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:532][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:533][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:533][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:533][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:533][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:534][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:534][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:534][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:534][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:535][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:535][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:535][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:535][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:536][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:536][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:536][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:536][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:537][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:537][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:537][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:537][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:538][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:538][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:538][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:538][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:539][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:539][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:539][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:539][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:540][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:540][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:540][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:540][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:541][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:541][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:541][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:541][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:542][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:542][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:542][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:542][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:543][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:543][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:543][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:543][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:544][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:544][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:544][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:544][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:545][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:545][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:545][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:545][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:546][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:546][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:546][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:546][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:547][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:547][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:547][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:548][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:548][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:548][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:548][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:549][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:549][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:549][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:549][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:550][272]LogLinker:Warning: Can't find file '/Game/Materials/gravel_LayerInfo'
+[2014.09.30-22.24.35:550][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/gravel_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:550][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:550][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:551][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:551][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:551][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:551][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:552][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:552][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:552][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:553][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:553][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:553][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:553][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:554][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:554][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:554][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:554][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:555][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:555][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:555][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:555][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:556][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:556][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:556][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:556][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:557][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:557][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:557][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:558][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:558][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:558][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:558][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:558][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:559][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:559][272]LogLinker:Warning: Can't find file '/Game/Materials/grass_LayerInfo'
+[2014.09.30-22.24.35:559][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/grass_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:559][272]LogLinker:Warning: Can't find file '/Game/Materials/rock_LayerInfo'
+[2014.09.30-22.24.35:560][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/rock_LayerInfo' while loading NULL.
+[2014.09.30-22.24.35:567][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:567][272]LoadErrors: Info Failed to load /Game/Materials/lotrMat.lotrMat Referenced by LandscapeMaterialInstanceConstant_1404 Property /Script/Engine.MaterialInstance:Parent
+[2014.09.30-22.24.35:568][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:568][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:568][272]LoadErrors: Info Failed to load /Game/Materials/lotrMat.lotrMat Referenced by LandscapeMaterialInstanceConstant_1430 Property /Script/Engine.MaterialInstance:Parent
+[2014.09.30-22.24.35:568][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:569][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:569][272]LoadErrors: Info Failed to load /Game/Materials/lotrMat.lotrMat Referenced by LandscapeMaterialInstanceConstant_1486 Property /Script/Engine.MaterialInstance:Parent
+[2014.09.30-22.24.35:570][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:570][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:570][272]LoadErrors: Info Failed to load /Game/Materials/lotrMat.lotrMat Referenced by LandscapeMaterialInstanceConstant_1522 Property /Script/Engine.MaterialInstance:Parent
+[2014.09.30-22.24.35:570][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:571][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:571][272]LoadErrors: Info Failed to load /Game/Materials/lotrMat.lotrMat Referenced by LandscapeMaterialInstanceConstant_1542 Property /Script/Engine.MaterialInstance:Parent
+[2014.09.30-22.24.35:571][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:572][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:572][272]LoadErrors: Info Failed to load /Game/Materials/lotrMat.lotrMat Referenced by LandscapeMaterialInstanceConstant_1550 Property /Script/Engine.MaterialInstance:Parent
+[2014.09.30-22.24.35:572][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:573][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:573][272]LoadErrors: Info Failed to load /Game/Materials/lotrMat.lotrMat Referenced by LandscapeMaterialInstanceConstant_1554 Property /Script/Engine.MaterialInstance:Parent
+[2014.09.30-22.24.35:573][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:573][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:573][272]LoadErrors: Info Failed to load /Game/Materials/lotrMat.lotrMat Referenced by LandscapeMaterialInstanceConstant_1564 Property /Script/Engine.MaterialInstance:Parent
+[2014.09.30-22.24.35:574][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:574][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:574][272]LoadErrors: Info Failed to load /Game/Materials/lotrMat.lotrMat Referenced by Model_3
+[2014.09.30-22.24.35:575][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:575][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:575][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:575][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:576][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:576][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:576][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:576][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:577][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:577][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:577][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:577][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:577][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:578][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:578][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:578][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:578][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:579][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:579][272]LoadErrors: Info Failed to load /Game/Materials/lotrMat.lotrMat Referenced by ModelComponent_162
+[2014.09.30-22.24.35:579][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:579][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:579][272]LoadErrors: Info Failed to load /Game/Materials/lotrMat.lotrMat Referenced by ModelComponent_163
+[2014.09.30-22.24.35:580][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:580][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:580][272]LoadErrors: Info Failed to load /Game/Materials/lotrMat.lotrMat Referenced by ModelComponent_164
+[2014.09.30-22.24.35:580][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:580][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:581][272]LoadErrors: Info Failed to load /Game/Materials/lotrMat.lotrMat Referenced by ModelComponent_165
+[2014.09.30-22.24.35:581][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:581][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:581][272]LoadErrors: Info Failed to load /Game/Materials/lotrMat.lotrMat Referenced by ModelComponent_166
+[2014.09.30-22.24.35:581][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:582][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:582][272]LoadErrors: Info Failed to load /Game/Materials/lotrMat.lotrMat Referenced by ModelComponent_167
+[2014.09.30-22.24.35:582][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:582][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:582][272]LoadErrors: Info Failed to load /Game/Materials/lotrMat.lotrMat Referenced by ModelComponent_168
+[2014.09.30-22.24.35:583][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:583][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:583][272]LoadErrors: Info Failed to load /Game/Materials/lotrMat.lotrMat Referenced by ModelComponent_169
+[2014.09.30-22.24.35:583][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:583][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:584][272]LoadErrors: Info Failed to load /Game/Materials/lotrMat.lotrMat Referenced by ModelComponent_170
+[2014.09.30-22.24.35:584][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:584][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:584][272]LoadErrors: Info Failed to load /Game/Materials/lotrMat.lotrMat Referenced by Polys_27
+[2014.09.30-22.24.35:584][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:585][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:585][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:585][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:586][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:586][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:586][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:586][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:587][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:587][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:587][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:587][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:588][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:588][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:588][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:588][272]LogLinker:Warning: Can't find file '/Game/Materials/lotrMat'
+[2014.09.30-22.24.35:589][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/lotrMat' while loading NULL.
+[2014.09.30-22.24.35:590][272]LogLinker:Warning: Can't find file '/Game/Materials/Tower'
+[2014.09.30-22.24.35:590][272]LoadErrors: Info Failed to load /Game/Materials/Tower.Tower Referenced by Tower_4 Property /Script/Engine.StaticMeshComponent:StaticMesh
+[2014.09.30-22.24.35:590][272]LogLinker:Warning: Can't find file for asset '/Game/Materials/Tower' while loading NULL.
+[2014.09.30-22.24.35:641][272]LogMaterial:Warning: Material /Game/Props/Materials/M_Bush.M_Bush needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2014.09.30-22.24.35:645][272]LogMaterial: Missing cached shader map for material M_Bush, compiling.
+[2014.09.30-22.24.35:704][272]LogMaterial: 0.000138 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.09.30-22.24.35:706][272]LogMaterial:Warning: Material /Game/Props/Materials/M_Rock.M_Rock needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2014.09.30-22.24.35:708][272]LogMaterial: Missing cached shader map for material M_Rock, compiling.
+[2014.09.30-22.24.35:715][272]LogMaterial: 0.000154 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.09.30-22.24.35:735][272]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.30-22.24.35:735][272]LogAIModule: Creating AISystem for world LOTR001
+[2014.09.30-22.24.35:762][272]Cmd: MAP CHECKDEP
+[2014.09.30-22.24.35:762][272]MapCheck: New page: LOTR001 - Sep 30, 2014, 10:24:35 AM
+[2014.09.30-22.24.35:965][272]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [202.7ms] ==========
+[2014.09.30-22.24.35:965][272]LogFileHelpers: Loading map 'LOTR001' took 0.723
+[2014.09.30-22.24.36:077][273]Cmd: UpdateLandscapeEditorData -warnings
+[2014.09.30-22.24.36:079][273]Cmd: UpdateLandscapeEditorData
+[2014.09.30-22.25.10:441][445]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2014.09.30-22.25.17:312][961]LogMaterial: 0.011482 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.09.30-22.25.17:397][962]Cmd: UpdateLandscapeEditorData
+[2014.09.30-22.25.17:399][962]Cmd: UpdateLandscapeMIC
+[2014.09.30-22.25.26:887][735]LogSavePackage: Save=327.070801ms
+[2014.09.30-22.25.26:887][735]LogSavePackage: Moving '../../../../../../Users/u0483206/Documents/treebeard/Unreal Project/saruman_death_scene/Saved/LOTR001E6F2C96F4BBB89D9736F028E9DB905D9.tmp' to '../../../../../../Users/u0483206/Documents/treebeard/Unreal Project/saruman_death_scene/Content/LOTR001.umap'
+[2014.09.30-22.25.32:642][162]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock_17)
+[2014.09.30-22.25.33:445][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush_8)
+[2014.09.30-22.25.34:259][287]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2014.09.30-22.25.52:768][428]LogSavePackage: Save=308.372498ms
+[2014.09.30-22.25.52:768][428]LogSavePackage: Moving '../../../../../../Users/u0483206/Documents/treebeard/Unreal Project/saruman_death_scene/Saved/LOTR001526C16794E02EB35F91FB0A4D0FE62BD.tmp' to '../../../../../../Users/u0483206/Documents/treebeard/Unreal Project/saruman_death_scene/Content/LOTR001.umap'
+[2014.09.30-22.26.24:086][434]LogSavePackage: Save=312.567474ms
+[2014.09.30-22.26.24:086][434]LogSavePackage: Moving '../../../../../../Users/u0483206/Documents/treebeard/Unreal Project/saruman_death_scene/Saved/LOTR001F3C563F54B75335D4F0F5BB434705BDF.tmp' to '../../../../../../Users/u0483206/Documents/treebeard/Unreal Project/saruman_death_scene/Content/LOTR001.umap'
+[2014.09.30-22.26.25:320][500]Cmd: QUIT_EDITOR
+[2014.09.30-22.26.25:447][500]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.09.30-22.26.25:447][500]LogExit: Preparing to exit.
+[2014.09.30-22.26.26:523][500]LogExit: Editor shut down
+[2014.09.30-22.26.26:524][500]LogExit: Transaction tracking system shut down
+[2014.09.30-22.26.26:549][500]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BC00860
+[2014.09.30-22.26.26:549][500]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E5162A0
+[2014.09.30-22.26.26:549][500]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000153C9BC0
+[2014.09.30-22.26.26:549][500]LogExit: Object subsystem successfully closed.
+[2014.09.30-22.26.26:613][500]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (161)
+[2014.09.30-22.26.26:613][500]LogModuleManager: Shutting down and abandoning module HTTP (160)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module CrashTracker (159)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module SuperSearch (158)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module SceneOutliner (157)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module EditorWidgets (156)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module CollectionManager (155)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module StatsViewer (154)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module FoliageEdit (153)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module LandscapeEditor (152)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module MeshPaint (151)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module ActorPickerMode (150)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module GeometryMode (149)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module TextureAlignMode (148)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module BspMode (147)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module PlacementMode (146)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module DesktopPlatform (145)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module AutomationWorker (144)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (143)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (142)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (141)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module UndoHistory (140)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (139)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module UserFeedback (138)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module XmlParser (137)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module Blutility (136)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (135)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (134)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (133)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (132)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (131)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (130)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module InputBindingEditor (129)
+[2014.09.30-22.26.26:614][500]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (128)
+[2014.09.30-22.26.26:615][500]LogModuleManager: Shutting down and abandoning module SettingsEditor (127)
+[2014.09.30-22.26.26:615][500]LogModuleManager: Shutting down and abandoning module SessionLauncher (126)
+[2014.09.30-22.26.26:615][500]LogModuleManager: Shutting down and abandoning module SessionFrontend (125)
+[2014.09.30-22.26.26:615][500]LogModuleManager: Shutting down and abandoning module ProfilerClient (124)
+[2014.09.30-22.26.26:615][500]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (123)
+[2014.09.30-22.26.26:615][500]LogModuleManager: Shutting down and abandoning module DeviceManager (122)
+[2014.09.30-22.26.26:615][500]LogModuleManager: Shutting down and abandoning module AutomationController (121)
+[2014.09.30-22.26.26:615][500]LogModuleManager: Shutting down and abandoning module AutomationWindow (120)
+[2014.09.30-22.26.26:615][500]LogModuleManager: Shutting down and abandoning module Layers (119)
+[2014.09.30-22.26.26:615][500]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (118)
+[2014.09.30-22.26.26:615][500]LogModuleManager: Shutting down and abandoning module DetailCustomizations (117)
+[2014.09.30-22.26.26:615][500]LogModuleManager: Shutting down and abandoning module PackagesDialog (116)
+[2014.09.30-22.26.26:615][500]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (115)
+[2014.09.30-22.26.26:615][500]LogModuleManager: Shutting down and abandoning module AssetRegistry (114)
+[2014.09.30-22.26.26:694][500]LogModuleManager: Shutting down and abandoning module Persona (113)
+[2014.09.30-22.26.26:694][500]LogModuleManager: Shutting down and abandoning module GraphEditor (112)
+[2014.09.30-22.26.26:694][500]LogModuleManager: Shutting down and abandoning module ClassViewer (111)
+[2014.09.30-22.26.26:694][500]LogModuleManager: Shutting down and abandoning module Toolbox (110)
+[2014.09.30-22.26.26:694][500]LogModuleManager: Shutting down and abandoning module ModuleUI (109)
+[2014.09.30-22.26.26:694][500]LogModuleManager: Shutting down and abandoning module Sequencer (108)
+[2014.09.30-22.26.26:694][500]LogModuleManager: Shutting down and abandoning module MovieSceneTools (107)
+[2014.09.30-22.26.26:694][500]LogModuleManager: Shutting down and abandoning module OutputLog (106)
+[2014.09.30-22.26.26:694][500]LogModuleManager: Shutting down and abandoning module GammaUI (105)
+[2014.09.30-22.26.26:694][500]LogModuleManager: Shutting down and abandoning module Documentation (104)
+[2014.09.30-22.26.26:694][500]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (103)
+[2014.09.30-22.26.26:694][500]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (102)
+[2014.09.30-22.26.26:694][500]LogModuleManager: Shutting down and abandoning module AnalyticsET (101)
+[2014.09.30-22.26.26:694][500]LogModuleManager: Shutting down and abandoning module Analytics (100)
+[2014.09.30-22.26.26:694][500]LogModuleManager: Shutting down and abandoning module GameplayDebugger (99)
+[2014.09.30-22.26.26:694][500]LogModuleManager: Shutting down and abandoning module AIModule (98)
+[2014.09.30-22.26.26:694][500]LogModuleManager: Shutting down and abandoning module ProfilerService (97)
+[2014.09.30-22.26.26:913][500]LogModuleManager: Shutting down and abandoning module TaskGraph (96)
+[2014.09.30-22.26.26:913][500]LogModuleManager: Shutting down and abandoning module SlateRemote (95)
+[2014.09.30-22.26.26:913][500]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (94)
+[2014.09.30-22.26.26:913][500]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (93)
+[2014.09.30-22.26.26:913][500]LogModuleManager: Shutting down and abandoning module CableComponent (92)
+[2014.09.30-22.26.26:913][500]LogModuleManager: Shutting down and abandoning module MessagingDebugger (91)
+[2014.09.30-22.26.26:913][500]LogModuleManager: Shutting down and abandoning module ViewportSnapping (90)
+[2014.09.30-22.26.26:913][500]LogModuleManager: Shutting down and abandoning module SmartSnapping (89)
+[2014.09.30-22.26.26:913][500]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (88)
+[2014.09.30-22.26.26:913][500]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (87)
+[2014.09.30-22.26.26:913][500]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (86)
+[2014.09.30-22.26.26:913][500]LogModuleManager: Shutting down and abandoning module Matinee (85)
+[2014.09.30-22.26.26:913][500]LogModuleManager: Shutting down and abandoning module Kismet (84)
+[2014.09.30-22.26.26:913][500]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2014.09.30-22.26.26:913][500]LogModuleManager: Shutting down and abandoning module LevelEditor (82)
+[2014.09.30-22.26.26:914][500]LogModuleManager: Shutting down and abandoning module IntroTutorials (81)
+[2014.09.30-22.26.26:914][500]LogModuleManager: Shutting down and abandoning module ContentBrowser (80)
+[2014.09.30-22.26.26:914][500]LogModuleManager: Shutting down and abandoning module PropertyEditor (79)
+[2014.09.30-22.26.26:914][500]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2014.09.30-22.26.26:914][500]LogModuleManager: Shutting down and abandoning module Paper2DEditor (77)
+[2014.09.30-22.26.26:914][500]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (76)
+[2014.09.30-22.26.26:914][500]LogModuleManager: Shutting down and abandoning module PluginsEditor (75)
+[2014.09.30-22.26.26:914][500]LogModuleManager: Shutting down and abandoning module MainFrame (74)
+[2014.09.30-22.26.26:914][500]LogModuleManager: Shutting down and abandoning module EpicSurvey (73)
+[2014.09.30-22.26.26:914][500]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (72)
+[2014.09.30-22.26.26:914][500]LogModuleManager: Shutting down and abandoning module UObjectPlugin (71)
+[2014.09.30-22.26.26:914][500]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (70)
+[2014.09.30-22.26.26:914][500]LogModuleManager: Shutting down and abandoning module SourceControl (69)
+[2014.09.30-22.26.26:914][500]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (68)
+[2014.09.30-22.26.26:914][500]LogModuleManager: Shutting down and abandoning module BlankPlugin (67)
+[2014.09.30-22.26.26:914][500]LogModuleManager: Shutting down and abandoning module ScriptPlugin (66)
+[2014.09.30-22.26.26:914][500]LogModuleManager: Shutting down and abandoning module UdpMessaging (65)
+[2014.09.30-22.26.27:014][500]LogModuleManager: Shutting down and abandoning module Paper2D (64)
+[2014.09.30-22.26.27:014][500]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (63)
+[2014.09.30-22.26.27:018][500]LogModuleManager: Shutting down and abandoning module ImageWrapper (62)
+[2014.09.30-22.26.27:018][500]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (61)
+[2014.09.30-22.26.27:018][500]LogModuleManager: Shutting down and abandoning module FunctionalTesting (60)
+[2014.09.30-22.26.27:018][500]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (59)
+[2014.09.30-22.26.27:018][500]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (58)
+[2014.09.30-22.26.27:018][500]LogModuleManager: Shutting down and abandoning module MessageLog (57)
+[2014.09.30-22.26.27:018][500]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
+[2014.09.30-22.26.27:018][500]LogModuleManager: Shutting down and abandoning module UMG (55)
+[2014.09.30-22.26.27:018][500]LogModuleManager: Shutting down and abandoning module Slate (54)
+[2014.09.30-22.26.27:018][500]LogModuleManager: Shutting down and abandoning module EditorStyle (53)
+[2014.09.30-22.26.27:020][500]LogModuleManager: Shutting down and abandoning module SessionServices (52)
+[2014.09.30-22.26.27:020][500]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (51)
+[2014.09.30-22.26.27:020][500]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (50)
+[2014.09.30-22.26.27:020][500]LogModuleManager: Shutting down and abandoning module XAudio2 (49)
+[2014.09.30-22.26.27:020][500]LogModuleManager: Shutting down and abandoning module Networking (47)
+[2014.09.30-22.26.27:020][500]LogModuleManager: Shutting down and abandoning module Core (46)
+[2014.09.30-22.26.27:020][500]LogModuleManager: Shutting down and abandoning module KismetCompiler (45)
+[2014.09.30-22.26.27:020][500]LogModuleManager: Shutting down and abandoning module PhysXFormats (44)
+[2014.09.30-22.26.27:020][500]LogModuleManager: Shutting down and abandoning module MeshUtilities (43)
+[2014.09.30-22.26.27:020][500]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
+[2014.09.30-22.26.27:071][500]LogDerivedDataCache: Shutdown
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module Messaging (31)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (30)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (28)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (27)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (26)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (25)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (24)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module Settings (17)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module OculusRift (13)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.09.30-22.26.27:071][500]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.09.30-22.26.27:072][500]LogExit: Exiting.
+[2014.09.30-22.26.27:074][500]Log file closed, 09/30/14 16:26:27
