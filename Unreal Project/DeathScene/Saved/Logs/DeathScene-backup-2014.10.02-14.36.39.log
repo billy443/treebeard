@@ -1,0 +1,596 @@
+Log file open, 10/02/14 14:16:41
+LogInit:Display: Running engine for game: DeathScene
+LogInit: Version: 4.4.0-2255576+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Aug 13 2014 22:39:32
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.02-20.16.41:984][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.02-20.16.42:009][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.02-20.16.42:015][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.02-20.16.42:020][  0]LogInit: Object subsystem initialized
+[2014.10.02-20.16.42:022][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.02-20.16.42:022][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.02-20.16.42:043][  0]LogInit: Computer: LAB5-54
+[2014.10.02-20.16.42:043][  0]LogInit: User: ssharp
+[2014.10.02-20.16.42:043][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.10.02-20.16.42:043][  0]LogInit: High frequency timer resolution =3.320449 MHz
+[2014.10.02-20.16.42:043][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx) Virtual=8192.0GB
+[2014.10.02-20.16.42:043][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.02-20.16.42:043][  0]LogMemory: Process Physical Memory: 61.81 MB used, 61.81 MB peak
+[2014.10.02-20.16.42:043][  0]LogMemory: Process Virtual Memory: 38.04 MB used, 38.04 MB peak
+[2014.10.02-20.16.42:043][  0]LogMemory: Physical Memory: 5208.21 MB used, 16350.83 MB total
+[2014.10.02-20.16.42:044][  0]LogMemory: Virtual Memory: 245.37 MB used, 8388608.00 MB total
+[2014.10.02-20.16.42:085][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 650 (Feature Level 11_0)
+[2014.10.02-20.16.42:085][  0]LogD3D11RHI: Adapter has 971MB of dedicated video memory, 0MB of dedicated system memory, and 3072MB of shared system memory, 1 output[s]
+[2014.10.02-20.16.42:085][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.02-20.16.42:089][  0]LogRHI: Texture pool is 680 MB (70% of 971 MB)
+[2014.10.02-20.16.42:096][  0]LogD3D11RHI: Async texture creation enabled
+[2014.10.02-20.16.42:188][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.02-20.16.43:392][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.02-20.16.43:682][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.02-20.16.43:710][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.02-20.16.43:741][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/ssharp/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.02-20.16.43:741][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ssharp/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.10.02-20.16.43:742][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file //chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Unreal Project/DeathScene/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.02-20.16.43:742][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.02-20.16.43:754][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.02-20.16.43:766][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ssharp/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.10.02-20.16.43:882][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.02-20.16.43:882][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.02-20.16.44:107][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.02-20.16.44:609][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_34d8_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1460_0///////STATCAT_Advanced////
+[2014.10.02-20.16.44:615][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.02-20.16.44:722][  0]SourceControl: Info Source control is disabled
+[2014.10.02-20.16.44:722][  0]SourceControl: Info Source control is disabled
+[2014.10.02-20.16.44:726][  0]SourceControl: Info Source control is disabled
+[2014.10.02-20.16.44:839][  0]BlueprintLog: New page: Editor Load
+[2014.10.02-20.16.44:918][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.10.02-20.16.44:918][  0]LogUObjectAllocator: 4218648 out of 0 bytes used by permanent object pool.
+[2014.10.02-20.16.45:042][  0]LogEngine: Initializing Engine...
+[2014.10.02-20.16.45:116][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.10.02-20.16.45:124][  0]LogInit: FAudioDevice initialized.
+[2014.10.02-20.16.45:136][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.10.02-20.16.45:155][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/ssharp/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.02-20.16.45:159][  0]LogInit: Texture streaming: Enabled
+[2014.10.02-20.16.45:189][  0]LogInit: Transaction tracking system initialized
+[2014.10.02-20.16.45:262][  0]LogAssetRegistry: FAssetRegistry took 0.0097 seconds to start up
+[2014.10.02-20.16.45:628][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.02-20.16.45:884][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.02-20.16.45:966][  0]LogConsoleResponse:Display: 
+[2014.10.02-20.16.46:071][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_18e4_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1460_0///////STATCAT_Advanced////
+[2014.10.02-20.16.46:071][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_4c58_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1460_0///////STATCAT_Advanced////
+[2014.10.02-20.16.46:071][  0]SourceControl: Info Source control is disabled
+[2014.10.02-20.16.46:071][  0]Cmd: MAP LOAD FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Unreal Project/DeathScene/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.02-20.16.46:077][  0]LightingResults: New page: Lighting Build
+[2014.10.02-20.16.46:085][  0]MapCheck: New page: Map Check
+[2014.10.02-20.16.46:085][  0]LightingResults: New page: Lighting Build
+[2014.10.02-20.16.46:096][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F601300
+[2014.10.02-20.16.47:246][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.02-20.16.47:246][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.10.02-20.16.47:246][  0]Cmd: MAP CHECKDEP
+[2014.10.02-20.16.47:246][  0]MapCheck: New page: Minimal_Default - Oct 2, 2014, 8:16:47 AM
+[2014.10.02-20.16.47:421][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Statue.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.16.47:421][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Floor_14.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.16.47:421][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Statue.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.16.47:421][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Floor.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.16.47:422][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Chair.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.16.47:422][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Chair_15.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.16.47:422][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Floor.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.16.47:422][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Floor_14.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.16.47:422][  0]MapCheck:Warning: Warning AudioComponent0 AudioComponent /Game/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Starter_Background_Cue_2.AudioComponent0 : Externally referenced 
+[2014.10.02-20.16.47:422][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Chair.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.16.47:422][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Chair_15.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.16.47:422][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Statue.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.16.47:422][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Table.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.16.47:423][  0]MapCheck: Info ========== Map Check: 0 Error(s), 13 Warning(s), [176.228ms] ==========
+[2014.10.02-20.16.47:438][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.367
+[2014.10.02-20.16.47:532][  0]LogCollectionManager: Loaded 0 collections in 0.002450 seconds
+[2014.10.02-20.16.47:593][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.02-20.16.47:643][  0]LogLoad: Full Startup: 6.46 seconds (BP compile: 0.05 seconds)
+[2014.10.02-20.16.47:657][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2014.10.02-20.16.47:827][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x896.
+[2014.10.02-20.16.49:680][177]LogAssetRegistry: Asset discovery search completed in 4.4283 seconds
+[2014.10.02-20.17.32:787][955]Cmd: MAP LOAD FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Unreal Project/DeathScene/Content/LOTR001.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.02-20.17.32:792][955]LightingResults: New page: Lighting Build
+[2014.10.02-20.17.32:807][955]LoadErrors: New page: Loading map: LOTR001.umap
+[2014.10.02-20.17.32:810][955]MapCheck: New page: Map Check
+[2014.10.02-20.17.32:810][955]LightingResults: New page: Lighting Build
+[2014.10.02-20.17.32:826][955]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011E41C60
+[2014.10.02-20.17.33:351][955]LogMaterial:Warning: Material /Game/Props/Materials/M_Bush.M_Bush needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2014.10.02-20.17.33:353][955]LogMaterial: Missing cached shader map for material M_Bush, compiling.
+[2014.10.02-20.17.33:405][955]LogMaterial: 0.000180 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.02-20.17.33:406][955]LogMaterial:Warning: Material /Game/Props/Materials/M_Rock.M_Rock needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2014.10.02-20.17.33:407][955]LogMaterial: Missing cached shader map for material M_Rock, compiling.
+[2014.10.02-20.17.33:412][955]LogMaterial: 0.000125 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.02-20.17.33:429][955]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.02-20.17.33:429][955]LogAIModule: Creating AISystem for world LOTR001
+[2014.10.02-20.17.33:447][955]Cmd: MAP CHECKDEP
+[2014.10.02-20.17.33:447][955]MapCheck: New page: LOTR001 - Oct 2, 2014, 8:17:33 AM
+[2014.10.02-20.17.33:922][955]MapCheck:Warning: Warning SM_Rock_9 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Rock_9.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:922][955]MapCheck:Warning: Warning SM_Rock_8 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Rock_8.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:922][955]MapCheck:Warning: Warning SM_Rock_7 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Rock_7.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:923][955]MapCheck:Warning: Warning SM_Rock_61 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Rock_61.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:923][955]MapCheck:Warning: Warning SM_Rock_6 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Rock_6.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:923][955]MapCheck:Warning: Warning SM_Rock_57 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Rock_57.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:923][955]MapCheck:Warning: Warning SM_Rock_5 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Rock_5.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:923][955]MapCheck:Warning: Warning SM_Rock_4 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Rock_4.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:923][955]MapCheck:Warning: Warning SM_Rock_3 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Rock_3.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:923][955]MapCheck:Warning: Warning SM_Rock_2 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Rock_2.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:923][955]MapCheck:Warning: Warning SM_Rock_17 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Rock_17.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:923][955]MapCheck:Warning: Warning SM_Rock_16 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Rock_16.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:924][955]MapCheck:Warning: Warning SM_Rock_15 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Rock_15.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:924][955]MapCheck:Warning: Warning SM_Rock_14 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Rock_14.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:924][955]MapCheck:Warning: Warning SM_Rock_13 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Rock_13.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:924][955]MapCheck:Warning: Warning SM_Rock_12 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Rock_12.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:924][955]MapCheck:Warning: Warning SM_Rock_10 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Rock_10.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:924][955]MapCheck:Warning: Warning InstancedFoliageActor_0 InstancedStaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.InstancedFoliageActor_0.InstancedStaticMeshComponent_18 : Externally referenced 
+[2014.10.02-20.17.33:924][955]MapCheck:Warning: Warning FoliageType_InstancedStaticMesh_1 FoliageType_InstancedStaticMesh /Game/LOTR001.LOTR001:PersistentLevel.InstancedFoliageActor_0.FoliageType_InstancedStaticMesh_1 : Externally referenced 
+[2014.10.02-20.17.33:924][955]MapCheck:Warning: Warning SM_Bush_9 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_9.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:925][955]MapCheck:Warning: Warning SM_Bush_8 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_8.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:925][955]MapCheck:Warning: Warning SM_Bush_6 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_6.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:925][955]MapCheck:Warning: Warning SM_Bush_51 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_51.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:925][955]MapCheck:Warning: Warning SM_Bush_5 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_5.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:925][955]MapCheck:Warning: Warning SM_Bush_42 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_42.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:926][955]MapCheck:Warning: Warning SM_Bush_4 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_4.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:926][955]MapCheck:Warning: Warning SM_Bush_31 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_31.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:926][955]MapCheck:Warning: Warning SM_Bush_30 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_30.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:926][955]MapCheck:Warning: Warning SM_Bush_3 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_3.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:926][955]MapCheck:Warning: Warning SM_Bush_29 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_29.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:926][955]MapCheck:Warning: Warning SM_Bush_28 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_28.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:926][955]MapCheck:Warning: Warning SM_Bush_27 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_27.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:926][955]MapCheck:Warning: Warning SM_Bush_26 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_26.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:926][955]MapCheck:Warning: Warning SM_Bush_25 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_25.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:926][955]MapCheck:Warning: Warning SM_Bush_24 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_24.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:926][955]MapCheck:Warning: Warning SM_Bush_23 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_23.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:926][955]MapCheck:Warning: Warning SM_Bush_22 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_22.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:926][955]MapCheck:Warning: Warning SM_Bush_21 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_21.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:926][955]MapCheck:Warning: Warning SM_Bush_20 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_20.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:927][955]MapCheck:Warning: Warning SM_Bush_2 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_2.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:927][955]MapCheck:Warning: Warning SM_Bush_19 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_19.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:927][955]MapCheck:Warning: Warning SM_Bush_18 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_18.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:927][955]MapCheck:Warning: Warning SM_Bush_17 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_17.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:927][955]MapCheck:Warning: Warning SM_Bush_16 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_16.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:927][955]MapCheck:Warning: Warning SM_Bush_15 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_15.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:928][955]MapCheck:Warning: Warning SM_Bush_14 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_14.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:928][955]MapCheck:Warning: Warning SM_Bush_13 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_13.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:928][955]MapCheck:Warning: Warning SM_Bush_12 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_12.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:928][955]MapCheck:Warning: Warning SM_Bush_11 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_11.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:928][955]MapCheck:Warning: Warning SM_Bush_10 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.SM_Bush_10.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:928][955]MapCheck:Warning: Warning InstancedFoliageActor_0 InstancedStaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.InstancedFoliageActor_0.InstancedStaticMeshComponent_9 : Externally referenced 
+[2014.10.02-20.17.33:928][955]MapCheck:Warning: Warning InstancedFoliageActor_0 InstancedStaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.InstancedFoliageActor_0.InstancedStaticMeshComponent_8 : Externally referenced 
+[2014.10.02-20.17.33:928][955]MapCheck:Warning: Warning InstancedFoliageActor_0 InstancedStaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.InstancedFoliageActor_0.InstancedStaticMeshComponent_7 : Externally referenced 
+[2014.10.02-20.17.33:928][955]MapCheck:Warning: Warning InstancedFoliageActor_0 InstancedStaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.InstancedFoliageActor_0.InstancedStaticMeshComponent_6 : Externally referenced 
+[2014.10.02-20.17.33:928][955]MapCheck:Warning: Warning InstancedFoliageActor_0 InstancedStaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.InstancedFoliageActor_0.InstancedStaticMeshComponent_5 : Externally referenced 
+[2014.10.02-20.17.33:928][955]MapCheck:Warning: Warning InstancedFoliageActor_0 InstancedStaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.InstancedFoliageActor_0.InstancedStaticMeshComponent_4 : Externally referenced 
+[2014.10.02-20.17.33:929][955]MapCheck:Warning: Warning InstancedFoliageActor_0 InstancedStaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.InstancedFoliageActor_0.InstancedStaticMeshComponent_3 : Externally referenced 
+[2014.10.02-20.17.33:929][955]MapCheck:Warning: Warning InstancedFoliageActor_0 InstancedStaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.InstancedFoliageActor_0.InstancedStaticMeshComponent_2 : Externally referenced 
+[2014.10.02-20.17.33:929][955]MapCheck:Warning: Warning InstancedFoliageActor_0 InstancedStaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.InstancedFoliageActor_0.InstancedStaticMeshComponent_17 : Externally referenced 
+[2014.10.02-20.17.33:929][955]MapCheck:Warning: Warning InstancedFoliageActor_0 InstancedStaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.InstancedFoliageActor_0.InstancedStaticMeshComponent_16 : Externally referenced 
+[2014.10.02-20.17.33:929][955]MapCheck:Warning: Warning InstancedFoliageActor_0 InstancedStaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.InstancedFoliageActor_0.InstancedStaticMeshComponent_15 : Externally referenced 
+[2014.10.02-20.17.33:929][955]MapCheck:Warning: Warning InstancedFoliageActor_0 InstancedStaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.InstancedFoliageActor_0.InstancedStaticMeshComponent_14 : Externally referenced 
+[2014.10.02-20.17.33:929][955]MapCheck:Warning: Warning InstancedFoliageActor_0 InstancedStaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.InstancedFoliageActor_0.InstancedStaticMeshComponent_13 : Externally referenced 
+[2014.10.02-20.17.33:930][955]MapCheck:Warning: Warning InstancedFoliageActor_0 InstancedStaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.InstancedFoliageActor_0.InstancedStaticMeshComponent_12 : Externally referenced 
+[2014.10.02-20.17.33:930][955]MapCheck:Warning: Warning InstancedFoliageActor_0 InstancedStaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.InstancedFoliageActor_0.InstancedStaticMeshComponent_11 : Externally referenced 
+[2014.10.02-20.17.33:930][955]MapCheck:Warning: Warning InstancedFoliageActor_0 InstancedStaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.InstancedFoliageActor_0.InstancedStaticMeshComponent_10 : Externally referenced 
+[2014.10.02-20.17.33:930][955]MapCheck:Warning: Warning InstancedFoliageActor_0 InstancedStaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.InstancedFoliageActor_0.InstancedStaticMeshComponent_1 : Externally referenced 
+[2014.10.02-20.17.33:930][955]MapCheck:Warning: Warning InstancedFoliageActor_0 InstancedStaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.InstancedFoliageActor_0.InstancedStaticMeshComponent_0 : Externally referenced 
+[2014.10.02-20.17.33:930][955]MapCheck:Warning: Warning FoliageType_InstancedStaticMesh_0 FoliageType_InstancedStaticMesh /Game/LOTR001.LOTR001:PersistentLevel.InstancedFoliageActor_0.FoliageType_InstancedStaticMesh_0 : Externally referenced 
+[2014.10.02-20.17.33:930][955]MapCheck:Warning: Warning orthanc_model_new_4 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.orthanc_model_new_4.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:930][955]MapCheck:Warning: Warning deathWheelUVs_7 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.deathWheelUVs_7.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:930][955]MapCheck:Warning: Warning Polys_27 Polys /Game/LOTR001.LOTR001:PersistentLevel.CylinderBrush.Model_10.Polys_27 : Externally referenced 
+[2014.10.02-20.17.33:930][955]MapCheck:Warning: Warning Model_3 Model /Game/LOTR001.LOTR001:PersistentLevel.Model_3 : Externally referenced 
+[2014.10.02-20.17.33:930][955]MapCheck:Warning: Warning ModelComponent_170 ModelComponent /Game/LOTR001.LOTR001:PersistentLevel.ModelComponent_170 : Externally referenced 
+[2014.10.02-20.17.33:930][955]MapCheck:Warning: Warning Tower_4 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.Tower_4.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:930][955]MapCheck:Warning: Warning Landscape_2 Landscape /Game/LOTR001.LOTR001:PersistentLevel.Landscape_2 : Externally referenced 
+[2014.10.02-20.17.33:931][955]MapCheck:Warning: Warning orthanc_model_new_4 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.orthanc_model_new_4.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:931][955]MapCheck:Warning: Warning deathWheelUVs_7 StaticMeshComponent /Game/LOTR001.LOTR001:PersistentLevel.deathWheelUVs_7.StaticMeshComponent0 : Externally referenced 
+[2014.10.02-20.17.33:931][955]MapCheck: Info ========== Map Check: 0 Error(s), 78 Warning(s), [483.885ms] ==========
+[2014.10.02-20.17.33:959][955]LogFileHelpers: Loading map 'LOTR001' took 1.172
+[2014.10.02-20.17.34:184][956]Cmd: UpdateLandscapeEditorData -warnings
+[2014.10.02-20.17.34:186][956]Cmd: UpdateLandscapeEditorData
+[2014.10.02-20.18.36:812][601]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/ssharp/maya_files/deathWheelTexture.jpg)
+[2014.10.02-20.18.36:898][601]0.000033 seconds to analyze Texture2D /Game/Particles/deathWheelTexture.deathWheelTexture
+
+[2014.10.02-20.18.36:906][601]LogTexture:Display: Building textures: deathWheelTexture (AutoDXT)
+[2014.10.02-20.18.38:101][601]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.02-20.18.38:101][601]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2014.10.02-20.18.41:175][919]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.10.02-20.18.47:555][318]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2014.10.02-20.18.53:083][774]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.10.02-20.18.57:618][ 42]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.10.02-20.18.58:382][ 87]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.10.02-20.19.09:108][326]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/ssharp/maya_files/board001_Uvs.jpg)
+[2014.10.02-20.19.09:178][326]0.000035 seconds to analyze Texture2D /Game/Textures/board001_Uvs.board001_Uvs
+
+[2014.10.02-20.19.09:187][326]LogTexture:Display: Building textures: board001_Uvs (AutoDXT)
+[2014.10.02-20.19.10:330][326]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.02-20.19.10:330][326]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.10.02-20.19.14:676][780]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.10.02-20.19.31:036][257]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.10.02-20.19.46:340][473]LogSavePackage: Save=234.313492ms
+[2014.10.02-20.19.46:340][473]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Unreal Project/DeathScene/Saved/deathWheelUVs30EB704E473101108B80E781BA5E2272.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Unreal Project/DeathScene/Content/Props/SceneProps/deathWheelUVs.uasset'
+[2014.10.02-20.19.46:374][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/deathWheelUVs" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Unreal Project/DeathScene/Content/Props/deathWheelUVs.uasset" SILENT=true
+[2014.10.02-20.19.46:461][473]LogSavePackage: Save=9.808011ms
+[2014.10.02-20.19.46:461][473]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Unreal Project/DeathScene/Saved/deathWheelUVsBEECD53643CACD80885EB78A9562B2E6.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Unreal Project/DeathScene/Content/Props/deathWheelUVs.uasset'
+[2014.10.02-20.19.47:935][540]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-20.20.00:678][842]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/ssharp/maya_files/threeBoards.fbx)
+[2014.10.02-20.20.00:681][842]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2014.10.02-20.20.00:681][842]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2014.10.02-20.20.00:681][842]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2014.10.02-20.20.00:681][842]LogFbx: ItemName: NodeAttribute, ItemCount : 43
+[2014.10.02-20.20.00:681][842]LogFbx: ItemName: Model, ItemCount : 44
+[2014.10.02-20.20.00:681][842]LogFbx: ItemName: Geometry, ItemCount : 1
+[2014.10.02-20.20.00:681][842]LogFbx: ItemName: Material, ItemCount : 1
+[2014.10.02-20.20.00:681][842]LogFbx: ItemName: Texture, ItemCount : 1
+[2014.10.02-20.20.00:681][842]LogFbx: ItemName: Video, ItemCount : 1
+[2014.10.02-20.20.02:110][842]LogFbx: Loading FBX Scene from ../../../../../../Users/ssharp/maya_files/threeBoards.fbx
+[2014.10.02-20.20.02:123][842]LogFbx: FBX Scene Loaded Succesfully
+[2014.10.02-20.20.02:126][842]LogFbx:Warning: Triangulating static mesh polySurface1
+[2014.10.02-20.20.02:201][842]LogFbx: == Initial material list:
+[2014.10.02-20.20.02:201][842]LogFbx: 0: treeBoards:lambert2
+[2014.10.02-20.20.02:202][842]LogFbx: == After sorting:
+[2014.10.02-20.20.02:202][842]LogFbx: 0: treeBoards:lambert2
+[2014.10.02-20.20.02:202][842]LogFbx: == Mapping table:
+[2014.10.02-20.20.02:202][842]LogFbx:   sort 0 -> 0
+[2014.10.02-20.20.02:203][842]LogStaticMesh: Building static mesh threeBoards...
+[2014.10.02-20.20.02:211][842]LogStaticMesh: Built static mesh [8.286229ms] /Game/Props/SceneProps/threeBoards.threeBoards
+[2014.10.02-20.20.02:246][842]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.02-20.20.02:246][842]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-20.20.03:379][941]LogActorFactory: Actor Factory created threeBoards
+[2014.10.02-20.20.04:602][981]LogActorFactory: Actor Factory created threeBoards
+[2014.10.02-20.20.08:369][246]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.02-20.20.08:369][246]Aligned camera to fit all selected actors.
+[2014.10.02-20.20.14:142][774]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.02-20.20.14:142][774]Aligned camera to fit all selected actors.
+[2014.10.02-20.20.20:123][128]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.02-20.20.20:123][128]Aligned camera to fit all selected actors.
+[2014.10.02-20.23.48:386][551]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/ssharp/maya_files/fourBoards.fbx)
+[2014.10.02-20.23.48:388][551]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2014.10.02-20.23.48:388][551]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2014.10.02-20.23.48:388][551]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2014.10.02-20.23.48:388][551]LogFbx: ItemName: NodeAttribute, ItemCount : 51
+[2014.10.02-20.23.48:388][551]LogFbx: ItemName: Model, ItemCount : 52
+[2014.10.02-20.23.48:388][551]LogFbx: ItemName: Geometry, ItemCount : 1
+[2014.10.02-20.23.48:388][551]LogFbx: ItemName: Material, ItemCount : 1
+[2014.10.02-20.23.48:388][551]LogFbx: ItemName: Texture, ItemCount : 1
+[2014.10.02-20.23.48:388][551]LogFbx: ItemName: AnimationCurveNode, ItemCount : 4
+[2014.10.02-20.23.48:388][551]LogFbx: ItemName: AnimationCurve, ItemCount : 10
+[2014.10.02-20.23.48:388][551]LogFbx: ItemName: Video, ItemCount : 1
+[2014.10.02-20.23.49:644][551]LogFbx: Loading FBX Scene from ../../../../../../Users/ssharp/maya_files/fourBoards.fbx
+[2014.10.02-20.23.49:682][551]LogFbx: FBX Scene Loaded Succesfully
+[2014.10.02-20.23.49:685][551]LogFbx:Warning: Triangulating static mesh polySurface14
+[2014.10.02-20.23.49:785][551]LogFbx: == Initial material list:
+[2014.10.02-20.23.49:785][551]LogFbx: 0: lambert2
+[2014.10.02-20.23.49:785][551]LogFbx: == After sorting:
+[2014.10.02-20.23.49:785][551]LogFbx: 0: lambert2
+[2014.10.02-20.23.49:785][551]LogFbx: == Mapping table:
+[2014.10.02-20.23.49:785][551]LogFbx:   sort 0 -> 0
+[2014.10.02-20.23.49:787][551]LogStaticMesh: Building static mesh fourBoards...
+[2014.10.02-20.23.49:796][551]LogStaticMesh: Built static mesh [9.963713ms] /Game/Props/SceneProps/fourBoards.fourBoards
+[2014.10.02-20.23.49:842][551]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.02-20.23.49:842][551]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-20.23.51:335][668]LogActorFactory: Actor Factory created threeBoards
+[2014.10.02-20.23.52:921][722]LogActorFactory: Actor Factory created threeBoards
+[2014.10.02-20.23.53:677][764]LogActorFactory: Actor Factory created fourBoards
+[2014.10.02-20.23.55:003][809]LogActorFactory: Actor Factory created fourBoards
+[2014.10.02-20.23.55:629][872]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.02-20.23.55:629][872]Aligned camera to fit all selected actors.
+[2014.10.02-20.24.07:108][594]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (threeBoards_2)
+[2014.10.02-20.24.22:912][297]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fourBoards)
+[2014.10.02-20.24.33:438][454]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.02-20.24.33:439][454]Aligned camera to fit all selected actors.
+[2014.10.02-20.24.40:125][863]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.02-20.24.41:133][900]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.10.02-20.24.44:994][143]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/NewFolder'
+[2014.10.02-20.24.52:335][ 23]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats'
+[2014.10.02-20.24.54:523][285]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.10.02-20.24.59:897][647]LogSavePackage: Save=299.502258ms
+[2014.10.02-20.24.59:897][647]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Unreal Project/DeathScene/Saved/dW_Mat1F9F503C4B9DF0EF1AE7B2A01EA6FFC0.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Unreal Project/DeathScene/Content/Materials/propMats/dW_Mat.uasset'
+[2014.10.02-20.24.59:936][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/dW_Mat" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Unreal Project/DeathScene/Content/Materials/dW_Mat.uasset" SILENT=true
+[2014.10.02-20.25.00:017][647]LogSavePackage: Save=32.055302ms
+[2014.10.02-20.25.00:017][647]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Unreal Project/DeathScene/Saved/dW_Mat6D879EAF48968552E6F9AB8FF0557161.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Unreal Project/DeathScene/Content/Materials/dW_Mat.uasset'
+[2014.10.02-20.25.00:782][705]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats'
+[2014.10.02-20.25.04:463][ 94]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats'
+[2014.10.02-20.25.11:694][790]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-20.25.11:701][790]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.10.02-20.25.11:739][790]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.10.02-20.25.11:739][790]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.10.02-20.25.11:739][790]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.10.02-20.25.11:739][790]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.10.02-20.25.11:740][790]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-20.25.13:489][873]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.10.02-20.25.13:620][875]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.02-20.25.13:620][875]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.02-20.25.13:620][875]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.02-20.25.15:682][925]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-20.25.15:684][925]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.02-20.25.15:709][925]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.02-20.25.16:641][  0]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.02-20.25.16:641][  0]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.02-20.25.16:642][  0]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.02-20.25.17:683][ 95]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-20.25.17:707][ 95]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.02-20.25.18:678][172]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2014.10.02-20.25.18:678][172]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-20.25.18:678][172]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.02-20.25.21:040][416]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-20.25.21:701][469]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-20.25.22:704][549]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2014.10.02-20.25.22:704][549]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-20.25.22:704][549]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.02-20.25.27:001][989]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-20.25.28:034][ 75]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2014.10.02-20.25.28:034][ 75]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-20.25.28:034][ 75]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.02-20.25.28:969][174]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-20.25.30:076][268]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.10.02-20.25.30:076][268]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-20.25.30:076][268]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.02-20.25.33:663][628]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-20.25.34:777][723]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2014.10.02-20.25.34:777][723]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-20.25.34:777][723]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.02-20.25.37:630][ 12]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-20.25.38:762][107]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.10.02-20.25.38:762][107]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-20.25.38:762][107]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.02-20.25.44:099][677]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-20.25.45:048][755]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2014.10.02-20.25.45:048][755]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-20.25.45:048][755]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.02-20.25.46:034][851]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-20.25.46:898][920]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2014.10.02-20.25.46:898][920]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-20.25.46:898][920]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.02-20.25.51:975][443]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-20.25.52:899][519]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
+[2014.10.02-20.25.52:899][519]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-20.25.52:899][519]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.02-20.26.18:289][165]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-20.26.19:700][258]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
+[2014.10.02-20.26.19:701][258]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-20.26.19:701][258]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.02-20.26.43:470][709]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-20.26.43:472][709]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.02-20.26.43:498][709]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.02-20.26.43:499][709]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.02-20.26.44:834][796]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
+[2014.10.02-20.26.44:834][796]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-20.26.44:834][796]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.02-20.26.45:768][877]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-20.26.45:795][877]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.02-20.26.46:712][942]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 77 instructions
+[2014.10.02-20.26.46:712][942]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-20.26.46:712][942]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.02-20.26.55:642][752]LogMaterialEditor: Saving and Compiling material boards_Mat
+[2014.10.02-20.26.55:909][752]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-20.26.55:944][752]LogMaterial: Missing cached shader map for material boards_Mat, compiling.
+[2014.10.02-20.26.55:955][752]LogMaterial: Missing cached shader map for material boards_Mat, compiling.
+[2014.10.02-20.26.55:968][752]LogMaterial: 0.010060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.02-20.26.57:904][752]LogSavePackage: Save=260.969513ms
+[2014.10.02-20.26.57:904][752]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Unreal Project/DeathScene/Saved/boards_MatB1BD687F403D3C681C3250976B8C51EA.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Unreal Project/DeathScene/Content/Materials/propMats/boards_Mat.uasset'
+[2014.10.02-20.27.02:345][186]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats'
+[2014.10.02-20.27.02:553][197]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C5765C0
+[2014.10.02-20.27.02:571][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LOTR001" FILE="Game/LOTR001_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2014.10.02-20.27.14:371][197]LogSavePackage: Save=11639.130859ms
+[2014.10.02-20.27.14:371][197]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Unreal Project/DeathScene/Saved/LOTR001_Auto13C2DD09F496B743EF9A8F599E869FD37.tmp' to 'Game/LOTR001_Auto1.umap'
+[2014.10.02-20.27.14:429][197]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LOTR001' took 11.889
+[2014.10.02-20.27.14:429][197]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 11.889
+[2014.10.02-20.27.14:441][197]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/board001_Uvs] ([1] browsable assets)...
+[2014.10.02-20.27.14:463][197]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/board001_Uvs.board001_Uvs]
+[2014.10.02-20.27.14:463][197]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/board001_Uvs]
+[2014.10.02-20.27.14:465][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/board001_Uvs" FILE="Game/Textures/board001_Uvs_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.10.02-20.27.15:789][197]LogSavePackage: Save=1283.722168ms
+[2014.10.02-20.27.15:789][197]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Unreal Project/DeathScene/Saved/board001_Uvs_Auto1D89B7C7140B083C4F7E957AA92DA87E2.tmp' to 'Game/Textures/board001_Uvs_Auto1.uasset'
+[2014.10.02-20.27.15:857][197]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Props/SceneProps/threeBoards] ([1] browsable assets)...
+[2014.10.02-20.27.15:905][197]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Props/SceneProps/threeBoards.threeBoards]
+[2014.10.02-20.27.15:905][197]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/SceneProps/threeBoards]
+[2014.10.02-20.27.15:907][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/SceneProps/threeBoards" FILE="Game/Props/SceneProps/threeBoards_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.10.02-20.27.16:275][197]LogSavePackage: Save=334.712250ms
+[2014.10.02-20.27.16:275][197]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Unreal Project/DeathScene/Saved/threeBoards_Auto123B958EF442E0EF17EB7A1961634DEB2.tmp' to 'Game/Props/SceneProps/threeBoards_Auto1.uasset'
+[2014.10.02-20.27.16:308][197]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Props/SceneProps/fourBoards] ([1] browsable assets)...
+[2014.10.02-20.27.16:355][197]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Props/SceneProps/fourBoards.fourBoards]
+[2014.10.02-20.27.16:355][197]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/SceneProps/fourBoards]
+[2014.10.02-20.27.16:357][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/SceneProps/fourBoards" FILE="Game/Props/SceneProps/fourBoards_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.10.02-20.27.16:702][197]LogSavePackage: Save=311.697906ms
+[2014.10.02-20.27.16:702][197]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Unreal Project/DeathScene/Saved/fourBoards_Auto10AC2CFDC4AD1A52159701CA3F517B3D5.tmp' to 'Game/Props/SceneProps/fourBoards_Auto1.uasset'
+[2014.10.02-20.27.16:729][197]LogFileHelpers: Auto-saving content packages took 2.300
+[2014.10.02-20.27.46:124][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (threeBoards)
+[2014.10.02-20.27.50:502][ 84]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (threeBoards_2)
+[2014.10.02-20.28.13:008][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (orthanc_model_new)
+[2014.10.02-20.28.15:191][877]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.10.02-20.28.17:391][945]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats'
+[2014.10.02-20.28.21:029][300]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats'
+[2014.10.02-20.28.29:142][819]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.02-20.28.29:148][819]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.10.02-20.28.29:175][819]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.10.02-20.28.29:175][819]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.10.02-20.28.29:175][819]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.10.02-20.28.29:175][819]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.10.02-20.28.29:176][819]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.02-20.28.30:702][903]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.02-20.28.30:703][903]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.02-20.28.30:703][903]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.02-20.28.31:209][928]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.10.02-20.28.32:799][977]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.10.02-20.28.56:459][405]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.02-20.28.56:461][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.10.02-20.28.56:486][405]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.10.02-20.28.57:848][502]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.02-20.28.57:849][502]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.02-20.28.57:849][502]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.02-20.29.00:100][717]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.02-20.29.00:129][717]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.10.02-20.29.01:090][799]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 70 instructions
+[2014.10.02-20.29.01:090][799]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-20.29.01:090][799]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.02-20.29.02:593][952]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.02-20.29.02:596][952]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.10.02-20.29.03:545][ 26]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 70 instructions
+[2014.10.02-20.29.03:545][ 26]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-20.29.03:545][ 26]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.02-20.29.06:428][311]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.02-20.29.06:457][311]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.10.02-20.29.07:249][375]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 70 instructions
+[2014.10.02-20.29.07:249][375]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-20.29.07:249][375]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.02-20.29.11:388][795]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.02-20.29.12:284][866]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 70 instructions
+[2014.10.02-20.29.12:284][866]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-20.29.12:284][866]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.02-20.29.13:102][943]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.02-20.29.13:977][ 10]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 70 instructions
+[2014.10.02-20.29.13:977][ 10]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-20.29.13:977][ 10]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.02-20.29.18:197][450]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.02-20.29.19:045][517]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 70 instructions
+[2014.10.02-20.29.19:045][517]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-20.29.19:045][517]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.02-20.29.21:451][754]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.02-20.29.22:443][833]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 69 instructions
+[2014.10.02-20.29.22:443][833]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-20.29.22:443][833]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.02-20.29.30:071][588]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.02-20.29.31:124][675]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 70 instructions
+[2014.10.02-20.29.31:124][675]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-20.29.31:124][675]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.02-20.29.31:912][751]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.02-20.29.32:698][814]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 70 instructions
+[2014.10.02-20.29.32:698][814]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-20.29.32:698][814]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.02-20.29.35:348][ 72]LogMaterialEditor: Saving and Compiling material Tower
+[2014.10.02-20.29.35:625][ 72]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.02-20.29.35:661][ 72]LogMaterial: Missing cached shader map for material Tower, compiling.
+[2014.10.02-20.29.35:671][ 72]LogMaterial: Missing cached shader map for material Tower, compiling.
+[2014.10.02-20.29.35:682][ 72]LogMaterial: 0.008158 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.02-20.29.37:496][ 72]LogSavePackage: Save=186.518143ms
+[2014.10.02-20.29.37:496][ 72]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Unreal Project/DeathScene/Saved/Tower480DA45B42C14AF51C6EE7BD9A2D4798.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Unreal Project/DeathScene/Content/Materials/propMats/Tower.uasset'
+[2014.10.02-20.29.41:023][398]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats'
+[2014.10.02-20.30.05:706][720]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.02-20.30.15:694][610]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BB83BA0
+[2014.10.02-20.30.29:559][610]LogSavePackage: Save=13829.182617ms
+[2014.10.02-20.30.29:559][610]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Unreal Project/DeathScene/Saved/LOTR001EEB41A734163C532C11454B34C516CCD.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Unreal Project/DeathScene/Content/LOTR001.umap'
+[2014.10.02-20.30.43:674][244]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.10.02-20.30.46:067][354]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-20.30.48:192][462]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.10.02-20.30.50:092][563]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/Materials'
+[2014.10.02-20.30.52:091][689]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.10.02-20.30.53:393][761]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-20.31.36:270][ 79]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 //chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Models/Gandalf/1.FBX)
+[2014.10.02-20.31.36:321][ 79]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2014.10.02-20.31.36:321][ 79]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2014.10.02-20.31.36:321][ 79]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2014.10.02-20.31.36:321][ 79]LogFbx: ItemName: Model, ItemCount : 51
+[2014.10.02-20.31.36:321][ 79]LogFbx: ItemName: NodeAttribute, ItemCount : 91
+[2014.10.02-20.31.36:321][ 79]LogFbx: ItemName: Geometry, ItemCount : 1
+[2014.10.02-20.31.36:321][ 79]LogFbx: ItemName: Material, ItemCount : 12
+[2014.10.02-20.31.36:321][ 79]LogFbx: ItemName: Texture, ItemCount : 12
+[2014.10.02-20.31.36:321][ 79]LogFbx: ItemName: AnimationCurve, ItemCount : 306
+[2014.10.02-20.31.36:321][ 79]LogFbx: ItemName: AnimationCurveNode, ItemCount : 102
+[2014.10.02-20.31.36:321][ 79]LogFbx: ItemName: Deformer, ItemCount : 42
+[2014.10.02-20.31.36:321][ 79]LogFbx: ItemName: Pose, ItemCount : 1
+[2014.10.02-20.31.36:322][ 79]LogFbx: ItemName: Video, ItemCount : 12
+[2014.10.02-20.31.38:029][ 79]LogFbx: Loading FBX Scene from //chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Models/Gandalf/1.FBX
+[2014.10.02-20.31.38:126][ 79]LogFbx: FBX Scene Loaded Succesfully
+[2014.10.02-20.31.38:137][ 79]LogFbx: =================================================
+[2014.10.02-20.31.38:137][ 79]LogFbx: Dumping Node START [smdimport] : Total Deformer Count 1.
+[2014.10.02-20.31.38:137][ 79]LogFbx: 	[Node 1]  (Type Skin).
+[2014.10.02-20.31.38:137][ 79]LogFbx: =================================================
+[2014.10.02-20.31.38:137][ 79]LogFbx: Dumping Node END [smdimport]
+[2014.10.02-20.31.38:138][ 79]LogFbx: =================================================
+[2014.10.02-20.31.38:138][ 79]LogFbx: Dumping Node START [smdimport] : Total Deformer Count 1.
+[2014.10.02-20.31.38:138][ 79]LogFbx: 	[Node 1]  (Type Skin).
+[2014.10.02-20.31.38:138][ 79]LogFbx: =================================================
+[2014.10.02-20.31.38:138][ 79]LogFbx: Dumping Node END [smdimport]
+[2014.10.02-20.31.38:166][ 79]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node smdimport : Not all the deformers are stored in this BindPose
+[2014.10.02-20.31.38:166][ 79]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2014.10.02-20.31.38:170][ 79]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - smdimport
+[2014.10.02-20.31.38:170][ 79]LogFbx:Warning: Recreating bind pose succeeded.
+[2014.10.02-20.31.38:186][ 79]LogFbx:Warning: Bones digested - 50  Depth of hierarchy - 12
+[2014.10.02-20.31.38:255][ 79]LogSkeletalMesh: Chunk 0: 145 rigid vertices, 0 soft vertices, 1 active bones
+[2014.10.02-20.31.38:255][ 79]LogSkeletalMesh: Chunk 1: 165 rigid vertices, 266 soft vertices, 2 active bones
+[2014.10.02-20.31.38:255][ 79]LogSkeletalMesh: Chunk 2: 0 rigid vertices, 166 soft vertices, 6 active bones
+[2014.10.02-20.31.38:255][ 79]LogSkeletalMesh: Chunk 3: 294 rigid vertices, 1155 soft vertices, 18 active bones
+[2014.10.02-20.31.38:255][ 79]LogSkeletalMesh: Chunk 4: 233 rigid vertices, 0 soft vertices, 1 active bones
+[2014.10.02-20.31.38:255][ 79]LogSkeletalMesh: Chunk 5: 0 rigid vertices, 48 soft vertices, 2 active bones
+[2014.10.02-20.31.38:255][ 79]LogSkeletalMesh: Chunk 6: 2 rigid vertices, 431 soft vertices, 6 active bones
+[2014.10.02-20.31.38:255][ 79]LogSkeletalMesh: Chunk 7: 37 rigid vertices, 60 soft vertices, 2 active bones
+[2014.10.02-20.31.38:255][ 79]LogSkeletalMesh: Chunk 8: 42 rigid vertices, 0 soft vertices, 1 active bones
+[2014.10.02-20.31.38:255][ 79]LogSkeletalMesh: Chunk 9: 1050 rigid vertices, 40 soft vertices, 2 active bones
+[2014.10.02-20.31.38:255][ 79]LogSkeletalMesh: Chunk 10: 187 rigid vertices, 329 soft vertices, 2 active bones
+[2014.10.02-20.31.38:255][ 79]LogSkeletalMesh: Chunk 11: 489 rigid vertices, 1213 soft vertices, 32 active bones
+[2014.10.02-20.31.38:266][ 79]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 159 triangles
+[2014.10.02-20.31.38:266][ 79]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 606 triangles
+[2014.10.02-20.31.38:266][ 79]LogSkeletalMesh: Section 2: Material=2, Chunk=2, 216 triangles
+[2014.10.02-20.31.38:266][ 79]LogSkeletalMesh: Section 3: Material=3, Chunk=3, 2335 triangles
+[2014.10.02-20.31.38:266][ 79]LogSkeletalMesh: Section 4: Material=4, Chunk=4, 245 triangles
+[2014.10.02-20.31.38:266][ 79]LogSkeletalMesh: Section 5: Material=5, Chunk=5, 60 triangles
+[2014.10.02-20.31.38:266][ 79]LogSkeletalMesh: Section 6: Material=6, Chunk=6, 750 triangles
+[2014.10.02-20.31.38:266][ 79]LogSkeletalMesh: Section 7: Material=7, Chunk=7, 147 triangles
+[2014.10.02-20.31.38:266][ 79]LogSkeletalMesh: Section 8: Material=8, Chunk=8, 54 triangles
+[2014.10.02-20.31.38:266][ 79]LogSkeletalMesh: Section 9: Material=9, Chunk=9, 2100 triangles
+[2014.10.02-20.31.38:266][ 79]LogSkeletalMesh: Section 10: Material=10, Chunk=10, 726 triangles
+[2014.10.02-20.31.38:266][ 79]LogSkeletalMesh: Section 11: Material=11, Chunk=11, 2694 triangles
+[2014.10.02-20.31.38:274][ 79]LogLinker:Warning: Can't find file '/Game/Props/SceneProps/1_PhysicsAsset'
+[2014.10.02-20.31.38:274][ 79]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Props/SceneProps/1_PhysicsAsset.1_PhysicsAsset'
+[2014.10.02-20.31.38:293][ 79]LogLinker:Warning: Can't find file '/Game/Props/SceneProps/1_Skeleton'
+[2014.10.02-20.31.38:293][ 79]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Props/SceneProps/1_Skeleton.1_Skeleton'
+[2014.10.02-20.31.38:316][ 79]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2014.10.02-20.31.38:316][ 79]FBXImport:Warning: Warning Warning: The following bones are missing from the bind pose.  This can happen for bones that are not vert weighted.  If they are not in the correct orientation after importing, please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh 
+
+ValveBiped.forward  
+ValveBiped.Bip01_L_Wrist  
+ValveBiped.Bip01_R_Wrist  
+ValveBiped.weapon_bone  
+ValveBiped.weapon_bone_RHand  
+ValveBiped.weapon_bone_LHand  
+ValveBiped.weapon_bone_Clip  
+ 
+[2014.10.02-20.31.44:721][ 79]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 //chips.eng.utah.edu/home/ssharp/.win_desktop/GitFiles/treebeard/Models/Gandalf/1.png)
+[2014.10.02-20.31.48:882][ 79]0.000015 seconds to analyze Texture2D /Game/Props/SceneProps/1.1
+
+[2014.10.02-20.31.48:886][ 79]LogTexture:Display: Building textures: 1 (AutoDXT)
+[2014.10.02-20.31.49:003][ 79]LogCrashTracker: 
+
+
+[2014.10.02-20.31.52:670][ 79]LogCrashTracker: 
+
+
+[2014.10.02-20.31.52:670][ 79]LogWindows: === Critical error: ===
+Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffff
+
+[2014.10.02-20.31.52:670][ 79]LogWindows: Fatal error!
+
+Address = 0xd9c22d87 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-ContentBrowser.dll]
+Address = 0xd9d7a215 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-ContentBrowser.dll]
+Address = 0xd9fc61b1 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-AssetTools.dll]
+Address = 0xd9fc4821 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-AssetTools.dll]
+Address = 0xd9d0a22e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-ContentBrowser.dll]
+Address = 0xd9ccd75c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-ContentBrowser.dll]
+Address = 0xe5d0569a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe5d3f169 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe5b61ddf (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe5b51989 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe6303445 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe62ef7e1 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe630458e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe62ec652 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x76df9bd1 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0x76df98da (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xe6304a36 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Tick() 0x3fd169bd + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launchengineloop.cpp:2080] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fd0c47c + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launch.cpp:133] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fd0c4ea + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fd181d9 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:201] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fd19009 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76ef59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x7702c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x7702c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.10.02-20.31.52:718][ 79]LogExit: Executing StaticShutdownAfterError
+[2014.10.02-20.31.52:724][ 79]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.10.02-20.31.52:725][ 79]Log file closed, 10/02/14 14:31:52
