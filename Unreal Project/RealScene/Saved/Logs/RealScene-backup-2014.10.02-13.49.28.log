@@ -1,0 +1,334 @@
+Log file open, 09/30/14 16:45:27
+LogInit:Display: Running engine for game: RealScene
+LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.09.30-22.45.27:120][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.09.30-22.45.27:152][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.09.30-22.45.27:164][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.09.30-22.45.27:172][  0]LogInit: Object subsystem initialized
+[2014.09.30-22.45.27:174][  0]LogInit: Selected Device Profile: [Windows]
+[2014.09.30-22.45.27:174][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.09.30-22.45.27:182][  0]LogInit: Computer: TCPC-06
+[2014.09.30-22.45.27:182][  0]LogInit: User: u0483206
+[2014.09.30-22.45.27:183][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.09.30-22.45.27:183][  0]LogInit: High frequency timer resolution =3.906347 MHz
+[2014.09.30-22.45.27:183][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
+[2014.09.30-22.45.27:184][  0]LogMemory: Platform Memory Stats for Windows
+[2014.09.30-22.45.27:184][  0]LogMemory: Process Physical Memory: 62.43 MB used, 62.43 MB peak
+[2014.09.30-22.45.27:184][  0]LogMemory: Process Virtual Memory: 38.22 MB used, 38.22 MB peak
+[2014.09.30-22.45.27:184][  0]LogMemory: Physical Memory: 2692.11 MB used, 8173.54 MB total
+[2014.09.30-22.45.27:184][  0]LogMemory: Virtual Memory: 261.05 MB used, 8388608.00 MB total
+[2014.09.30-22.45.27:222][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 630 (Feature Level 11_0)
+[2014.09.30-22.45.27:222][  0]LogD3D11RHI: Adapter has 978MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
+[2014.09.30-22.45.27:222][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.09.30-22.45.27:228][  0]LogRHI: Texture pool is 684 MB (70% of 978 MB)
+[2014.09.30-22.45.27:241][  0]LogD3D11RHI: Async texture creation enabled
+[2014.09.30-22.45.27:379][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.09.30-22.45.28:957][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.30-22.45.29:418][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.30-22.45.29:472][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.09.30-22.45.29:537][  0]LogDerivedDataCache: Loaded boot cache 0.06s 39MB C:/Users/u0483206/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.30-22.45.29:537][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/u0483206/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.09.30-22.45.29:537][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/u0483206/Documents/GitHub/treebeard/Unreal Project/RealScene/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.09.30-22.45.29:537][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.09.30-22.45.29:553][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.09.30-22.45.29:565][  0]LogDerivedDataCache: Using Local data cache path C:/Users/u0483206/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.09.30-22.45.29:773][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.09.30-22.45.29:773][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.09.30-22.45.30:217][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.09.30-22.45.31:093][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_21d8_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1d40_0///////STATCAT_Advanced////
+[2014.09.30-22.45.31:093][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.09.30-22.45.31:224][  0]SourceControl: Info Source control is disabled
+[2014.09.30-22.45.31:224][  0]SourceControl: Info Source control is disabled
+[2014.09.30-22.45.31:234][  0]SourceControl: Info Source control is disabled
+[2014.09.30-22.45.31:458][  0]BlueprintLog: New page: Editor Load
+[2014.09.30-22.45.31:604][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.09.30-22.45.31:604][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.09.30-22.45.31:777][  0]LogEngine: Initializing Engine...
+[2014.09.30-22.45.31:893][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (4- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.09.30-22.45.31:941][  0]LogInit: FAudioDevice initialized.
+[2014.09.30-22.45.31:965][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.09.30-22.45.32:225][  0]LogDerivedDataCache: Saved boot cache 0.26s 39MB C:/Users/u0483206/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.30-22.45.32:236][  0]LogInit: Texture streaming: Enabled
+[2014.09.30-22.45.32:280][  0]LogInit: Transaction tracking system initialized
+[2014.09.30-22.45.32:441][  0]LogAssetRegistry: FAssetRegistry took 0.0094 seconds to start up
+[2014.09.30-22.45.33:012][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.30-22.45.33:366][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.30-22.45.33:571][  0]LogConsoleResponse:Display: 
+[2014.09.30-22.45.33:784][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_b34_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1d40_0///////STATCAT_Advanced////
+[2014.09.30-22.45.33:784][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_2638_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1d40_0///////STATCAT_Advanced////
+[2014.09.30-22.45.33:784][  0]SourceControl: Info Source control is disabled
+[2014.09.30-22.45.33:784][  0]Cmd: MAP LOAD FILE="../../../../../../Users/u0483206/Documents/GitHub/treebeard/Unreal Project/RealScene/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.09.30-22.45.33:785][  0]LightingResults: New page: Lighting Build
+[2014.09.30-22.45.33:796][  0]MapCheck: New page: Map Check
+[2014.09.30-22.45.33:796][  0]LightingResults: New page: Lighting Build
+[2014.09.30-22.45.33:809][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010C4D300
+[2014.09.30-22.45.34:057][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.30-22.45.34:057][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.09.30-22.45.34:057][  0]Cmd: MAP CHECKDEP
+[2014.09.30-22.45.34:057][  0]MapCheck: New page: Minimal_Default - Sep 30, 2014, 10:45:34 AM
+[2014.09.30-22.45.34:185][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [127.339ms] ==========
+[2014.09.30-22.45.34:185][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.401
+[2014.09.30-22.45.34:304][  0]LogCollectionManager: Loaded 0 collections in 0.001031 seconds
+[2014.09.30-22.45.34:392][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.09.30-22.45.34:451][  0]LogLoad: Full Startup: 9.29 seconds (BP compile: 0.06 seconds)
+[2014.09.30-22.45.34:694][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x896.
+[2014.09.30-22.45.35:131][  2]LogAssetRegistry: Asset discovery search completed in 2.6995 seconds
+[2014.09.30-22.45.43:286][121]Cmd: MAP LOAD FILE="../../../../../../Users/u0483206/Documents/GitHub/treebeard/Unreal Project/RealScene/Content/Maps/deathScene002.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.09.30-22.45.43:287][121]LightingResults: New page: Lighting Build
+[2014.09.30-22.45.43:303][121]LoadErrors: New page: Loading map: deathScene002.umap
+[2014.09.30-22.45.43:306][121]MapCheck: New page: Map Check
+[2014.09.30-22.45.43:306][121]LightingResults: New page: Lighting Build
+[2014.09.30-22.45.43:330][121]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D0CDC60
+[2014.09.30-22.45.43:360][121]LogLinker:Warning: Can't find file '/Game/Materials/orthanc_model_newer'
+[2014.09.30-22.45.43:360][121]LogLinker:Warning: Can't find file for asset '/Game/Materials/orthanc_model_newer' while loading ../../../../../../Users/u0483206/Documents/GitHub/treebeard/Unreal Project/RealScene/Content/Maps/deathScene002.umap.
+[2014.09.30-22.45.43:360][121]LoadErrors:Error: Error /Game/Maps/deathScene002 : Can't find file for asset. /Game/Materials/orthanc_model_newer
+[2014.09.30-22.45.43:362][121]LogLinker:Warning: Can't find file '/Game/Materials/orthanc_model_newer'
+[2014.09.30-22.45.43:362][121]LogLinker:Warning: Can't find file for asset '/Game/Materials/orthanc_model_newer' while loading ../../../../../../Users/u0483206/Documents/GitHub/treebeard/Unreal Project/RealScene/Content/Maps/deathScene002.umap.
+[2014.09.30-22.45.43:409][121]LogLinker:Warning: Can't find file '/Game/Materials/orthanc_model_newer'
+[2014.09.30-22.45.43:409][121]LoadErrors: Info Failed to load /Game/Materials/orthanc_model_newer.orthanc_model_newer Referenced by orthanc_model_newer_4 Property /Script/Engine.StaticMeshComponent:StaticMesh
+[2014.09.30-22.45.43:409][121]LogLinker:Warning: Can't find file for asset '/Game/Materials/orthanc_model_newer' while loading NULL.
+[2014.09.30-22.45.43:462][121]LogTexture:Display: Building textures: Texture2D_67 (BGRA8)
+[2014.09.30-22.45.43:558][121]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.09.30-22.45.44:708][121]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2014.09.30-22.45.44:736][121]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2014.09.30-22.45.44:760][121]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2014.09.30-22.45.44:787][121]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2014.09.30-22.45.44:805][121]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2014.09.30-22.45.44:824][121]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2014.09.30-22.45.44:842][121]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2014.09.30-22.45.44:860][121]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2014.09.30-22.45.44:878][121]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2014.09.30-22.45.44:899][121]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
+[2014.09.30-22.45.44:917][121]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.09.30-22.45.44:935][121]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2014.09.30-22.45.44:952][121]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2014.09.30-22.45.44:976][121]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2014.09.30-22.45.44:994][121]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT)
+[2014.09.30-22.45.45:013][121]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT)
+[2014.09.30-22.45.45:030][121]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT)
+[2014.09.30-22.45.45:048][121]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT)
+[2014.09.30-22.45.45:065][121]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT)
+[2014.09.30-22.45.45:085][121]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT)
+[2014.09.30-22.45.45:105][121]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT)
+[2014.09.30-22.45.45:124][121]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2014.09.30-22.45.45:142][121]LogTexture:Display: Building textures: HQ_Lightmap0_30 (AutoDXT)
+[2014.09.30-22.45.45:153][121]LogTexture:Display: Building textures: HQ_Lightmap0_31 (AutoDXT)
+[2014.09.30-22.45.45:162][121]LogTexture:Display: Building textures: HQ_Lightmap0_32 (AutoDXT)
+[2014.09.30-22.45.45:180][121]LogTexture:Display: Building textures: HQ_Lightmap0_33 (AutoDXT)
+[2014.09.30-22.45.45:198][121]LogTexture:Display: Building textures: HQ_Lightmap0_34 (AutoDXT)
+[2014.09.30-22.45.45:215][121]LogTexture:Display: Building textures: HQ_Lightmap0_35 (AutoDXT)
+[2014.09.30-22.45.45:233][121]LogTexture:Display: Building textures: HQ_Lightmap0_36 (AutoDXT)
+[2014.09.30-22.45.45:251][121]LogTexture:Display: Building textures: HQ_Lightmap0_37 (AutoDXT)
+[2014.09.30-22.45.45:270][121]LogTexture:Display: Building textures: HQ_Lightmap0_38 (AutoDXT)
+[2014.09.30-22.45.45:273][121]LogTexture:Display: Building textures: HQ_Lightmap0_39 (AutoDXT)
+[2014.09.30-22.45.45:279][121]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2014.09.30-22.45.45:302][121]LogTexture:Display: Building textures: HQ_Lightmap0_40 (AutoDXT)
+[2014.09.30-22.45.45:319][121]LogTexture:Display: Building textures: HQ_Lightmap0_41 (AutoDXT)
+[2014.09.30-22.45.45:336][121]LogTexture:Display: Building textures: HQ_Lightmap0_42 (AutoDXT)
+[2014.09.30-22.45.45:355][121]LogTexture:Display: Building textures: HQ_Lightmap0_43 (AutoDXT)
+[2014.09.30-22.45.45:373][121]LogTexture:Display: Building textures: HQ_Lightmap0_44 (AutoDXT)
+[2014.09.30-22.45.45:390][121]LogTexture:Display: Building textures: HQ_Lightmap0_45 (AutoDXT)
+[2014.09.30-22.45.45:408][121]LogTexture:Display: Building textures: HQ_Lightmap0_46 (AutoDXT)
+[2014.09.30-22.45.45:419][121]LogTexture:Display: Building textures: HQ_Lightmap0_47 (AutoDXT)
+[2014.09.30-22.45.45:429][121]LogTexture:Display: Building textures: HQ_Lightmap0_48 (AutoDXT)
+[2014.09.30-22.45.45:447][121]LogTexture:Display: Building textures: HQ_Lightmap0_49 (AutoDXT)
+[2014.09.30-22.45.45:465][121]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2014.09.30-22.45.45:483][121]LogTexture:Display: Building textures: HQ_Lightmap0_50 (AutoDXT)
+[2014.09.30-22.45.45:501][121]LogTexture:Display: Building textures: HQ_Lightmap0_51 (AutoDXT)
+[2014.09.30-22.45.45:519][121]LogTexture:Display: Building textures: HQ_Lightmap0_52 (AutoDXT)
+[2014.09.30-22.45.45:537][121]LogTexture:Display: Building textures: HQ_Lightmap0_53 (AutoDXT)
+[2014.09.30-22.45.45:554][121]LogTexture:Display: Building textures: HQ_Lightmap0_54 (AutoDXT)
+[2014.09.30-22.45.45:572][121]LogTexture:Display: Building textures: HQ_Lightmap0_55 (AutoDXT)
+[2014.09.30-22.45.45:596][121]LogTexture:Display: Building textures: HQ_Lightmap0_56 (AutoDXT)
+[2014.09.30-22.45.45:613][121]LogTexture:Display: Building textures: HQ_Lightmap0_57 (AutoDXT)
+[2014.09.30-22.45.45:631][121]LogTexture:Display: Building textures: HQ_Lightmap0_58 (AutoDXT)
+[2014.09.30-22.45.45:648][121]LogTexture:Display: Building textures: HQ_Lightmap0_59 (AutoDXT)
+[2014.09.30-22.45.45:666][121]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2014.09.30-22.45.45:683][121]LogTexture:Display: Building textures: HQ_Lightmap0_60 (AutoDXT)
+[2014.09.30-22.45.45:702][121]LogTexture:Display: Building textures: HQ_Lightmap0_61 (AutoDXT)
+[2014.09.30-22.45.45:720][121]LogTexture:Display: Building textures: HQ_Lightmap0_62 (AutoDXT)
+[2014.09.30-22.45.45:738][121]LogTexture:Display: Building textures: HQ_Lightmap0_63 (AutoDXT)
+[2014.09.30-22.45.45:755][121]LogTexture:Display: Building textures: HQ_Lightmap0_64 (AutoDXT)
+[2014.09.30-22.45.45:773][121]LogTexture:Display: Building textures: HQ_Lightmap0_65 (AutoDXT)
+[2014.09.30-22.45.45:790][121]LogTexture:Display: Building textures: HQ_Lightmap0_66 (AutoDXT)
+[2014.09.30-22.45.45:798][121]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2014.09.30-22.45.45:816][121]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2014.09.30-22.45.45:834][121]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2014.09.30-22.45.45:915][121]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.09.30-22.45.46:470][121]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2014.09.30-22.45.46:499][121]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2014.09.30-22.45.46:521][121]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2014.09.30-22.45.46:540][121]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2014.09.30-22.45.46:558][121]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2014.09.30-22.45.46:575][121]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2014.09.30-22.45.46:594][121]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2014.09.30-22.45.46:611][121]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2014.09.30-22.45.46:629][121]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2014.09.30-22.45.46:645][121]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
+[2014.09.30-22.45.46:663][121]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.09.30-22.45.46:680][121]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2014.09.30-22.45.46:699][121]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2014.09.30-22.45.46:715][121]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2014.09.30-22.45.46:729][121]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1)
+[2014.09.30-22.45.46:742][121]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1)
+[2014.09.30-22.45.46:759][121]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1)
+[2014.09.30-22.45.46:781][121]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1)
+[2014.09.30-22.45.46:797][121]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1)
+[2014.09.30-22.45.46:813][121]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1)
+[2014.09.30-22.45.46:837][121]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1)
+[2014.09.30-22.45.46:853][121]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2014.09.30-22.45.46:875][121]LogTexture:Display: Building textures: LQ_Lightmap_0_30 (DXT1)
+[2014.09.30-22.45.46:885][121]LogTexture:Display: Building textures: LQ_Lightmap_0_31 (DXT1)
+[2014.09.30-22.45.46:895][121]LogTexture:Display: Building textures: LQ_Lightmap_0_32 (DXT1)
+[2014.09.30-22.45.46:917][121]LogTexture:Display: Building textures: LQ_Lightmap_0_33 (DXT1)
+[2014.09.30-22.45.46:939][121]LogTexture:Display: Building textures: LQ_Lightmap_0_34 (DXT1)
+[2014.09.30-22.45.46:961][121]LogTexture:Display: Building textures: LQ_Lightmap_0_35 (DXT1)
+[2014.09.30-22.45.46:984][121]LogTexture:Display: Building textures: LQ_Lightmap_0_36 (DXT1)
+[2014.09.30-22.45.47:006][121]LogTexture:Display: Building textures: LQ_Lightmap_0_37 (DXT1)
+[2014.09.30-22.45.47:022][121]LogTexture:Display: Building textures: LQ_Lightmap_0_38 (DXT1)
+[2014.09.30-22.45.47:024][121]LogTexture:Display: Building textures: LQ_Lightmap_0_39 (DXT1)
+[2014.09.30-22.45.47:027][121]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2014.09.30-22.45.47:046][121]LogTexture:Display: Building textures: LQ_Lightmap_0_40 (DXT1)
+[2014.09.30-22.45.47:059][121]LogTexture:Display: Building textures: LQ_Lightmap_0_41 (DXT1)
+[2014.09.30-22.45.47:076][121]LogTexture:Display: Building textures: LQ_Lightmap_0_42 (DXT1)
+[2014.09.30-22.45.47:094][121]LogTexture:Display: Building textures: LQ_Lightmap_0_43 (DXT1)
+[2014.09.30-22.45.47:110][121]LogTexture:Display: Building textures: LQ_Lightmap_0_44 (DXT1)
+[2014.09.30-22.45.47:127][121]LogTexture:Display: Building textures: LQ_Lightmap_0_45 (DXT1)
+[2014.09.30-22.45.47:139][121]LogTexture:Display: Building textures: LQ_Lightmap_0_46 (DXT1)
+[2014.09.30-22.45.47:148][121]LogTexture:Display: Building textures: LQ_Lightmap_0_47 (DXT1)
+[2014.09.30-22.45.47:156][121]LogTexture:Display: Building textures: LQ_Lightmap_0_48 (DXT1)
+[2014.09.30-22.45.47:169][121]LogTexture:Display: Building textures: LQ_Lightmap_0_49 (DXT1)
+[2014.09.30-22.45.47:186][121]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2014.09.30-22.45.47:203][121]LogTexture:Display: Building textures: LQ_Lightmap_0_50 (DXT1)
+[2014.09.30-22.45.47:225][121]LogTexture:Display: Building textures: LQ_Lightmap_0_51 (DXT1)
+[2014.09.30-22.45.47:248][121]LogTexture:Display: Building textures: LQ_Lightmap_0_52 (DXT1)
+[2014.09.30-22.45.47:270][121]LogTexture:Display: Building textures: LQ_Lightmap_0_53 (DXT1)
+[2014.09.30-22.45.47:293][121]LogTexture:Display: Building textures: LQ_Lightmap_0_54 (DXT1)
+[2014.09.30-22.45.47:309][121]LogTexture:Display: Building textures: LQ_Lightmap_0_55 (DXT1)
+[2014.09.30-22.45.47:325][121]LogTexture:Display: Building textures: LQ_Lightmap_0_56 (DXT1)
+[2014.09.30-22.45.47:342][121]LogTexture:Display: Building textures: LQ_Lightmap_0_57 (DXT1)
+[2014.09.30-22.45.47:360][121]LogTexture:Display: Building textures: LQ_Lightmap_0_58 (DXT1)
+[2014.09.30-22.45.47:377][121]LogTexture:Display: Building textures: LQ_Lightmap_0_59 (DXT1)
+[2014.09.30-22.45.47:394][121]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2014.09.30-22.45.47:412][121]LogTexture:Display: Building textures: LQ_Lightmap_0_60 (DXT1)
+[2014.09.30-22.45.47:429][121]LogTexture:Display: Building textures: LQ_Lightmap_0_61 (DXT1)
+[2014.09.30-22.45.47:445][121]LogTexture:Display: Building textures: LQ_Lightmap_0_62 (DXT1)
+[2014.09.30-22.45.47:460][121]LogTexture:Display: Building textures: LQ_Lightmap_0_63 (DXT1)
+[2014.09.30-22.45.47:477][121]LogTexture:Display: Building textures: LQ_Lightmap_0_64 (DXT1)
+[2014.09.30-22.45.47:494][121]LogTexture:Display: Building textures: LQ_Lightmap_0_65 (DXT1)
+[2014.09.30-22.45.47:507][121]LogTexture:Display: Building textures: LQ_Lightmap_0_66 (DXT1)
+[2014.09.30-22.45.47:518][121]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2014.09.30-22.45.47:534][121]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2014.09.30-22.45.47:552][121]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2014.09.30-22.45.47:598][121]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2014.09.30-22.45.48:254][121]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT)
+[2014.09.30-22.45.48:269][121]LogTexture:Display: Building textures: SkyOcclusion0_11 (AutoDXT)
+[2014.09.30-22.45.48:282][121]LogTexture:Display: Building textures: SkyOcclusion0_12 (AutoDXT)
+[2014.09.30-22.45.48:298][121]LogTexture:Display: Building textures: SkyOcclusion0_13 (AutoDXT)
+[2014.09.30-22.45.48:314][121]LogTexture:Display: Building textures: SkyOcclusion0_14 (AutoDXT)
+[2014.09.30-22.45.48:327][121]LogTexture:Display: Building textures: SkyOcclusion0_15 (AutoDXT)
+[2014.09.30-22.45.48:339][121]LogTexture:Display: Building textures: SkyOcclusion0_16 (AutoDXT)
+[2014.09.30-22.45.48:351][121]LogTexture:Display: Building textures: SkyOcclusion0_17 (AutoDXT)
+[2014.09.30-22.45.48:363][121]LogTexture:Display: Building textures: SkyOcclusion0_18 (AutoDXT)
+[2014.09.30-22.45.48:375][121]LogTexture:Display: Building textures: SkyOcclusion0_19 (AutoDXT)
+[2014.09.30-22.45.48:388][121]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2014.09.30-22.45.48:401][121]LogTexture:Display: Building textures: SkyOcclusion0_20 (AutoDXT)
+[2014.09.30-22.45.48:413][121]LogTexture:Display: Building textures: SkyOcclusion0_21 (AutoDXT)
+[2014.09.30-22.45.48:425][121]LogTexture:Display: Building textures: SkyOcclusion0_22 (AutoDXT)
+[2014.09.30-22.45.48:437][121]LogTexture:Display: Building textures: SkyOcclusion0_23 (AutoDXT)
+[2014.09.30-22.45.48:450][121]LogTexture:Display: Building textures: SkyOcclusion0_24 (AutoDXT)
+[2014.09.30-22.45.48:463][121]LogTexture:Display: Building textures: SkyOcclusion0_25 (AutoDXT)
+[2014.09.30-22.45.48:476][121]LogTexture:Display: Building textures: SkyOcclusion0_26 (AutoDXT)
+[2014.09.30-22.45.48:489][121]LogTexture:Display: Building textures: SkyOcclusion0_27 (AutoDXT)
+[2014.09.30-22.45.48:502][121]LogTexture:Display: Building textures: SkyOcclusion0_28 (AutoDXT)
+[2014.09.30-22.45.48:515][121]LogTexture:Display: Building textures: SkyOcclusion0_29 (AutoDXT)
+[2014.09.30-22.45.48:526][121]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2014.09.30-22.45.48:537][121]LogTexture:Display: Building textures: SkyOcclusion0_30 (AutoDXT)
+[2014.09.30-22.45.48:543][121]LogTexture:Display: Building textures: SkyOcclusion0_31 (AutoDXT)
+[2014.09.30-22.45.48:546][121]LogTexture:Display: Building textures: SkyOcclusion0_32 (AutoDXT)
+[2014.09.30-22.45.48:558][121]LogTexture:Display: Building textures: SkyOcclusion0_33 (AutoDXT)
+[2014.09.30-22.45.48:569][121]LogTexture:Display: Building textures: SkyOcclusion0_34 (AutoDXT)
+[2014.09.30-22.45.48:581][121]LogTexture:Display: Building textures: SkyOcclusion0_35 (AutoDXT)
+[2014.09.30-22.45.48:592][121]LogTexture:Display: Building textures: SkyOcclusion0_36 (AutoDXT)
+[2014.09.30-22.45.48:603][121]LogTexture:Display: Building textures: SkyOcclusion0_37 (AutoDXT)
+[2014.09.30-22.45.48:612][121]LogTexture:Display: Building textures: SkyOcclusion0_38 (AutoDXT)
+[2014.09.30-22.45.48:614][121]LogTexture:Display: Building textures: SkyOcclusion0_39 (AutoDXT)
+[2014.09.30-22.45.48:615][121]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2014.09.30-22.45.48:626][121]LogTexture:Display: Building textures: SkyOcclusion0_40 (AutoDXT)
+[2014.09.30-22.45.48:635][121]LogTexture:Display: Building textures: SkyOcclusion0_41 (AutoDXT)
+[2014.09.30-22.45.48:646][121]LogTexture:Display: Building textures: SkyOcclusion0_42 (AutoDXT)
+[2014.09.30-22.45.48:658][121]LogTexture:Display: Building textures: SkyOcclusion0_43 (AutoDXT)
+[2014.09.30-22.45.48:669][121]LogTexture:Display: Building textures: SkyOcclusion0_44 (AutoDXT)
+[2014.09.30-22.45.48:681][121]LogTexture:Display: Building textures: SkyOcclusion0_45 (AutoDXT)
+[2014.09.30-22.45.48:690][121]LogTexture:Display: Building textures: SkyOcclusion0_46 (AutoDXT)
+[2014.09.30-22.45.48:695][121]LogTexture:Display: Building textures: SkyOcclusion0_47 (AutoDXT)
+[2014.09.30-22.45.48:700][121]LogTexture:Display: Building textures: SkyOcclusion0_48 (AutoDXT)
+[2014.09.30-22.45.48:710][121]LogTexture:Display: Building textures: SkyOcclusion0_49 (AutoDXT)
+[2014.09.30-22.45.48:722][121]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2014.09.30-22.45.48:733][121]LogTexture:Display: Building textures: SkyOcclusion0_50 (AutoDXT)
+[2014.09.30-22.45.48:744][121]LogTexture:Display: Building textures: SkyOcclusion0_51 (AutoDXT)
+[2014.09.30-22.45.48:756][121]LogTexture:Display: Building textures: SkyOcclusion0_52 (AutoDXT)
+[2014.09.30-22.45.48:768][121]LogTexture:Display: Building textures: SkyOcclusion0_53 (AutoDXT)
+[2014.09.30-22.45.48:779][121]LogTexture:Display: Building textures: SkyOcclusion0_54 (AutoDXT)
+[2014.09.30-22.45.48:791][121]LogTexture:Display: Building textures: SkyOcclusion0_55 (AutoDXT)
+[2014.09.30-22.45.48:802][121]LogTexture:Display: Building textures: SkyOcclusion0_56 (AutoDXT)
+[2014.09.30-22.45.48:813][121]LogTexture:Display: Building textures: SkyOcclusion0_57 (AutoDXT)
+[2014.09.30-22.45.48:825][121]LogTexture:Display: Building textures: SkyOcclusion0_58 (AutoDXT)
+[2014.09.30-22.45.48:838][121]LogTexture:Display: Building textures: SkyOcclusion0_59 (AutoDXT)
+[2014.09.30-22.45.48:865][121]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
+[2014.09.30-22.45.48:878][121]LogTexture:Display: Building textures: SkyOcclusion0_60 (AutoDXT)
+[2014.09.30-22.45.48:896][121]LogTexture:Display: Building textures: SkyOcclusion0_61 (AutoDXT)
+[2014.09.30-22.45.48:912][121]LogTexture:Display: Building textures: SkyOcclusion0_62 (AutoDXT)
+[2014.09.30-22.45.48:929][121]LogTexture:Display: Building textures: SkyOcclusion0_63 (AutoDXT)
+[2014.09.30-22.45.48:943][121]LogTexture:Display: Building textures: SkyOcclusion0_64 (AutoDXT)
+[2014.09.30-22.45.48:955][121]LogTexture:Display: Building textures: SkyOcclusion0_65 (AutoDXT)
+[2014.09.30-22.45.48:972][121]LogTexture:Display: Building textures: SkyOcclusion0_66 (AutoDXT)
+[2014.09.30-22.45.48:979][121]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT)
+[2014.09.30-22.45.48:992][121]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT)
+[2014.09.30-22.45.49:005][121]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT)
+[2014.09.30-22.45.49:070][121]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2014.09.30-22.45.49:312][121]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2014.09.30-22.45.49:480][121]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2014.09.30-22.45.49:482][121]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2014.09.30-22.45.49:484][121]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2014.09.30-22.45.49:486][121]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
+[2014.09.30-22.45.49:487][121]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2014.09.30-22.45.49:489][121]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
+[2014.09.30-22.45.49:491][121]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (BGRA8)
+[2014.09.30-22.45.49:493][121]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8)
+[2014.09.30-22.45.49:494][121]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8)
+[2014.09.30-22.45.49:497][121]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8)
+[2014.09.30-22.45.49:498][121]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2014.09.30-22.45.49:500][121]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8)
+[2014.09.30-22.45.49:502][121]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (BGRA8)
+[2014.09.30-22.45.49:504][121]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (BGRA8)
+[2014.09.30-22.45.49:507][121]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (BGRA8)
+[2014.09.30-22.45.49:508][121]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (BGRA8)
+[2014.09.30-22.45.49:510][121]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (BGRA8)
+[2014.09.30-22.45.49:512][121]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (BGRA8)
+[2014.09.30-22.45.49:513][121]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (BGRA8)
+[2014.09.30-22.45.49:516][121]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (BGRA8)
+[2014.09.30-22.45.49:517][121]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (BGRA8)
+[2014.09.30-22.45.49:519][121]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2014.09.30-22.45.49:530][121]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (BGRA8)
+[2014.09.30-22.45.49:531][121]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (BGRA8)
+[2014.09.30-22.45.49:534][121]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (BGRA8)
+[2014.09.30-22.45.49:537][121]LogTexture:Display: Building textures: ShadowMapTexture2D_33 (BGRA8)
+[2014.09.30-22.45.49:540][121]LogTexture:Display: Building textures: ShadowMapTexture2D_34 (BGRA8)
+[2014.09.30-22.45.49:542][121]LogTexture:Display: Building textures: ShadowMapTexture2D_35 (BGRA8)
+[2014.09.30-22.45.49:544][121]LogTexture:Display: Building textures: ShadowMapTexture2D_36 (BGRA8)
+[2014.09.30-22.45.49:546][121]LogTexture:Display: Building textures: ShadowMapTexture2D_37 (BGRA8)
+[2014.09.30-22.45.49:548][121]LogTexture:Display: Building textures: ShadowMapTexture2D_38 (BGRA8)
+[2014.09.30-22.45.49:550][121]LogTexture:Display: Building textures: ShadowMapTexture2D_39 (BGRA8)
+[2014.09.30-22.45.49:552][121]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2014.09.30-22.45.49:554][121]LogTexture:Display: Building textures: ShadowMapTexture2D_40 (BGRA8)
+[2014.09.30-22.45.49:558][121]LogTexture:Display: Building textures: ShadowMapTexture2D_41 (BGRA8)
+[2014.09.30-22.45.49:559][121]LogTexture:Display: Building textures: ShadowMapTexture2D_42 (BGRA8)
+[2014.09.30-22.
