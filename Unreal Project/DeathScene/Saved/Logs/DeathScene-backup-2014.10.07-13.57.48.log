@@ -1,0 +1,938 @@
+Log file open, 10/02/14 15:33:59
+LogInit:Display: Running engine for game: DeathScene
+LogInit: Version: 4.4.1-2270799+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Aug 25 2014 14:19:12
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.02-21.33.59:633][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.02-21.33.59:659][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.02-21.33.59:666][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.02-21.33.59:674][  0]LogInit: Object subsystem initialized
+[2014.10.02-21.33.59:676][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.02-21.33.59:676][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.02-21.33.59:681][  0]LogInit: Computer: TCPC-05
+[2014.10.02-21.33.59:681][  0]LogInit: User: u0568887
+[2014.10.02-21.33.59:682][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.10.02-21.33.59:682][  0]LogInit: High frequency timer resolution =3.906337 MHz
+[2014.10.02-21.33.59:682][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
+[2014.10.02-21.33.59:682][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.02-21.33.59:682][  0]LogMemory: Process Physical Memory: 62.37 MB used, 62.37 MB peak
+[2014.10.02-21.33.59:683][  0]LogMemory: Process Virtual Memory: 38.18 MB used, 38.18 MB peak
+[2014.10.02-21.33.59:683][  0]LogMemory: Physical Memory: 2838.81 MB used, 8173.54 MB total
+[2014.10.02-21.33.59:683][  0]LogMemory: Virtual Memory: 261.05 MB used, 8388608.00 MB total
+[2014.10.02-21.33.59:712][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 630 (Feature Level 11_0)
+[2014.10.02-21.33.59:712][  0]LogD3D11RHI: Adapter has 978MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
+[2014.10.02-21.33.59:712][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.02-21.33.59:717][  0]LogRHI: Texture pool is 684 MB (70% of 978 MB)
+[2014.10.02-21.33.59:725][  0]LogD3D11RHI: Async texture creation enabled
+[2014.10.02-21.33.59:849][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.02-21.34.01:277][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.02-21.34.01:627][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.02-21.34.01:663][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.02-21.34.01:724][  0]LogDerivedDataCache: Loaded boot cache 0.06s 39MB C:/Users/TEMP/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.02-21.34.01:724][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/TEMP/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.10.02-21.34.01:724][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.02-21.34.01:724][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.02-21.34.01:741][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.02-21.34.01:752][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TEMP/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.10.02-21.34.01:911][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.02-21.34.01:911][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.02-21.34.02:270][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.02-21.34.02:934][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1bb8_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1b08_0///////STATCAT_Advanced////
+[2014.10.02-21.34.02:934][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.02-21.34.03:024][  0]SourceControl: Info Source control is disabled
+[2014.10.02-21.34.03:024][  0]SourceControl: Info Source control is disabled
+[2014.10.02-21.34.03:029][  0]SourceControl: Info Source control is disabled
+[2014.10.02-21.34.03:167][  0]BlueprintLog: New page: Editor Load
+[2014.10.02-21.34.03:241][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.10.02-21.34.03:241][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.10.02-21.34.03:404][  0]LogEngine: Initializing Engine...
+[2014.10.02-21.34.03:506][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (4- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.10.02-21.34.03:514][  0]LogInit: FAudioDevice initialized.
+[2014.10.02-21.34.03:527][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.10.02-21.34.03:560][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/TEMP/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.02-21.34.03:570][  0]LogInit: Texture streaming: Enabled
+[2014.10.02-21.34.03:595][  0]LogInit: Transaction tracking system initialized
+[2014.10.02-21.34.03:679][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2014.10.02-21.34.04:074][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.02-21.34.04:373][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.02-21.34.04:470][  0]LogConsoleResponse:Display: 
+[2014.10.02-21.34.04:601][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1904_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1b08_0///////STATCAT_Advanced////
+[2014.10.02-21.34.04:601][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1a3c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1b08_0///////STATCAT_Advanced////
+[2014.10.02-21.34.04:601][  0]SourceControl: Info Source control is disabled
+[2014.10.02-21.34.04:601][  0]Cmd: MAP LOAD FILE="../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.02-21.34.04:602][  0]LightingResults: New page: Lighting Build
+[2014.10.02-21.34.04:608][  0]MapCheck: New page: Map Check
+[2014.10.02-21.34.04:608][  0]LightingResults: New page: Lighting Build
+[2014.10.02-21.34.04:621][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000118B5300
+[2014.10.02-21.34.04:888][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.02-21.34.04:889][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.10.02-21.34.04:889][  0]Cmd: MAP CHECKDEP
+[2014.10.02-21.34.04:889][  0]MapCheck: New page: Minimal_Default - Oct 2, 2014, 9:34:04 AM
+[2014.10.02-21.34.04:949][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [59.765ms] ==========
+[2014.10.02-21.34.04:949][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.347
+[2014.10.02-21.34.05:045][  0]LogCollectionManager: Loaded 0 collections in 0.001182 seconds
+[2014.10.02-21.34.05:155][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.02-21.34.05:252][  0]LogLoad: Full Startup: 7.26 seconds (BP compile: 0.06 seconds)
+[2014.10.02-21.34.05:265][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats'
+[2014.10.02-21.34.05:475][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x896.
+[2014.10.02-21.34.05:982][  2]LogAssetRegistry: Asset discovery search completed in 2.3136 seconds
+[2014.10.02-21.34.49:857][740]Cmd: MAP LOAD FILE="../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/LOTR001.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.02-21.34.49:857][740]LightingResults: New page: Lighting Build
+[2014.10.02-21.34.49:872][740]LoadErrors: New page: Loading map: LOTR001.umap
+[2014.10.02-21.34.49:872][740]MapCheck: New page: Map Check
+[2014.10.02-21.34.49:872][740]LightingResults: New page: Lighting Build
+[2014.10.02-21.34.49:891][740]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016D01D00
+[2014.10.02-21.34.49:922][740]LogLinker:Warning: Can't find file '/Game/Textures/board001_Uvs'
+[2014.10.02-21.34.49:922][740]LogLinker:Warning: Can't find file for asset '/Game/Textures/board001_Uvs' while loading ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Materials/propMats/boards_Mat.uasset.
+[2014.10.02-21.34.49:922][740]LoadErrors:Error: Error /Game/Materials/propMats/boards_Mat : Can't find file for asset. /Game/Textures/board001_Uvs
+[2014.10.02-21.34.49:922][740]LogLinker:Warning: Can't find file '/Game/Textures/board001_Uvs'
+[2014.10.02-21.34.49:922][740]LogLinker:Warning: Can't find file for asset '/Game/Textures/board001_Uvs' while loading ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Materials/propMats/boards_Mat.uasset.
+[2014.10.02-21.34.50:009][740]LogLinker:Warning: Can't find file '/Game/Textures/board001_Uvs'
+[2014.10.02-21.34.50:009][740]LoadErrors: Info Failed to load /Game/Textures/board001_Uvs.board001_Uvs Referenced by MaterialExpressionTextureSample_0 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.10.02-21.34.50:009][740]LogLinker:Warning: Can't find file for asset '/Game/Textures/board001_Uvs' while loading NULL.
+[2014.10.02-21.34.50:062][740]LogMaterial: Missing cached shader map for material boards_Mat, compiling.
+[2014.10.02-21.34.50:062][740]LogMaterial:Warning: Failed to compile Material /Game/Materials/propMats/boards_Mat.boards_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.02-21.34.50:062][740]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.10.02-21.34.50:188][740]LogTexture:Display: Building textures: deathWheelTexture (AutoDXT)
+[2014.10.02-21.34.51:926][740]LogMaterial: Missing cached shader map for material dW_Mat, compiling.
+[2014.10.02-21.34.51:967][740]LogTexture:Display: Building textures: slow_cape (AutoDXT)
+[2014.10.02-21.34.52:596][740]LogMaterial: Missing cached shader map for material G_Cap, compiling.
+[2014.10.02-21.34.52:622][740]LogTexture:Display: Building textures: slow_clothes (AutoDXT)
+[2014.10.02-21.34.52:723][740]LogMaterial: Missing cached shader map for material G_cloths, compiling.
+[2014.10.02-21.34.52:743][740]LogTexture:Display: Building textures: slow_face (AutoDXT)
+[2014.10.02-21.34.52:911][740]LogMaterial: Missing cached shader map for material G_face, compiling.
+[2014.10.02-21.34.52:931][740]LogTexture:Display: Building textures: slow_hair (AutoDXT)
+[2014.10.02-21.34.53:104][740]LogMaterial: Missing cached shader map for material G_Hair, compiling.
+[2014.10.02-21.34.53:129][740]LogTexture:Display: Building textures: slow_hands (AutoDXT)
+[2014.10.02-21.34.53:236][740]LogMaterial: Missing cached shader map for material G_Hands, compiling.
+[2014.10.02-21.34.53:259][740]LogTexture:Display: Building textures: slow_weapon (AutoDXT)
+[2014.10.02-21.34.53:437][740]LogMaterial: Missing cached shader map for material G_Staff, compiling.
+[2014.10.02-21.34.53:467][740]LogTexture:Display: Building textures: gimili_Beard_diffuse (AutoDXT)
+[2014.10.02-21.34.53:742][740]LogTexture:Display: Building textures: gimili_Beard_gloss (AutoDXT)
+[2014.10.02-21.34.53:854][740]LogTexture:Display: Building textures: gimili_Beard_normal (BC5)
+[2014.10.02-21.34.53:904][740]LogTexture:Display: Building textures: gimili_Beard_specular (AutoDXT)
+[2014.10.02-21.34.54:188][740]LogMaterial: Missing cached shader map for material Gim_beard, compiling.
+[2014.10.02-21.34.54:248][740]LogTexture:Display: Building textures: gimili_Body_diffuse (AutoDXT)
+[2014.10.02-21.34.55:627][740]LogTexture:Display: Building textures: gimili_Body_gloss (AutoDXT)
+[2014.10.02-21.34.55:942][740]LogTexture:Display: Building textures: gimili_Body_normal (BC5)
+[2014.10.02-21.34.56:181][740]LogTexture:Display: Building textures: gimili_Body_specular (AutoDXT)
+[2014.10.02-21.34.56:510][740]LogMaterial: Missing cached shader map for material Gim_face, compiling.
+[2014.10.02-21.34.56:522][740]LogTexture:Display: Building textures: gimili_Hair_diffuse (AutoDXT)
+[2014.10.02-21.34.56:733][740]LogTexture:Display: Building textures: gimili_Hair_gloss (AutoDXT)
+[2014.10.02-21.34.56:820][740]LogTexture:Display: Building textures: gimili_Hair_normal (BC5)
+[2014.10.02-21.34.56:873][740]LogTexture:Display: Building textures: gimili_Hair_specular (AutoDXT)
+[2014.10.02-21.34.57:183][740]LogMaterial: Missing cached shader map for material Gim_hair, compiling.
+[2014.10.02-21.34.57:199][740]LogTexture:Display: Building textures: gimili_Bottom_diffuse (AutoDXT)
+[2014.10.02-21.34.57:388][740]LogTexture:Display: Building textures: gimili_Bottom_gloss (AutoDXT)
+[2014.10.02-21.34.57:474][740]LogTexture:Display: Building textures: gimili_Bottom_normal (BC5)
+[2014.10.02-21.34.57:523][740]LogTexture:Display: Building textures: gimili_Bottom_specular (AutoDXT)
+[2014.10.02-21.34.57:595][740]LogMaterial: Missing cached shader map for material Gim_pants, compiling.
+[2014.10.02-21.34.57:615][740]LogTexture:Display: Building textures: gimili_Shoes_diffuse (AutoDXT)
+[2014.10.02-21.34.57:926][740]LogTexture:Display: Building textures: gimili_Shoes_gloss (AutoDXT)
+[2014.10.02-21.34.58:018][740]LogTexture:Display: Building textures: gimili_Shoes_normal (BC5)
+[2014.10.02-21.34.58:069][740]LogTexture:Display: Building textures: gimili_Shoes_specular (AutoDXT)
+[2014.10.02-21.34.58:140][740]LogMaterial: Missing cached shader map for material Gim_Shoes, compiling.
+[2014.10.02-21.34.58:157][740]LogTexture:Display: Building textures: gimili_Top_diffuse (AutoDXT)
+[2014.10.02-21.34.58:390][740]LogTexture:Display: Building textures: gimili_Top_gloss (AutoDXT)
+[2014.10.02-21.34.58:543][740]LogTexture:Display: Building textures: gimili_Top_normal (BC5)
+[2014.10.02-21.34.58:596][740]LogTexture:Display: Building textures: gimili_Top_specular (AutoDXT)
+[2014.10.02-21.34.58:766][740]LogMaterial: Missing cached shader map for material Gim_top, compiling.
+[2014.10.02-21.34.58:778][740]LogTexture:Display: Building textures: gimili_Moustache_diffuse (AutoDXT)
+[2014.10.02-21.34.59:126][740]LogTexture:Display: Building textures: gimili_Moustache_gloss (AutoDXT)
+[2014.10.02-21.34.59:239][740]LogTexture:Display: Building textures: gimili_Moustache_normal (BC5)
+[2014.10.02-21.34.59:290][740]LogTexture:Display: Building textures: gimili_Moustache_specular (AutoDXT)
+[2014.10.02-21.34.59:639][740]LogMaterial: Missing cached shader map for material Gim_wiskers, compiling.
+[2014.10.02-21.34.59:644][740]LogMaterial: Missing cached shader map for material Tower, compiling.
+[2014.10.02-21.34.59:821][740]LogTexture:Display: Building textures: board001_Uvs (AutoDXT)
+[2014.10.02-21.35.01:754][740]LogMaterial: Missing cached shader map for material board001_Uvs_Mat, compiling.
+[2014.10.02-21.35.01:760][740]LogStaticMesh: Building static mesh orthanc_model_new...
+[2014.10.02-21.35.05:241][740]LogStaticMesh: Built static mesh [3481.960693ms] /Game/Props/orthanc_model_new.orthanc_model_new
+[2014.10.02-21.35.05:576][740]LogStaticMesh: Building static mesh deathWheelUVs...
+[2014.10.02-21.35.06:171][740]LogStaticMesh: Built static mesh [596.113159ms] /Game/Props/SceneProps/deathWheelUVs.deathWheelUVs
+[2014.10.02-21.35.06:293][740]LogStaticMesh: Building static mesh fourBoards...
+[2014.10.02-21.35.06:308][740]LogStaticMesh: Built static mesh [15.803296ms] /Game/Props/SceneProps/fourBoards.fourBoards
+[2014.10.02-21.35.06:315][740]LogStaticMesh: Building static mesh gimili...
+[2014.10.02-21.35.07:112][740]LogStaticMesh: Built static mesh [798.319763ms] /Game/Props/SceneProps/gimili.gimili
+[2014.10.02-21.35.07:319][740]LogStaticMesh: Building static mesh threeBoards...
+[2014.10.02-21.35.07:332][740]LogStaticMesh: Built static mesh [13.697742ms] /Game/Props/SceneProps/threeBoards.threeBoards
+[2014.10.02-21.35.07:371][740]LogTexture:Display: Building textures: Texture2D_622 (BGRA8)
+[2014.10.02-21.35.07:376][740]LogTexture:Display: Building textures: Texture2D_260 (BGRA8)
+[2014.10.02-21.35.07:378][740]LogTexture:Display: Building textures: Texture2D_200 (BGRA8)
+[2014.10.02-21.35.07:379][740]LogTexture:Display: Building textures: Texture2D_268 (BGRA8)
+[2014.10.02-21.35.07:381][740]LogTexture:Display: Building textures: Texture2D_208 (BGRA8)
+[2014.10.02-21.35.07:383][740]LogTexture:Display: Building textures: Texture2D_402 (BGRA8)
+[2014.10.02-21.35.07:384][740]LogTexture:Display: Building textures: Texture2D_404 (BGRA8)
+[2014.10.02-21.35.07:385][740]LogTexture:Display: Building textures: Texture2D_406 (BGRA8)
+[2014.10.02-21.35.07:386][740]LogTexture:Display: Building textures: Texture2D_218 (BGRA8)
+[2014.10.02-21.35.07:388][740]LogTexture:Display: Building textures: Texture2D_371 (BGRA8)
+[2014.10.02-21.35.07:394][740]LogTexture:Display: Building textures: Texture2D_321 (BGRA8)
+[2014.10.02-21.35.07:395][740]LogTexture:Display: Building textures: Texture2D_232 (BGRA8)
+[2014.10.02-21.35.07:400][740]LogTexture:Display: Building textures: Texture2D_234 (BGRA8)
+[2014.10.02-21.35.07:407][740]LogTexture:Display: Building textures: Texture2D_236 (BGRA8)
+[2014.10.02-21.35.07:408][740]LogTexture:Display: Building textures: Texture2D_238 (BGRA8)
+[2014.10.02-21.35.07:410][740]LogTexture:Display: Building textures: Texture2D_240 (BGRA8)
+[2014.10.02-21.35.07:411][740]LogTexture:Display: Building textures: Texture2D_242 (BGRA8)
+[2014.10.02-21.35.07:412][740]LogTexture:Display: Building textures: Texture2D_369 (BGRA8)
+[2014.10.02-21.35.07:414][740]LogTexture:Display: Building textures: Texture2D_246 (BGRA8)
+[2014.10.02-21.35.07:415][740]LogTexture:Display: Building textures: Texture2D_248 (BGRA8)
+[2014.10.02-21.35.07:417][740]LogTexture:Display: Building textures: Texture2D_351 (BGRA8)
+[2014.10.02-21.35.07:418][740]LogTexture:Display: Building textures: Texture2D_256 (BGRA8)
+[2014.10.02-21.35.07:420][740]LogTexture:Display: Building textures: Texture2D_262 (BGRA8)
+[2014.10.02-21.35.07:421][740]LogTexture:Display: Building textures: Texture2D_264 (BGRA8)
+[2014.10.02-21.35.07:422][740]LogTexture:Display: Building textures: Texture2D_266 (BGRA8)
+[2014.10.02-21.35.07:423][740]LogTexture:Display: Building textures: Texture2D_270 (BGRA8)
+[2014.10.02-21.35.07:430][740]LogTexture:Display: Building textures: Texture2D_272 (BGRA8)
+[2014.10.02-21.35.07:431][740]LogTexture:Display: Building textures: Texture2D_274 (BGRA8)
+[2014.10.02-21.35.07:433][740]LogTexture:Display: Building textures: Texture2D_276 (BGRA8)
+[2014.10.02-21.35.07:434][740]LogTexture:Display: Building textures: Texture2D_278 (BGRA8)
+[2014.10.02-21.35.07:435][740]LogTexture:Display: Building textures: Texture2D_280 (BGRA8)
+[2014.10.02-21.35.07:436][740]LogTexture:Display: Building textures: Texture2D_286 (BGRA8)
+[2014.10.02-21.35.07:437][740]LogTexture:Display: Building textures: Texture2D_390 (BGRA8)
+[2014.10.02-21.35.07:438][740]LogTexture:Display: Building textures: Texture2D_293 (BGRA8)
+[2014.10.02-21.35.07:439][740]LogTexture:Display: Building textures: Texture2D_295 (BGRA8)
+[2014.10.02-21.35.07:441][740]LogTexture:Display: Building textures: Texture2D_297 (BGRA8)
+[2014.10.02-21.35.07:444][740]LogTexture:Display: Building textures: Texture2D_299 (BGRA8)
+[2014.10.02-21.35.07:446][740]LogTexture:Display: Building textures: Texture2D_325 (BGRA8)
+[2014.10.02-21.35.07:447][740]LogTexture:Display: Building textures: Texture2D_305 (BGRA8)
+[2014.10.02-21.35.07:448][740]LogTexture:Display: Building textures: Texture2D_363 (BGRA8)
+[2014.10.02-21.35.07:449][740]LogTexture:Display: Building textures: Texture2D_473 (BGRA8)
+[2014.10.02-21.35.07:450][740]LogTexture:Display: Building textures: Texture2D_313 (BGRA8)
+[2014.10.02-21.35.07:452][740]LogTexture:Display: Building textures: Texture2D_317 (BGRA8)
+[2014.10.02-21.35.07:454][740]LogTexture:Display: Building textures: Texture2D_361 (BGRA8)
+[2014.10.02-21.35.07:456][740]LogTexture:Display: Building textures: Texture2D_386 (BGRA8)
+[2014.10.02-21.35.07:457][740]LogTexture:Display: Building textures: Texture2D_367 (BGRA8)
+[2014.10.02-21.35.07:458][740]LogTexture:Display: Building textures: Texture2D_475 (BGRA8)
+[2014.10.02-21.35.07:459][740]LogTexture:Display: Building textures: Texture2D_339 (BGRA8)
+[2014.10.02-21.35.07:462][740]LogTexture:Display: Building textures: Texture2D_341 (BGRA8)
+[2014.10.02-21.35.07:463][740]LogTexture:Display: Building textures: Texture2D_349 (BGRA8)
+[2014.10.02-21.35.07:465][740]LogTexture:Display: Building textures: Texture2D_408 (BGRA8)
+[2014.10.02-21.35.07:466][740]LogTexture:Display: Building textures: Texture2D_379 (BGRA8)
+[2014.10.02-21.35.07:467][740]LogTexture:Display: Building textures: Texture2D_477 (BGRA8)
+[2014.10.02-21.35.07:468][740]LogTexture:Display: Building textures: Texture2D_455 (BGRA8)
+[2014.10.02-21.35.07:469][740]LogTexture:Display: Building textures: Texture2D_357 (BGRA8)
+[2014.10.02-21.35.07:470][740]LogTexture:Display: Building textures: Texture2D_365 (BGRA8)
+[2014.10.02-21.35.07:471][740]LogTexture:Display: Building textures: Texture2D_381 (BGRA8)
+[2014.10.02-21.35.07:472][740]LogTexture:Display: Building textures: Texture2D_463 (BGRA8)
+[2014.10.02-21.35.07:473][740]LogTexture:Display: Building textures: Texture2D_412 (BGRA8)
+[2014.10.02-21.35.07:475][740]LogTexture:Display: Building textures: Texture2D_388 (BGRA8)
+[2014.10.02-21.35.07:476][740]LogTexture:Display: Building textures: Texture2D_451 (BGRA8)
+[2014.10.02-21.35.07:477][740]LogTexture:Display: Building textures: Texture2D_394 (BGRA8)
+[2014.10.02-21.35.07:478][740]LogTexture:Display: Building textures: Texture2D_396 (BGRA8)
+[2014.10.02-21.35.07:479][740]LogTexture:Display: Building textures: Texture2D_461 (BGRA8)
+[2014.10.02-21.35.07:481][740]LogTexture:Display: Building textures: Texture2D_481 (BGRA8)
+[2014.10.02-21.35.07:482][740]LogTexture:Display: Building textures: Texture2D_447 (BGRA8)
+[2014.10.02-21.35.07:483][740]LogTexture:Display: Building textures: Texture2D_449 (BGRA8)
+[2014.10.02-21.35.07:484][740]LogTexture:Display: Building textures: Texture2D_421 (BGRA8)
+[2014.10.02-21.35.07:485][740]LogTexture:Display: Building textures: Texture2D_506 (BGRA8)
+[2014.10.02-21.35.07:486][740]LogTexture:Display: Building textures: Texture2D_524 (BGRA8)
+[2014.10.02-21.35.07:487][740]LogTexture:Display: Building textures: Texture2D_545 (BGRA8)
+[2014.10.02-21.35.07:489][740]LogTexture:Display: Building textures: Texture2D_433 (BGRA8)
+[2014.10.02-21.35.07:491][740]LogTexture:Display: Building textures: Texture2D_590 (BGRA8)
+[2014.10.02-21.35.07:493][740]LogTexture:Display: Building textures: Texture2D_437 (BGRA8)
+[2014.10.02-21.35.07:494][740]LogTexture:Display: Building textures: Texture2D_439 (BGRA8)
+[2014.10.02-21.35.07:496][740]LogTexture:Display: Building textures: Texture2D_441 (BGRA8)
+[2014.10.02-21.35.07:497][740]LogTexture:Display: Building textures: Texture2D_539 (BGRA8)
+[2014.10.02-21.35.07:498][740]LogTexture:Display: Building textures: Texture2D_512 (BGRA8)
+[2014.10.02-21.35.07:499][740]LogTexture:Display: Building textures: Texture2D_453 (BGRA8)
+[2014.10.02-21.35.07:501][740]LogTexture:Display: Building textures: Texture2D_559 (BGRA8)
+[2014.10.02-21.35.07:502][740]LogTexture:Display: Building textures: Texture2D_499 (BGRA8)
+[2014.10.02-21.35.07:505][740]LogTexture:Display: Building textures: Texture2D_465 (BGRA8)
+[2014.10.02-21.35.07:509][740]LogTexture:Display: Building textures: Texture2D_467 (BGRA8)
+[2014.10.02-21.35.07:511][740]LogTexture:Display: Building textures: Texture2D_469 (BGRA8)
+[2014.10.02-21.35.07:513][740]LogTexture:Display: Building textures: Texture2D_471 (BGRA8)
+[2014.10.02-21.35.07:514][740]LogTexture:Display: Building textures: Texture2D_479 (BGRA8)
+[2014.10.02-21.35.07:515][740]LogTexture:Display: Building textures: Texture2D_574 (BGRA8)
+[2014.10.02-21.35.07:516][740]LogTexture:Display: Building textures: Texture2D_485 (BGRA8)
+[2014.10.02-21.35.07:517][740]LogTexture:Display: Building textures: Texture2D_497 (BGRA8)
+[2014.10.02-21.35.07:519][740]LogTexture:Display: Building textures: Texture2D_514 (BGRA8)
+[2014.10.02-21.35.07:520][740]LogTexture:Display: Building textures: Texture2D_493 (BGRA8)
+[2014.10.02-21.35.07:521][740]LogTexture:Display: Building textures: Texture2D_495 (BGRA8)
+[2014.10.02-21.35.07:522][740]LogTexture:Display: Building textures: Texture2D_532 (BGRA8)
+[2014.10.02-21.35.07:525][740]LogTexture:Display: Building textures: Texture2D_508 (BGRA8)
+[2014.10.02-21.35.07:526][740]LogTexture:Display: Building textures: Texture2D_510 (BGRA8)
+[2014.10.02-21.35.07:527][740]LogTexture:Display: Building textures: Texture2D_518 (BGRA8)
+[2014.10.02-21.35.07:528][740]LogTexture:Display: Building textures: Texture2D_549 (BGRA8)
+[2014.10.02-21.35.07:530][740]LogTexture:Display: Building textures: Texture2D_551 (BGRA8)
+[2014.10.02-21.35.07:531][740]LogTexture:Display: Building textures: Texture2D_526 (BGRA8)
+[2014.10.02-21.35.07:534][740]LogTexture:Display: Building textures: Texture2D_528 (BGRA8)
+[2014.10.02-21.35.07:535][740]LogTexture:Display: Building textures: Texture2D_565 (BGRA8)
+[2014.10.02-21.35.07:537][740]LogTexture:Display: Building textures: Texture2D_541 (BGRA8)
+[2014.10.02-21.35.07:538][740]LogTexture:Display: Building textures: Texture2D_543 (BGRA8)
+[2014.10.02-21.35.07:539][740]LogTexture:Display: Building textures: Texture2D_547 (BGRA8)
+[2014.10.02-21.35.07:540][740]LogTexture:Display: Building textures: Texture2D_584 (BGRA8)
+[2014.10.02-21.35.07:542][740]LogTexture:Display: Building textures: Texture2D_555 (BGRA8)
+[2014.10.02-21.35.07:543][740]LogTexture:Display: Building textures: Texture2D_557 (BGRA8)
+[2014.10.02-21.35.07:545][740]LogTexture:Display: Building textures: Texture2D_572 (BGRA8)
+[2014.10.02-21.35.07:546][740]LogTexture:Display: Building textures: Texture2D_578 (BGRA8)
+[2014.10.02-21.35.07:547][740]LogTexture:Display: Building textures: Texture2D_582 (BGRA8)
+[2014.10.02-21.35.07:552][740]LogTexture:Display: Building textures: Texture2D_586 (BGRA8)
+[2014.10.02-21.35.07:554][740]LogTexture:Display: Building textures: Texture2D_588 (BGRA8)
+[2014.10.02-21.35.07:555][740]LogTexture:Display: Building textures: Texture2D_596 (BGRA8)
+[2014.10.02-21.35.07:556][740]LogTexture:Display: Building textures: Texture2D_605 (BGRA8)
+[2014.10.02-21.35.07:557][740]LogTexture:Display: Building textures: Texture2D_609 (BGRA8)
+[2014.10.02-21.35.07:558][740]LogTexture:Display: Building textures: Texture2D_613 (BGRA8)
+[2014.10.02-21.35.07:560][740]LogTexture:Display: Building textures: Texture2D_615 (BGRA8)
+[2014.10.02-21.35.07:561][740]LogTexture:Display: Building textures: Texture2D_617 (BGRA8)
+[2014.10.02-21.35.07:585][740]LogMaterial:Warning: Material /Game/Props/Materials/M_Bush.M_Bush needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2014.10.02-21.35.07:587][740]LogMaterial: Missing cached shader map for material M_Bush, compiling.
+[2014.10.02-21.35.07:669][740]LogMaterial: 0.000196 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.02-21.35.07:671][740]LogMaterial:Warning: Material /Game/Props/Materials/M_Rock.M_Rock needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2014.10.02-21.35.07:673][740]LogMaterial: Missing cached shader map for material M_Rock, compiling.
+[2014.10.02-21.35.07:687][740]LogMaterial: 0.000229 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.02-21.35.07:770][740]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.02-21.35.07:770][740]LogAIModule: Creating AISystem for world LOTR001
+[2014.10.02-21.35.07:797][740]Cmd: MAP CHECKDEP
+[2014.10.02-21.35.07:798][740]MapCheck: New page: LOTR001 - Oct 2, 2014, 9:35:07 AM
+[2014.10.02-21.35.07:895][740]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [97.011ms] ==========
+[2014.10.02-21.35.07:895][740]LogFileHelpers: Loading map 'LOTR001' took 18.039
+[2014.10.02-21.35.08:178][741]Cmd: UpdateLandscapeEditorData -warnings
+[2014.10.02-21.35.08:183][741]Cmd: UpdateLandscapeEditorData
+[2014.10.02-21.35.16:421][229]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2014.10.02-21.36.04:101][548]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (gimili)
+[2014.10.02-21.36.05:497][643]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (1)
+[2014.10.02-21.36.17:968][404]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fourBoards_2)
+[2014.10.02-21.36.56:120][ 41]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.10.02-21.36.59:926][334]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.37.02:234][382]LogActorFactory: Actor Factory created threeBoards
+[2014.10.02-21.37.03:553][394]LogActorFactory: Actor Factory created threeBoards
+[2014.10.02-21.40.15:042][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (deathWheelUVs)
+[2014.10.02-21.40.16:883][917]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.02-21.40.16:883][917]Aligned camera to fit all selected actors.
+[2014.10.02-21.43.34:827][899]Cmd: DELETE
+[2014.10.02-21.43.34:827][899]Cmd: ACTOR DELETE
+[2014.10.02-21.43.34:828][899]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.02-21.43.34:847][899]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2014.10.02-21.44.22:560][989]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Actors/deathWheel/deathWHeelSmooth.fbx)
+[2014.10.02-21.44.22:579][989]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2014.10.02-21.44.22:579][989]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2014.10.02-21.44.22:579][989]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2014.10.02-21.44.22:579][989]LogFbx: ItemName: Geometry, ItemCount : 2
+[2014.10.02-21.44.22:579][989]LogFbx: ItemName: Model, ItemCount : 11
+[2014.10.02-21.44.22:579][989]LogFbx: ItemName: NodeAttribute, ItemCount : 9
+[2014.10.02-21.44.22:579][989]LogFbx: ItemName: Material, ItemCount : 1
+[2014.10.02-21.44.22:579][989]LogFbx: ItemName: Texture, ItemCount : 1
+[2014.10.02-21.44.22:579][989]LogFbx: ItemName: CollectionExclusive, ItemCount : 2
+[2014.10.02-21.44.22:579][989]LogFbx: ItemName: Video, ItemCount : 1
+[2014.10.02-21.44.24:123][989]LogFbx: Loading FBX Scene from ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Actors/deathWheel/deathWHeelSmooth.fbx
+[2014.10.02-21.44.24:145][989]LogFbx: FBX Scene Loaded Succesfully
+[2014.10.02-21.44.24:164][989]LogFbx:Warning: Triangulating static mesh deathWheel009_uvs:deathWheel005:polySurface31
+[2014.10.02-21.44.28:839][989]LogFbx: == Initial material list:
+[2014.10.02-21.44.28:840][989]LogFbx: 0: deathWheel009_uvs:deathWheel005:lambert3
+[2014.10.02-21.44.28:840][989]LogFbx: == After sorting:
+[2014.10.02-21.44.28:840][989]LogFbx: 0: deathWheel009_uvs:deathWheel005:lambert3
+[2014.10.02-21.44.28:840][989]LogFbx: == Mapping table:
+[2014.10.02-21.44.28:840][989]LogFbx:   sort 0 -> 0
+[2014.10.02-21.44.28:852][989]LogStaticMesh: Building static mesh deathWHeelSmooth...
+[2014.10.02-21.44.29:216][989]LogStaticMesh: Built static mesh [365.935150ms] /Game/Props/SceneProps/deathWHeelSmooth.deathWHeelSmooth
+[2014.10.02-21.44.29:426][989]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.02-21.44.29:426][989]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.44.31:458][106]LogActorFactory: Actor Factory created deathWHeelSmooth
+[2014.10.02-21.44.34:896][138]LogActorFactory: Actor Factory created deathWHeelSmooth
+[2014.10.02-21.44.42:908][470]LogSavePackage: Save=299.276520ms
+[2014.10.02-21.44.42:908][470]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/LOTR001_Auto1E15A9009467E8A4D31D25EA8F1FBC3F9.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/LOTR001_Auto1.umap'
+[2014.10.02-21.44.42:914][470]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LOTR001' took 0.374
+[2014.10.02-21.44.42:914][470]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.374
+[2014.10.02-21.44.42:922][470]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Props/SceneProps/deathWHeelSmooth] ([1] browsable assets)...
+[2014.10.02-21.44.42:962][470]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Props/SceneProps/deathWHeelSmooth.deathWHeelSmooth]
+[2014.10.02-21.44.42:962][470]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/SceneProps/deathWHeelSmooth]
+[2014.10.02-21.44.43:200][470]LogSavePackage: Save=218.599930ms
+[2014.10.02-21.44.43:200][470]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/deathWHeelSmooth_Auto194B2F52D4DF843822945F8858567CFED.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Props/SceneProps/deathWHeelSmooth_Auto1.uasset'
+[2014.10.02-21.44.43:204][470]LogFileHelpers: Auto-saving content packages took 0.290
+[2014.10.02-21.44.50:313][824]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.10.02-21.44.51:846][949]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/PropText'
+[2014.10.02-21.44.56:205][317]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.10.02-21.44.56:872][368]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Shapes'
+[2014.10.02-21.44.57:765][442]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.45.10:671][497]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/Materials'
+[2014.10.02-21.45.17:691][ 21]LogMaterial: Missing cached shader map for material deathWheelTexture_Mat, compiling.
+[2014.10.02-21.46.12:128][303]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.10.02-21.46.14:231][346]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/Materials'
+[2014.10.02-21.46.15:338][370]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.46.16:435][392]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/Materials'
+[2014.10.02-21.46.35:252][962]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.10.02-21.46.35:957][981]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.47.30:157][108]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Models/merry/merry.fbx)
+[2014.10.02-21.47.30:160][108]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2014.10.02-21.47.30:160][108]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2014.10.02-21.47.30:160][108]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2014.10.02-21.47.30:160][108]LogFbx: ItemName: Geometry, ItemCount : 6
+[2014.10.02-21.47.30:160][108]LogFbx: ItemName: Material, ItemCount : 5
+[2014.10.02-21.47.30:160][108]LogFbx: ItemName: Texture, ItemCount : 15
+[2014.10.02-21.47.30:160][108]LogFbx: ItemName: Model, ItemCount : 32
+[2014.10.02-21.47.30:160][108]LogFbx: ItemName: NodeAttribute, ItemCount : 26
+[2014.10.02-21.47.30:160][108]LogFbx: ItemName: Video, ItemCount : 15
+[2014.10.02-21.47.31:717][108]LogFbx: Loading FBX Scene from ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Models/merry/merry.fbx
+[2014.10.02-21.47.31:752][108]LogFbx: FBX Scene Loaded Succesfully
+[2014.10.02-21.47.31:756][108]LogFbx:Warning: Triangulating static mesh merry:Body
+[2014.10.02-21.47.34:395][108]LogFbx:Warning: Triangulating static mesh merry:Eyelashes
+[2014.10.02-21.47.34:424][108]LogFbx:Warning: Triangulating static mesh merry:Shoes
+[2014.10.02-21.47.34:946][108]LogFbx:Warning: Triangulating static mesh merry:Tops
+[2014.10.02-21.47.35:592][108]LogFbx:Warning: Triangulating static mesh merry:Hair
+[2014.10.02-21.47.35:916][108]LogFbx:Warning: Triangulating static mesh merry:Bottoms
+[2014.10.02-21.47.36:264][108]LogFbx: == Initial material list:
+[2014.10.02-21.47.36:264][108]LogFbx: 0: merry:Body2
+[2014.10.02-21.47.36:264][108]LogFbx: 1: merry:Body2
+[2014.10.02-21.47.36:264][108]LogFbx: 2: merry:Shoes2
+[2014.10.02-21.47.36:264][108]LogFbx: 3: merry:Top1
+[2014.10.02-21.47.36:264][108]LogFbx: 4: merry:Hair2
+[2014.10.02-21.47.36:264][108]LogFbx: 5: merry:Bottom1
+[2014.10.02-21.47.36:264][108]LogFbx:   remap 1 -> 0
+[2014.10.02-21.47.36:264][108]LogFbx: == After sorting:
+[2014.10.02-21.47.36:264][108]LogFbx: 0: merry:Body2
+[2014.10.02-21.47.36:264][108]LogFbx: 1: merry:Shoes2
+[2014.10.02-21.47.36:264][108]LogFbx: 2: merry:Top1
+[2014.10.02-21.47.36:264][108]LogFbx: 3: merry:Hair2
+[2014.10.02-21.47.36:264][108]LogFbx: 4: merry:Bottom1
+[2014.10.02-21.47.36:264][108]LogFbx: == Mapping table:
+[2014.10.02-21.47.36:264][108]LogFbx:   sort 0 -> 0
+[2014.10.02-21.47.36:264][108]LogFbx:   sort 1 -> 0
+[2014.10.02-21.47.36:264][108]LogFbx:   sort 2 -> 1
+[2014.10.02-21.47.36:264][108]LogFbx:   sort 3 -> 2
+[2014.10.02-21.47.36:264][108]LogFbx:   sort 4 -> 3
+[2014.10.02-21.47.36:264][108]LogFbx:   sort 5 -> 4
+[2014.10.02-21.47.36:278][108]LogStaticMesh: Building static mesh merry...
+[2014.10.02-21.47.36:748][108]LogStaticMesh: Built static mesh [472.347382ms] /Game/Props/SceneProps/merry.merry
+[2014.10.02-21.47.36:872][108]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2014.10.02-21.47.37:006][108]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Models/merry/merry_Body_diffuse.png)
+[2014.10.02-21.47.37:080][108]0.000024 seconds to analyze Texture2D /Game/Props/SceneProps/merry_Body_diffuse.merry_Body_diffuse
+
+[2014.10.02-21.47.37:082][108]LogTexture:Display: Building textures: merry_Body_diffuse (AutoDXT)
+[2014.10.02-21.47.38:321][108]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Models/merry/merry_Body_gloss.png)
+[2014.10.02-21.47.38:368][108]0.000019 seconds to analyze Texture2D /Game/Props/SceneProps/merry_Body_gloss.merry_Body_gloss
+
+[2014.10.02-21.47.38:371][108]LogTexture:Display: Building textures: merry_Body_gloss (AutoDXT)
+[2014.10.02-21.47.38:601][108]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Models/merry/merry_Body_normal.png)
+[2014.10.02-21.47.38:670][108]0.000026 seconds to analyze Texture2D /Game/Props/SceneProps/merry_Body_normal.merry_Body_normal
+
+[2014.10.02-21.47.38:679][108]LogTexture:Display: Building textures: merry_Body_normal (BC5)
+[2014.10.02-21.47.38:874][108]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Models/merry/merry_Body_specular.png)
+[2014.10.02-21.47.38:924][108]0.000030 seconds to analyze Texture2D /Game/Props/SceneProps/merry_Body_specular.merry_Body_specular
+
+[2014.10.02-21.47.38:960][108]LogTexture:Display: Building textures: merry_Body_specular (AutoDXT)
+[2014.10.02-21.47.39:324][108]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Models/merry/merry_Bottom_diffuse.png)
+[2014.10.02-21.47.39:337][108]0.000014 seconds to analyze Texture2D /Game/Props/SceneProps/merry_Bottom_diffuse.merry_Bottom_diffuse
+
+[2014.10.02-21.47.39:338][108]LogTexture:Display: Building textures: merry_Bottom_diffuse (AutoDXT)
+[2014.10.02-21.47.39:516][108]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Models/merry/merry_Bottom_gloss.png)
+[2014.10.02-21.47.39:526][108]0.000015 seconds to analyze Texture2D /Game/Props/SceneProps/merry_Bottom_gloss.merry_Bottom_gloss
+
+[2014.10.02-21.47.39:527][108]LogTexture:Display: Building textures: merry_Bottom_gloss (AutoDXT)
+[2014.10.02-21.47.39:588][108]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Models/merry/merry_Bottom_normal.png)
+[2014.10.02-21.47.39:605][108]0.000018 seconds to analyze Texture2D /Game/Props/SceneProps/merry_Bottom_normal.merry_Bottom_normal
+
+[2014.10.02-21.47.39:611][108]LogTexture:Display: Building textures: merry_Bottom_normal (BC5)
+[2014.10.02-21.47.39:648][108]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Models/merry/merry_Bottom_specular.png)
+[2014.10.02-21.47.39:657][108]0.000022 seconds to analyze Texture2D /Game/Props/SceneProps/merry_Bottom_specular.merry_Bottom_specular
+
+[2014.10.02-21.47.39:659][108]LogTexture:Display: Building textures: merry_Bottom_specular (AutoDXT)
+[2014.10.02-21.47.39:720][108]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Models/merry/merry_Hair_diffuse.png)
+[2014.10.02-21.47.39:733][108]0.000014 seconds to analyze Texture2D /Game/Props/SceneProps/merry_Hair_diffuse.merry_Hair_diffuse
+
+[2014.10.02-21.47.39:735][108]LogTexture:Display: Building textures: merry_Hair_diffuse (AutoDXT)
+[2014.10.02-21.47.39:892][108]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Models/merry/merry_Hair_gloss.png)
+[2014.10.02-21.47.39:900][108]0.000012 seconds to analyze Texture2D /Game/Props/SceneProps/merry_Hair_gloss.merry_Hair_gloss
+
+[2014.10.02-21.47.39:923][108]LogTexture:Display: Building textures: merry_Hair_gloss (AutoDXT)
+[2014.10.02-21.47.40:007][108]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Models/merry/merry_Hair_normal.png)
+[2014.10.02-21.47.40:019][108]0.000016 seconds to analyze Texture2D /Game/Props/SceneProps/merry_Hair_normal.merry_Hair_normal
+
+[2014.10.02-21.47.40:059][108]LogTexture:Display: Building textures: merry_Hair_normal (BC5)
+[2014.10.02-21.47.40:139][108]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Models/merry/merry_Hair_specular.png)
+[2014.10.02-21.47.40:147][108]0.000012 seconds to analyze Texture2D /Game/Props/SceneProps/merry_Hair_specular.merry_Hair_specular
+
+[2014.10.02-21.47.40:149][108]LogTexture:Display: Building textures: merry_Hair_specular (AutoDXT)
+[2014.10.02-21.47.40:240][108]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Models/merry/merry_Shoes_diffuse.png)
+[2014.10.02-21.47.40:253][108]0.000016 seconds to analyze Texture2D /Game/Props/SceneProps/merry_Shoes_diffuse.merry_Shoes_diffuse
+
+[2014.10.02-21.47.40:277][108]LogTexture:Display: Building textures: merry_Shoes_diffuse (AutoDXT)
+[2014.10.02-21.47.40:590][108]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Models/merry/merry_Shoes_gloss.png)
+[2014.10.02-21.47.40:600][108]0.000014 seconds to analyze Texture2D /Game/Props/SceneProps/merry_Shoes_gloss.merry_Shoes_gloss
+
+[2014.10.02-21.47.40:601][108]LogTexture:Display: Building textures: merry_Shoes_gloss (AutoDXT)
+[2014.10.02-21.47.40:680][108]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Models/merry/merry_Shoes_normal.png)
+[2014.10.02-21.47.40:695][108]0.000015 seconds to analyze Texture2D /Game/Props/SceneProps/merry_Shoes_normal.merry_Shoes_normal
+
+[2014.10.02-21.47.40:702][108]LogTexture:Display: Building textures: merry_Shoes_normal (BC5)
+[2014.10.02-21.47.40:744][108]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Models/merry/merry_Shoes_specular.png)
+[2014.10.02-21.47.40:756][108]0.000017 seconds to analyze Texture2D /Game/Props/SceneProps/merry_Shoes_specular.merry_Shoes_specular
+
+[2014.10.02-21.47.40:758][108]LogTexture:Display: Building textures: merry_Shoes_specular (AutoDXT)
+[2014.10.02-21.47.40:847][108]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Models/merry/merry_Top_diffuse.png)
+[2014.10.02-21.47.40:907][108]0.000021 seconds to analyze Texture2D /Game/Props/SceneProps/merry_Top_diffuse.merry_Top_diffuse
+
+[2014.10.02-21.47.40:934][108]LogTexture:Display: Building textures: merry_Top_diffuse (AutoDXT)
+[2014.10.02-21.47.42:138][108]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Models/merry/merry_Top_gloss.png)
+[2014.10.02-21.47.42:181][108]0.000022 seconds to analyze Texture2D /Game/Props/SceneProps/merry_Top_gloss.merry_Top_gloss
+
+[2014.10.02-21.47.42:184][108]LogTexture:Display: Building textures: merry_Top_gloss (AutoDXT)
+[2014.10.02-21.47.42:437][108]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Models/merry/merry_Top_normal.png)
+[2014.10.02-21.47.42:510][108]0.000038 seconds to analyze Texture2D /Game/Props/SceneProps/merry_Top_normal.merry_Top_normal
+
+[2014.10.02-21.47.42:519][108]LogTexture:Display: Building textures: merry_Top_normal (BC5)
+[2014.10.02-21.47.42:721][108]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/TEMP/Documents/GitHub/treebeard/Models/merry/merry_Top_specular.png)
+[2014.10.02-21.47.42:766][108]0.000022 seconds to analyze Texture2D /Game/Props/SceneProps/merry_Top_specular.merry_Top_specular
+
+[2014.10.02-21.47.42:802][108]LogTexture:Display: Building textures: merry_Top_specular (AutoDXT)
+[2014.10.02-21.47.43:206][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.02-21.47.43:206][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.47.43:206][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.47.43:206][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.47.43:206][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.47.43:206][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.47.43:207][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.47.43:207][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.47.43:207][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.47.43:207][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.47.43:207][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.47.43:207][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.47.43:208][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.47.43:208][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.47.43:208][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.47.43:208][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.47.43:208][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.47.43:209][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.47.43:209][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.47.43:209][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.47.43:209][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.47.43:209][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.48.24:661][877]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/PropText'
+[2014.10.02-21.48.25:843][969]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/PropText/NewFolder'
+[2014.10.02-21.48.29:721][302]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/PropText/pippen'
+[2014.10.02-21.48.31:294][435]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/Materials'
+[2014.10.02-21.48.34:085][516]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.10.02-21.48.36:946][636]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.48.53:934][559]LogSavePackage: Save=4972.416504ms
+[2014.10.02-21.48.53:934][559]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Body_diffuse97870E3F49102A00301695999AA0348E.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Textures/PropText/pippen/merry_Body_diffuse.uasset'
+[2014.10.02-21.48.54:821][559]LogSavePackage: Save=869.591125ms
+[2014.10.02-21.48.54:821][559]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Body_gloss8789455D46F62B959B59B797ADBCEB0B.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Textures/PropText/pippen/merry_Body_gloss.uasset'
+[2014.10.02-21.49.00:069][559]LogSavePackage: Save=5233.470215ms
+[2014.10.02-21.49.00:069][559]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Body_normalC7A1EADE4CEEBEBB55D7DA8EE8B868EA.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Textures/PropText/pippen/merry_Body_normal.uasset'
+[2014.10.02-21.49.03:186][559]LogSavePackage: Save=3098.627441ms
+[2014.10.02-21.49.03:186][559]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Body_specularCB28DCC842437E153AAAC9AE842A2639.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Textures/PropText/pippen/merry_Body_specular.uasset'
+[2014.10.02-21.49.04:250][559]LogSavePackage: Save=1046.377197ms
+[2014.10.02-21.49.04:250][559]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Bottom_diffuseD2690F49463BB5D45B10BABBB04111FA.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Textures/PropText/pippen/merry_Bottom_diffuse.uasset'
+[2014.10.02-21.49.04:757][559]LogSavePackage: Save=487.336334ms
+[2014.10.02-21.49.04:757][559]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Bottom_glossEC6C3D88456C94694F71208A79C981F6.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Textures/PropText/pippen/merry_Bottom_gloss.uasset'
+[2014.10.02-21.49.06:292][559]LogSavePackage: Save=1518.429199ms
+[2014.10.02-21.49.06:292][559]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Bottom_normal3C5C85314E598B03BD6B44B3B3BE6195.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Textures/PropText/pippen/merry_Bottom_normal.uasset'
+[2014.10.02-21.49.06:778][559]LogSavePackage: Save=468.638519ms
+[2014.10.02-21.49.06:778][559]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Bottom_specularC22447334B41FA9B7603AAB444905DE8.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Textures/PropText/pippen/merry_Bottom_specular.uasset'
+[2014.10.02-21.49.07:177][559]LogSavePackage: Save=379.476227ms
+[2014.10.02-21.49.07:177][559]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Hair_diffuse2809D57C4F87EBA7E47B08B1870684F5.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Textures/PropText/pippen/merry_Hair_diffuse.uasset'
+[2014.10.02-21.49.07:241][559]LogSavePackage: Save=45.653767ms
+[2014.10.02-21.49.07:241][559]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Hair_glossC4F4CD9E47A34C699769509A879A4FF3.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Textures/PropText/pippen/merry_Hair_gloss.uasset'
+[2014.10.02-21.49.07:600][559]LogSavePackage: Save=341.291351ms
+[2014.10.02-21.49.07:600][559]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Hair_normal5B1F4AC24948CC9D47F062975CC4B229.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Textures/PropText/pippen/merry_Hair_normal.uasset'
+[2014.10.02-21.49.07:825][559]LogSavePackage: Save=206.487045ms
+[2014.10.02-21.49.07:825][559]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Hair_specular887835CD4A674FC5F1BB98B838CA4A79.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Textures/PropText/pippen/merry_Hair_specular.uasset'
+[2014.10.02-21.49.08:681][559]LogSavePackage: Save=837.270325ms
+[2014.10.02-21.49.08:681][559]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Shoes_diffuseA7B8EB384701D79CA738638EE044EC6C.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Textures/PropText/pippen/merry_Shoes_diffuse.uasset'
+[2014.10.02-21.49.08:990][559]LogSavePackage: Save=291.046051ms
+[2014.10.02-21.49.08:990][559]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Shoes_gloss8D75B371452B9416E205A1A82EAECD58.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Textures/PropText/pippen/merry_Shoes_gloss.uasset'
+[2014.10.02-21.49.09:922][559]LogSavePackage: Save=913.075317ms
+[2014.10.02-21.49.09:922][559]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Shoes_normal449834A44B0CBB8652F7DCB5F8F1CA20.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Textures/PropText/pippen/merry_Shoes_normal.uasset'
+[2014.10.02-21.49.10:641][559]LogSavePackage: Save=701.836792ms
+[2014.10.02-21.49.10:641][559]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Shoes_specular58787B9E43BC975E0D770683A679BC2D.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Textures/PropText/pippen/merry_Shoes_specular.uasset'
+[2014.10.02-21.49.13:451][559]LogSavePackage: Save=2793.064941ms
+[2014.10.02-21.49.13:451][559]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Top_diffuseC6000F264FCEBB5E704C1BAA95E98D00.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Textures/PropText/pippen/merry_Top_diffuse.uasset'
+[2014.10.02-21.49.14:074][559]LogSavePackage: Save=606.034241ms
+[2014.10.02-21.49.14:075][559]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Top_gloss7D34471648F7EB97FC314ABAB2A2B0F3.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Textures/PropText/pippen/merry_Top_gloss.uasset'
+[2014.10.02-21.49.16:125][559]LogSavePackage: Save=2031.949585ms
+[2014.10.02-21.49.16:126][559]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Top_normalBCF2471D4D817A7B0D1695B97B1F8AC2.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Textures/PropText/pippen/merry_Top_normal.uasset'
+[2014.10.02-21.49.19:123][559]LogSavePackage: Save=2982.495850ms
+[2014.10.02-21.49.19:123][559]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Top_specularD5758D9F4BCCDE4542F7F3B9FD87C604.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Textures/PropText/pippen/merry_Top_specular.uasset'
+[2014.10.02-21.50.21:278][900]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/Materials'
+[2014.10.02-21.50.22:235][923]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.50.23:504][947]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/PropText/pippen'
+[2014.10.02-21.50.25:239][ 94]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/Materials'
+[2014.10.02-21.50.26:293][120]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.02-21.50.29:506][183]LogActorFactory: Actor Factory created merry
+[2014.10.02-21.50.31:689][202]LogActorFactory: Actor Factory created merry
+[2014.10.02-21.50.34:084][293]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/PropText/pippen'
+[2014.10.02-21.50.37:503][585]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats'
+[2014.10.02-21.50.39:406][667]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats/NewFolder'
+[2014.10.02-21.50.44:363][ 82]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats/pippenMats'
+[2014.10.02-21.50.48:572][426]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats/pippenMats'
+[2014.10.02-21.51.00:915][390]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats/pippenMats'
+[2014.10.02-21.51.19:578][298]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats'
+[2014.10.02-21.51.20:684][317]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats/pippenMats'
+[2014.10.02-21.51.22:701][481]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats/pippenMats'
+[2014.10.02-21.51.28:823][968]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats/pippenMats'
+[2014.10.02-21.51.41:539][482]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats/pippenMats'
+[2014.10.02-21.51.43:047][550]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats/pippenMats'
+[2014.10.02-21.52.35:132][946]LogSavePackage: Save=291.850922ms
+[2014.10.02-21.52.35:132][946]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/shoes0E6328704CA486B75F8ACE81AFDF5F4D.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Materials/propMats/pippenMats/shoes.uasset'
+[2014.10.02-21.52.56:119][609]LogSavePackage: Save=286.711304ms
+[2014.10.02-21.52.56:119][609]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/cloths9D91C169438BD54BFE2903872EE32C2F.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Materials/propMats/pippenMats/cloths.uasset'
+[2014.10.02-21.53.00:380][705]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/PropText/pippen'
+[2014.10.02-21.53.03:143][942]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats/pippenMats'
+[2014.10.02-21.53.04:259][969]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-21.53.04:272][969]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.10.02-21.53.04:332][969]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.10.02-21.53.04:332][969]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.10.02-21.53.04:332][969]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.10.02-21.53.04:332][969]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.10.02-21.53.04:334][969]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-21.53.05:535][989]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/PropText/pippen'
+[2014.10.02-21.53.05:577][990]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.02-21.53.05:577][990]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.02-21.53.05:577][990]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.02-21.53.22:085][624]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-21.53.22:088][624]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.02-21.53.22:113][624]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.02-21.53.22:125][624]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-21.53.22:129][624]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.10.02-21.53.22:151][624]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.02-21.53.22:153][624]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.10.02-21.53.22:163][624]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-21.53.22:167][624]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling.
+[2014.10.02-21.53.22:195][624]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.02-21.53.22:197][624]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.10.02-21.53.22:199][624]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling.
+[2014.10.02-21.53.22:207][624]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-21.53.22:219][624]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.10.02-21.53.22:249][624]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.02-21.53.22:251][624]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.10.02-21.53.22:253][624]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling.
+[2014.10.02-21.53.22:255][624]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.10.02-21.53.22:854][648]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.02-21.53.22:854][648]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.02-21.53.22:854][648]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.02-21.53.29:129][902]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-21.53.29:155][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.02-21.53.29:783][925]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2014.10.02-21.53.29:783][925]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-21.53.29:783][925]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.02-21.53.38:522][283]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-21.53.38:549][283]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.10.02-21.53.39:265][310]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 69 instructions
+[2014.10.02-21.53.39:265][310]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-21.53.39:265][310]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.02-21.53.44:711][543]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-21.53.44:735][543]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling.
+[2014.10.02-21.53.45:462][573]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2014.10.02-21.53.45:462][573]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-21.53.45:462][573]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.02-21.53.47:914][670]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-21.53.47:949][670]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.10.02-21.53.48:661][697]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 78 instructions
+[2014.10.02-21.53.48:661][697]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-21.53.48:661][697]MaterialEditorStats: Info Texture samplers: 7/16
+[2014.10.02-21.53.49:122][709]LogMaterialEditor: Saving and Compiling material cloths
+[2014.10.02-21.53.49:490][709]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.02-21.53.49:594][709]LogMaterial: Missing cached shader map for material cloths, compiling.
+[2014.10.02-21.53.49:608][709]LogMaterial: Missing cached shader map for material cloths, compiling.
+[2014.10.02-21.53.49:636][709]LogMaterial: 0.024435 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.02-21.53.51:365][709]LogSavePackage: Save=152.436417ms
+[2014.10.02-21.53.51:365][709]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/cloths423DC9BB4E50EBD3640E37847B7D2E77.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Materials/propMats/pippenMats/cloths.uasset'
+[2014.10.02-21.53.57:571][123]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats/pippenMats'
+[2014.10.02-21.53.59:682][174]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.02-21.53.59:689][174]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.10.02-21.53.59:779][174]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.10.02-21.53.59:779][174]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.10.02-21.53.59:779][174]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.10.02-21.53.59:779][174]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.10.02-21.53.59:781][174]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.02-21.54.00:461][185]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.02-21.54.00:461][185]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.02-21.54.00:461][185]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.02-21.54.01:618][204]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/PropText/pippen'
+[2014.10.02-21.54.14:826][733]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.02-21.54.14:829][733]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
+[2014.10.02-21.54.14:854][733]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
+[2014.10.02-21.54.14:870][733]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.02-21.54.14:874][733]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
+[2014.10.02-21.54.14:946][733]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
+[2014.10.02-21.54.14:948][733]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
+[2014.10.02-21.54.14:959][733]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.02-21.54.14:963][733]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.02-21.54.14:985][733]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
+[2014.10.02-21.54.14:987][733]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
+[2014.10.02-21.54.14:989][733]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.02-21.54.15:000][733]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.02-21.54.15:004][733]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling.
+[2014.10.02-21.54.15:030][733]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
+[2014.10.02-21.54.15:032][733]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
+[2014.10.02-21.54.15:034][733]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.02-21.54.15:036][733]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling.
+[2014.10.02-21.54.15:691][759]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.02-21.54.15:691][759]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.02-21.54.15:691][759]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.02-21.54.24:506][142]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CustomReflectionVector.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.10.02-21.54.27:323][257]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.02-21.54.27:351][257]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
+[2014.10.02-21.54.27:965][281]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2014.10.02-21.54.27:965][281]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-21.54.27:965][281]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.02-21.54.47:702][103]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.02-21.54.47:778][103]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
+[2014.10.02-21.54.48:395][127]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
+[2014.10.02-21.54.48:395][127]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-21.54.48:395][127]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.02-21.54.49:000][137]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D01B600
+[2014.10.02-21.54.49:332][137]LogSavePackage: Save=307.416901ms
+[2014.10.02-21.54.49:332][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/LOTR001_Auto2A14013814B1A65474B02378A0F8D8E1E.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/LOTR001_Auto2.umap'
+[2014.10.02-21.54.49:338][137]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LOTR001' took 0.361
+[2014.10.02-21.54.49:338][137]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.361
+[2014.10.02-21.54.49:348][137]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Props/Materials/deathWheelTexture_Mat] ([1] browsable assets)...
+[2014.10.02-21.54.49:393][137]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Props/Materials/deathWheelTexture_Mat.deathWheelTexture_Mat]
+[2014.10.02-21.54.49:393][137]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Materials/deathWheelTexture_Mat]
+[2014.10.02-21.54.49:703][137]LogSavePackage: Save=288.698334ms
+[2014.10.02-21.54.49:703][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/deathWheelTexture_Mat_Auto203154D7242D7E3C35CA7A38725B97C2A.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Props/Materials/deathWheelTexture_Mat_Auto2.uasset'
+[2014.10.02-21.54.49:716][137]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Props/SceneProps/merry] ([1] browsable assets)...
+[2014.10.02-21.54.49:760][137]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Props/SceneProps/merry.merry]
+[2014.10.02-21.54.49:760][137]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/SceneProps/merry]
+[2014.10.02-21.54.50:068][137]LogSavePackage: Save=288.026611ms
+[2014.10.02-21.54.50:068][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Auto2DF64AD9E4D6827FCA5AA2FA69DF80CD1.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Props/SceneProps/merry_Auto2.uasset'
+[2014.10.02-21.54.50:103][137]LogSavePackage: Save=6.218614ms
+[2014.10.02-21.54.50:103][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Body_diffuse_Auto2417B7AE7468E29851A53DEAB0E39C68E.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Props/SceneProps/merry_Body_diffuse_Auto2.uasset'
+[2014.10.02-21.54.50:137][137]LogSavePackage: Save=6.446448ms
+[2014.10.02-21.54.50:137][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Body_gloss_Auto261ED75234B314FB7C5618C936E3163EE.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Props/SceneProps/merry_Body_gloss_Auto2.uasset'
+[2014.10.02-21.54.50:170][137]LogSavePackage: Save=6.134135ms
+[2014.10.02-21.54.50:170][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Body_normal_Auto2C44A58E34507786434858EB446014642.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Props/SceneProps/merry_Body_normal_Auto2.uasset'
+[2014.10.02-21.54.50:203][137]LogSavePackage: Save=6.116728ms
+[2014.10.02-21.54.50:203][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Body_specular_Auto255CFB53E4D408344717BD1BA66CC6F86.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Props/SceneProps/merry_Body_specular_Auto2.uasset'
+[2014.10.02-21.54.50:237][137]LogSavePackage: Save=6.184566ms
+[2014.10.02-21.54.50:237][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Bottom_diffuse_Auto24CF8468D4D2A55D152BB558A5F3D6FCF.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Props/SceneProps/merry_Bottom_diffuse_Auto2.uasset'
+[2014.10.02-21.54.50:270][137]LogSavePackage: Save=5.941884ms
+[2014.10.02-21.54.50:270][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Bottom_gloss_Auto27FDDD03941D3B1562BBF088ECD8CCC7C.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Props/SceneProps/merry_Bottom_gloss_Auto2.uasset'
+[2014.10.02-21.54.50:302][137]LogSavePackage: Save=6.083192ms
+[2014.10.02-21.54.50:302][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Bottom_normal_Auto22D21BC1F46E2378243C6FC8B18587FE6.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Props/SceneProps/merry_Bottom_normal_Auto2.uasset'
+[2014.10.02-21.54.50:337][137]LogSavePackage: Save=6.296180ms
+[2014.10.02-21.54.50:337][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Bottom_specular_Auto22023222F43E2B490A4A6D78FD2AD3753.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Props/SceneProps/merry_Bottom_specular_Auto2.uasset'
+[2014.10.02-21.54.50:370][137]LogSavePackage: Save=5.920380ms
+[2014.10.02-21.54.50:370][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Hair_diffuse_Auto27231810B49B94ACE05D5828127982CD2.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Props/SceneProps/merry_Hair_diffuse_Auto2.uasset'
+[2014.10.02-21.54.50:403][137]LogSavePackage: Save=6.125688ms
+[2014.10.02-21.54.50:403][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Hair_gloss_Auto210583FB54C90805E63802990BB685F7A.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Props/SceneProps/merry_Hair_gloss_Auto2.uasset'
+[2014.10.02-21.54.50:437][137]LogSavePackage: Save=6.270068ms
+[2014.10.02-21.54.50:437][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Hair_normal_Auto20EE5A3C744527DE4048355BAAB5FAEA9.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Props/SceneProps/merry_Hair_normal_Auto2.uasset'
+[2014.10.02-21.54.50:470][137]LogSavePackage: Save=6.009978ms
+[2014.10.02-21.54.50:470][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Hair_specular_Auto2AF82BB08484E4E8802D2BEB5BA6E6142.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Props/SceneProps/merry_Hair_specular_Auto2.uasset'
+[2014.10.02-21.54.50:503][137]LogSavePackage: Save=6.037881ms
+[2014.10.02-21.54.50:503][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Shoes_diffuse_Auto2E340C7764579F4956C27BEA2456531A8.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Props/SceneProps/merry_Shoes_diffuse_Auto2.uasset'
+[2014.10.02-21.54.50:536][137]LogSavePackage: Save=6.114424ms
+[2014.10.02-21.54.50:536][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Shoes_gloss_Auto25C7373304C9DA888CF72AA8F054FE72D.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Props/SceneProps/merry_Shoes_gloss_Auto2.uasset'
+[2014.10.02-21.54.50:570][137]LogSavePackage: Save=6.556526ms
+[2014.10.02-21.54.50:570][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Shoes_normal_Auto2047CBF384F8DE7C42F6011AFE7DD0CAC.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Props/SceneProps/merry_Shoes_normal_Auto2.uasset'
+[2014.10.02-21.54.50:603][137]LogSavePackage: Save=6.154103ms
+[2014.10.02-21.54.50:603][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Shoes_specular_Auto25354CE754A697187B986B9A4565CBE54.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Props/SceneProps/merry_Shoes_specular_Auto2.uasset'
+[2014.10.02-21.54.50:637][137]LogSavePackage: Save=7.059043ms
+[2014.10.02-21.54.50:637][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Top_diffuse_Auto24BD9DD794AEEFD8CA441158433B34D59.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Props/SceneProps/merry_Top_diffuse_Auto2.uasset'
+[2014.10.02-21.54.50:670][137]LogSavePackage: Save=6.055289ms
+[2014.10.02-21.54.50:670][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Top_gloss_Auto290E69EBA4B97F329A41370801A0A1E9B.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Props/SceneProps/merry_Top_gloss_Auto2.uasset'
+[2014.10.02-21.54.50:703][137]LogSavePackage: Save=6.337907ms
+[2014.10.02-21.54.50:704][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Top_normal_Auto27747FDC647C051E19C49BF9027B0CFA4.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Props/SceneProps/merry_Top_normal_Auto2.uasset'
+[2014.10.02-21.54.50:737][137]LogSavePackage: Save=6.278004ms
+[2014.10.02-21.54.50:737][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Top_specular_Auto2C56FCE34431AD5912DC28CA135D9DB46.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Props/SceneProps/merry_Top_specular_Auto2.uasset'
+[2014.10.02-21.54.50:751][137]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/propMats/pippenMats/hair] ([1] browsable assets)...
+[2014.10.02-21.54.50:794][137]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/propMats/pippenMats/hair.hair]
+[2014.10.02-21.54.50:794][137]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/propMats/pippenMats/hair]
+[2014.10.02-21.54.51:092][137]LogSavePackage: Save=278.106567ms
+[2014.10.02-21.54.51:092][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/hair_Auto2426A2A404816A8FBE153EE9524402D4A.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Materials/propMats/pippenMats/hair_Auto2.uasset'
+[2014.10.02-21.54.51:105][137]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/propMats/pippenMats/face] ([1] browsable assets)...
+[2014.10.02-21.54.51:145][137]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/propMats/pippenMats/face.face]
+[2014.10.02-21.54.51:145][137]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/propMats/pippenMats/face]
+[2014.10.02-21.54.51:440][137]LogSavePackage: Save=277.739471ms
+[2014.10.02-21.54.51:440][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/face_Auto28FF3EBC24FAB9EF8BD3862982C138C98.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Materials/propMats/pippenMats/face_Auto2.uasset'
+[2014.10.02-21.54.51:470][137]LogSavePackage: Save=7.026276ms
+[2014.10.02-21.54.51:470][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/NewMaterial_Auto2E8AE7A23407068E4EF4D389875B6694D.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Materials/propMats/pippenMats/NewMaterial_Auto2.uasset'
+[2014.10.02-21.54.51:502][137]LogSavePackage: Save=5.949820ms
+[2014.10.02-21.54.51:502][137]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/NewMaterial2_Auto27A8B158B40FA3EB1B6A09CA842E6AA4E.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Materials/propMats/pippenMats/NewMaterial2_Auto2.uasset'
+[2014.10.02-21.54.51:507][137]LogFileHelpers: Auto-saving content packages took 2.171
+[2014.10.02-21.54.57:362][401]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.02-21.54.57:388][401]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.02-21.54.58:076][426]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
+[2014.10.02-21.54.58:076][426]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-21.54.58:076][426]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.02-21.55.03:417][641]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.02-21.55.03:445][641]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
+[2014.10.02-21.55.04:091][666]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2014.10.02-21.55.04:091][666]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-21.55.04:091][666]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.02-21.55.05:885][742]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.02-21.55.05:914][742]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling.
+[2014.10.02-21.55.06:655][771]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 78 instructions
+[2014.10.02-21.55.06:655][771]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-21.55.06:655][771]MaterialEditorStats: Info Texture samplers: 7/16
+[2014.10.02-21.55.16:080][189]LogMaterialEditor: Saving and Compiling material shoes
+[2014.10.02-21.55.16:433][189]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.02-21.55.16:502][189]LogMaterial: Missing cached shader map for material shoes, compiling.
+[2014.10.02-21.55.16:512][189]LogMaterial: Missing cached shader map for material shoes, compiling.
+[2014.10.02-21.55.16:530][189]LogMaterial: 0.013322 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.02-21.55.18:288][189]LogSavePackage: Save=161.052917ms
+[2014.10.02-21.55.18:288][189]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/shoesA90923A74707F7EB2CB5E8A336C7F869.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Materials/propMats/pippenMats/shoes.uasset'
+[2014.10.02-21.55.24:011][474]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats/pippenMats'
+[2014.10.02-21.55.25:557][511]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.02-21.55.25:563][511]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2014.10.02-21.55.25:617][511]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2014.10.02-21.55.25:617][511]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2014.10.02-21.55.25:618][511]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2014.10.02-21.55.25:618][511]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2014.10.02-21.55.25:619][511]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.02-21.55.26:343][524]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.02-21.55.26:343][524]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.02-21.55.26:343][524]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.02-21.55.26:788][530]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/PropText/pippen'
+[2014.10.02-21.55.33:056][784]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.02-21.55.33:059][784]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling.
+[2014.10.02-21.55.33:084][784]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling.
+[2014.10.02-21.55.33:093][784]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.02-21.55.33:097][784]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling.
+[2014.10.02-21.55.33:152][784]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling.
+[2014.10.02-21.55.33:154][784]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling.
+[2014.10.02-21.55.33:164][784]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.02-21.55.33:177][784]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling.
+[2014.10.02-21.55.33:206][784]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling.
+[2014.10.02-21.55.33:208][784]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling.
+[2014.10.02-21.55.33:210][784]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling.
+[2014.10.02-21.55.33:220][784]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.02-21.55.33:223][784]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling.
+[2014.10.02-21.55.33:255][784]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling.
+[2014.10.02-21.55.33:257][784]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling.
+[2014.10.02-21.55.33:259][784]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling.
+[2014.10.02-21.55.33:261][784]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling.
+[2014.10.02-21.55.33:901][809]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.02-21.55.33:901][809]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.02-21.55.33:901][809]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.02-21.55.39:519][ 42]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.02-21.55.39:628][ 42]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling.
+[2014.10.02-21.55.40:124][ 62]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2014.10.02-21.55.40:124][ 62]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-21.55.40:125][ 62]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.02-21.55.46:372][364]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.02-21.55.46:406][364]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling.
+[2014.10.02-21.55.47:048][389]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
+[2014.10.02-21.55.47:048][389]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-21.55.47:048][389]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.02-21.56.02:052][187]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.02-21.56.02:087][187]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling.
+[2014.10.02-21.56.02:713][211]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 75 instructions
+[2014.10.02-21.56.02:713][211]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-21.56.02:713][211]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.02-21.56.04:179][271]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.02-21.56.04:209][271]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling.
+[2014.10.02-21.56.04:883][298]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 78 instructions
+[2014.10.02-21.56.04:883][298]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-21.56.04:883][298]MaterialEditorStats: Info Texture samplers: 7/16
+[2014.10.02-21.56.06:223][342]LogMaterialEditor: Saving and Compiling material face
+[2014.10.02-21.56.06:583][342]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.02-21.56.06:648][342]LogMaterial: Missing cached shader map for material face, compiling.
+[2014.10.02-21.56.06:658][342]LogMaterial: Missing cached shader map for material face, compiling.
+[2014.10.02-21.56.06:676][342]LogMaterial: 0.013100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.02-21.56.08:681][342]LogSavePackage: Save=293.421173ms
+[2014.10.02-21.56.08:681][342]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/face02BC2451419760FEDA4212B85E7C57AA.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Materials/propMats/pippenMats/face.uasset'
+[2014.10.02-21.56.17:245][875]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats/pippenMats'
+[2014.10.02-21.56.19:036][918]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.10.02-21.56.19:043][918]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.10.02-21.56.19:122][918]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.10.02-21.56.19:122][918]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2014.10.02-21.56.19:122][918]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.10.02-21.56.19:122][918]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2014.10.02-21.56.19:124][918]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.10.02-21.56.19:846][930]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.02-21.56.19:846][930]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.02-21.56.19:846][930]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.02-21.56.20:136][933]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/PropText/pippen'
+[2014.10.02-21.56.26:516][200]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.10.02-21.56.26:519][200]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling.
+[2014.10.02-21.56.26:548][200]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling.
+[2014.10.02-21.56.26:557][200]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.10.02-21.56.26:561][200]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling.
+[2014.10.02-21.56.26:622][200]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling.
+[2014.10.02-21.56.26:624][200]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling.
+[2014.10.02-21.56.26:635][200]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.10.02-21.56.26:639][200]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling.
+[2014.10.02-21.56.26:673][200]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling.
+[2014.10.02-21.56.26:675][200]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling.
+[2014.10.02-21.56.26:677][200]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling.
+[2014.10.02-21.56.26:688][200]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.10.02-21.56.26:692][200]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_16, compiling.
+[2014.10.02-21.56.26:719][200]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling.
+[2014.10.02-21.56.26:721][200]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling.
+[2014.10.02-21.56.26:723][200]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling.
+[2014.10.02-21.56.26:731][200]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_16, compiling.
+[2014.10.02-21.56.27:371][225]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.02-21.56.27:371][225]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.02-21.56.27:371][225]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.02-21.56.34:205][498]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.10.02-21.56.34:235][498]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling.
+[2014.10.02-21.56.34:895][524]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2014.10.02-21.56.34:895][524]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-21.56.34:895][524]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.02-21.56.38:232][651]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.10.02-21.56.38:259][651]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling.
+[2014.10.02-21.56.38:957][678]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
+[2014.10.02-21.56.38:957][678]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-21.56.38:957][678]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.02-21.56.50:380][138]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.10.02-21.56.50:413][138]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling.
+[2014.10.02-21.56.51:067][164]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2014.10.02-21.56.51:067][164]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-21.56.51:067][164]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.02-21.56.54:812][326]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.10.02-21.56.54:842][326]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_16, compiling.
+[2014.10.02-21.56.55:462][348]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 78 instructions
+[2014.10.02-21.56.55:462][348]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-21.56.55:462][348]MaterialEditorStats: Info Texture samplers: 7/16
+[2014.10.02-21.56.58:777][466]LogMaterialEditor: Saving and Compiling material hair
+[2014.10.02-21.56.59:131][466]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.10.02-21.56.59:193][466]LogMaterial: Missing cached shader map for material hair, compiling.
+[2014.10.02-21.56.59:201][466]LogMaterial: Missing cached shader map for material hair, compiling.
+[2014.10.02-21.56.59:235][466]LogMaterial: 0.030586 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.02-21.57.01:044][466]LogSavePackage: Save=157.007187ms
+[2014.10.02-21.57.01:044][466]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/hair27316C9345A1B48BB87F43840B45BA6D.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Materials/propMats/pippenMats/hair.uasset'
+[2014.10.02-21.58.15:919][451]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats/pippenMats'
+[2014.10.02-21.58.19:120][570]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats/pippenMats'
+[2014.10.02-21.58.21:077][615]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.02-21.58.21:084][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2014.10.02-21.58.21:136][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2014.10.02-21.58.21:136][615]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2014.10.02-21.58.21:136][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2014.10.02-21.58.21:136][615]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2014.10.02-21.58.21:138][615]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.02-21.58.22:483][644]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.02-21.58.22:483][644]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.02-21.58.22:483][644]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.02-21.58.35:879][ 68]LogSavePackage: Save=274.309418ms
+[2014.10.02-21.58.35:879][ 68]LogSavePackage: Moving '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Saved/pants44C5EC424C4EADBB568405AF3C2E139C.tmp' to '../../../../../../Users/TEMP/Documents/GitHub/treebeard/Unreal Project/DeathScene/Content/Materials/propMats/pippenMats/pants.uasset'
+[2014.10.02-21.58.35:963][ 68]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026356840
+[2014.10.02-21.58.35:963][ 68]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D684F40
+[2014.10.02-21.58.35:963][ 68]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003E18C20
+[2014.10.02-21.58.39:139][115]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/PropText/pippen'
+[2014.10.02-21.58.46:939][433]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.02-21.58.46:942][433]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_17, compiling.
+[2014.10.02-21.58.46:969][433]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_17, compiling.
+[2014.10.02-21.58.46:977][433]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.02-21.58.46:980][433]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_18, compiling.
+[2014.10.02-21.58.47:003][433]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_17, compiling.
+[2014.10.02-21.58.47:005][433]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_18, compiling.
+[2014.10.02-21.58.47:013][433]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.02-21.58.47:017][433]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_19, compiling.
+[2014.10.02-21.58.47:043][433]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_17, compiling.
+[2014.10.02-21.58.47:045][433]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_18, compiling.
+[2014.10.02-21.58.47:046][433]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_19, compiling.
+[2014.10.02-21.58.47:055][433]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.02-21.58.47:059][433]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_20, compiling.
+[2014.10.02-21.58.47:083][433]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_17, compiling.
+[2014.10.02-21.58.47:085][433]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_18, compiling.
+[2014.10.02-21.58.47:086][433]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_19, compiling.
+[2014.10.02-21.58.47:088][433]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_20, compiling.
+[2014.10.02-21.58.48:318][485]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.02-21.58.48:318][485]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.02-21.58.48:318][485]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.02-21.58.50:634][563]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.02-21.58.50:671][563]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_17, compiling.
+[2014.10.02-21.58.51:365][588]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2014.10.02-21.58.51:365][588]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-21.58.51:365][588]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.02-21.58.55:468][768]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.02-21.58.55:510][768]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_18, compiling.
+[2014.10.02-21.58.56:140][793]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
+[2014.10.02-21.58.56:140][793]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.02-21.58.56:140][793]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.02-21.59
