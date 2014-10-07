@@ -1,0 +1,1224 @@
+Log file open, 10/07/14 13:57:48
+LogInit:Display: Running engine for game: DeathScene
+LogInit: Version: 4.4.0-2255576+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Aug 13 2014 22:39:32
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.07-19.57.48:986][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.07-19.57.49:010][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.07-19.57.49:015][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.07-19.57.49:020][  0]LogInit: Object subsystem initialized
+[2014.10.07-19.57.49:022][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.07-19.57.49:022][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.07-19.57.49:025][  0]LogInit: Computer: LAB3-18
+[2014.10.07-19.57.49:025][  0]LogInit: User: ssharp
+[2014.10.07-19.57.49:026][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.10.07-19.57.49:026][  0]LogInit: High frequency timer resolution =3.320527 MHz
+[2014.10.07-19.57.49:026][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx) Virtual=8192.0GB
+[2014.10.07-19.57.49:026][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.07-19.57.49:026][  0]LogMemory: Process Physical Memory: 61.73 MB used, 61.73 MB peak
+[2014.10.07-19.57.49:026][  0]LogMemory: Process Virtual Memory: 38.02 MB used, 38.02 MB peak
+[2014.10.07-19.57.49:026][  0]LogMemory: Physical Memory: 5280.74 MB used, 16350.83 MB total
+[2014.10.07-19.57.49:026][  0]LogMemory: Virtual Memory: 245.37 MB used, 8388608.00 MB total
+[2014.10.07-19.57.49:067][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 650 (Feature Level 11_0)
+[2014.10.07-19.57.49:067][  0]LogD3D11RHI: Adapter has 971MB of dedicated video memory, 0MB of dedicated system memory, and 3072MB of shared system memory, 1 output[s]
+[2014.10.07-19.57.49:067][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.07-19.57.49:071][  0]LogRHI: Texture pool is 680 MB (70% of 971 MB)
+[2014.10.07-19.57.49:077][  0]LogD3D11RHI: Async texture creation enabled
+[2014.10.07-19.57.49:169][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.07-19.57.50:223][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.07-19.57.50:512][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.07-19.57.50:538][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.07-19.57.50:576][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/ssharp/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.07-19.57.50:576][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ssharp/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.10.07-19.57.50:576][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ssharp/Documents/treebeard/Unreal Project/Whitebox/treebeard/Unreal Project/DeathScene/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.07-19.57.50:576][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.07-19.57.50:590][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.07-19.57.50:601][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ssharp/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.10.07-19.57.50:730][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.07-19.57.50:730][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.07-19.57.50:959][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.07-19.57.51:459][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_b14_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_25c4_0///////STATCAT_Advanced////
+[2014.10.07-19.57.51:459][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.07-19.57.51:540][  0]SourceControl: Info Source control is disabled
+[2014.10.07-19.57.51:540][  0]SourceControl: Info Source control is disabled
+[2014.10.07-19.57.51:543][  0]SourceControl: Info Source control is disabled
+[2014.10.07-19.57.51:646][  0]BlueprintLog: New page: Editor Load
+[2014.10.07-19.57.51:703][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.10.07-19.57.51:703][  0]LogUObjectAllocator: 4218648 out of 0 bytes used by permanent object pool.
+[2014.10.07-19.57.51:826][  0]LogEngine: Initializing Engine...
+[2014.10.07-19.57.51:899][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.10.07-19.57.51:921][  0]LogInit: FAudioDevice initialized.
+[2014.10.07-19.57.51:931][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.10.07-19.57.51:950][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/ssharp/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.07-19.57.51:954][  0]LogInit: Texture streaming: Enabled
+[2014.10.07-19.57.51:972][  0]LogInit: Transaction tracking system initialized
+[2014.10.07-19.57.52:089][  0]LogAssetRegistry: FAssetRegistry took 0.0094 seconds to start up
+[2014.10.07-19.57.52:399][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.07-19.57.52:633][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.07-19.57.52:702][  0]LogConsoleResponse:Display: 
+[2014.10.07-19.57.52:847][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_744_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_25c4_0///////STATCAT_Advanced////
+[2014.10.07-19.57.52:847][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1424_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_25c4_0///////STATCAT_Advanced////
+[2014.10.07-19.57.52:847][  0]SourceControl: Info Source control is disabled
+[2014.10.07-19.57.57:958][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ssharp/Documents/treebeard/Unreal Project/Whitebox/treebeard/Unreal Project/DeathScene/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.07-19.57.57:959][  0]LightingResults: New page: Lighting Build
+[2014.10.07-19.57.57:964][  0]MapCheck: New page: Map Check
+[2014.10.07-19.57.57:964][  0]LightingResults: New page: Lighting Build
+[2014.10.07-19.57.57:975][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000120DD300
+[2014.10.07-19.57.58:616][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.07-19.57.58:616][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.10.07-19.57.58:616][  0]Cmd: MAP CHECKDEP
+[2014.10.07-19.57.58:616][  0]MapCheck: New page: Minimal_Default - Oct 7, 2014, 7:57:58 AM
+[2014.10.07-19.57.58:656][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [39.644ms] ==========
+[2014.10.07-19.57.58:656][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.698
+[2014.10.07-19.57.58:718][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_1fdc_0///////STATCAT_Advanced//// old //STATGROUP_Threads//SplashScreenThread///Thread_1050_0///////STATCAT_Advanced////
+[2014.10.07-19.57.58:718][  0]LogCollectionManager: Loaded 0 collections in 0.000651 seconds
+[2014.10.07-19.57.58:810][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.07-19.57.58:981][  0]LogLoad: Full Startup: 10.51 seconds (BP compile: 0.05 seconds)
+[2014.10.07-19.57.58:992][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats'
+[2014.10.07-19.57.59:968][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x896.
+[2014.10.07-19.58.00:073][  1]LogAssetRegistry: Asset discovery search completed in 7.9939 seconds
+[2014.10.07-19.58.10:015][438]Cmd: MAP LOAD FILE="../../../../../../Users/ssharp/Documents/treebeard/Unreal Project/Whitebox/treebeard/Unreal Project/DeathScene/Content/LOTR001.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.07-19.58.10:016][438]LightingResults: New page: Lighting Build
+[2014.10.07-19.58.10:031][438]LoadErrors: New page: Loading map: LOTR001.umap
+[2014.10.07-19.58.10:031][438]MapCheck: New page: Map Check
+[2014.10.07-19.58.10:031][438]LightingResults: New page: Lighting Build
+[2014.10.07-19.58.10:052][438]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000193B5D00
+[2014.10.07-19.58.10:073][438]LogLinker:Warning: Can't find file '/Game/Textures/board001_Uvs'
+[2014.10.07-19.58.10:073][438]LogLinker:Warning: Can't find file for asset '/Game/Textures/board001_Uvs' while loading ../../../../../../Users/ssharp/Documents/treebeard/Unreal Project/Whitebox/treebeard/Unreal Project/DeathScene/Content/Materials/propMats/boards_Mat.uasset.
+[2014.10.07-19.58.10:073][438]LoadErrors:Error: Error /Game/Materials/propMats/boards_Mat : Can't find file for asset. /Game/Textures/board001_Uvs
+[2014.10.07-19.58.10:073][438]LogLinker:Warning: Can't find file '/Game/Textures/board001_Uvs'
+[2014.10.07-19.58.10:074][438]LogLinker:Warning: Can't find file for asset '/Game/Textures/board001_Uvs' while loading ../../../../../../Users/ssharp/Documents/treebeard/Unreal Project/Whitebox/treebeard/Unreal Project/DeathScene/Content/Materials/propMats/boards_Mat.uasset.
+[2014.10.07-19.58.10:143][438]LogLinker:Warning: Can't find file '/Game/Textures/board001_Uvs'
+[2014.10.07-19.58.10:143][438]LoadErrors: Info Failed to load /Game/Textures/board001_Uvs.board001_Uvs Referenced by MaterialExpressionTextureSample_0 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.10.07-19.58.10:143][438]LogLinker:Warning: Can't find file for asset '/Game/Textures/board001_Uvs' while loading NULL.
+[2014.10.07-19.58.10:235][438]LogMaterial: Missing cached shader map for material boards_Mat, compiling.
+[2014.10.07-19.58.10:236][438]LogMaterial:Warning: Failed to compile Material /Game/Materials/propMats/boards_Mat.boards_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.07-19.58.10:236][438]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.10.07-19.58.10:251][438]LogTexture:Display: Building textures: slow_cape (AutoDXT)
+[2014.10.07-19.58.10:694][438]LogMaterial: Missing cached shader map for material G_Cap, compiling.
+[2014.10.07-19.58.10:728][438]LogTexture:Display: Building textures: slow_clothes (AutoDXT)
+[2014.10.07-19.58.10:801][438]LogMaterial: Missing cached shader map for material G_cloths, compiling.
+[2014.10.07-19.58.10:812][438]LogTexture:Display: Building textures: slow_face (AutoDXT)
+[2014.10.07-19.58.10:933][438]LogMaterial: Missing cached shader map for material G_face, compiling.
+[2014.10.07-19.58.10:947][438]LogTexture:Display: Building textures: slow_hair (AutoDXT)
+[2014.10.07-19.58.11:075][438]LogMaterial: Missing cached shader map for material G_Hair, compiling.
+[2014.10.07-19.58.11:092][438]LogTexture:Display: Building textures: slow_hands (AutoDXT)
+[2014.10.07-19.58.11:173][438]LogMaterial: Missing cached shader map for material G_Hands, compiling.
+[2014.10.07-19.58.11:195][438]LogTexture:Display: Building textures: slow_weapon (AutoDXT)
+[2014.10.07-19.58.11:346][438]LogMaterial: Missing cached shader map for material G_Staff, compiling.
+[2014.10.07-19.58.11:364][438]LogTexture:Display: Building textures: gimili_Beard_diffuse (AutoDXT)
+[2014.10.07-19.58.11:546][438]LogTexture:Display: Building textures: gimili_Beard_gloss (AutoDXT)
+[2014.10.07-19.58.11:629][438]LogTexture:Display: Building textures: gimili_Beard_normal (BC5)
+[2014.10.07-19.58.11:667][438]LogTexture:Display: Building textures: gimili_Beard_specular (AutoDXT)
+[2014.10.07-19.58.11:885][438]LogMaterial: Missing cached shader map for material Gim_beard, compiling.
+[2014.10.07-19.58.11:926][438]LogTexture:Display: Building textures: gimili_Body_diffuse (AutoDXT)
+[2014.10.07-19.58.13:033][438]LogTexture:Display: Building textures: gimili_Body_gloss (AutoDXT)
+[2014.10.07-19.58.13:254][438]LogTexture:Display: Building textures: gimili_Body_normal (BC5)
+[2014.10.07-19.58.13:408][438]LogTexture:Display: Building textures: gimili_Body_specular (AutoDXT)
+[2014.10.07-19.58.13:624][438]LogMaterial: Missing cached shader map for material Gim_face, compiling.
+[2014.10.07-19.58.13:634][438]LogTexture:Display: Building textures: gimili_Hair_diffuse (AutoDXT)
+[2014.10.07-19.58.13:795][438]LogTexture:Display: Building textures: gimili_Hair_gloss (AutoDXT)
+[2014.10.07-19.58.13:869][438]LogTexture:Display: Building textures: gimili_Hair_normal (BC5)
+[2014.10.07-19.58.13:910][438]LogTexture:Display: Building textures: gimili_Hair_specular (AutoDXT)
+[2014.10.07-19.58.14:169][438]LogMaterial: Missing cached shader map for material Gim_hair, compiling.
+[2014.10.07-19.58.14:184][438]LogTexture:Display: Building textures: gimili_Bottom_diffuse (AutoDXT)
+[2014.10.07-19.58.14:349][438]LogTexture:Display: Building textures: gimili_Bottom_gloss (AutoDXT)
+[2014.10.07-19.58.14:415][438]LogTexture:Display: Building textures: gimili_Bottom_normal (BC5)
+[2014.10.07-19.58.14:476][438]LogTexture:Display: Building textures: gimili_Bottom_specular (AutoDXT)
+[2014.10.07-19.58.14:550][438]LogMaterial: Missing cached shader map for material Gim_pants, compiling.
+[2014.10.07-19.58.14:563][438]LogTexture:Display: Building textures: gimili_Shoes_diffuse (AutoDXT)
+[2014.10.07-19.58.14:876][438]LogTexture:Display: Building textures: gimili_Shoes_gloss (AutoDXT)
+[2014.10.07-19.58.14:956][438]LogTexture:Display: Building textures: gimili_Shoes_normal (BC5)
+[2014.10.07-19.58.14:995][438]LogTexture:Display: Building textures: gimili_Shoes_specular (AutoDXT)
+[2014.10.07-19.58.15:054][438]LogMaterial: Missing cached shader map for material Gim_Shoes, compiling.
+[2014.10.07-19.58.15:070][438]LogTexture:Display: Building textures: gimili_Top_diffuse (AutoDXT)
+[2014.10.07-19.58.15:260][438]LogTexture:Display: Building textures: gimili_Top_gloss (AutoDXT)
+[2014.10.07-19.58.15:388][438]LogTexture:Display: Building textures: gimili_Top_normal (BC5)
+[2014.10.07-19.58.15:434][438]LogTexture:Display: Building textures: gimili_Top_specular (AutoDXT)
+[2014.10.07-19.58.15:573][438]LogMaterial: Missing cached shader map for material Gim_top, compiling.
+[2014.10.07-19.58.15:584][438]LogTexture:Display: Building textures: gimili_Moustache_diffuse (AutoDXT)
+[2014.10.07-19.58.15:827][438]LogTexture:Display: Building textures: gimili_Moustache_gloss (AutoDXT)
+[2014.10.07-19.58.15:916][438]LogTexture:Display: Building textures: gimili_Moustache_normal (BC5)
+[2014.10.07-19.58.15:955][438]LogTexture:Display: Building textures: gimili_Moustache_specular (AutoDXT)
+[2014.10.07-19.58.16:224][438]LogMaterial: Missing cached shader map for material Gim_wiskers, compiling.
+[2014.10.07-19.58.16:228][438]LogMaterial: Missing cached shader map for material Tower, compiling.
+[2014.10.07-19.58.16:350][438]LogTexture:Display: Building textures: deathWheelTexture (AutoDXT)
+[2014.10.07-19.58.17:880][438]LogMaterial: Missing cached shader map for material deathWheelTexture_Mat, compiling.
+[2014.10.07-19.58.18:014][438]LogTexture:Display: Building textures: board001_Uvs (AutoDXT)
+[2014.10.07-19.58.19:465][438]LogMaterial: Missing cached shader map for material board001_Uvs_Mat, compiling.
+[2014.10.07-19.58.19:469][438]LogStaticMesh: Building static mesh orthanc_model_new...
+[2014.10.07-19.58.22:343][438]LogStaticMesh: Built static mesh [2874.715332ms] /Game/Props/orthanc_model_new.orthanc_model_new
+[2014.10.07-19.58.22:644][438]LogStaticMesh: Building static mesh deathWHeelSmooth...
+[2014.10.07-19.58.23:012][438]LogStaticMesh: Built static mesh [368.256897ms] /Game/Props/SceneProps/deathWHeelSmooth.deathWHeelSmooth
+[2014.10.07-19.58.23:124][438]LogStaticMesh: Building static mesh fourBoards...
+[2014.10.07-19.58.23:138][438]LogStaticMesh: Built static mesh [14.577204ms] /Game/Props/SceneProps/fourBoards.fourBoards
+[2014.10.07-19.58.23:144][438]LogStaticMesh: Building static mesh gimili...
+[2014.10.07-19.58.23:717][438]LogStaticMesh: Built static mesh [574.290771ms] /Game/Props/SceneProps/gimili.gimili
+[2014.10.07-19.58.23:888][438]LogStaticMesh: Building static mesh threeBoards...
+[2014.10.07-19.58.23:900][438]LogStaticMesh: Built static mesh [12.957280ms] /Game/Props/SceneProps/threeBoards.threeBoards
+[2014.10.07-19.58.23:998][438]LogTexture:Display: Building textures: Texture2D_622 (BGRA8)
+[2014.10.07-19.58.24:003][438]LogTexture:Display: Building textures: Texture2D_260 (BGRA8)
+[2014.10.07-19.58.24:004][438]LogTexture:Display: Building textures: Texture2D_200 (BGRA8)
+[2014.10.07-19.58.24:006][438]LogTexture:Display: Building textures: Texture2D_268 (BGRA8)
+[2014.10.07-19.58.24:007][438]LogTexture:Display: Building textures: Texture2D_208 (BGRA8)
+[2014.10.07-19.58.24:009][438]LogTexture:Display: Building textures: Texture2D_402 (BGRA8)
+[2014.10.07-19.58.24:011][438]LogTexture:Display: Building textures: Texture2D_404 (BGRA8)
+[2014.10.07-19.58.24:013][438]LogTexture:Display: Building textures: Texture2D_406 (BGRA8)
+[2014.10.07-19.58.24:014][438]LogTexture:Display: Building textures: Texture2D_218 (BGRA8)
+[2014.10.07-19.58.24:017][438]LogTexture:Display: Building textures: Texture2D_371 (BGRA8)
+[2014.10.07-19.58.24:022][438]LogTexture:Display: Building textures: Texture2D_321 (BGRA8)
+[2014.10.07-19.58.24:027][438]LogTexture:Display: Building textures: Texture2D_232 (BGRA8)
+[2014.10.07-19.58.24:028][438]LogTexture:Display: Building textures: Texture2D_234 (BGRA8)
+[2014.10.07-19.58.24:030][438]LogTexture:Display: Building textures: Texture2D_236 (BGRA8)
+[2014.10.07-19.58.24:033][438]LogTexture:Display: Building textures: Texture2D_238 (BGRA8)
+[2014.10.07-19.58.24:036][438]LogTexture:Display: Building textures: Texture2D_240 (BGRA8)
+[2014.10.07-19.58.24:038][438]LogTexture:Display: Building textures: Texture2D_242 (BGRA8)
+[2014.10.07-19.58.24:040][438]LogTexture:Display: Building textures: Texture2D_369 (BGRA8)
+[2014.10.07-19.58.24:044][438]LogTexture:Display: Building textures: Texture2D_246 (BGRA8)
+[2014.10.07-19.58.24:046][438]LogTexture:Display: Building textures: Texture2D_248 (BGRA8)
+[2014.10.07-19.58.24:047][438]LogTexture:Display: Building textures: Texture2D_351 (BGRA8)
+[2014.10.07-19.58.24:049][438]LogTexture:Display: Building textures: Texture2D_256 (BGRA8)
+[2014.10.07-19.58.24:050][438]LogTexture:Display: Building textures: Texture2D_262 (BGRA8)
+[2014.10.07-19.58.24:052][438]LogTexture:Display: Building textures: Texture2D_264 (BGRA8)
+[2014.10.07-19.58.24:053][438]LogTexture:Display: Building textures: Texture2D_266 (BGRA8)
+[2014.10.07-19.58.24:056][438]LogTexture:Display: Building textures: Texture2D_270 (BGRA8)
+[2014.10.07-19.58.24:057][438]LogTexture:Display: Building textures: Texture2D_272 (BGRA8)
+[2014.10.07-19.58.24:059][438]LogTexture:Display: Building textures: Texture2D_274 (BGRA8)
+[2014.10.07-19.58.24:060][438]LogTexture:Display: Building textures: Texture2D_276 (BGRA8)
+[2014.10.07-19.58.24:062][438]LogTexture:Display: Building textures: Texture2D_278 (BGRA8)
+[2014.10.07-19.58.24:063][438]LogTexture:Display: Building textures: Texture2D_280 (BGRA8)
+[2014.10.07-19.58.24:064][438]LogTexture:Display: Building textures: Texture2D_286 (BGRA8)
+[2014.10.07-19.58.24:066][438]LogTexture:Display: Building textures: Texture2D_390 (BGRA8)
+[2014.10.07-19.58.24:067][438]LogTexture:Display: Building textures: Texture2D_293 (BGRA8)
+[2014.10.07-19.58.24:069][438]LogTexture:Display: Building textures: Texture2D_295 (BGRA8)
+[2014.10.07-19.58.24:070][438]LogTexture:Display: Building textures: Texture2D_297 (BGRA8)
+[2014.10.07-19.58.24:072][438]LogTexture:Display: Building textures: Texture2D_299 (BGRA8)
+[2014.10.07-19.58.24:073][438]LogTexture:Display: Building textures: Texture2D_325 (BGRA8)
+[2014.10.07-19.58.24:075][438]LogTexture:Display: Building textures: Texture2D_305 (BGRA8)
+[2014.10.07-19.58.24:077][438]LogTexture:Display: Building textures: Texture2D_363 (BGRA8)
+[2014.10.07-19.58.24:078][438]LogTexture:Display: Building textures: Texture2D_473 (BGRA8)
+[2014.10.07-19.58.24:080][438]LogTexture:Display: Building textures: Texture2D_313 (BGRA8)
+[2014.10.07-19.58.24:082][438]LogTexture:Display: Building textures: Texture2D_317 (BGRA8)
+[2014.10.07-19.58.24:083][438]LogTexture:Display: Building textures: Texture2D_361 (BGRA8)
+[2014.10.07-19.58.24:085][438]LogTexture:Display: Building textures: Texture2D_386 (BGRA8)
+[2014.10.07-19.58.24:087][438]LogTexture:Display: Building textures: Texture2D_367 (BGRA8)
+[2014.10.07-19.58.24:088][438]LogTexture:Display: Building textures: Texture2D_475 (BGRA8)
+[2014.10.07-19.58.24:090][438]LogTexture:Display: Building textures: Texture2D_339 (BGRA8)
+[2014.10.07-19.58.24:091][438]LogTexture:Display: Building textures: Texture2D_341 (BGRA8)
+[2014.10.07-19.58.24:094][438]LogTexture:Display: Building textures: Texture2D_349 (BGRA8)
+[2014.10.07-19.58.24:095][438]LogTexture:Display: Building textures: Texture2D_408 (BGRA8)
+[2014.10.07-19.58.24:096][438]LogTexture:Display: Building textures: Texture2D_379 (BGRA8)
+[2014.10.07-19.58.24:098][438]LogTexture:Display: Building textures: Texture2D_477 (BGRA8)
+[2014.10.07-19.58.24:100][438]LogTexture:Display: Building textures: Texture2D_455 (BGRA8)
+[2014.10.07-19.58.24:101][438]LogTexture:Display: Building textures: Texture2D_357 (BGRA8)
+[2014.10.07-19.58.24:103][438]LogTexture:Display: Building textures: Texture2D_365 (BGRA8)
+[2014.10.07-19.58.24:104][438]LogTexture:Display: Building textures: Texture2D_381 (BGRA8)
+[2014.10.07-19.58.24:106][438]LogTexture:Display: Building textures: Texture2D_463 (BGRA8)
+[2014.10.07-19.58.24:108][438]LogTexture:Display: Building textures: Texture2D_412 (BGRA8)
+[2014.10.07-19.58.24:109][438]LogTexture:Display: Building textures: Texture2D_388 (BGRA8)
+[2014.10.07-19.58.24:111][438]LogTexture:Display: Building textures: Texture2D_451 (BGRA8)
+[2014.10.07-19.58.24:112][438]LogTexture:Display: Building textures: Texture2D_394 (BGRA8)
+[2014.10.07-19.58.24:114][438]LogTexture:Display: Building textures: Texture2D_396 (BGRA8)
+[2014.10.07-19.58.24:116][438]LogTexture:Display: Building textures: Texture2D_461 (BGRA8)
+[2014.10.07-19.58.24:118][438]LogTexture:Display: Building textures: Texture2D_481 (BGRA8)
+[2014.10.07-19.58.24:119][438]LogTexture:Display: Building textures: Texture2D_447 (BGRA8)
+[2014.10.07-19.58.24:121][438]LogTexture:Display: Building textures: Texture2D_449 (BGRA8)
+[2014.10.07-19.58.24:123][438]LogTexture:Display: Building textures: Texture2D_421 (BGRA8)
+[2014.10.07-19.58.24:125][438]LogTexture:Display: Building textures: Texture2D_506 (BGRA8)
+[2014.10.07-19.58.24:129][438]LogTexture:Display: Building textures: Texture2D_524 (BGRA8)
+[2014.10.07-19.58.24:131][438]LogTexture:Display: Building textures: Texture2D_545 (BGRA8)
+[2014.10.07-19.58.24:136][438]LogTexture:Display: Building textures: Texture2D_433 (BGRA8)
+[2014.10.07-19.58.24:138][438]LogTexture:Display: Building textures: Texture2D_590 (BGRA8)
+[2014.10.07-19.58.24:140][438]LogTexture:Display: Building textures: Texture2D_437 (BGRA8)
+[2014.10.07-19.58.24:146][438]LogTexture:Display: Building textures: Texture2D_439 (BGRA8)
+[2014.10.07-19.58.24:153][438]LogTexture:Display: Building textures: Texture2D_441 (BGRA8)
+[2014.10.07-19.58.24:159][438]LogTexture:Display: Building textures: Texture2D_539 (BGRA8)
+[2014.10.07-19.58.24:162][438]LogTexture:Display: Building textures: Texture2D_512 (BGRA8)
+[2014.10.07-19.58.24:164][438]LogTexture:Display: Building textures: Texture2D_453 (BGRA8)
+[2014.10.07-19.58.24:166][438]LogTexture:Display: Building textures: Texture2D_559 (BGRA8)
+[2014.10.07-19.58.24:168][438]LogTexture:Display: Building textures: Texture2D_499 (BGRA8)
+[2014.10.07-19.58.24:170][438]LogTexture:Display: Building textures: Texture2D_465 (BGRA8)
+[2014.10.07-19.58.24:172][438]LogTexture:Display: Building textures: Texture2D_467 (BGRA8)
+[2014.10.07-19.58.24:174][438]LogTexture:Display: Building textures: Texture2D_469 (BGRA8)
+[2014.10.07-19.58.24:176][438]LogTexture:Display: Building textures: Texture2D_471 (BGRA8)
+[2014.10.07-19.58.24:178][438]LogTexture:Display: Building textures: Texture2D_479 (BGRA8)
+[2014.10.07-19.58.24:179][438]LogTexture:Display: Building textures: Texture2D_574 (BGRA8)
+[2014.10.07-19.58.24:181][438]LogTexture:Display: Building textures: Texture2D_485 (BGRA8)
+[2014.10.07-19.58.24:183][438]LogTexture:Display: Building textures: Texture2D_497 (BGRA8)
+[2014.10.07-19.58.24:184][438]LogTexture:Display: Building textures: Texture2D_514 (BGRA8)
+[2014.10.07-19.58.24:186][438]LogTexture:Display: Building textures: Texture2D_493 (BGRA8)
+[2014.10.07-19.58.24:187][438]LogTexture:Display: Building textures: Texture2D_495 (BGRA8)
+[2014.10.07-19.58.24:189][438]LogTexture:Display: Building textures: Texture2D_532 (BGRA8)
+[2014.10.07-19.58.24:190][438]LogTexture:Display: Building textures: Texture2D_508 (BGRA8)
+[2014.10.07-19.58.24:192][438]LogTexture:Display: Building textures: Texture2D_510 (BGRA8)
+[2014.10.07-19.58.24:196][438]LogTexture:Display: Building textures: Texture2D_518 (BGRA8)
+[2014.10.07-19.58.24:197][438]LogTexture:Display: Building textures: Texture2D_549 (BGRA8)
+[2014.10.07-19.58.24:199][438]LogTexture:Display: Building textures: Texture2D_551 (BGRA8)
+[2014.10.07-19.58.24:201][438]LogTexture:Display: Building textures: Texture2D_526 (BGRA8)
+[2014.10.07-19.58.24:202][438]LogTexture:Display: Building textures: Texture2D_528 (BGRA8)
+[2014.10.07-19.58.24:204][438]LogTexture:Display: Building textures: Texture2D_565 (BGRA8)
+[2014.10.07-19.58.24:205][438]LogTexture:Display: Building textures: Texture2D_541 (BGRA8)
+[2014.10.07-19.58.24:207][438]LogTexture:Display: Building textures: Texture2D_543 (BGRA8)
+[2014.10.07-19.58.24:209][438]LogTexture:Display: Building textures: Texture2D_547 (BGRA8)
+[2014.10.07-19.58.24:210][438]LogTexture:Display: Building textures: Texture2D_584 (BGRA8)
+[2014.10.07-19.58.24:212][438]LogTexture:Display: Building textures: Texture2D_555 (BGRA8)
+[2014.10.07-19.58.24:213][438]LogTexture:Display: Building textures: Texture2D_557 (BGRA8)
+[2014.10.07-19.58.24:215][438]LogTexture:Display: Building textures: Texture2D_572 (BGRA8)
+[2014.10.07-19.58.24:217][438]LogTexture:Display: Building textures: Texture2D_578 (BGRA8)
+[2014.10.07-19.58.24:218][438]LogTexture:Display: Building textures: Texture2D_582 (BGRA8)
+[2014.10.07-19.58.24:220][438]LogTexture:Display: Building textures: Texture2D_586 (BGRA8)
+[2014.10.07-19.58.24:221][438]LogTexture:Display: Building textures: Texture2D_588 (BGRA8)
+[2014.10.07-19.58.24:223][438]LogTexture:Display: Building textures: Texture2D_596 (BGRA8)
+[2014.10.07-19.58.24:224][438]LogTexture:Display: Building textures: Texture2D_605 (BGRA8)
+[2014.10.07-19.58.24:226][438]LogTexture:Display: Building textures: Texture2D_609 (BGRA8)
+[2014.10.07-19.58.24:228][438]LogTexture:Display: Building textures: Texture2D_613 (BGRA8)
+[2014.10.07-19.58.24:229][438]LogTexture:Display: Building textures: Texture2D_615 (BGRA8)
+[2014.10.07-19.58.24:231][438]LogTexture:Display: Building textures: Texture2D_617 (BGRA8)
+[2014.10.07-19.58.24:247][438]LogMaterial:Warning: Material /Game/Props/Materials/M_Bush.M_Bush needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2014.10.07-19.58.24:250][438]LogMaterial: Missing cached shader map for material M_Bush, compiling.
+[2014.10.07-19.58.24:320][438]LogMaterial: 0.000169 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.07-19.58.24:322][438]LogMaterial:Warning: Material /Game/Props/Materials/M_Rock.M_Rock needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2014.10.07-19.58.24:324][438]LogMaterial: Missing cached shader map for material M_Rock, compiling.
+[2014.10.07-19.58.24:333][438]LogMaterial: 0.000146 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.07-19.58.24:414][438]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.07-19.58.24:414][438]LogAIModule: Creating AISystem for world LOTR001
+[2014.10.07-19.58.24:450][438]Cmd: MAP CHECKDEP
+[2014.10.07-19.58.24:451][438]MapCheck: New page: LOTR001 - Oct 7, 2014, 7:58:24 AM
+[2014.10.07-19.58.24:537][438]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [86.469ms] ==========
+[2014.10.07-19.58.24:537][438]LogFileHelpers: Loading map 'LOTR001' took 14.522
+[2014.10.07-19.58.24:814][439]Cmd: UpdateLandscapeEditorData -warnings
+[2014.10.07-19.58.24:816][439]Cmd: UpdateLandscapeEditorData
+[2014.10.07-19.58.58:557][999]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats/NewFolder'
+[2014.10.07-19.58.59:069][ 59]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats/NewFolder'
+[2014.10.07-19.59.01:602][349]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats/NewFolder'
+[2014.10.07-19.59.09:563][301]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.07-19.59.09:570][301]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.10.07-19.59.09:608][301]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.10.07-19.59.09:608][301]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.10.07-19.59.09:608][301]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.10.07-19.59.09:608][301]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.10.07-19.59.09:609][301]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.07-19.59.10:687][352]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-19.59.10:687][352]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-19.59.10:687][352]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-19.59.34:730][306]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E4E2A20
+[2014.10.07-19.59.37:134][578]Cmd: DELETE
+[2014.10.07-19.59.37:134][578]Cmd: ACTOR DELETE
+[2014.10.07-19.59.37:135][578]LogEditorActor: Deleted Actor: Brush
+[2014.10.07-19.59.37:153][578]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2014.10.07-19.59.37:204][579]Cmd: UpdateLandscapeEditorData
+[2014.10.07-19.59.38:950][787]Cmd: TRANSACTION UNDO
+[2014.10.07-19.59.38:950][787]LogEditorTransaction: Undo Delete Actors
+[2014.10.07-19.59.39:076][788]Cmd: UpdateLandscapeEditorData
+[2014.10.07-19.59.46:523][634]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.07-19.59.48:084][766]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.10.07-19.59.49:600][860]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats'
+[2014.10.07-19.59.54:918][251]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials/propMats'
+[2014.10.07-20.00.21:176][808]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.10.07-20.00.29:132][611]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.10.07-20.00.34:749][233]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.00.34:754][233]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.10.07-20.00.34:781][233]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.10.07-20.00.34:781][233]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.10.07-20.00.34:781][233]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.10.07-20.00.34:781][233]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.10.07-20.00.34:782][233]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.00.35:961][290]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.00.35:961][290]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.00.35:961][290]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.00.36:848][336]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.10.07-20.00.52:525][ 76]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.00.52:527][ 76]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.07-20.00.52:553][ 76]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.07-20.00.53:041][109]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.00.53:041][109]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.00.53:041][109]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.00.54:288][230]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.00.54:290][230]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.07-20.00.54:317][230]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.07-20.00.54:318][230]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.07-20.00.54:821][264]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.00.54:821][264]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.00.54:821][264]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.01.12:779][639]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.01.13:274][675]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.01.13:274][675]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.01.13:274][675]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.01.19:240][348]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.01.19:743][386]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.01.19:743][386]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.01.19:743][386]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.01.22:822][718]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.01.23:385][757]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.01.23:385][757]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.01.23:385][757]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.01.25:652][983]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.01.26:180][ 19]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.01.26:180][ 19]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.01.26:180][ 19]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.01.57:567][518]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.01.58:579][589]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.01.58:579][589]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.01.58:579][589]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.02.02:166][985]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.02.02:701][ 26]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.02.02:701][ 26]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.02.02:701][ 26]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.02.42:707][445]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.02.43:764][517]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.02.43:764][517]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.02.43:764][517]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.02.47:429][896]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.02.47:927][928]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.02.47:927][928]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.02.47:927][928]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.02.49:573][104]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.02.49:600][104]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.07-20.02.50:098][136]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.02.50:098][136]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.02.50:098][136]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.03.13:834][617]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling.
+[2014.10.07-20.03.31:446][357]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.03.32:151][409]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.03.32:151][409]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.03.32:151][409]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.03.43:336][606]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.03.43:858][644]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.03.43:858][644]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.03.43:858][644]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.03.44:431][703]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.03.44:940][741]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.03.44:940][741]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.03.44:940][741]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.03.48:334][115]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.03.48:869][154]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.03.48:869][154]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.03.48:869][154]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.03.51:321][407]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.03.51:839][441]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.03.51:839][441]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.03.51:839][441]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.03.52:921][558]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.03.53:426][593]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.03.53:426][593]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.03.53:426][593]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.03.55:248][784]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.03.55:274][784]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.07-20.03.55:786][816]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.03.55:786][816]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.03.55:786][816]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.04.11:151][477]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.07-20.04.11:153][477]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.04.11:670][512]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.04.11:670][512]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.04.11:670][512]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.04.38:655][497]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.04.38:682][497]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.07-20.04.39:679][568]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.04.39:679][568]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.04.39:679][568]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.05.08:060][670]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.05.09:061][738]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.05.09:061][738]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.05.09:061][738]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.05.09:284][761]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.05.09:799][798]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.05.09:799][798]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.05.09:799][798]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.05.20:788][970]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.05.21:298][  6]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.05.21:298][  6]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.05.21:298][  6]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.05.30:084][979]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.05.30:656][ 24]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.05.30:656][ 24]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.05.30:656][ 24]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.05.31:662][132]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.05.32:178][172]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.05.32:178][172]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.05.32:178][172]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.05.47:818][839]LogMaterialEditor: Applying material LakeM
+[2014.10.07-20.05.48:085][839]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.05.48:124][839]LogMaterial: Missing cached shader map for material LakeM, compiling.
+[2014.10.07-20.05.48:131][839]LogMaterial: Missing cached shader map for material LakeM, compiling.
+[2014.10.07-20.05.48:142][839]LogMaterial: 0.009177 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.07-20.05.49:473][930]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.05.49:473][930]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.05.49:473][930]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.05.55:596][599]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.05.56:163][641]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.05.56:163][641]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.05.56:163][641]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.06.03:103][353]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.06.03:131][353]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.07-20.06.03:643][387]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.06.03:643][387]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.06.03:643][387]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.06.04:893][499]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CustomReflectionVector.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.10.07-20.06.07:936][782]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.06.07:962][782]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.07-20.06.08:546][823]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.06.08:546][823]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.06.08:546][823]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.06.11:087][ 82]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.06.11:113][ 82]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.07-20.06.11:664][118]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.06.11:664][118]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.06.11:664][118]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.06.15:016][479]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.06.15:593][521]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.06.15:593][521]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.06.15:593][521]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.06.18:541][816]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.06.19:094][857]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.06.19:094][857]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.06.19:094][857]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.06.24:160][412]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.06.24:162][412]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.10.07-20.06.24:728][450]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.06.24:728][450]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.06.24:728][450]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.06.37:535][726]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.06.37:561][726]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.10.07-20.06.38:114][762]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.06.38:114][762]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.06.38:114][762]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.06.40:871][ 49]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.06.40:905][ 49]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.10.07-20.06.41:477][ 93]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.06.41:477][ 93]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.06.41:477][ 93]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.06.49:647][996]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.06.50:223][ 37]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 84 instructions
+[2014.10.07-20.06.50:223][ 37]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.06.50:223][ 37]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.07-20.07.12:763][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDivide_0, compiling.
+[2014.10.07-20.07.17:589][832]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.07.17:589][832]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.07-20.07.17:589][832]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2014.10.07-20.07.17:590][832]MaterialEditorStats:Error: Error [SM5] (Node ComponentMask) Missing ComponentMask input
+[2014.10.07-20.07.21:414][235]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.07.21:415][235]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.07-20.07.21:415][235]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2014.10.07-20.07.24:898][590]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.07.24:898][590]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.07-20.07.24:898][590]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2014.10.07-20.07.27:151][817]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.07.27:152][817]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.07-20.07.27:152][817]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2014.10.07-20.07.29:208][ 30]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.07.29:906][ 77]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 84 instructions
+[2014.10.07-20.07.29:906][ 77]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.07.29:906][ 77]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.07-20.07.48:602][ 56]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.07.49:150][ 96]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 84 instructions
+[2014.10.07-20.07.49:150][ 96]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.07.49:150][ 96]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.07-20.07.50:229][214]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.07.50:765][255]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 84 instructions
+[2014.10.07-20.07.50:765][255]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.07.50:765][255]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.07-20.07.54:979][689]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.07.55:527][716]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 77 instructions
+[2014.10.07-20.07.55:527][716]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.07.55:527][716]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.07-20.07.55:921][739]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.07.56:448][773]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.07.56:448][773]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.07.56:448][773]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.08.04:475][460]LogSavePackage: Save=210.746964ms
+[2014.10.07-20.08.04:475][460]LogSavePackage: Moving '../../../../../../Users/ssharp/Documents/treebeard/Unreal Project/Whitebox/treebeard/Unreal Project/DeathScene/Saved/LOTR001_Auto1F60F2E164D514FF9A7659F87775BD782.tmp' to '../../../../../../Users/ssharp/Documents/treebeard/Unreal Project/Whitebox/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/LOTR001_Auto1.umap'
+[2014.10.07-20.08.04:485][460]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LOTR001' took 0.280
+[2014.10.07-20.08.04:485][460]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.280
+[2014.10.07-20.08.04:497][460]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/lakeM] ([1] browsable assets)...
+[2014.10.07-20.08.04:521][460]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/lakeM.LakeM]
+[2014.10.07-20.08.04:521][460]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/lakeM]
+[2014.10.07-20.08.04:762][460]LogSavePackage: Save=208.731628ms
+[2014.10.07-20.08.04:762][460]LogSavePackage: Moving '../../../../../../Users/ssharp/Documents/treebeard/Unreal Project/Whitebox/treebeard/Unreal Project/DeathScene/Saved/lakeM_Auto190F284564674CF0D88329BA8A2F957E9.tmp' to '../../../../../../Users/ssharp/Documents/treebeard/Unreal Project/Whitebox/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Materials/lakeM_Auto1.uasset'
+[2014.10.07-20.08.04:767][460]LogFileHelpers: Auto-saving content packages took 0.282
+[2014.10.07-20.08.28:995][885]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.08.28:997][885]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.10.07-20.08.29:021][885]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2014.10.07-20.08.29:022][885]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.10.07-20.08.30:090][956]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.08.30:090][956]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.08.30:090][956]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.08.32:549][186]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.08.32:575][186]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.10.07-20.08.33:102][218]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.08.33:102][218]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.08.33:102][218]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.08.40:429][927]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.07-20.08.40:431][927]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.08.40:464][928]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
+[2014.10.07-20.08.40:987][963]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.08.40:987][963]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.08.40:987][963]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.08.43:812][231]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.08.43:924][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.10.07-20.08.43:925][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
+[2014.10.07-20.08.44:335][257]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.07-20.08.44:335][257]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.08.44:335][257]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.07-20.08.49:375][752]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.08.49:403][752]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
+[2014.10.07-20.08.49:918][786]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 77 instructions
+[2014.10.07-20.08.49:918][786]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.08.49:918][786]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.07-20.08.52:182][  7]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.08.52:208][  7]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.10.07-20.08.52:750][ 43]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 84 instructions
+[2014.10.07-20.08.52:750][ 43]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.08.52:750][ 43]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.07-20.09.17:223][281]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.09.18:219][349]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 84 instructions
+[2014.10.07-20.09.18:219][349]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.09.18:219][349]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.07-20.09.20:682][596]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.09.21:188][631]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 84 instructions
+[2014.10.07-20.09.21:188][631]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.09.21:188][631]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.07-20.09.23:442][853]LogMaterialEditor: Applying material LakeM
+[2014.10.07-20.09.23:709][853]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.09.23:754][853]LogMaterial: Missing cached shader map for material LakeM, compiling.
+[2014.10.07-20.09.23:761][853]LogMaterial: Missing cached shader map for material LakeM, compiling.
+[2014.10.07-20.09.23:787][853]LogMaterial: 0.022954 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.07-20.09.25:253][950]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 84 instructions
+[2014.10.07-20.09.25:253][950]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.07-20.09.25:253][950]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.07-20.10.35:690][452]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.10.35:698][452]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.10.37:159][557]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2014.10.07-20.10.37:159][557]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 76 instructions
+[2014.10.07-20.10.37:159][557]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.10.37:159][557]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.07-20.10.50:183][822]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.10.50:186][822]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling.
+[2014.10.07-20.10.51:140][897]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2014.10.07-20.10.51:140][897]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 76 instructions
+[2014.10.07-20.10.51:140][897]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.10.51:140][897]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.07-20.11.25:548][279]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.11.27:105][383]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2014.10.07-20.11.27:105][383]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 76 instructions
+[2014.10.07-20.11.27:105][383]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.11.27:105][383]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.07-20.11.32:214][861]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.11.33:150][927]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2014.10.07-20.11.33:150][927]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 76 instructions
+[2014.10.07-20.11.33:150][927]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.11.33:150][927]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.07-20.11.36:794][258]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.11.36:819][258]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling.
+[2014.10.07-20.11.37:696][323]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2014.10.07-20.11.37:696][323]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 76 instructions
+[2014.10.07-20.11.37:696][323]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.11.37:696][323]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.07-20.11.39:079][451]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.11.39:978][519]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2014.10.07-20.11.39:978][519]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 76 instructions
+[2014.10.07-20.11.39:978][519]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.11.39:978][519]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.07-20.12.05:356][983]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.12.06:849][ 92]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2014.10.07-20.12.06:849][ 92]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 76 instructions
+[2014.10.07-20.12.06:849][ 92]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.12.06:849][ 92]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.07-20.12.10:401][428]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.12.11:337][497]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2014.10.07-20.12.11:337][497]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 76 instructions
+[2014.10.07-20.12.11:337][497]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.12.11:337][497]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.07-20.12.13:989][742]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.12.14:919][812]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2014.10.07-20.12.14:919][812]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 76 instructions
+[2014.10.07-20.12.14:920][812]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.12.14:920][812]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.07-20.12.33:259][636]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.12.34:229][713]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2014.10.07-20.12.34:229][713]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 98 instructions
+[2014.10.07-20.12.34:229][713]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.12.34:229][713]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.12.38:223][ 99]LogMaterialEditor: Applying material LakeM
+[2014.10.07-20.12.38:488][ 99]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.12.38:533][ 99]LogMaterial: Missing cached shader map for material LakeM, compiling.
+[2014.10.07-20.12.38:548][ 99]LogMaterial: Missing cached shader map for material LakeM, compiling.
+[2014.10.07-20.12.38:560][ 99]LogMaterial: 0.009214 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.07-20.12.42:237][369]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2014.10.07-20.12.42:237][369]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 98 instructions
+[2014.10.07-20.12.42:237][369]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.12.42:237][369]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.13.19:650][832]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.13.21:082][929]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2014.10.07-20.13.21:082][929]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 98 instructions
+[2014.10.07-20.13.21:082][929]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.13.21:082][929]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.13.23:449][148]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.13.24:472][218]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2014.10.07-20.13.24:472][218]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 98 instructions
+[2014.10.07-20.13.24:472][218]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.13.24:472][218]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.13.34:951][175]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.13.35:914][244]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2014.10.07-20.13.35:914][244]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 98 instructions
+[2014.10.07-20.13.35:914][244]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.13.35:914][244]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.13.38:320][454]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.13.39:292][520]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2014.10.07-20.13.39:292][520]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 98 instructions
+[2014.10.07-20.13.39:292][520]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.13.39:292][520]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.13.39:772][564]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.13.40:715][633]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2014.10.07-20.13.40:715][633]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 98 instructions
+[2014.10.07-20.13.40:715][633]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.13.40:715][633]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.13.45:542][ 65]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.13.45:566][ 65]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling.
+[2014.10.07-20.13.46:516][135]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2014.10.07-20.13.46:516][135]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 98 instructions
+[2014.10.07-20.13.46:516][135]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.13.46:516][135]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.13.51:531][606]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.13.52:533][679]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2014.10.07-20.13.52:533][679]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 98 instructions
+[2014.10.07-20.13.52:533][679]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.13.52:533][679]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.15.03:673][365]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.15.03:675][365]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling.
+[2014.10.07-20.15.05:220][469]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2014.10.07-20.15.05:220][469]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 98 instructions
+[2014.10.07-20.15.05:220][469]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.15.05:220][469]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.15.49:559][290]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.15.49:584][290]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling.
+[2014.10.07-20.15.51:139][392]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2014.10.07-20.15.51:139][392]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 98 instructions
+[2014.10.07-20.15.51:139][392]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.15.51:139][392]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.15.51:792][451]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.15.51:794][451]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling.
+[2014.10.07-20.15.52:863][523]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2014.10.07-20.15.52:863][523]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 98 instructions
+[2014.10.07-20.15.52:863][523]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.15.52:863][523]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.16.07:979][807]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.16.08:002][807]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling.
+[2014.10.07-20.16.09:031][870]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2014.10.07-20.16.09:031][870]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 98 instructions
+[2014.10.07-20.16.09:031][870]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.16.09:031][870]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.16.17:757][657]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.16.17:781][657]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling.
+[2014.10.07-20.16.18:833][729]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2014.10.07-20.16.18:833][729]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 98 instructions
+[2014.10.07-20.16.18:833][729]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.16.18:833][729]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.16.20:782][904]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.16.21:811][978]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2014.10.07-20.16.21:811][978]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 98 instructions
+[2014.10.07-20.16.21:811][978]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.16.21:811][978]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.16.24:891][256]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.16.24:916][256]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling.
+[2014.10.07-20.16.25:937][326]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2014.10.07-20.16.25:938][326]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 98 instructions
+[2014.10.07-20.16.25:938][326]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.16.25:938][326]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.16.27:064][424]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.16.27:093][424]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling.
+[2014.10.07-20.16.28:110][495]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2014.10.07-20.16.28:110][495]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 98 instructions
+[2014.10.07-20.16.28:110][495]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.16.28:110][495]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.16.39:559][542]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.16.40:592][615]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2014.10.07-20.16.40:592][615]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 98 instructions
+[2014.10.07-20.16.40:592][615]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.16.40:592][615]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.16.45:523][ 58]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.16.45:524][ 58]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.07-20.16.45:524][ 58]LogMaterial:Warning: 	(Node OneMinus) Missing 1-x input
+[2014.10.07-20.16.45:524][ 58]MaterialEditorStats:Error: Error [SM5] (Node OneMinus) Missing 1-x input
+[2014.10.07-20.16.51:469][580]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.07-20.16.51:472][580]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.16.51:472][580]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.07-20.16.51:472][580]LogMaterial:Warning: 	(Node OneMinus) Missing 1-x input
+[2014.10.07-20.16.59:562][282]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.17.00:628][357]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 101 instructions
+[2014.10.07-20.17.00:628][357]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 137 instructions
+[2014.10.07-20.17.00:628][357]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.17.00:628][357]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.17.07:879][983]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.17.08:978][ 63]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 101 instructions
+[2014.10.07-20.17.08:978][ 63]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 137 instructions
+[2014.10.07-20.17.08:978][ 63]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.17.08:978][ 63]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.17.13:093][429]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.17.13:123][429]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.10.07-20.17.14:224][500]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 101 instructions
+[2014.10.07-20.17.14:224][500]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 137 instructions
+[2014.10.07-20.17.14:224][500]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.17.14:224][500]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.17.35:431][215]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.17.36:998][319]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 101 instructions
+[2014.10.07-20.17.36:998][319]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 137 instructions
+[2014.10.07-20.17.36:998][319]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.17.36:998][319]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.17.52:141][731]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.17.53:215][807]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 101 instructions
+[2014.10.07-20.17.53:215][807]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 137 instructions
+[2014.10.07-20.17.53:215][807]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.17.53:215][807]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.17.59:923][422]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.10.07-20.17.59:926][422]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.17.59:968][423]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_3, compiling.
+[2014.10.07-20.18.00:966][477]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 101 instructions
+[2014.10.07-20.18.00:966][477]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 137 instructions
+[2014.10.07-20.18.00:966][477]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.18.00:966][477]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.18.09:145][143]LogSavePackage: Save=208.676819ms
+[2014.10.07-20.18.09:145][143]LogSavePackage: Moving '../../../../../../Users/ssharp/Documents/treebeard/Unreal Project/Whitebox/treebeard/Unreal Project/DeathScene/Saved/LOTR001_Auto2B12585AF4F0F1846B081328980FB850E.tmp' to '../../../../../../Users/ssharp/Documents/treebeard/Unreal Project/Whitebox/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/LOTR001_Auto2.umap'
+[2014.10.07-20.18.09:153][143]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LOTR001' took 0.257
+[2014.10.07-20.18.09:153][143]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.257
+[2014.10.07-20.18.09:164][143]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/lakeM] ([1] browsable assets)...
+[2014.10.07-20.18.09:197][143]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/lakeM.LakeM]
+[2014.10.07-20.18.09:197][143]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/lakeM]
+[2014.10.07-20.18.09:498][143]LogSavePackage: Save=271.423798ms
+[2014.10.07-20.18.09:498][143]LogSavePackage: Moving '../../../../../../Users/ssharp/Documents/treebeard/Unreal Project/Whitebox/treebeard/Unreal Project/DeathScene/Saved/lakeM_Auto2110E402E46A39E01A14B65A639DAA82F.tmp' to '../../../../../../Users/ssharp/Documents/treebeard/Unreal Project/Whitebox/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Materials/lakeM_Auto2.uasset'
+[2014.10.07-20.18.09:505][143]LogFileHelpers: Auto-saving content packages took 0.351
+[2014.10.07-20.18.14:421][553]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.18.14:529][553]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_2, compiling.
+[2014.10.07-20.18.14:530][553]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_3, compiling.
+[2014.10.07-20.18.15:521][618]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 101 instructions
+[2014.10.07-20.18.15:521][618]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 137 instructions
+[2014.10.07-20.18.15:521][618]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.18.15:521][618]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.18.16:744][724]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.18.16:775][724]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_3, compiling.
+[2014.10.07-20.18.17:839][794]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 101 instructions
+[2014.10.07-20.18.17:839][794]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 137 instructions
+[2014.10.07-20.18.17:839][794]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.18.17:839][794]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.18.34:291][109]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.18.34:315][109]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_3, compiling.
+[2014.10.07-20.18.35:368][183]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 101 instructions
+[2014.10.07-20.18.35:368][183]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 137 instructions
+[2014.10.07-20.18.35:368][183]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.18.35:368][183]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.18.36:390][270]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.18.36:418][270]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_3, compiling.
+[2014.10.07-20.18.37:350][333]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.18.37:464][338]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 101 instructions
+[2014.10.07-20.18.37:464][338]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 137 instructions
+[2014.10.07-20.18.37:464][338]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.18.37:464][338]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.18.38:874][447]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.18.39:931][520]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 101 instructions
+[2014.10.07-20.18.39:931][520]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 137 instructions
+[2014.10.07-20.18.39:931][520]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.18.39:931][520]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.18.53:640][665]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.18.54:724][736]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 101 instructions
+[2014.10.07-20.18.54:724][736]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 137 instructions
+[2014.10.07-20.18.54:724][736]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.18.54:724][736]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.18.55:374][790]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.18.56:460][859]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 101 instructions
+[2014.10.07-20.18.56:461][859]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 137 instructions
+[2014.10.07-20.18.56:461][859]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.18.56:461][859]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.19.07:454][839]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.19.08:517][911]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 101 instructions
+[2014.10.07-20.19.08:517][911]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 137 instructions
+[2014.10.07-20.19.08:517][911]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.19.08:517][911]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.19.11:708][183]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.19.12:711][244]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 101 instructions
+[2014.10.07-20.19.12:711][244]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 137 instructions
+[2014.10.07-20.19.12:711][244]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.19.12:711][244]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.19.13:083][277]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.19.14:215][353]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 112 instructions
+[2014.10.07-20.19.14:215][353]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 148 instructions
+[2014.10.07-20.19.14:215][353]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.19.14:215][353]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.19.24:798][226]LogMaterialEditor: Saving and Compiling material LakeM
+[2014.10.07-20.19.25:066][226]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.19.25:111][226]LogMaterial: Missing cached shader map for material LakeM, compiling.
+[2014.10.07-20.19.25:129][226]LogMaterial: Missing cached shader map for material LakeM, compiling.
+[2014.10.07-20.19.25:142][226]LogMaterial: 0.009334 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.07-20.19.28:287][226]LogSavePackage: Save=135.269196ms
+[2014.10.07-20.19.28:287][226]LogSavePackage: Moving '../../../../../../Users/ssharp/Documents/treebeard/Unreal Project/Whitebox/treebeard/Unreal Project/DeathScene/Saved/lakeM3431F21B4E887FB17865F3B729000B8D.tmp' to '../../../../../../Users/ssharp/Documents/treebeard/Unreal Project/Whitebox/treebeard/Unreal Project/DeathScene/Content/Materials/lakeM.uasset'
+[2014.10.07-20.19.37:481][992]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.10.07-20.20.26:235][781]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.10.07-20.20.44:236][227]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.20.44:238][227]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
+[2014.10.07-20.20.45:809][321]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 112 instructions
+[2014.10.07-20.20.45:809][321]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 148 instructions
+[2014.10.07-20.20.45:809][321]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.20.45:809][321]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.20.47:139][428]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.20.47:141][428]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.07-20.20.48:256][498]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 112 instructions
+[2014.10.07-20.20.48:256][498]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 148 instructions
+[2014.10.07-20.20.48:256][498]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.20.48:256][498]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.20.53:556][880]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.20.54:593][943]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 107 instructions
+[2014.10.07-20.20.54:593][943]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 143 instructions
+[2014.10.07-20.20.54:593][943]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.20.54:593][943]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.20.55:573][ 23]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.20.56:641][ 94]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 96 instructions
+[2014.10.07-20.20.56:641][ 94]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 132 instructions
+[2014.10.07-20.20.56:641][ 94]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.20.56:641][ 94]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.07-20.21.03:780][698]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.21.03:816][698]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
+[2014.10.07-20.21.04:821][757]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 96 instructions
+[2014.10.07-20.21.04:821][757]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 132 instructions
+[2014.10.07-20.21.04:821][757]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.21.04:821][757]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.07-20.21.06:022][854]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.21.06:050][854]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
+[2014.10.07-20.21.07:145][922]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 107 instructions
+[2014.10.07-20.21.07:145][922]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 143 instructions
+[2014.10.07-20.21.07:145][922]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.21.07:145][922]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.21.08:902][ 64]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.21.08:931][ 64]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.07-20.21.09:967][126]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 107 instructions
+[2014.10.07-20.21.09:967][126]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 143 instructions
+[2014.10.07-20.21.09:967][126]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.21.09:967][126]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.21.10:987][212]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.21.11:014][212]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.07-20.21.12:080][279]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 112 instructions
+[2014.10.07-20.21.12:080][279]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 148 instructions
+[2014.10.07-20.21.12:080][279]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.21.12:080][279]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.21.39:128][546]LogMaterialEditor: Applying material LakeM
+[2014.10.07-20.21.39:392][546]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.21.39:432][546]LogMaterial: Missing cached shader map for material LakeM, compiling.
+[2014.10.07-20.21.39:448][546]LogMaterial: Missing cached shader map for material LakeM, compiling.
+[2014.10.07-20.21.39:460][546]LogMaterial: 0.009141 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.07-20.21.43:136][706]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 112 instructions
+[2014.10.07-20.21.43:137][706]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 148 instructions
+[2014.10.07-20.21.43:137][706]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.21.43:137][706]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.22.10:790][358]Cmd: UpdateLandscapeEditorData
+[2014.10.07-20.22.13:134][555]Cmd: UpdateLandscapeEditorData
+[2014.10.07-20.22.15:429][727]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.07-20.22.15:429][727]Aligned camera to fit all selected actors.
+[2014.10.07-20.23.53:364][ 10]LogMaterial: Missing cached shader map for material Material_0, compiling.
+[2014.10.07-20.24.39:082][855]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.24.40:744][964]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 112 instructions
+[2014.10.07-20.24.40:744][964]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 148 instructions
+[2014.10.07-20.24.40:744][964]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.24.40:744][964]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.24.58:935][563]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.24.59:967][629]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 85 instructions
+[2014.10.07-20.24.59:967][629]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 121 instructions
+[2014.10.07-20.24.59:967][629]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.24.59:967][629]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.25.04:431][  4]LogMaterialEditor: Applying material LakeM
+[2014.10.07-20.25.04:698][  4]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.07-20.25.04:744][  4]LogMaterial: Missing cached shader map for material LakeM, compiling.
+[2014.10.07-20.25.04:762][  4]LogMaterial: Missing cached shader map for material LakeM, compiling.
+[2014.10.07-20.25.04:775][  4]LogMaterial: 0.009524 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.07-20.25.08:142][204]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 85 instructions
+[2014.10.07-20.25.08:142][204]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 121 instructions
+[2014.10.07-20.25.08:142][204]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2014.10.07-20.25.08:142][204]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.07-20.25.23:767][439]Cmd: UpdateLandscapeEditorData
+[2014.10.07-20.25.24:534][529]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.07-20.25.24:534][529]Aligned camera to fit all selected actors.
+[2014.10.07-20.26.14:378][312]Cmd: UpdateLandscapeEditorData
+[2014.10.07-20.26.20:681][980]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.10.07-20.26.29:863][930]Cmd: UpdateLandscapeEditorData
+[2014.10.07-20.26.38:022][750]Cmd: UpdateLandscapeEditorData
+[2014.10.07-20.26.39:505][909]Cmd: UpdateLandscapeEditorData
+[2014.10.07-20.26.41:059][ 79]Cmd: UpdateLandscapeEditorData
+[2014.10.07-20.26.43:624][372]Cmd: UpdateLandscapeEditorData
+[2014.10.07-20.26.44:094][428]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.07-20.26.44:094][428]Aligned camera to fit all selected actors.
+[2014.10.07-20.26.59:178][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (deathWHeelSmooth)
+[2014.10.07-20.27.04:386][  2]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.07-20.27.04:386][  2]Aligned camera to fit all selected actors.
+[2014.10.07-20.27.14:538][859]Cmd: UpdateLandscapeEditorData
+[2014.10.07-20.27.26:241][ 80]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.07-20.27.26:241][ 80]Aligned camera to fit all selected actors.
+[2014.10.07-20.28.07:594][ 85]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.07-20.28.07:594][ 85]Aligned camera to fit all selected actors.
+[2014.10.07-20.28.09:739][222]LogSavePackage: Save=212.339188ms
+[2014.10.07-20.28.09:739][222]LogSavePackage: Moving '../../../../../../Users/ssharp/Documents/treebeard/Unreal Project/Whitebox/treebeard/Unreal Project/DeathScene/Saved/LOTR001_Auto31A5CAB1F4F0E0147E407E9964AC45A20.tmp' to '../../../../../../Users/ssharp/Documents/treebeard/Unreal Project/Whitebox/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/LOTR001_Auto3.umap'
+[2014.10.07-20.28.09:746][222]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LOTR001' took 0.275
+[2014.10.07-20.28.09:746][222]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.275
+[2014.10.07-20.28.09:758][222]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/lakeM] ([1] browsable assets)...
+[2014.10.07-20.28.09:786][222]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/lakeM.LakeM]
+[2014.10.07-20.28.09:786][222]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/lakeM]
+[2014.10.07-20.28.09:986][222]LogSavePackage: Save=168.601547ms
+[2014.10.07-20.28.09:986][222]LogSavePackage: Moving '../../../../../../Users/ssharp/Documents/treebeard/Unreal Project/Whitebox/treebeard/Unreal Project/DeathScene/Saved/lakeM_Auto3797C7C8C4C24058D2033FB984512FFD4.tmp' to '../../../../../../Users/ssharp/Documents/treebeard/Unreal Project/Whitebox/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Materials/lakeM_Auto3.uasset'
+[2014.10.07-20.28.09:992][222]LogFileHelpers: Auto-saving content packages took 0.247
+[2014.10.07-20.28.10:454][277]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (threeBoards_4)
+[2014.10.07-20.28.29:052][ 87]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.07-20.28.29:052][ 87]Aligned camera to fit all selected actors.
+[2014.10.07-20.28.33:829][529]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fourBoards_2)
+[2014.10.07-20.28.38:201][ 28]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (threeBoards_4)
+[2014.10.07-20.28.39:772][190]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.07-20.28.39:772][190]Aligned camera to fit all selected actors.
+[2014.10.07-20.28.49:098][983]Cmd: DUPLICATE
+[2014.10.07-20.28.49:098][983]Cmd: ACTOR DUPLICATE
+[2014.10.07-20.28.52:379][348]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fourBoards_2)
+[2014.10.07-20.28.54:025][539]Cmd: DUPLICATE
+[2014.10.07-20.28.54:025][539]Cmd: ACTOR DUPLICATE
+[2014.10.07-20.28.58:680][ 28]Cmd: DUPLICATE
+[2014.10.07-20.28.58:680][ 28]Cmd: ACTOR DUPLICATE
+[2014.10.07-20.29.05:302][793]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.07-20.29.05:302][793]Aligned camera to fit all selected actors.
+[2014.10.07-20.29.11:297][310]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.07-20.29.11:297][310]Aligned camera to fit all selected actors.
+[2014.10.07-20.29.19:731][216]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fourBoards_2)
+[2014.10.07-20.29.28:038][166]Cmd: DUPLICATE
+[2014.10.07-20.29.28:038][166]Cmd: ACTOR DUPLICATE
+[2014.10.07-20.29.32:436][666]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (threeBoards_4)
+[2014.10.07-20.29.40:366][568]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (threeBoards_5)
+[2014.10.07-20.29.55:326][194]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (deathWHeelSmooth)
+[2014.10.07-20.29.58:867][615]Cmd: DUPLICATE
+[2014.10.07-20.29.58:867][615]Cmd: ACTOR DUPLICATE
+[2014.10.07-20.30.01:494][919]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.07-20.30.01:494][919]Aligned camera to fit all selected actors.
+[2014.10.07-20.30.11:601][908]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.07-20.30.11:601][908]Aligned camera to fit all selected actors.
+[2014.10.07-20.30.20:744][869]Cmd: DUPLICATE
+[2014.10.07-20.30.20:744][869]Cmd: ACTOR DUPLICATE
+[2014.10.07-20.30.28:779][748]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.07-20.30.28:779][748]Aligned camera to fit all selected actors.
+[2014.10.07-20.30.35:587][427]Cmd: DUPLICATE
+[2014.10.07-20.30.35:587][427]Cmd: ACTOR DUPLICATE
+[2014.10.07-20.31.10:417][143]Cmd: DUPLICATE
+[2014.10.07-20.31.10:417][143]Cmd: ACTOR DUPLICATE
+[2014.10.07-20.31.14:371][580]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.07-20.31.14:371][580]Aligned camera to fit all selected actors.
+[2014.10.07-20.31.21:203][278]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.07-20.31.21:203][278]Aligned camera to fit all selected actors.
+[2014.10.07-20.31.28:881][ 39]Cmd: DUPLICATE
+[2014.10.07-20.31.28:881][ 39]Cmd: ACTOR DUPLICATE
+[2014.10.07-20.31.44:066][739]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.07-20.31.44:066][739]Aligned camera to fit all selected actors.
+[2014.10.07-20.31.57:814][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (threeBoards_5)
+[2014.10.07-20.31.59:597][112]Cmd: DUPLICATE
+[2014.10.07-20.31.59:597][112]Cmd: ACTOR DUPLICATE
+[2014.10.07-20.32.12:110][473]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.07-20.32.12:111][473]Aligned camera to fit all selected actors.
+[2014.10.07-20.32.16:014][876]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.07-20.32.16:014][876]Aligned camera to fit all selected actors.
+[2014.10.07-20.32.20:707][254]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (threeBoards_4)
+[2014.10.07-20.32.29:388][180]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (threeBoards_6)
+[2014.10.07-20.32.32:536][532]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.07-20.32.32:536][532]Aligned camera to fit all selected actors.
+[2014.10.07-20.32.47:994][833]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (threeBoards_4)
+[2014.10.07-20.32.58:717][859]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (threeBoards_6)
+[2014.10.07-20.33.00:252][ 38]Cmd: DUPLICATE
+[2014.10.07-20.33.00:252][ 38]Cmd: ACTOR DUPLICATE
+[2014.10.07-20.33.20:164][ 33]LogEditorViewport: Clicking Background
+[2014.10.07-20.33.21:988][248]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (threeBoards_7)
+[2014.10.07-20.33.25:977][700]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (threeBoards_6)
+[2014.10.07-20.33.27:747][909]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (threeBoards_7)
+[2014.10.07-20.33.35:118][753]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (threeBoards_6)
+[2014.10.07-20.33.37:318][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (threeBoards_7)
+[2014.10.07-20.33.37:591][  6]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.07-20.33.37:591][  6]Aligned camera to fit all selected actors.
+[2014.10.07-20.33.44:912][438]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (threeBoards_7)
+[2014.10.07-20.33.46:836][650]Cmd: DUPLICATE
+[2014.10.07-20.33.46:836][650]Cmd: ACTOR DUPLICATE
+[2014.10.07-20.33.58:246][940]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.07-20.33.58:246][940]Aligned camera to fit all selected actors.
+[2014.10.07-20.34.03:194][277]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (threeBoards_8)
+[2014.10.07-20.34.13:393][220]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fourBoards_3)
+[2014.10.07-20.34.17:345][682]Cmd: DUPLICATE
+[2014.10.07-20.34.17:345][682]Cmd: ACTOR DUPLICATE
+[2014.10.07-20.34.43:780][466]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.07-20.34.43:780][466]Aligned camera to fit all selected actors.
+[2014.10.07-20.34.59:927][615]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (deathWHeelSmooth_4)
+[2014.10.07-20.35.13:402][816]LogSavePackage: Save=198.533844ms
+[2014.10.07-20.35.13:402][816]LogSavePackage: Moving '../../../../../../Users/ssharp/Documents/treebeard/Unreal Project/Whitebox/treebeard/Unreal Project/DeathScene/Saved/LOTR00121488ECD43DABAA487886799F695D58D.tmp' to '../../../../../../Users/ssharp/Documents/treebeard/Unreal Project/Whitebox/treebeard/Unreal Project/DeathScene/Content/LOTR001.umap'
+[2014.10.07-20.36.02:324][678]Cmd: QUIT_EDITOR
+[2014.10.07-20.36.02:419][678]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.10.07-20.36.02:419][678]LogExit: Preparing to exit.
+[2014.10.07-20.36.03:602][678]LogExit: Editor shut down
+[2014.10.07-20.36.03:602][678]LogExit: Transaction tracking system shut down
+[2014.10.07-20.36.03:609][678]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A6959E0
+[2014.10.07-20.36.03:609][678]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C04FE20
+[2014.10.07-20.36.03:609][678]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002024F600
+[2014.10.07-20.36.03:610][678]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A694FE0
+[2014.10.07-20.36.03:611][678]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024AD51C0
+[2014.10.07-20.36.03:635][678]LogExit: Object subsystem successfully closed.
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module MaterialEditor (162)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (161)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module HTTP (160)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module CrashTracker (159)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module SuperSearch (158)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module SceneOutliner (157)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module EditorWidgets (156)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module CollectionManager (155)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module StatsViewer (154)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module FoliageEdit (153)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module LandscapeEditor (152)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module MeshPaint (151)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module ActorPickerMode (150)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module GeometryMode (149)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module TextureAlignMode (148)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module BspMode (147)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module PlacementMode (146)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module DesktopPlatform (145)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module AutomationWorker (144)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (143)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (142)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (141)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module UndoHistory (140)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (139)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module UserFeedback (138)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module XmlParser (137)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module Blutility (136)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (135)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (134)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (133)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (132)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (131)
+[2014.10.07-20.36.03:654][678]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (130)
+[2014.10.07-20.36.03:655][678]LogModuleManager: Shutting down and abandoning module InputBindingEditor (129)
+[2014.10.07-20.36.03:655][678]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (128)
+[2014.10.07-20.36.03:655][678]LogModuleManager: Shutting down and abandoning module SettingsEditor (127)
+[2014.10.07-20.36.03:655][678]LogModuleManager: Shutting down and abandoning module SessionLauncher (126)
+[2014.10.07-20.36.03:655][678]LogModuleManager: Shutting down and abandoning module SessionFrontend (125)
+[2014.10.07-20.36.03:655][678]LogModuleManager: Shutting down and abandoning module ProfilerClient (124)
+[2014.10.07-20.36.03:655][678]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (123)
+[2014.10.07-20.36.03:655][678]LogModuleManager: Shutting down and abandoning module DeviceManager (122)
+[2014.10.07-20.36.03:655][678]LogModuleManager: Shutting down and abandoning module AutomationController (121)
+[2014.10.07-20.36.03:655][678]LogModuleManager: Shutting down and abandoning module AutomationWindow (120)
+[2014.10.07-20.36.03:655][678]LogModuleManager: Shutting down and abandoning module Layers (119)
+[2014.10.07-20.36.03:655][678]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (118)
+[2014.10.07-20.36.03:655][678]LogModuleManager: Shutting down and abandoning module DetailCustomizations (117)
+[2014.10.07-20.36.03:655][678]LogModuleManager: Shutting down and abandoning module PackagesDialog (116)
+[2014.10.07-20.36.03:655][678]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (115)
+[2014.10.07-20.36.03:655][678]LogModuleManager: Shutting down and abandoning module AssetRegistry (114)
+[2014.10.07-20.36.03:763][678]LogModuleManager: Shutting down and abandoning module Persona (113)
+[2014.10.07-20.36.03:763][678]LogModuleManager: Shutting down and abandoning module GraphEditor (112)
+[2014.10.07-20.36.03:763][678]LogModuleManager: Shutting down and abandoning module ClassViewer (111)
+[2014.10.07-20.36.03:763][678]LogModuleManager: Shutting down and abandoning module Toolbox (110)
+[2014.10.07-20.36.03:763][678]LogModuleManager: Shutting down and abandoning module ModuleUI (109)
+[2014.10.07-20.36.03:763][678]LogModuleManager: Shutting down and abandoning module Sequencer (108)
+[2014.10.07-20.36.03:763][678]LogModuleManager: Shutting down and abandoning module MovieSceneTools (107)
+[2014.10.07-20.36.03:763][678]LogModuleManager: Shutting down and abandoning module OutputLog (106)
+[2014.10.07-20.36.03:763][678]LogModuleManager: Shutting down and abandoning module GammaUI (105)
+[2014.10.07-20.36.03:763][678]LogModuleManager: Shutting down and abandoning module Documentation (104)
+[2014.10.07-20.36.03:763][678]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (103)
+[2014.10.07-20.36.03:763][678]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (102)
+[2014.10.07-20.36.03:763][678]LogModuleManager: Shutting down and abandoning module AnalyticsET (101)
+[2014.10.07-20.36.03:763][678]LogModuleManager: Shutting down and abandoning module Analytics (100)
+[2014.10.07-20.36.03:763][678]LogModuleManager: Shutting down and abandoning module GameplayDebugger (99)
+[2014.10.07-20.36.03:763][678]LogModuleManager: Shutting down and abandoning module AIModule (98)
+[2014.10.07-20.36.03:763][678]LogModuleManager: Shutting down and abandoning module ProfilerService (97)
+[2014.10.07-20.36.04:006][678]LogModuleManager: Shutting down and abandoning module TaskGraph (96)
+[2014.10.07-20.36.04:006][678]LogModuleManager: Shutting down and abandoning module SlateRemote (95)
+[2014.10.07-20.36.04:006][678]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (94)
+[2014.10.07-20.36.04:006][678]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (93)
+[2014.10.07-20.36.04:006][678]LogModuleManager: Shutting down and abandoning module CableComponent (92)
+[2014.10.07-20.36.04:006][678]LogModuleManager: Shutting down and abandoning module OculusRift (91)
+[2014.10.07-20.36.04:006][678]LogModuleManager: Shutting down and abandoning module MessagingDebugger (90)
+[2014.10.07-20.36.04:006][678]LogModuleManager: Shutting down and abandoning module ViewportSnapping (89)
+[2014.10.07-20.36.04:006][678]LogModuleManager: Shutting down and abandoning module SmartSnapping (88)
+[2014.10.07-20.36.04:006][678]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (87)
+[2014.10.07-20.36.04:006][678]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (86)
+[2014.10.07-20.36.04:006][678]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (85)
+[2014.10.07-20.36.04:006][678]LogModuleManager: Shutting down and abandoning module Matinee (84)
+[2014.10.07-20.36.04:006][678]LogModuleManager: Shutting down and abandoning module Kismet (83)
+[2014.10.07-20.36.04:006][678]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2014.10.07-20.36.04:006][678]LogModuleManager: Shutting down and abandoning module LevelEditor (81)
+[2014.10.07-20.36.04:007][678]LogModuleManager: Shutting down and abandoning module IntroTutorials (80)
+[2014.10.07-20.36.04:007][678]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2014.10.07-20.36.04:007][678]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2014.10.07-20.36.04:007][678]LogModuleManager: Shutting down and abandoning module AssetTools (77)
+[2014.10.07-20.36.04:007][678]LogModuleManager: Shutting down and abandoning module Paper2DEditor (76)
+[2014.10.07-20.36.04:007][678]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (75)
+[2014.10.07-20.36.04:007][678]LogModuleManager: Shutting down and abandoning module PluginsEditor (74)
+[2014.10.07-20.36.04:007][678]LogModuleManager: Shutting down and abandoning module MainFrame (73)
+[2014.10.07-20.36.04:007][678]LogModuleManager: Shutting down and abandoning module EpicSurvey (72)
+[2014.10.07-20.36.04:007][678]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (71)
+[2014.10.07-20.36.04:007][678]LogModuleManager: Shutting down and abandoning module UObjectPlugin (70)
+[2014.10.07-20.36.04:007][678]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (69)
+[2014.10.07-20.36.04:007][678]LogModuleManager: Shutting down and abandoning module SourceControl (68)
+[2014.10.07-20.36.04:007][678]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (67)
+[2014.10.07-20.36.04:007][678]LogModuleManager: Shutting down and abandoning module BlankPlugin (66)
+[2014.10.07-20.36.04:007][678]LogModuleManager: Shutting down and abandoning module ScriptPlugin (65)
+[2014.10.07-20.36.04:007][678]LogModuleManager: Shutting down and abandoning module UdpMessaging (64)
+[2014.10.07-20.36.04:107][678]LogModuleManager: Shutting down and abandoning module Paper2D (63)
+[2014.10.07-20.36.04:107][678]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (62)
+[2014.10.07-20.36.04:108][678]LogModuleManager: Shutting down and abandoning module ImageWrapper (61)
+[2014.10.07-20.36.04:108][678]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (60)
+[2014.10.07-20.36.04:108][678]LogModuleManager: Shutting down and abandoning module FunctionalTesting (59)
+[2014.10.07-20.36.04:108][678]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (58)
+[2014.10.07-20.36.04:108][678]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (57)
+[2014.10.07-20.36.04:108][678]LogModuleManager: Shutting down and abandoning module MessageLog (56)
+[2014.10.07-20.36.04:108][678]LogModuleManager: Shutting down and abandoning module UMGEditor (55)
+[2014.10.07-20.36.04:108][678]LogModuleManager: Shutting down and abandoning module UMG (54)
+[2014.10.07-20.36.04:108][678]LogModuleManager: Shutting down and abandoning module Slate (53)
+[2014.10.07-20.36.04:108][678]LogModuleManager: Shutting down and abandoning module EditorStyle (52)
+[2014.10.07-20.36.04:109][678]LogModuleManager: Shutting down and abandoning module SessionServices (51)
+[2014.10.07-20.36.04:109][678]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (50)
+[2014.10.07-20.36.04:109][678]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (49)
+[2014.10.07-20.36.04:109][678]LogModuleManager: Shutting down and abandoning module XAudio2 (48)
+[2014.10.07-20.36.04:109][678]LogModuleManager: Shutting down and abandoning module Networking (46)
+[2014.10.07-20.36.04:109][678]LogModuleManager: Shutting down and abandoning module Core (45)
+[2014.10.07-20.36.04:109][678]LogModuleManager: Shutting down and abandoning module KismetCompiler (44)
+[2014.10.07-20.36.04:109][678]LogModuleManager: Shutting down and abandoning module PhysXFormats (43)
+[2014.10.07-20.36.04:109][678]LogModuleManager: Shutting down and abandoning module MeshUtilities (42)
+[2014.10.07-20.36.04:109][678]LogModuleManager: Shutting down and abandoning module DerivedDataCache (41)
+[2014.10.07-20.36.04:198][678]LogDerivedDataCache: Shutdown
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (40)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (39)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (38)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (37)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (36)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (35)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (34)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (33)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (32)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (31)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module Messaging (30)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (29)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (28)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (27)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (26)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (25)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (24)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (23)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (22)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (21)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (20)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (19)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module TargetPlatform (18)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module InputCore (17)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module Settings (16)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.10.07-20.36.04:198][678]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.10.07-20.36.04:198][678]LogExit: Exiting.
+[2014.10.07-20.36.04:208][678]Log file closed, 10/07/14 14:36:04
