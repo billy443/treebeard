@@ -1,0 +1,28 @@
+Log file open, 10/02/14 13:51:28
+LogInit:Display: Running engine for game: MyProject2
+LogInit:Warning: Game name case not detected for 'MyProject2'. The engine ini should contain an entry [URL]GameName with the name of the game in the correct case.
+LogWindows:Error: appError called: Assertion failed: AsyncIOThread [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.4\Engine\Source\Runtime\Core\Private\Serialization\AsyncIOSystemBase.cpp] [Line: 773]
+
+Stack:
+Address = 0xdedb5166 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xdec38605 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xdecc4a0e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xd89f99b0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-PakFile.dll]
+Address = 0xd89fc597 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-PakFile.dll]
+Address = 0xd8a10a1a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-PakFile.dll]
+Address = 0xd8a0e3a4 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-PakFile.dll]
+Address = 0xd8a0e626 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-PakFile.dll]
+Address = 0x770243a1 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x770241b0 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0xdf0c29a7 (filename not found) [in C:\Windows\system32\MSVCR120.dll]
+Address = 0xdec50386 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::AppInit() 0x3fa27a7f + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launchengineloop.cpp:2328] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+FEngineLoop::PreInit() 0x3fa31a39 + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launchengineloop.cpp:999] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fa2c38c + 15 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launch.cpp:112] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fa2c4ea + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fa381d9 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:201] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fa39009 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76ef59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x7702c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x7702c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
