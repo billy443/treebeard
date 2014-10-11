@@ -7711,4 +7711,38 @@ ValveBiped.weapon_bone_Clip
 [2014.10.11-04.01.14:158][596]MaterialEditorStats: Info Texture samplers: 4/16
 [2014.10.11-04.01.17:556][909]LogMaterial: Missing cached shader map for material PreviewMaterial_42, compiling.
 [2014.10.11-04.01.17:585][909]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_176, compiling.
-[2014.10.11-04.01.23:151][379]MaterialEditorStats: Info Base pass sh
+[2014.10.11-04.01.23:151][379]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.10.11-04.01.23:153][379]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.11-04.01.23:153][379]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.11-04.01.28:243][849]LogMaterial: Missing cached shader map for material PreviewMaterial_42, compiling.
+[2014.10.11-04.01.31:014][ 77]LogMaterial: Missing cached shader map for material PreviewMaterial_42, compiling.
+[2014.10.11-04.01.36:418][510]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2014.10.11-04.01.36:418][510]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.11-04.01.36:418][510]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.11-04.01.45:067][320]LogMaterial: Missing cached shader map for material PreviewMaterial_42, compiling.
+[2014.10.11-04.01.45:093][320]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_176, compiling.
+[2014.10.11-04.01.47:810][526]LogMaterial: Missing cached shader map for material PreviewMaterial_42, compiling.
+[2014.10.11-04.01.52:310][874]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2014.10.11-04.01.52:310][874]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.11-04.01.52:310][874]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.11-04.02.06:205][771]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000AFD4FA60
+[2014.10.11-04.02.09:065][771]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'TransBuffer_0' or package '/Engine/Transient'.
+[2014.10.11-04.03.05:760][818]LogSavePackage: Save=44653.035156ms
+[2014.10.11-04.03.05:760][818]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/LOTR001_with_cameras00300DCF2144A199FF38B6C448817C0D68B.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/LOTR001_with_cameras003.umap'
+[2014.10.11-04.03.13:615][453]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (idle_4)
+[2014.10.11-04.03.14:212][519]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (idle_1)
+[2014.10.11-04.03.17:317][886]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.11-04.03.17:317][886]PIE: New page: SIE session: LOTR001_with_cameras003 (Oct 10, 2014, 4:03:17 PM)
+[2014.10.11-04.03.17:385][886]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067563s)
+[2014.10.11-04.03.17:385][886]LogPlayLevel: PIE: World Init took: (0.000505s)
+[2014.10.11-04.03.17:385][886]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LOTR001_with_cameras003.LOTR001_with_cameras003 to /Game/UEDPIE_0_LOTR001_with_cameras003.LOTR001_with_cameras003 (0.068253s)
+[2014.10.11-04.03.17:386][886]LogSelection:Warning: PIE object was selected: "SkeletalMeshActor /Game/UEDPIE_0_LOTR001_with_cameras003.LOTR001_with_cameras003:PersistentLevel.idle_47"
+[2014.10.11-04.03.17:434][886]LogWorld: Game class is 'GameMode'
+[2014.10.11-04.03.17:488][886]LogAIModule: Creating AISystem for world LOTR001_with_cameras003
+[2014.10.11-04.03.17:524][886]LogWorld: Bringing World /Game/UEDPIE_0_LOTR001_with_cameras003.LOTR001_with_cameras003 up for play (max tick rate 0) at 2014.10.10-22.03.17
+[2014.10.11-04.03.17:527][886]LogWorld: Bringing up level for play took: 0.038483
+[2014.10.11-04.03.17:528][886]PIE: Info Play in editor start time for /Game/UEDPIE_0_LOTR001_with_cameras003 -0.219
+[2014.10.11-04.03.17:558][886]LogSelection:Warning: PIE object was selected: "SkeletalMeshActor /Game/UEDPIE_0_LOTR001_with_cameras003.LOTR001_with_cameras003:PersistentLevel.idle_47"
+[2014.10.11-04.03.17:786][887]LogRenderer:Warning: Reallocating scene render targets to support 968x904.
+[2014.10.11-04.03.28:146][111]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000B7331760
+[2014.10.11-04.09.51:274][962]LogEditorViewport: Clicking on Actor (LMB): CameraAct
