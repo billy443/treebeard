@@ -7745,4 +7745,759 @@ ValveBiped.weapon_bone_Clip
 [2014.10.11-04.03.17:558][886]LogSelection:Warning: PIE object was selected: "SkeletalMeshActor /Game/UEDPIE_0_LOTR001_with_cameras003.LOTR001_with_cameras003:PersistentLevel.idle_47"
 [2014.10.11-04.03.17:786][887]LogRenderer:Warning: Reallocating scene render targets to support 968x904.
 [2014.10.11-04.03.28:146][111]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000B7331760
-[2014.10.11-04.09.51:274][962]LogEditorViewport: Clicking on Actor (LMB): CameraAct
+[2014.10.11-04.09.51:274][962]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor9)
+[2014.10.11-04.09.54:197][284]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor19)
+[2014.10.11-04.09.56:535][524]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor24)
+[2014.10.11-04.09.58:477][729]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor1)
+[2014.10.11-04.10.01:997][129]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (idle_3)
+[2014.10.11-04.19.39:614][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/aro/grima" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/aro/grima.uasset" SILENT=true
+[2014.10.11-04.19.39:643][159]LogSavePackage: Save=8.312658ms
+[2014.10.11-04.19.39:643][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/grima3A7A59F44B833F56A8D822A92BE8AB46.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/aro/grima.uasset'
+[2014.10.11-04.19.39:692][159]LogSavePackage: Save=7.977767ms
+[2014.10.11-04.19.39:692][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/grima_Body_diffuseF9009A2945DD2BAC91C5F68AA4D7A8DF.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/aro/grima_Body_diffuse.uasset'
+[2014.10.11-04.19.39:751][159]LogSavePackage: Save=16.513887ms
+[2014.10.11-04.19.39:751][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/grima_Body_glossD68EB2794AC1C318C0A02B8B7F28B101.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/aro/grima_Body_gloss.uasset'
+[2014.10.11-04.19.39:802][159]LogSavePackage: Save=7.902778ms
+[2014.10.11-04.19.39:802][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/grima_Body_normalE918FE39464588BD1FD71CBF087CACB3.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/aro/grima_Body_normal.uasset'
+[2014.10.11-04.19.39:859][159]LogSavePackage: Save=8.761389ms
+[2014.10.11-04.19.39:859][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/grima_Body_specularE755A8514706875135E42EB5B22DB4EE.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/aro/grima_Body_specular.uasset'
+[2014.10.11-04.19.39:911][159]LogSavePackage: Save=8.859266ms
+[2014.10.11-04.19.39:911][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/grima_Bottom_diffuse447B38BD407568C13EDDEAB1DC534E98.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/aro/grima_Bottom_diffuse.uasset'
+[2014.10.11-04.19.39:962][159]LogSavePackage: Save=8.496969ms
+[2014.10.11-04.19.39:962][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/grima_Bottom_gloss992933984803D9A40BCD5085AD08E27F.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/aro/grima_Bottom_gloss.uasset'
+[2014.10.11-04.19.40:011][159]LogSavePackage: Save=7.887419ms
+[2014.10.11-04.19.40:011][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/grima_Bottom_normal266CF04E4A9DA1CDB29C88AC72470863.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/aro/grima_Bottom_normal.uasset'
+[2014.10.11-04.19.40:062][159]LogSavePackage: Save=8.884263ms
+[2014.10.11-04.19.40:062][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/grima_Bottom_specular8609D8954370BB6844DC52BA6D68D90C.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/aro/grima_Bottom_specular.uasset'
+[2014.10.11-04.19.40:113][159]LogSavePackage: Save=8.373493ms
+[2014.10.11-04.19.40:113][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/grima_Hair_diffuseF1BAE1B84DF53F8E0FA4F59BCB733239.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/aro/grima_Hair_diffuse.uasset'
+[2014.10.11-04.19.40:191][159]LogSavePackage: Save=33.798447ms
+[2014.10.11-04.19.40:191][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/grima_Hair_gloss3B7BE9704DF18DA349EF018D16003B6F.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/aro/grima_Hair_gloss.uasset'
+[2014.10.11-04.19.40:259][159]LogSavePackage: Save=26.761208ms
+[2014.10.11-04.19.40:259][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/grima_Hair_normalF1C4E23B41BEF7CFEFEF7192025A264E.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/aro/grima_Hair_normal.uasset'
+[2014.10.11-04.19.40:321][159]LogSavePackage: Save=9.343534ms
+[2014.10.11-04.19.40:321][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/grima_Hair_specular7BFD144D4D7C296D3118A1B81DE7A0BA.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/aro/grima_Hair_specular.uasset'
+[2014.10.11-04.19.40:373][159]LogSavePackage: Save=8.965276ms
+[2014.10.11-04.19.40:373][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/grima_PhysicsAsset33D685E046AAC108BD71599B17F7CD8F.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/aro/grima_PhysicsAsset.uasset'
+[2014.10.11-04.19.40:427][159]LogSavePackage: Save=9.023399ms
+[2014.10.11-04.19.40:427][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/grima_Shoes_diffuse3989E20943E37F68D977F6B40DE5FB62.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/aro/grima_Shoes_diffuse.uasset'
+[2014.10.11-04.19.40:479][159]LogSavePackage: Save=8.748138ms
+[2014.10.11-04.19.40:479][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/grima_Shoes_glossFA4DA25847C6EDD868A9EE94A82E87D8.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/aro/grima_Shoes_gloss.uasset'
+[2014.10.11-04.19.40:532][159]LogSavePackage: Save=8.902332ms
+[2014.10.11-04.19.40:532][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/grima_Shoes_normal04C953B546965721604041BD12181F77.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/aro/grima_Shoes_normal.uasset'
+[2014.10.11-04.19.40:585][159]LogSavePackage: Save=9.274267ms
+[2014.10.11-04.19.40:585][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/grima_Shoes_specularEEBAACAF491B2CF31A4F7CBA18E5DB9D.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/aro/grima_Shoes_specular.uasset'
+[2014.10.11-04.19.40:634][159]LogSavePackage: Save=8.764702ms
+[2014.10.11-04.19.40:634][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/grima_Skeleton0EFB12214EA3C916B4E9299C8E6989C9.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/aro/grima_Skeleton.uasset'
+[2014.10.11-04.19.40:695][159]LogSavePackage: Save=8.775243ms
+[2014.10.11-04.19.40:695][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/grima_Top_diffuseF3797B214A3AC61AB4F16DA63ABB4F25.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/aro/grima_Top_diffuse.uasset'
+[2014.10.11-04.19.40:746][159]LogSavePackage: Save=8.490344ms
+[2014.10.11-04.19.40:746][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/grima_Top_gloss807D7CB04B758BAB92A32EB3BB03E063.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/aro/grima_Top_gloss.uasset'
+[2014.10.11-04.19.40:803][159]LogSavePackage: Save=9.470624ms
+[2014.10.11-04.19.40:803][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/grima_Top_normal36D5810140A98A7E6668BCB38C442DCE.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/aro/grima_Top_normal.uasset'
+[2014.10.11-04.19.40:863][159]LogSavePackage: Save=8.576777ms
+[2014.10.11-04.19.40:863][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/grima_Top_specularA86153064EAEB3B600A652B40BAD38FF.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/aro/grima_Top_specular.uasset'
+[2014.10.11-04.19.40:891][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/eomer/beard" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/beard.uasset" SILENT=true
+[2014.10.11-04.19.41:390][159]LogSavePackage: Save=47.460033ms
+[2014.10.11-04.19.41:390][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/beardFACF83AB4D32E76EF1312FB6E25B0AAE.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/beard.uasset'
+[2014.10.11-04.19.41:428][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/eomer/body" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/body.uasset" SILENT=true
+[2014.10.11-04.19.41:909][159]LogSavePackage: Save=46.583054ms
+[2014.10.11-04.19.41:910][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/body01B6A23B4CCCDADD12C83BA655D867AB.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/body.uasset'
+[2014.10.11-04.19.41:948][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/eomer/bottom" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/bottom.uasset" SILENT=true
+[2014.10.11-04.19.42:441][159]LogSavePackage: Save=55.100502ms
+[2014.10.11-04.19.42:441][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/bottom71CBEDDA4C28D93BB65F33AAB8D66FF7.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/bottom.uasset'
+[2014.10.11-04.19.42:518][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/eomer/eomer" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/eomer.uasset" SILENT=true
+[2014.10.11-04.19.43:502][159]LogSavePackage: Save=563.840515ms
+[2014.10.11-04.19.43:502][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/eomer641CCCB3485F2E24E2C006A3A9A12120.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/eomer.uasset'
+[2014.10.11-04.19.43:825][159]LogSavePackage: Save=277.812714ms
+[2014.10.11-04.19.43:825][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/eomer_PhysicsAssetD5F0B05D42B6A90677DF9A8646461875.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/eomer_PhysicsAsset.uasset'
+[2014.10.11-04.19.43:937][159]LogSavePackage: Save=58.881584ms
+[2014.10.11-04.19.43:937][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/eomer_Skeleton69A5EA7641BFF18395ED32BE37EB54B6.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/eomer_Skeleton.uasset'
+[2014.10.11-04.19.44:217][159]LogSavePackage: Save=229.550690ms
+[2014.10.11-04.19.44:217][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/FuseModel_Beard_diffuseED531D94470A1806CB82A9BA9C002E00.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/FuseModel_Beard_diffuse.uasset'
+[2014.10.11-04.19.44:387][159]LogSavePackage: Save=116.982254ms
+[2014.10.11-04.19.44:387][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/FuseModel_Beard_gloss384009384F0869AA19DCE0A1941FDB88.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/FuseModel_Beard_gloss.uasset'
+[2014.10.11-04.19.44:536][159]LogSavePackage: Save=95.935585ms
+[2014.10.11-04.19.44:536][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/FuseModel_Beard_normal71B4FE434842C4B19E3CB0B7E25A71E1.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/FuseModel_Beard_normal.uasset'
+[2014.10.11-04.19.44:833][159]LogSavePackage: Save=242.659637ms
+[2014.10.11-04.19.44:833][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/FuseModel_Beard_specularF26C55474E1DCF20DD5F4BB86EF2130C.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/FuseModel_Beard_specular.uasset'
+[2014.10.11-04.19.45:102][159]LogSavePackage: Save=216.296570ms
+[2014.10.11-04.19.45:102][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/FuseModel_Body_diffuse3B7621674FDFC9910FC8CEBA5F6E0E8C.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/FuseModel_Body_diffuse.uasset'
+[2014.10.11-04.19.45:259][159]LogSavePackage: Save=105.119507ms
+[2014.10.11-04.19.45:259][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/FuseModel_Body_gloss0237B62F4AF1EAE4C36442951CA9E643.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/FuseModel_Body_gloss.uasset'
+[2014.10.11-04.19.45:765][159]LogSavePackage: Save=398.667297ms
+[2014.10.11-04.19.45:765][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/FuseModel_Body_normal1830683244739391054164B72449F12D.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/FuseModel_Body_normal.uasset'
+[2014.10.11-04.19.45:939][159]LogSavePackage: Save=120.568481ms
+[2014.10.11-04.19.45:939][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/FuseModel_Body_specular90DA21B44B7FBA3B0C7029AE91D5B0E7.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/FuseModel_Body_specular.uasset'
+[2014.10.11-04.19.46:145][159]LogSavePackage: Save=151.467957ms
+[2014.10.11-04.19.46:145][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/FuseModel_Bottom_diffuseDC78BCF14CAE5BDFB86E0E8301265888.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/FuseModel_Bottom_diffuse.uasset'
+[2014.10.11-04.19.46:263][159]LogSavePackage: Save=65.877266ms
+[2014.10.11-04.19.46:263][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/FuseModel_Bottom_gloss662EB18B4F8BC9AE2B5677A695A0DD61.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/FuseModel_Bottom_gloss.uasset'
+[2014.10.11-04.19.46:586][159]LogSavePackage: Save=268.698975ms
+[2014.10.11-04.19.46:586][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/FuseModel_Bottom_normal953E56514CF2F531581ABC8605F80E98.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/FuseModel_Bottom_normal.uasset'
+[2014.10.11-04.19.46:735][159]LogSavePackage: Save=70.408836ms
+[2014.10.11-04.19.46:735][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/FuseModel_Bottom_specularC0A46318433B8FE5C506DD9F56981786.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/FuseModel_Bottom_specular.uasset'
+[2014.10.11-04.19.47:024][159]LogSavePackage: Save=235.159821ms
+[2014.10.11-04.19.47:024][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/FuseModel_Hair_diffuseC71AE1A24044B04F8A48BC9E7ED232A4.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/FuseModel_Hair_diffuse.uasset'
+[2014.10.11-04.19.47:191][159]LogSavePackage: Save=115.502945ms
+[2014.10.11-04.19.47:191][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/FuseModel_Hair_gloss6781694E4C18669C851C769799D580BD.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/FuseModel_Hair_gloss.uasset'
+[2014.10.11-04.19.47:335][159]LogSavePackage: Save=94.956810ms
+[2014.10.11-04.19.47:335][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/FuseModel_Hair_normal0533DD5746B67EF14FA78ABE1C09F82A.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/FuseModel_Hair_normal.uasset'
+[2014.10.11-04.19.47:607][159]LogSavePackage: Save=222.091812ms
+[2014.10.11-04.19.47:607][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/FuseModel_Hair_specular63735AE44CEB55AA1D18ECBE813B1A22.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/FuseModel_Hair_specular.uasset'
+[2014.10.11-04.19.47:845][159]LogSavePackage: Save=187.830490ms
+[2014.10.11-04.19.47:845][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/FuseModel_Shoes_diffuse50F16CA34C54C5A979501E95599123A7.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/FuseModel_Shoes_diffuse.uasset'
+[2014.10.11-04.19.48:032][159]LogSavePackage: Save=134.762833ms
+[2014.10.11-04.19.48:032][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/FuseModel_Shoes_glossFB4FBE86417F406F85E5B38F99DD006A.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/FuseModel_Shoes_gloss.uasset'
+[2014.10.11-04.19.48:524][159]LogSavePackage: Save=429.796265ms
+[2014.10.11-04.19.48:524][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/FuseModel_Shoes_normal35FBEB44481A11DCBF5D158A46EE451A.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/FuseModel_Shoes_normal.uasset'
+[2014.10.11-04.19.48:677][159]LogSavePackage: Save=97.005310ms
+[2014.10.11-04.19.48:677][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/FuseModel_Shoes_specularEC691BC445EB394E3AD3F3BE6E9658E1.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/FuseModel_Shoes_specular.uasset'
+[2014.10.11-04.19.48:961][159]LogSavePackage: Save=225.978302ms
+[2014.10.11-04.19.48:961][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/FuseModel_Top_diffuse2683DE264146FCBE4D475F8DDFEA512B.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/FuseModel_Top_diffuse.uasset'
+[2014.10.11-04.19.49:113][159]LogSavePackage: Save=100.463547ms
+[2014.10.11-04.19.49:113][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/FuseModel_Top_glossBAA0691C4DEE0A43B96A76B174AE81DD.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/FuseModel_Top_gloss.uasset'
+[2014.10.11-04.19.49:643][159]LogSavePackage: Save=476.699738ms
+[2014.10.11-04.19.49:643][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/FuseModel_Top_normal54E43A954D24701E0937848B4417D804.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/FuseModel_Top_normal.uasset'
+[2014.10.11-04.19.49:867][159]LogSavePackage: Save=170.634171ms
+[2014.10.11-04.19.49:867][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/FuseModel_Top_specular0B19314D41B889327638F2BB5129699B.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/FuseModel_Top_specular.uasset'
+[2014.10.11-04.19.49:895][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/eomer/hair" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/hair.uasset" SILENT=true
+[2014.10.11-04.19.50:406][159]LogSavePackage: Save=58.547897ms
+[2014.10.11-04.19.50:406][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/hair3EE1721143763473D928F58E443467A6.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/hair.uasset'
+[2014.10.11-04.19.50:467][159]LogSavePackage: Save=10.010305ms
+[2014.10.11-04.19.50:467][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/NewMaterialBA57AD824CBBA4A069769385CB1011A5.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/NewMaterial.uasset'
+[2014.10.11-04.19.50:522][159]LogSavePackage: Save=9.588078ms
+[2014.10.11-04.19.50:522][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/NewMaterial275013A044D7269246948F3BB99D4400D.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/NewMaterial2.uasset'
+[2014.10.11-04.19.50:574][159]LogSavePackage: Save=9.702217ms
+[2014.10.11-04.19.50:574][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/NewMaterial3AD0345B04AAEB28D79686C96557B29F4.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/NewMaterial3.uasset'
+[2014.10.11-04.19.50:626][159]LogSavePackage: Save=9.263726ms
+[2014.10.11-04.19.50:626][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/NewMaterial4B878E6484702012BAD8ECCAB93482D70.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/NewMaterial4.uasset'
+[2014.10.11-04.19.50:653][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/eomer/shoe" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/shoe.uasset" SILENT=true
+[2014.10.11-04.19.51:175][159]LogSavePackage: Save=58.289501ms
+[2014.10.11-04.19.51:175][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/shoe7636A96E4574F64A40DB72B41543B21D.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/shoe.uasset'
+[2014.10.11-04.19.51:211][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/eomer/top" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/top.uasset" SILENT=true
+[2014.10.11-04.19.51:731][159]LogSavePackage: Save=50.826717ms
+[2014.10.11-04.19.51:731][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/top152A21B7410896C0D24DFCA6D4EBB412.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/eomer/top.uasset'
+[2014.10.11-04.19.51:769][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/gim/beard" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/beard.uasset" SILENT=true
+[2014.10.11-04.19.52:270][159]LogSavePackage: Save=49.198639ms
+[2014.10.11-04.19.52:270][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/beard786A2BCD44EEA049DB1A93A56B9541E8.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/beard.uasset'
+[2014.10.11-04.19.52:309][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/gim/body" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/body.uasset" SILENT=true
+[2014.10.11-04.19.52:809][159]LogSavePackage: Save=47.990078ms
+[2014.10.11-04.19.52:809][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/body888E8741463F52D8C22861A1A19CA84E.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/body.uasset'
+[2014.10.11-04.19.52:847][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/gim/bottom" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/bottom.uasset" SILENT=true
+[2014.10.11-04.19.53:371][159]LogSavePackage: Save=58.900253ms
+[2014.10.11-04.19.53:371][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/bottom088B23B44D5126AE8B4BAE9B8CD7CCFA.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/bottom.uasset'
+[2014.10.11-04.19.53:448][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/gim/gimili" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili.uasset" SILENT=true
+[2014.10.11-04.19.54:115][159]LogSavePackage: Save=646.226868ms
+[2014.10.11-04.19.54:115][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimiliBEA34FFB4E27D9C562D859929C3AC9DF.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili.uasset'
+[2014.10.11-04.19.54:366][159]LogSavePackage: Save=199.159882ms
+[2014.10.11-04.19.54:366][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Beard_diffuseFE4B7B7E4A9202526B1136A94D4D93E5.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Beard_diffuse.uasset'
+[2014.10.11-04.19.54:543][159]LogSavePackage: Save=115.747192ms
+[2014.10.11-04.19.54:543][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Beard_glossCCC08F2F466FD39919E924BE0619698C.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Beard_gloss.uasset'
+[2014.10.11-04.19.54:692][159]LogSavePackage: Save=96.328300ms
+[2014.10.11-04.19.54:692][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Beard_normal43C2EB234778EE46E9AAA3B41F3F77A5.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Beard_normal.uasset'
+[2014.10.11-04.19.54:972][159]LogSavePackage: Save=224.778488ms
+[2014.10.11-04.19.54:972][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Beard_specularD7E03F9045B37E98F3EF0097C2B4C25D.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Beard_specular.uasset'
+[2014.10.11-04.19.55:251][159]LogSavePackage: Save=224.973938ms
+[2014.10.11-04.19.55:251][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Body_diffuseE63E2E7D4EC280FE545F7B99606CFF15.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Body_diffuse.uasset'
+[2014.10.11-04.19.55:394][159]LogSavePackage: Save=91.120010ms
+[2014.10.11-04.19.55:394][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Body_glossA3F8CC36413B017CBD83B288705E9673.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Body_gloss.uasset'
+[2014.10.11-04.19.55:885][159]LogSavePackage: Save=436.598572ms
+[2014.10.11-04.19.55:885][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Body_normal9746A63045DFFFEFBF85D4952CE11965.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Body_normal.uasset'
+[2014.10.11-04.19.56:027][159]LogSavePackage: Save=89.329308ms
+[2014.10.11-04.19.56:027][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Body_specularCB7C4FFF4F120F8FA7C2368012BAB0AC.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Body_specular.uasset'
+[2014.10.11-04.19.56:228][159]LogSavePackage: Save=150.657532ms
+[2014.10.11-04.19.56:228][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Bottom_diffuse3ABEB733429E9CD6E81A54831A0E24E1.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Bottom_diffuse.uasset'
+[2014.10.11-04.19.56:345][159]LogSavePackage: Save=63.394485ms
+[2014.10.11-04.19.56:345][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Bottom_gloss4F8D39CE4F6E35BE6A5E43AA45E72368.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Bottom_gloss.uasset'
+[2014.10.11-04.19.56:672][159]LogSavePackage: Save=274.743286ms
+[2014.10.11-04.19.56:672][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Bottom_normal5D889F004FCFA06B2DC43D9E8243B71E.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Bottom_normal.uasset'
+[2014.10.11-04.19.56:790][159]LogSavePackage: Save=67.383972ms
+[2014.10.11-04.19.56:790][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Bottom_specularFE57E1DD4671A751136F13929E8B620D.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Bottom_specular.uasset'
+[2014.10.11-04.19.57:084][159]LogSavePackage: Save=221.526245ms
+[2014.10.11-04.19.57:084][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Hair_diffuse882AF1364D3ED80F2AFFE985C2E48439.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Hair_diffuse.uasset'
+[2014.10.11-04.19.57:300][159]LogSavePackage: Save=155.501099ms
+[2014.10.11-04.19.57:300][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Hair_gloss759A82AF43FD96585E0D198EA64ADAF2.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Hair_gloss.uasset'
+[2014.10.11-04.19.57:474][159]LogSavePackage: Save=120.947342ms
+[2014.10.11-04.19.57:474][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Hair_normalCCC7D7EA4F4C014263C1FB8988E9E798.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Hair_normal.uasset'
+[2014.10.11-04.19.57:745][159]LogSavePackage: Save=217.523804ms
+[2014.10.11-04.19.57:745][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Hair_specular5B22831D471785378B6E70BC7EFF6B55.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Hair_specular.uasset'
+[2014.10.11-04.19.57:984][159]LogSavePackage: Save=184.992950ms
+[2014.10.11-04.19.57:984][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Hat_diffuseE8C1E32F4C20E2F325E919B25FBA532B.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Hat_diffuse.uasset'
+[2014.10.11-04.19.58:177][159]LogSavePackage: Save=140.832733ms
+[2014.10.11-04.19.58:177][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Hat_glossE59281F44184A9EE66278998DFAE6E2B.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Hat_gloss.uasset'
+[2014.10.11-04.19.58:514][159]LogSavePackage: Save=284.299133ms
+[2014.10.11-04.19.58:514][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Hat_normal39EACF044A9B018B8C13D7A65CE9E502.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Hat_normal.uasset'
+[2014.10.11-04.19.58:693][159]LogSavePackage: Save=125.317200ms
+[2014.10.11-04.19.58:693][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Hat_specularDF99BB6943CC6148C21802ACEC512F5C.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Hat_specular.uasset'
+[2014.10.11-04.19.58:949][159]LogSavePackage: Save=204.356415ms
+[2014.10.11-04.19.58:949][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Moustache_diffuseDD5C77F7451EE4DEFF12D687DC6B8EDF.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Moustache_diffuse.uasset'
+[2014.10.11-04.19.59:118][159]LogSavePackage: Save=116.213089ms
+[2014.10.11-04.19.59:118][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Moustache_gloss7F4C7D91419996EC875BB9A0781359E8.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Moustache_gloss.uasset'
+[2014.10.11-04.19.59:266][159]LogSavePackage: Save=95.608223ms
+[2014.10.11-04.19.59:266][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Moustache_normalC3F2F4E647137AC4404B76BF777333F2.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Moustache_normal.uasset'
+[2014.10.11-04.19.59:549][159]LogSavePackage: Save=225.950897ms
+[2014.10.11-04.19.59:549][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Moustache_specularB34370A94372CBA65338E58C6AE02C9C.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Moustache_specular.uasset'
+[2014.10.11-04.19.59:881][159]LogSavePackage: Save=287.460724ms
+[2014.10.11-04.19.59:881][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_PhysicsAssetCCC811504568474B1C3FD589AC6EFA38.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_PhysicsAsset.uasset'
+[2014.10.11-04.20.00:136][159]LogSavePackage: Save=202.955414ms
+[2014.10.11-04.20.00:136][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Shoes_diffuse1957BDF74A8B6312D8C865B8360F9272.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Shoes_diffuse.uasset'
+[2014.10.11-04.20.00:274][159]LogSavePackage: Save=84.679375ms
+[2014.10.11-04.20.00:274][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Shoes_gloss228D865B4C1D2F91701962BF1E594A91.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Shoes_gloss.uasset'
+[2014.10.11-04.20.00:689][159]LogSavePackage: Save=363.736176ms
+[2014.10.11-04.20.00:689][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Shoes_normal6478D9CE4775DFB5A3C7AA81465B35F3.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Shoes_normal.uasset'
+[2014.10.11-04.20.00:823][159]LogSavePackage: Save=78.910324ms
+[2014.10.11-04.20.00:823][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Shoes_specularA23B13964D0F43F412160C84DFEF2161.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Shoes_specular.uasset'
+[2014.10.11-04.20.00:935][159]LogSavePackage: Save=66.350388ms
+[2014.10.11-04.20.00:935][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_SkeletonD2EDF264413989ED68551E9B205F4FB4.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Skeleton.uasset'
+[2014.10.11-04.20.01:149][159]LogSavePackage: Save=156.052536ms
+[2014.10.11-04.20.01:149][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Top_diffuse1AB82C77469AF090B1A7BC9A22F88461.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Top_diffuse.uasset'
+[2014.10.11-04.20.01:366][159]LogSavePackage: Save=154.091965ms
+[2014.10.11-04.20.01:366][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Top_glossA7C08AAB407BD7E1E07C76940642C529.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Top_gloss.uasset'
+[2014.10.11-04.20.01:896][159]LogSavePackage: Save=477.176788ms
+[2014.10.11-04.20.01:896][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Top_normal23193289482D7796D262B8830E9AE1CD.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Top_normal.uasset'
+[2014.10.11-04.20.02:078][159]LogSavePackage: Save=117.677635ms
+[2014.10.11-04.20.02:078][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/gimili_Top_specular6D96187C4153354824EDB2B213308AD3.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/gimili_Top_specular.uasset'
+[2014.10.11-04.20.02:107][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/gim/hair" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/hair.uasset" SILENT=true
+[2014.10.11-04.20.02:695][159]LogSavePackage: Save=55.044785ms
+[2014.10.11-04.20.02:695][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/hair994DEB704626DB2386C5438C5DD9799B.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/hair.uasset'
+[2014.10.11-04.20.02:737][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/gim/Hat" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/Hat.uasset" SILENT=true
+[2014.10.11-04.20.03:315][159]LogSavePackage: Save=46.444519ms
+[2014.10.11-04.20.03:315][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Hat829ABD1040B39B4780621F895A0045F2.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/Hat.uasset'
+[2014.10.11-04.20.03:361][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/gim/moustache" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/moustache.uasset" SILENT=true
+[2014.10.11-04.20.04:292][159]LogSavePackage: Save=49.045952ms
+[2014.10.11-04.20.04:292][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/moustache118D40654520A458BAE87FB5B791AC67.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/moustache.uasset'
+[2014.10.11-04.20.04:325][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/gim/NewMaterial" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/NewMaterial.uasset" SILENT=true
+[2014.10.11-04.20.04:354][159]LogSavePackage: Save=9.463999ms
+[2014.10.11-04.20.04:354][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/NewMaterial879F88A549819AFC7C49AAB949A76E6E.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/NewMaterial.uasset'
+[2014.10.11-04.20.04:405][159]LogSavePackage: Save=9.135131ms
+[2014.10.11-04.20.04:405][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/NewMaterial2253AF4574BAEE00FB1F49EB48624FA24.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/NewMaterial2.uasset'
+[2014.10.11-04.20.04:480][159]LogSavePackage: Save=10.803866ms
+[2014.10.11-04.20.04:480][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/NewMaterial3FD4330D642D6DAF67418D8ABD7FBC50A.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/NewMaterial3.uasset'
+[2014.10.11-04.20.04:510][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/gim/shoes" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/shoes.uasset" SILENT=true
+[2014.10.11-04.20.05:096][159]LogSavePackage: Save=57.329998ms
+[2014.10.11-04.20.05:096][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/shoes1887E1F24A42EBF72888B1A943DD222A.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/shoes.uasset'
+[2014.10.11-04.20.05:142][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/gim/top" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/top.uasset" SILENT=true
+[2014.10.11-04.20.05:669][159]LogSavePackage: Save=46.981487ms
+[2014.10.11-04.20.05:669][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/top83BF910B42D5E1496EBD3F9AF5164912.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/gim/top.uasset'
+[2014.10.11-04.20.05:719][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/grima/body" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/grima/body.uasset" SILENT=true
+[2014.10.11-04.20.06:297][159]LogSavePackage: Save=49.572380ms
+[2014.10.11-04.20.06:297][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/body1D5C87244E8528C54699B08F85D171BA.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/grima/body.uasset'
+[2014.10.11-04.20.06:334][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/grima/bottom" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/grima/bottom.uasset" SILENT=true
+[2014.10.11-04.20.06:835][159]LogSavePackage: Save=47.950024ms
+[2014.10.11-04.20.06:835][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/bottomC6A0FE5F4B57065352DBF28F27F61FA4.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/grima/bottom.uasset'
+[2014.10.11-04.20.06:872][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/grima/hair" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/grima/hair.uasset" SILENT=true
+[2014.10.11-04.20.07:429][159]LogSavePackage: Save=59.416145ms
+[2014.10.11-04.20.07:429][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/hairE90DEF4F41A7E768D3762DA910F241C5.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/grima/hair.uasset'
+[2014.10.11-04.20.07:497][159]LogSavePackage: Save=11.107738ms
+[2014.10.11-04.20.07:497][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/NewMaterial59CBB1254D1127568D1425A2C6A62EE7.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/grima/NewMaterial.uasset'
+[2014.10.11-04.20.07:554][159]LogSavePackage: Save=10.986671ms
+[2014.10.11-04.20.07:554][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/NewMaterial2607E77E84B31687C4D0CE49CB51EBEF9.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/grima/NewMaterial2.uasset'
+[2014.10.11-04.20.07:583][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/grima/shoes" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/grima/shoes.uasset" SILENT=true
+[2014.10.11-04.20.08:161][159]LogSavePackage: Save=49.577801ms
+[2014.10.11-04.20.08:161][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/shoesE7B38E9C453799E4F5CA0F825015FEFA.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/grima/shoes.uasset'
+[2014.10.11-04.20.08:200][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/grima/top" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/grima/top.uasset" SILENT=true
+[2014.10.11-04.20.09:140][159]LogSavePackage: Save=60.207294ms
+[2014.10.11-04.20.09:140][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/topA172CF7B4891B77FC5DEC4A32CBFDC16.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/grima/top.uasset'
+[2014.10.11-04.20.09:191][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Horses/horse" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/Horses/horse.uasset" SILENT=true
+[2014.10.11-04.20.09:314][159]LogSavePackage: Save=104.165428ms
+[2014.10.11-04.20.09:314][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/horse167019F74C2C7143E3D45280C5B2E34A.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/Horses/horse.uasset'
+[2014.10.11-04.20.09:663][159]LogSavePackage: Save=264.964874ms
+[2014.10.11-04.20.09:663][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/horse_Mat4AAC4738410A991DE2616784CCE385DA.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/Horses/horse_Mat.uasset'
+[2014.10.11-04.20.09:688][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/idle_1" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/idle_1.uasset" SILENT=true
+[2014.10.11-04.20.09:714][159]LogSavePackage: Save=8.960155ms
+[2014.10.11-04.20.09:714][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/idle_10CA8C1124B75E9C896E6B5862CCDA1E7.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/idle_1.uasset'
+[2014.10.11-04.20.09:791][159]LogSavePackage: Save=35.283775ms
+[2014.10.11-04.20.09:791][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/idle_1_PhysicsAssetD52AB27043C67F3DA9D12AA8CF2ADA76.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/idle_1_PhysicsAsset.uasset'
+[2014.10.11-04.20.09:816][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/idle_1_Skeleton" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/idle_1_Skeleton.uasset" SILENT=true
+[2014.10.11-04.20.09:843][159]LogSavePackage: Save=9.426353ms
+[2014.10.11-04.20.09:843][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/idle_1_Skeleton027456D54267C89842414EA91B03BDA2.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/idle_1_Skeleton.uasset'
+[2014.10.11-04.20.09:878][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/lego/body" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/body.uasset" SILENT=true
+[2014.10.11-04.20.10:413][159]LogSavePackage: Save=51.058311ms
+[2014.10.11-04.20.10:413][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/bodyFF90881E44BE1D947ADCCB84DE993E69.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/body.uasset'
+[2014.10.11-04.20.10:459][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/lego/bottom" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/bottom.uasset" SILENT=true
+[2014.10.11-04.20.11:423][159]LogSavePackage: Save=48.653236ms
+[2014.10.11-04.20.11:423][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/bottom2971BA614859D59CB5440F9E20495359.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/bottom.uasset'
+[2014.10.11-04.20.11:460][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/lego/hair" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/hair.uasset" SILENT=true
+[2014.10.11-04.20.11:958][159]LogSavePackage: Save=49.143528ms
+[2014.10.11-04.20.11:958][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/hair580489C04B79CDE829460B9FAC2F1611.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/hair.uasset'
+[2014.10.11-04.20.12:028][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/lego/legolas" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/legolas.uasset" SILENT=true
+[2014.10.11-04.20.12:599][159]LogSavePackage: Save=550.926086ms
+[2014.10.11-04.20.12:599][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/legolasE81F88B54A3904E002BC4CA7C9945597.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/legolas.uasset'
+[2014.10.11-04.20.12:870][159]LogSavePackage: Save=217.609024ms
+[2014.10.11-04.20.12:870][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/legolas_Body_diffuseB2D667DA429D7E3855992598E134224E.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/legolas_Body_diffuse.uasset'
+[2014.10.11-04.20.13:013][159]LogSavePackage: Save=91.092911ms
+[2014.10.11-04.20.13:013][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/legolas_Body_glossE8CC6C4F4943BC04547075B4777B82F5.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/legolas_Body_gloss.uasset'
+[2014.10.11-04.20.13:467][159]LogSavePackage: Save=402.040924ms
+[2014.10.11-04.20.13:467][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/legolas_Body_normal44A0FD814792F14128C35F8A2F79B63F.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/legolas_Body_normal.uasset'
+[2014.10.11-04.20.13:620][159]LogSavePackage: Save=98.317474ms
+[2014.10.11-04.20.13:620][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/legolas_Body_specularCEF94475444D82EE50553F999521E361.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/legolas_Body_specular.uasset'
+[2014.10.11-04.20.13:825][159]LogSavePackage: Save=151.690506ms
+[2014.10.11-04.20.13:825][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/legolas_Bottom_diffuse32690048416532ACF7D217BFD3ED07D0.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/legolas_Bottom_diffuse.uasset'
+[2014.10.11-04.20.13:941][159]LogSavePackage: Save=64.444038ms
+[2014.10.11-04.20.13:941][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/legolas_Bottom_gloss7C947C304E26902E6DFF419950E4BB0E.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/legolas_Bottom_gloss.uasset'
+[2014.10.11-04.20.14:258][159]LogSavePackage: Save=265.342224ms
+[2014.10.11-04.20.14:258][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/legolas_Bottom_normalAEE5A7C1480065B4B56E3AB515AEB32F.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/legolas_Bottom_normal.uasset'
+[2014.10.11-04.20.14:379][159]LogSavePackage: Save=68.386841ms
+[2014.10.11-04.20.14:379][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/legolas_Bottom_specular69E87F4B4E304DCB39A8D48F5380F7A0.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/legolas_Bottom_specular.uasset'
+[2014.10.11-04.20.14:667][159]LogSavePackage: Save=236.702972ms
+[2014.10.11-04.20.14:667][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/legolas_Hair_diffuse1C663F6849544A078D73538D6F5B029C.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/legolas_Hair_diffuse.uasset'
+[2014.10.11-04.20.14:834][159]LogSavePackage: Save=116.530510ms
+[2014.10.11-04.20.14:834][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/legolas_Hair_glossB55C8D1D4FEC2F7385CC958C5DA4E506.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/legolas_Hair_gloss.uasset'
+[2014.10.11-04.20.14:992][159]LogSavePackage: Save=107.528496ms
+[2014.10.11-04.20.14:992][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/legolas_Hair_normal2EC75938480B70BB230FCBA33A65E547.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/legolas_Hair_normal.uasset'
+[2014.10.11-04.20.15:269][159]LogSavePackage: Save=224.160797ms
+[2014.10.11-04.20.15:269][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/legolas_Hair_specular9F48EC0C4C6DDCCF209F88A88F717D10.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/legolas_Hair_specular.uasset'
+[2014.10.11-04.20.15:656][159]LogSavePackage: Save=344.602203ms
+[2014.10.11-04.20.15:656][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/legolas_PhysicsAsset76D877434D0D3CF90A17CABE71EC7A25.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/legolas_PhysicsAsset.uasset'
+[2014.10.11-04.20.15:922][159]LogSavePackage: Save=214.361008ms
+[2014.10.11-04.20.15:922][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/legolas_Shoes_diffuseBD504EB14E0AA584FA4D2D91AE89C343.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/legolas_Shoes_diffuse.uasset'
+[2014.10.11-04.20.16:068][159]LogSavePackage: Save=93.944305ms
+[2014.10.11-04.20.16:068][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/legolas_Shoes_glossCFF06FAD462D6F07BA8894A6F0E6061E.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/legolas_Shoes_gloss.uasset'
+[2014.10.11-04.20.16:524][159]LogSavePackage: Save=398.019196ms
+[2014.10.11-04.20.16:524][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/legolas_Shoes_normalE9ED577C4FBFB268A212FFB084474600.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/legolas_Shoes_normal.uasset'
+[2014.10.11-04.20.16:688][159]LogSavePackage: Save=112.160957ms
+[2014.10.11-04.20.16:688][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/legolas_Shoes_specularBF55296344156ABC1144B1BEA84E41D8.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/legolas_Shoes_specular.uasset'
+[2014.10.11-04.20.16:797][159]LogSavePackage: Save=58.119946ms
+[2014.10.11-04.20.16:797][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/legolas_Skeleton21B6E238487D0C5AED22F5AFC6C0CE55.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/legolas_Skeleton.uasset'
+[2014.10.11-04.20.17:049][159]LogSavePackage: Save=200.525040ms
+[2014.10.11-04.20.17:049][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/legolas_Top_diffuse7268C72F4C405A036A606394F36993DB.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/legolas_Top_diffuse.uasset'
+[2014.10.11-04.20.17:200][159]LogSavePackage: Save=91.676262ms
+[2014.10.11-04.20.17:200][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/legolas_Top_gloss17C8B23F479930D42850069CB4A81A22.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/legolas_Top_gloss.uasset'
+[2014.10.11-04.20.17:689][159]LogSavePackage: Save=436.094452ms
+[2014.10.11-04.20.17:689][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/legolas_Top_normalEFE372574C9299CFC65289B1DC810BE8.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/legolas_Top_normal.uasset'
+[2014.10.11-04.20.17:856][159]LogSavePackage: Save=114.213974ms
+[2014.10.11-04.20.17:856][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/legolas_Top_specular3599CA214E81CA6402D07D92AD8FDDAE.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/legolas_Top_specular.uasset'
+[2014.10.11-04.20.17:930][159]LogSavePackage: Save=14.372931ms
+[2014.10.11-04.20.17:930][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/NewMaterialFA74B08144623833656912949C894030.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/NewMaterial.uasset'
+[2014.10.11-04.20.17:984][159]LogSavePackage: Save=9.420330ms
+[2014.10.11-04.20.17:984][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/NewMaterial2347C3F3D4B0B843E4A4E02B1C96D3F83.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/NewMaterial2.uasset'
+[2014.10.11-04.20.18:012][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/lego/shoe" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/shoe.uasset" SILENT=true
+[2014.10.11-04.20.18:537][159]LogSavePackage: Save=47.730476ms
+[2014.10.11-04.20.18:537][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/shoe9F15354545BA9B483CB881993D70CAF4.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/shoe.uasset'
+[2014.10.11-04.20.18:573][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/lego/top" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/top.uasset" SILENT=true
+[2014.10.11-04.20.19:133][159]LogSavePackage: Save=48.797794ms
+[2014.10.11-04.20.19:133][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/topA1BD4B43408AF233795A79AA698D8BD1.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/lego/top.uasset'
+[2014.10.11-04.20.19:168][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/merry/body" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/body.uasset" SILENT=true
+[2014.10.11-04.20.19:807][159]LogSavePackage: Save=51.669369ms
+[2014.10.11-04.20.19:807][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/body0471CA4F48962C2560AC0481B3AD349B.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/body.uasset'
+[2014.10.11-04.20.19:851][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/merry/bottom" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/bottom.uasset" SILENT=true
+[2014.10.11-04.20.20:456][159]LogSavePackage: Save=46.713455ms
+[2014.10.11-04.20.20:456][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/bottom8EE2D23346FAC305498643A0ACF0A756.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/bottom.uasset'
+[2014.10.11-04.20.20:492][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/merry/hair" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/hair.uasset" SILENT=true
+[2014.10.11-04.20.20:995][159]LogSavePackage: Save=47.679279ms
+[2014.10.11-04.20.20:995][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/hair4FEC970B441BD246BC6803958593EF0A.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/hair.uasset'
+[2014.10.11-04.20.21:063][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/merry/merry" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/merry.uasset" SILENT=true
+[2014.10.11-04.20.21:584][159]LogSavePackage: Save=501.806061ms
+[2014.10.11-04.20.21:585][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry81B0892F4BBAFB9A5F777FB6AC8D6660.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/merry.uasset'
+[2014.10.11-04.20.22:258][159]LogSavePackage: Save=622.948853ms
+[2014.10.11-04.20.22:258][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Body_diffuse83803E864A370AA40F0A079D6646E65F.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/merry_Body_diffuse.uasset'
+[2014.10.11-04.20.22:406][159]LogSavePackage: Save=95.909988ms
+[2014.10.11-04.20.22:406][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Body_glossD8305CD94F52C7419DFC35A46C77DB9D.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/merry_Body_gloss.uasset'
+[2014.10.11-04.20.22:851][159]LogSavePackage: Save=392.844635ms
+[2014.10.11-04.20.22:851][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Body_normalD9DB704E45E51581C5CE11A2D79FFA97.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/merry_Body_normal.uasset'
+[2014.10.11-04.20.23:021][159]LogSavePackage: Save=113.311096ms
+[2014.10.11-04.20.23:021][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Body_specular69ED2577482D44E5309697A7E3DB67DE.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/merry_Body_specular.uasset'
+[2014.10.11-04.20.23:224][159]LogSavePackage: Save=150.886108ms
+[2014.10.11-04.20.23:224][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Bottom_diffuse9FD832D6403D45F4D5ED2B8A8D52B6C9.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/merry_Bottom_diffuse.uasset'
+[2014.10.11-04.20.23:341][159]LogSavePackage: Save=64.381996ms
+[2014.10.11-04.20.23:341][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Bottom_gloss628C34AA44B9545DB0CDEE94B121E40B.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/merry_Bottom_gloss.uasset'
+[2014.10.11-04.20.23:656][159]LogSavePackage: Save=263.517487ms
+[2014.10.11-04.20.23:656][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Bottom_normal07E55931472029C2237A75B163A54701.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/merry_Bottom_normal.uasset'
+[2014.10.11-04.20.23:781][159]LogSavePackage: Save=66.916267ms
+[2014.10.11-04.20.23:781][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Bottom_specular816BF8894122045E482A99BD896C1AE2.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/merry_Bottom_specular.uasset'
+[2014.10.11-04.20.23:998][159]LogSavePackage: Save=159.127991ms
+[2014.10.11-04.20.23:998][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Hair_diffuseA162E2BC43C9E387F0008EA5574878E3.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/merry_Hair_diffuse.uasset'
+[2014.10.11-04.20.24:078][159]LogSavePackage: Save=28.964806ms
+[2014.10.11-04.20.24:078][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Hair_gloss6C46DBCB486D3265E80CB395B3271A28.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/merry_Hair_gloss.uasset'
+[2014.10.11-04.20.24:414][159]LogSavePackage: Save=284.482239ms
+[2014.10.11-04.20.24:414][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Hair_normalA6C17B674DF6617F03A93EAAA4B809C7.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/merry_Hair_normal.uasset'
+[2014.10.11-04.20.24:524][159]LogSavePackage: Save=58.950851ms
+[2014.10.11-04.20.24:524][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Hair_specular96600EC44B1916CFA5852898ADEE2D5C.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/merry_Hair_specular.uasset'
+[2014.10.11-04.20.24:824][159]LogSavePackage: Save=258.038757ms
+[2014.10.11-04.20.24:824][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_PhysicsAsset3A758D0542AC0ACEBA6CD291A33220B4.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/merry_PhysicsAsset.uasset'
+[2014.10.11-04.20.24:915][159]LogSavePackage: Save=50.383408ms
+[2014.10.11-04.20.24:915][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Skeleton3195CB5944E303DBB9F222A77ED63AD3.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/merry_Skeleton.uasset'
+[2014.10.11-04.20.25:144][159]LogSavePackage: Save=179.038376ms
+[2014.10.11-04.20.25:144][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Top_diffuseC9C586FE4F8A089CA9CBF1A61CA7DB01.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/merry_Top_diffuse.uasset'
+[2014.10.11-04.20.25:261][159]LogSavePackage: Save=59.447464ms
+[2014.10.11-04.20.25:261][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Top_glossAA4BED10473373DC76EF23933DE1759C.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/merry_Top_gloss.uasset'
+[2014.10.11-04.20.25:690][159]LogSavePackage: Save=374.359344ms
+[2014.10.11-04.20.25:690][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Top_normal36641F934E2CEC0E96B6C7912FB6FE30.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/merry_Top_normal.uasset'
+[2014.10.11-04.20.25:832][159]LogSavePackage: Save=88.800766ms
+[2014.10.11-04.20.25:832][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/merry_Top_specular5768A82849D16D2B4DD70CBFA817C9CE.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/merry_Top_specular.uasset'
+[2014.10.11-04.20.25:883][159]LogSavePackage: Save=9.509775ms
+[2014.10.11-04.20.25:883][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/NewMaterialCFE683A94A8BA63F16B85198EE9E2171.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/NewMaterial.uasset'
+[2014.10.11-04.20.25:939][159]LogSavePackage: Save=11.779630ms
+[2014.10.11-04.20.25:939][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/NewMaterial247DDA5A847F450551A7F94B2BB5A23B4.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/NewMaterial2.uasset'
+[2014.10.11-04.20.25:989][159]LogSavePackage: Save=9.813647ms
+[2014.10.11-04.20.25:989][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/NewMaterial38332E640479D3A7AF99A5E8ABCFAD3DE.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/NewMaterial3.uasset'
+[2014.10.11-04.20.26:024][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/merry/top" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/top.uasset" SILENT=true
+[2014.10.11-04.20.26:549][159]LogSavePackage: Save=50.439426ms
+[2014.10.11-04.20.26:549][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/top8C668DE24F8F92B2129D2E826491D604.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/merry/top.uasset'
+[2014.10.11-04.20.26:585][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/pippen/body" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/body.uasset" SILENT=true
+[2014.10.11-04.20.27:131][159]LogSavePackage: Save=53.292328ms
+[2014.10.11-04.20.27:131][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/bodyA5D1F19746E33FE930EE8DB102F8293F.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/body.uasset'
+[2014.10.11-04.20.27:177][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/pippen/bottom" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/bottom.uasset" SILENT=true
+[2014.10.11-04.20.27:689][159]LogSavePackage: Save=46.471020ms
+[2014.10.11-04.20.27:689][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/bottom5CA4E23E4CB8D06790F4CD9269649076.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/bottom.uasset'
+[2014.10.11-04.20.27:725][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/pippen/hair" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/hair.uasset" SILENT=true
+[2014.10.11-04.20.28:263][159]LogSavePackage: Save=65.065033ms
+[2014.10.11-04.20.28:263][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/hairDC86089E441CDBC0D1B1E7999D86D4B2.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/hair.uasset'
+[2014.10.11-04.20.28:332][159]LogSavePackage: Save=9.390817ms
+[2014.10.11-04.20.28:332][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/NewMaterialBED097A7467080CA72320282056198BA.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/NewMaterial.uasset'
+[2014.10.11-04.20.28:385][159]LogSavePackage: Save=8.911970ms
+[2014.10.11-04.20.28:385][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/NewMaterial2E5C9354746A326455B55C09234442AD8.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/NewMaterial2.uasset'
+[2014.10.11-04.20.28:435][159]LogSavePackage: Save=9.835934ms
+[2014.10.11-04.20.28:435][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/NewMaterial4B86EDF5646167FBBBC89519259F3F236.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/NewMaterial4.uasset'
+[2014.10.11-04.20.28:495][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/pippen/pippen" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/pippen.uasset" SILENT=true
+[2014.10.11-04.20.29:034][159]LogSavePackage: Save=515.221619ms
+[2014.10.11-04.20.29:034][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/pippenB27289534AF049C7137EAAA3F112D7F7.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/pippen.uasset'
+[2014.10.11-04.20.29:299][159]LogSavePackage: Save=213.976425ms
+[2014.10.11-04.20.29:299][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/pippen_Body_diffuseCEB0BD3B4EDBEB31C901EDBC83A72728.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/pippen_Body_diffuse.uasset'
+[2014.10.11-04.20.29:441][159]LogSavePackage: Save=89.781349ms
+[2014.10.11-04.20.29:441][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/pippen_Body_gloss9DC486EC4F7461FDE51DB79A990F7DBB.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/pippen_Body_gloss.uasset'
+[2014.10.11-04.20.29:884][159]LogSavePackage: Save=390.383545ms
+[2014.10.11-04.20.29:884][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/pippen_Body_normal2CF7C15744F1C1C886D7FDBC4385E381.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/pippen_Body_normal.uasset'
+[2014.10.11-04.20.30:040][159]LogSavePackage: Save=101.675423ms
+[2014.10.11-04.20.30:040][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/pippen_Body_specularA54348854756602DD9B7F0AF92F65341.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/pippen_Body_specular.uasset'
+[2014.10.11-04.20.30:245][159]LogSavePackage: Save=154.244965ms
+[2014.10.11-04.20.30:245][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/pippen_Bottom_diffuse5DC75FC745E0F2EF8499E6980B6882FD.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/pippen_Bottom_diffuse.uasset'
+[2014.10.11-04.20.30:388][159]LogSavePackage: Save=67.153885ms
+[2014.10.11-04.20.30:388][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/pippen_Bottom_glossE26A353845D44EF56650F5A3D1006AAB.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/pippen_Bottom_gloss.uasset'
+[2014.10.11-04.20.30:754][159]LogSavePackage: Save=297.341217ms
+[2014.10.11-04.20.30:754][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/pippen_Bottom_normalFEF55A7040402FA3BEE19784E1BA9661.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/pippen_Bottom_normal.uasset'
+[2014.10.11-04.20.30:878][159]LogSavePackage: Save=68.885864ms
+[2014.10.11-04.20.30:878][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/pippen_Bottom_specularCA44BD494A964B030531978B69E66000.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/pippen_Bottom_specular.uasset'
+[2014.10.11-04.20.31:139][159]LogSavePackage: Save=208.128174ms
+[2014.10.11-04.20.31:139][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/pippen_Hair_diffuse9CE830CB443D7FE28F438BA6D4CA10CB.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/pippen_Hair_diffuse.uasset'
+[2014.10.11-04.20.31:218][159]LogSavePackage: Save=27.980007ms
+[2014.10.11-04.20.31:218][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/pippen_Hair_glossBC605B954E7F50F855ACCDB790376AC2.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/pippen_Hair_gloss.uasset'
+[2014.10.11-04.20.31:580][159]LogSavePackage: Save=304.643494ms
+[2014.10.11-04.20.31:580][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/pippen_Hair_normalA440D82F45CBAE22E2A484869117ACC4.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/pippen_Hair_normal.uasset'
+[2014.10.11-04.20.31:694][159]LogSavePackage: Save=62.933411ms
+[2014.10.11-04.20.31:694][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/pippen_Hair_specularA65C3355446EC2D6B2845CA02A8854FE.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/pippen_Hair_specular.uasset'
+[2014.10.11-04.20.32:036][159]LogSavePackage: Save=298.347717ms
+[2014.10.11-04.20.32:036][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/pippen_PhysicsAssetC9142ADC4FB83E32326CCD8F39374FE3.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/pippen_PhysicsAsset.uasset'
+[2014.10.11-04.20.32:134][159]LogSavePackage: Save=53.335995ms
+[2014.10.11-04.20.32:134][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/pippen_Skeleton8C796AA146DF3325DB004EB601F623DC.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/pippen_Skeleton.uasset'
+[2014.10.11-04.20.32:422][159]LogSavePackage: Save=229.799744ms
+[2014.10.11-04.20.32:422][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/pippen_Top_diffuse64A01C1A47F40E2FC3CA4CAED05CC97B.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/pippen_Top_diffuse.uasset'
+[2014.10.11-04.20.32:569][159]LogSavePackage: Save=86.181267ms
+[2014.10.11-04.20.32:569][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/pippen_Top_gloss57017C27442E9BB3DC52F9AF7030FB30.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/pippen_Top_gloss.uasset'
+[2014.10.11-04.20.33:047][159]LogSavePackage: Save=417.260101ms
+[2014.10.11-04.20.33:047][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/pippen_Top_normal0D150F064FC7EF45F6FA8AAD356BCCDF.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/pippen_Top_normal.uasset'
+[2014.10.11-04.20.33:159][159]LogSavePackage: Save=57.511902ms
+[2014.10.11-04.20.33:159][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/pippen_Top_specular3B6CA811462FF9D6EC2E87A53C203B63.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/pippen_Top_specular.uasset'
+[2014.10.11-04.20.33:187][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/pippen/top" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/top.uasset" SILENT=true
+[2014.10.11-04.20.33:700][159]LogSavePackage: Save=45.719624ms
+[2014.10.11-04.20.33:700][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/topDA5B8BF34FC2E4C762D2CD9F0653F0A5.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/pippen/top.uasset'
+[2014.10.11-04.20.33:768][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/saruman/1" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/saruman/1.uasset" SILENT=true
+[2014.10.11-04.20.34:195][159]LogSavePackage: Save=410.529755ms
+[2014.10.11-04.20.34:195][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/1EB02A3D642FD91BC22FA76BC85EBA38B.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/saruman/1.uasset'
+[2014.10.11-04.20.34:491][159]LogSavePackage: Save=244.477158ms
+[2014.10.11-04.20.34:491][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/1_PhysicsAsset33A087904F8EA83FDE7934A1B808033B.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/saruman/1_PhysicsAsset.uasset'
+[2014.10.11-04.20.34:574][159]LogSavePackage: Save=41.027527ms
+[2014.10.11-04.20.34:574][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/1_Skeleton4A55494846451A43226645B8C108F187.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/saruman/1_Skeleton.uasset'
+[2014.10.11-04.20.35:140][159]LogSavePackage: Save=481.530060ms
+[2014.10.11-04.20.35:140][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/SaurMesh-Rigged58D4A0AA48A8996D1A7C5FAA34249537.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/saruman/SaurMesh-Rigged.uasset'
+[2014.10.11-04.20.35:566][159]LogSavePackage: Save=374.489441ms
+[2014.10.11-04.20.35:567][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/SaurMesh-Rigged_PhysicsAssetC2EEB96C471979D44C0ABF886E5517C2.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/saruman/SaurMesh-Rigged_PhysicsAsset.uasset'
+[2014.10.11-04.20.35:647][159]LogSavePackage: Save=30.666670ms
+[2014.10.11-04.20.35:647][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/SaurMesh-Rigged_Skeleton2092F65A4D013BD06E85A09927790552.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/saruman/SaurMesh-Rigged_Skeleton.uasset'
+[2014.10.11-04.20.35:795][159]LogSavePackage: Save=100.306946ms
+[2014.10.11-04.20.35:795][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/slow_clothes9ECFEB224AFCE25BD9DF9AAD13DC0068.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/saruman/slow_clothes.uasset'
+[2014.10.11-04.20.35:901][159]LogSavePackage: Save=59.460716ms
+[2014.10.11-04.20.35:901][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/slow_clothes_27BD5E4C8434E28477F1DE08C759CB5BA.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/saruman/slow_clothes_2.uasset'
+[2014.10.11-04.20.36:257][159]LogSavePackage: Save=278.189758ms
+[2014.10.11-04.20.36:258][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/slow_clothes_2_MatAEEC72CA4985018DBC191292573F305C.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/saruman/slow_clothes_2_Mat.uasset'
+[2014.10.11-04.20.36:667][159]LogSavePackage: Save=326.259064ms
+[2014.10.11-04.20.36:667][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/slow_clothes_Mat2901360A4BFF1A94AB86FC8110A62BD3.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/saruman/slow_clothes_Mat.uasset'
+[2014.10.11-04.20.36:985][159]LogSavePackage: Save=255.125916ms
+[2014.10.11-04.20.36:985][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/slow_face687F48BD4AA00F390CCD15AE029C5D40.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/saruman/slow_face.uasset'
+[2014.10.11-04.20.37:390][159]LogSavePackage: Save=310.418549ms
+[2014.10.11-04.20.37:390][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/slow_face_Mat36746B4449C695224FA89C937CE4EF57.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/saruman/slow_face_Mat.uasset'
+[2014.10.11-04.20.37:556][159]LogSavePackage: Save=116.940697ms
+[2014.10.11-04.20.37:556][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/slow_hairBA9A63C647E125DA7EE3FE8E60AB5049.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/saruman/slow_hair.uasset'
+[2014.10.11-04.20.37:999][159]LogSavePackage: Save=365.347992ms
+[2014.10.11-04.20.37:999][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/slow_hair_Mat2753D5D543B1D80C19DAB19EAF775CC7.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/saruman/slow_hair_Mat.uasset'
+[2014.10.11-04.20.38:119][159]LogSavePackage: Save=77.793617ms
+[2014.10.11-04.20.38:119][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/slow_weapon9985587C49800F81D01270ABA0A9D8DD.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/saruman/slow_weapon.uasset'
+[2014.10.11-04.20.38:373][159]LogSavePackage: Save=202.937347ms
+[2014.10.11-04.20.38:373][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/slow_weapon_ballAD5CC27A4420066322BE9D86AFFF64BD.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/saruman/slow_weapon_ball.uasset'
+[2014.10.11-04.20.38:746][159]LogSavePackage: Save=296.138092ms
+[2014.10.11-04.20.38:746][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/slow_weapon_ball_MatF71FDA8C4FB0775AACEB0E8250B1D6ED.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/saruman/slow_weapon_ball_Mat.uasset'
+[2014.10.11-04.20.39:072][159]LogSavePackage: Save=250.433517ms
+[2014.10.11-04.20.39:072][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/slow_weapon_Mat1879DBA249A14531E6119ABB78975309.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/saruman/slow_weapon_Mat.uasset'
+[2014.10.11-04.20.39:100][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/theo/beard" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/beard.uasset" SILENT=true
+[2014.10.11-04.20.39:617][159]LogSavePackage: Save=50.405693ms
+[2014.10.11-04.20.39:617][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/beardBCF56AE34B795E59589EA2970953B77A.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/beard.uasset'
+[2014.10.11-04.20.39:655][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/theo/body" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/body.uasset" SILENT=true
+[2014.10.11-04.20.40:147][159]LogSavePackage: Save=49.391083ms
+[2014.10.11-04.20.40:147][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/body1B7271BC4D53B7FEE96FFF83889B5814.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/body.uasset'
+[2014.10.11-04.20.40:185][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/theo/bottom" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/bottom.uasset" SILENT=true
+[2014.10.11-04.20.40:715][159]LogSavePackage: Save=48.437904ms
+[2014.10.11-04.20.40:715][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/bottomD0B76FFB457F7F120C2912AEF5AAD384.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/bottom.uasset'
+[2014.10.11-04.20.40:752][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/theo/hair" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/hair.uasset" SILENT=true
+[2014.10.11-04.20.41:256][159]LogSavePackage: Save=44.964912ms
+[2014.10.11-04.20.41:256][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/hair85AAB5574D9B18170B283D9758A067CD.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/hair.uasset'
+[2014.10.11-04.20.41:294][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/theo/moustache" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/moustache.uasset" SILENT=true
+[2014.10.11-04.20.41:825][159]LogSavePackage: Save=47.822029ms
+[2014.10.11-04.20.41:825][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/moustache401DE74E41A3B85569FAC1A8BF48356D.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/moustache.uasset'
+[2014.10.11-04.20.41:886][159]LogSavePackage: Save=9.463697ms
+[2014.10.11-04.20.41:886][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/NewMaterialF7501EF44525CA1869360BA8E596C455.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/NewMaterial.uasset'
+[2014.10.11-04.20.41:938][159]LogSavePackage: Save=9.322754ms
+[2014.10.11-04.20.41:938][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/NewMaterial210C430B24621EBC27668FFA29F266804.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/NewMaterial2.uasset'
+[2014.10.11-04.20.41:993][159]LogSavePackage: Save=9.972661ms
+[2014.10.11-04.20.41:993][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/NewMaterial3A58904794233043E7A4A9DB696D0E1A1.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/NewMaterial3.uasset'
+[2014.10.11-04.20.42:045][159]LogSavePackage: Save=10.394889ms
+[2014.10.11-04.20.42:045][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/NewMaterial4C13906F94FAE319887FE489429AA4AAF.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/NewMaterial4.uasset'
+[2014.10.11-04.20.42:095][159]LogSavePackage: Save=9.677221ms
+[2014.10.11-04.20.42:096][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/NewMaterial5DAA2587D485DEEA975F52288DB726CE1.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/NewMaterial5.uasset'
+[2014.10.11-04.20.42:149][159]LogSavePackage: Save=13.174006ms
+[2014.10.11-04.20.42:149][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/NewMaterial65EEF584148DCF718DE96BC9789398ABD.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/NewMaterial6.uasset'
+[2014.10.11-04.20.42:185][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/theo/shoe" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/shoe.uasset" SILENT=true
+[2014.10.11-04.20.42:733][159]LogSavePackage: Save=50.298782ms
+[2014.10.11-04.20.42:733][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/shoe11F1143445B8164FD5840488331F2C2A.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/shoe.uasset'
+[2014.10.11-04.20.42:801][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/theo/theoden" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/theoden.uasset" SILENT=true
+[2014.10.11-04.20.43:418][159]LogSavePackage: Save=599.346252ms
+[2014.10.11-04.20.43:418][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/theodenD4B7A04544748C052ACBA2A1883EB6D5.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/theoden.uasset'
+[2014.10.11-04.20.43:706][159]LogSavePackage: Save=237.998871ms
+[2014.10.11-04.20.43:706][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Beard_diffuse68FBD01D4A9097D4A3A87AB7D24D572E.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Beard_diffuse.uasset'
+[2014.10.11-04.20.43:877][159]LogSavePackage: Save=117.448151ms
+[2014.10.11-04.20.43:877][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Beard_gloss884C97614BF06174F4867EB09F785074.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Beard_gloss.uasset'
+[2014.10.11-04.20.44:040][159]LogSavePackage: Save=111.463768ms
+[2014.10.11-04.20.44:040][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Beard_normalE28445614A66D9ADA75174983FD776A2.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Beard_normal.uasset'
+[2014.10.11-04.20.44:318][159]LogSavePackage: Save=223.537994ms
+[2014.10.11-04.20.44:318][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Beard_specular596333A141DEED86307A04A613DF3816.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Beard_specular.uasset'
+[2014.10.11-04.20.44:595][159]LogSavePackage: Save=225.375381ms
+[2014.10.11-04.20.44:595][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Body_diffuse5DBA4F2D40EF5A87975EC685955D9C04.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Body_diffuse.uasset'
+[2014.10.11-04.20.44:736][159]LogSavePackage: Save=88.539963ms
+[2014.10.11-04.20.44:736][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Body_glossA1C5B73C461B528EB7466C88F3A7206C.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Body_gloss.uasset'
+[2014.10.11-04.20.45:196][159]LogSavePackage: Save=409.513031ms
+[2014.10.11-04.20.45:196][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Body_normalAC2D888E463E8300511BC38F53347364.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Body_normal.uasset'
+[2014.10.11-04.20.45:344][159]LogSavePackage: Save=92.050301ms
+[2014.10.11-04.20.45:344][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Body_specular554FE2E9449772CF2BA67DB2792695F8.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Body_specular.uasset'
+[2014.10.11-04.20.45:562][159]LogSavePackage: Save=162.689529ms
+[2014.10.11-04.20.45:562][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Bottom_diffuse7F73E91B4B6757DB22B1D296BC64366C.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Bottom_diffuse.uasset'
+[2014.10.11-04.20.45:698][159]LogSavePackage: Save=85.687057ms
+[2014.10.11-04.20.45:698][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Bottom_gloss5DEB44914D68A8F9018F56AA4566BECA.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Bottom_gloss.uasset'
+[2014.10.11-04.20.46:057][159]LogSavePackage: Save=308.223389ms
+[2014.10.11-04.20.46:057][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Bottom_normal8ED516E44BD35B6F0C4B2EB9AD794CC8.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Bottom_normal.uasset'
+[2014.10.11-04.20.46:186][159]LogSavePackage: Save=77.705078ms
+[2014.10.11-04.20.46:186][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Bottom_specular5A921E5A497625A03AE55487AD32F344.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Bottom_specular.uasset'
+[2014.10.11-04.20.46:512][159]LogSavePackage: Save=272.537262ms
+[2014.10.11-04.20.46:512][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Hair_diffuseB769979C4B53FEBF1863D780D663FAB9.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Hair_diffuse.uasset'
+[2014.10.11-04.20.46:679][159]LogSavePackage: Save=116.295006ms
+[2014.10.11-04.20.46:679][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Hair_glossEBD4AF644E608C8DA1A7ADA9F3287B40.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Hair_gloss.uasset'
+[2014.10.11-04.20.46:839][159]LogSavePackage: Save=108.959015ms
+[2014.10.11-04.20.46:839][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Hair_normal466D88224BF18BDABAF5EFB6D365B51A.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Hair_normal.uasset'
+[2014.10.11-04.20.47:136][159]LogSavePackage: Save=245.838104ms
+[2014.10.11-04.20.47:136][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Hair_specular9B3DAFC3474DE70E53D5738229B859E5.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Hair_specular.uasset'
+[2014.10.11-04.20.47:416][159]LogSavePackage: Save=229.156769ms
+[2014.10.11-04.20.47:416][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Moustache_diffuseB60A2BC5455698F582896EA73A007BFD.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Moustache_diffuse.uasset'
+[2014.10.11-04.20.47:588][159]LogSavePackage: Save=122.830505ms
+[2014.10.11-04.20.47:588][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Moustache_gloss87B958D84D89AFC61DEF77885BA69C09.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Moustache_gloss.uasset'
+[2014.10.11-04.20.47:736][159]LogSavePackage: Save=96.478577ms
+[2014.10.11-04.20.47:736][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Moustache_normalD802C5AF4817AD397365D299B7D957D4.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Moustache_normal.uasset'
+[2014.10.11-04.20.48:012][159]LogSavePackage: Save=224.987793ms
+[2014.10.11-04.20.48:012][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Moustache_specularB65F731440FD7CEBE55E529ADB589386.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Moustache_specular.uasset'
+[2014.10.11-04.20.48:346][159]LogSavePackage: Save=291.002075ms
+[2014.10.11-04.20.48:346][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/theoden_PhysicsAssetD2BE2A0548A5409AF53F20939FADCC58.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/theoden_PhysicsAsset.uasset'
+[2014.10.11-04.20.48:578][159]LogSavePackage: Save=178.876663ms
+[2014.10.11-04.20.48:578][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Shoes_diffuse8C3499FF43AA3EB04F54EE8022064041.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Shoes_diffuse.uasset'
+[2014.10.11-04.20.48:798][159]LogSavePackage: Save=165.351501ms
+[2014.10.11-04.20.48:798][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Shoes_glossCB48EE0C4DDAA0C7203663B1D89D0186.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Shoes_gloss.uasset'
+[2014.10.11-04.20.49:093][159]LogSavePackage: Save=246.151611ms
+[2014.10.11-04.20.49:093][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Shoes_normalBC0DFBB14B69D4825628788859CAB9CE.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Shoes_normal.uasset'
+[2014.10.11-04.20.49:259][159]LogSavePackage: Save=115.917343ms
+[2014.10.11-04.20.49:259][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Shoes_specularC26BB67C4025C8459F6B0AA378F2EDC5.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Shoes_specular.uasset'
+[2014.10.11-04.20.49:359][159]LogSavePackage: Save=58.071457ms
+[2014.10.11-04.20.49:359][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/theoden_SkeletonAFECD8AB40C370AD13D00DBCD3BE8978.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/theoden_Skeleton.uasset'
+[2014.10.11-04.20.49:606][159]LogSavePackage: Save=199.111099ms
+[2014.10.11-04.20.49:606][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Top_diffuse5AED1C524D5E59EAF8A6F4A6D686836E.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Top_diffuse.uasset'
+[2014.10.11-04.20.49:766][159]LogSavePackage: Save=109.055084ms
+[2014.10.11-04.20.49:766][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Top_glossA1FC17414BBF1A759D5DBE9F53E1F698.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Top_gloss.uasset'
+[2014.10.11-04.20.50:291][159]LogSavePackage: Save=443.681305ms
+[2014.10.11-04.20.50:291][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Top_normal49ADC54B4F018FC1833049AEA3B5FC65.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Top_normal.uasset'
+[2014.10.11-04.20.50:470][159]LogSavePackage: Save=109.022560ms
+[2014.10.11-04.20.50:470][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/Theoden_Top_specularAD003A824E491A0917DD758D2860D2EA.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/Theoden_Top_specular.uasset'
+[2014.10.11-04.20.50:496][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/theo/top" FILE="//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/top.uasset" SILENT=true
+[2014.10.11-04.20.51:032][159]LogSavePackage: Save=51.552517ms
+[2014.10.11-04.20.51:032][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/topEC826DEA418E927233481BADA8A4DA4B.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Props/theo/top.uasset'
+[2014.10.11-04.20.51:282][159]LogSavePackage: Save=158.282639ms
+[2014.10.11-04.20.51:282][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/slow_cape_Mat2A28D17D4E5D4CA38837E19BECA1F291.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Textures/PropText/slow_cape_Mat.uasset'
+[2014.10.11-04.20.51:559][159]LogSavePackage: Save=201.705292ms
+[2014.10.11-04.20.51:559][159]LogSavePackage: Moving '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Saved/slow_clothes_Mat6A67C4E94C4DA7A247B85FA1A88A79A5.tmp' to '//chips.eng.utah.edu/home/ssharp/.win_desktop/GitHub/treebeard/Unreal Project/DeathScene/Content/Textures/PropText/slow_clothes_Mat.uasset'
+[2014.10.11-04.20.51:905][160]Cmd: QUIT_EDITOR
+[2014.10.11-04.20.52:018][160]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.10.11-04.20.52:019][160]LogExit: Preparing to exit.
+[2014.10.11-04.20.52:820][160]LogExit: Editor shut down
+[2014.10.11-04.20.52:820][160]LogExit: Transaction tracking system shut down
+[2014.10.11-04.20.52:824][160]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000316AE200
+[2014.10.11-04.20.52:825][160]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B8B8860
+[2014.10.11-04.20.52:829][160]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010BB8680
+[2014.10.11-04.20.52:829][160]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000280884A0
+[2014.10.11-04.20.52:863][160]LogExit: Object subsystem successfully closed.
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module MaterialEditor (162)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module StatsViewer (161)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (160)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module HTTP (159)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module CrashTracker (158)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module SuperSearch (157)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module SceneOutliner (156)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module EditorWidgets (155)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module CollectionManager (154)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module FoliageEdit (153)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module LandscapeEditor (152)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module MeshPaint (151)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module ActorPickerMode (150)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module GeometryMode (149)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module TextureAlignMode (148)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module BspMode (147)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module PlacementMode (146)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module DesktopPlatform (145)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module AutomationWorker (144)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (143)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (142)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (141)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module UndoHistory (140)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (139)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module UserFeedback (138)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module XmlParser (137)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module Blutility (136)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (135)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (134)
+[2014.10.11-04.20.52:892][160]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (133)
+[2014.10.11-04.20.52:893][160]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (132)
+[2014.10.11-04.20.52:893][160]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (131)
+[2014.10.11-04.20.52:893][160]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (130)
+[2014.10.11-04.20.52:893][160]LogModuleManager: Shutting down and abandoning module InputBindingEditor (129)
+[2014.10.11-04.20.52:893][160]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (128)
+[2014.10.11-04.20.52:893][160]LogModuleManager: Shutting down and abandoning module SettingsEditor (127)
+[2014.10.11-04.20.52:893][160]LogModuleManager: Shutting down and abandoning module SessionLauncher (126)
+[2014.10.11-04.20.52:893][160]LogModuleManager: Shutting down and abandoning module SessionFrontend (125)
+[2014.10.11-04.20.52:893][160]LogModuleManager: Shutting down and abandoning module ProfilerClient (124)
+[2014.10.11-04.20.52:893][160]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (123)
+[2014.10.11-04.20.52:893][160]LogModuleManager: Shutting down and abandoning module DeviceManager (122)
+[2014.10.11-04.20.52:893][160]LogModuleManager: Shutting down and abandoning module AutomationController (121)
+[2014.10.11-04.20.52:893][160]LogModuleManager: Shutting down and abandoning module AutomationWindow (120)
+[2014.10.11-04.20.52:893][160]LogModuleManager: Shutting down and abandoning module Layers (119)
+[2014.10.11-04.20.52:893][160]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (118)
+[2014.10.11-04.20.52:893][160]LogModuleManager: Shutting down and abandoning module DetailCustomizations (117)
+[2014.10.11-04.20.52:893][160]LogModuleManager: Shutting down and abandoning module PackagesDialog (116)
+[2014.10.11-04.20.52:893][160]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (115)
+[2014.10.11-04.20.52:895][160]LogModuleManager: Shutting down and abandoning module AssetRegistry (114)
+[2014.10.11-04.20.52:990][160]LogModuleManager: Shutting down and abandoning module Persona (113)
+[2014.10.11-04.20.52:990][160]LogModuleManager: Shutting down and abandoning module GraphEditor (112)
+[2014.10.11-04.20.52:990][160]LogModuleManager: Shutting down and abandoning module ClassViewer (111)
+[2014.10.11-04.20.52:990][160]LogModuleManager: Shutting down and abandoning module Toolbox (110)
+[2014.10.11-04.20.52:990][160]LogModuleManager: Shutting down and abandoning module ModuleUI (109)
+[2014.10.11-04.20.52:990][160]LogModuleManager: Shutting down and abandoning module Sequencer (108)
+[2014.10.11-04.20.52:990][160]LogModuleManager: Shutting down and abandoning module MovieSceneTools (107)
+[2014.10.11-04.20.52:990][160]LogModuleManager: Shutting down and abandoning module OutputLog (106)
+[2014.10.11-04.20.52:990][160]LogModuleManager: Shutting down and abandoning module GammaUI (105)
+[2014.10.11-04.20.52:990][160]LogModuleManager: Shutting down and abandoning module Documentation (104)
+[2014.10.11-04.20.52:990][160]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (103)
+[2014.10.11-04.20.52:990][160]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (102)
+[2014.10.11-04.20.52:990][160]LogModuleManager: Shutting down and abandoning module AnalyticsET (101)
+[2014.10.11-04.20.52:990][160]LogModuleManager: Shutting down and abandoning module Analytics (100)
+[2014.10.11-04.20.52:990][160]LogModuleManager: Shutting down and abandoning module GameplayDebugger (99)
+[2014.10.11-04.20.52:990][160]LogModuleManager: Shutting down and abandoning module AIModule (98)
+[2014.10.11-04.20.52:990][160]LogModuleManager: Shutting down and abandoning module ProfilerService (97)
+[2014.10.11-04.20.53:215][160]LogModuleManager: Shutting down and abandoning module TaskGraph (96)
+[2014.10.11-04.20.53:215][160]LogModuleManager: Shutting down and abandoning module SlateRemote (95)
+[2014.10.11-04.20.53:215][160]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (94)
+[2014.10.11-04.20.53:215][160]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (93)
+[2014.10.11-04.20.53:215][160]LogModuleManager: Shutting down and abandoning module CableComponent (92)
+[2014.10.11-04.20.53:215][160]LogModuleManager: Shutting down and abandoning module OculusRift (91)
+[2014.10.11-04.20.53:215][160]LogModuleManager: Shutting down and abandoning module MessagingDebugger (90)
+[2014.10.11-04.20.53:215][160]LogModuleManager: Shutting down and abandoning module ViewportSnapping (89)
+[2014.10.11-04.20.53:215][160]LogModuleManager: Shutting down and abandoning module SmartSnapping (88)
+[2014.10.11-04.20.53:215][160]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (87)
+[2014.10.11-04.20.53:215][160]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (86)
+[2014.10.11-04.20.53:215][160]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (85)
+[2014.10.11-04.20.53:216][160]LogModuleManager: Shutting down and abandoning module Matinee (84)
+[2014.10.11-04.20.53:216][160]LogModuleManager: Shutting down and abandoning module Kismet (83)
+[2014.10.11-04.20.53:216][160]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2014.10.11-04.20.53:216][160]LogModuleManager: Shutting down and abandoning module LevelEditor (81)
+[2014.10.11-04.20.53:216][160]LogModuleManager: Shutting down and abandoning module IntroTutorials (80)
+[2014.10.11-04.20.53:216][160]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2014.10.11-04.20.53:216][160]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2014.10.11-04.20.53:216][160]LogModuleManager: Shutting down and abandoning module AssetTools (77)
+[2014.10.11-04.20.53:216][160]LogModuleManager: Shutting down and abandoning module Paper2DEditor (76)
+[2014.10.11-04.20.53:216][160]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (75)
+[2014.10.11-04.20.53:216][160]LogModuleManager: Shutting down and abandoning module PluginsEditor (74)
+[2014.10.11-04.20.53:216][160]LogModuleManager: Shutting down and abandoning module MainFrame (73)
+[2014.10.11-04.20.53:216][160]LogModuleManager: Shutting down and abandoning module EpicSurvey (72)
+[2014.10.11-04.20.53:216][160]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (71)
+[2014.10.11-04.20.53:217][160]LogModuleManager: Shutting down and abandoning module UObjectPlugin (70)
+[2014.10.11-04.20.53:217][160]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (69)
+[2014.10.11-04.20.53:217][160]LogModuleManager: Shutting down and abandoning module SourceControl (68)
+[2014.10.11-04.20.53:217][160]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (67)
+[2014.10.11-04.20.53:217][160]LogModuleManager: Shutting down and abandoning module BlankPlugin (66)
+[2014.10.11-04.20.53:217][160]LogModuleManager: Shutting down and abandoning module ScriptPlugin (65)
+[2014.10.11-04.20.53:217][160]LogModuleManager: Shutting down and abandoning module UdpMessaging (64)
+[2014.10.11-04.20.53:317][160]LogModuleManager: Shutting down and abandoning module Paper2D (63)
+[2014.10.11-04.20.53:317][160]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (62)
+[2014.10.11-04.20.53:322][160]LogModuleManager: Shutting down and abandoning module ImageWrapper (61)
+[2014.10.11-04.20.53:322][160]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (60)
+[2014.10.11-04.20.53:322][160]LogModuleManager: Shutting down and abandoning module FunctionalTesting (59)
+[2014.10.11-04.20.53:322][160]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (58)
+[2014.10.11-04.20.53:322][160]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (57)
+[2014.10.11-04.20.53:323][160]LogModuleManager: Shutting down and abandoning module MessageLog (56)
+[2014.10.11-04.20.53:324][160]LogModuleManager: Shutting down and abandoning module UMGEditor (55)
+[2014.10.11-04.20.53:324][160]LogModuleManager: Shutting down and abandoning module UMG (54)
+[2014.10.11-04.20.53:324][160]LogModuleManager: Shutting down and abandoning module Slate (53)
+[2014.10.11-04.20.53:324][160]LogModuleManager: Shutting down and abandoning module EditorStyle (52)
+[2014.10.11-04.20.53:326][160]LogModuleManager: Shutting down and abandoning module SessionServices (51)
+[2014.10.11-04.20.53:326][160]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (50)
+[2014.10.11-04.20.53:326][160]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (49)
+[2014.10.11-04.20.53:326][160]LogModuleManager: Shutting down and abandoning module XAudio2 (48)
+[2014.10.11-04.20.53:326][160]LogModuleManager: Shutting down and abandoning module Networking (46)
+[2014.10.11-04.20.53:326][160]LogModuleManager: Shutting down and abandoning module Core (45)
+[2014.10.11-04.20.53:326][160]LogModuleManager: Shutting down and abandoning module KismetCompiler (44)
+[2014.10.11-04.20.53:326][160]LogModuleManager: Shutting down and abandoning module PhysXFormats (43)
+[2014.10.11-04.20.53:326][160]LogModuleManager: Shutting down and abandoning module MeshUtilities (42)
+[2014.10.11-04.20.53:326][160]LogModuleManager: Shutting down and abandoning module DerivedDataCache (41)
+[2014.10.11-04.20.53:365][160]LogDerivedDataCache: Shutdown
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (40)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (39)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (38)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (37)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (36)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (35)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (34)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (33)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (32)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (31)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module Messaging (30)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (29)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (28)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (27)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (26)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (25)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (24)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (23)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (22)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (21)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (20)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (19)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module TargetPlatform (18)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module InputCore (17)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module Settings (16)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.10.11-04.20.53:365][160]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.10.11-04.20.53:366][160]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.10.11-04.20.53:366][160]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.10.11-04.20.53:366][160]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.10.11-04.20.53:366][160]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.10.11-04.20.53:366][160]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.10.11-04.20.53:366][160]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.10.11-04.20.53:366][160]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.10.11-04.20.53:366][160]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.10.11-04.20.53:366][160]LogExit: Exiting.
+[2014.10.11-04.20.53:383][160]Log file closed, 10/10/14 22:20:53
