@@ -2738,4 +2738,384 @@ LogInit: Rocket: 1
 [2014.10.16-21.21.09:579][362]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/SceneProps/fourBoards]
 [2014.10.16-21.21.09:961][362]LogSavePackage: Save=321.417236ms
 [2014.10.16-21.21.09:961][362]LogSavePackage: Moving 'F:/UnReal/treebeard/Unreal Project/DeathScene/Saved/fourBoards_Auto6FD8F0D7241670BBF8420AC97B0A7FEB0.tmp' to 'F:/UnReal/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/Props/SceneProps/fourBoards_Auto6.uasset'
-[2014.10.16-
+[2014.10.16-21.21.09:966][362]LogFileHelpers: Auto-saving content packages took 0.464
+[2014.10.16-21.21.11:644][561]Cmd: DUPLICATE
+[2014.10.16-21.21.11:644][561]Cmd: ACTOR DUPLICATE
+[2014.10.16-21.21.19:588][349]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.16-21.21.19:588][349]Aligned camera to fit all selected actors.
+[2014.10.16-21.21.40:451][273]Cmd: DUPLICATE
+[2014.10.16-21.21.40:451][273]Cmd: ACTOR DUPLICATE
+[2014.10.16-21.21.47:397][ 56]Cmd: DUPLICATE
+[2014.10.16-21.21.47:397][ 56]Cmd: ACTOR DUPLICATE
+[2014.10.16-21.21.54:164][703]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (deathWheelUVs_2)
+[2014.10.16-21.21.54:470][733]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.16-21.21.54:470][733]Aligned camera to fit all selected actors.
+[2014.10.16-21.21.57:492][930]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fourBoards_28)
+[2014.10.16-21.21.58:790][ 77]Cmd: DUPLICATE
+[2014.10.16-21.21.58:790][ 77]Cmd: ACTOR DUPLICATE
+[2014.10.16-21.22.19:711][191]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fourBoards_21)
+[2014.10.16-21.22.19:979][218]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.16-21.22.19:979][218]Aligned camera to fit all selected actors.
+[2014.10.16-21.22.28:578][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fourBoards_20)
+[2014.10.16-21.22.44:450][555]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (idle_3)
+[2014.10.16-21.22.44:745][585]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.16-21.22.44:745][585]Aligned camera to fit all selected actors.
+[2014.10.16-21.22.56:136][550]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (deathWheelUVs_2)
+[2014.10.16-21.23.01:768][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LOTR001_with_cameras003" FILE="F:/UnReal/treebeard/Unreal Project/DeathScene/Content/LOTR001_with_cameras003.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.16-21.23.04:881][186]LogSavePackage: Save=2658.962891ms
+[2014.10.16-21.23.04:881][186]LogSavePackage: Moving 'F:/UnReal/treebeard/Unreal Project/DeathScene/Saved/LOTR001_with_cameras003CA95F60948656F8C5499CA9B0CCC864B.tmp' to 'F:/UnReal/treebeard/Unreal Project/DeathScene/Content/LOTR001_with_cameras003.umap'
+[2014.10.16-21.43.13:502][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (deathWHeelSmooth)
+[2014.10.16-21.43.25:361][574]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (idle_2)
+[2014.10.16-21.43.26:478][701]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (idle_5)
+[2014.10.16-21.43.27:199][782]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.16-21.43.27:199][782]Aligned camera to fit all selected actors.
+[2014.10.16-21.43.34:832][509]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (deathWheelUVs_2)
+[2014.10.16-21.43.36:376][688]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (idle_1)
+[2014.10.16-21.43.43:191][450]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (threeBoards_3)
+[2014.10.16-21.43.43:583][471]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.16-21.43.43:583][471]Aligned camera to fit all selected actors.
+[2014.10.16-21.43.50:452][900]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treeMod1)
+[2014.10.16-21.43.50:706][922]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.16-21.43.50:706][922]Aligned camera to fit all selected actors.
+[2014.10.16-21.44.36:508][356]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fourBoards_29)
+[2014.10.16-21.44.36:706][373]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.16-21.44.36:706][373]Aligned camera to fit all selected actors.
+[2014.10.16-21.44.52:397][383]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treeMod3)
+[2014.10.16-21.44.52:751][412]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.16-21.44.52:751][412]Aligned camera to fit all selected actors.
+[2014.10.16-21.46.24:953][225]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (orthanc_model_new)
+[2014.10.16-21.47.14:851][719]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (theoden)
+[2014.10.16-21.47.16:265][873]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (eomer)
+[2014.10.16-21.47.17:587][ 12]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (legolas)
+[2014.10.16-22.08.18:015][507]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/Horses'
+[2014.10.16-22.08.26:729][214]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.10.16-22.08.28:972][463]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.10.16-22.08.32:839][926]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/Horses'
+[2014.10.16-22.09.04:748][830]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/PropText'
+[2014.10.16-22.09.05:333][900]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.10.16-22.09.07:304][135]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/PropText'
+[2014.10.16-22.09.08:297][254]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.16-22.09.08:688][279]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/saruman'
+[2014.10.16-22.09.10:870][464]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/SceneProps'
+[2014.10.16-22.09.12:818][577]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/theo'
+[2014.10.16-22.09.14:206][721]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/Horses'
+[2014.10.16-22.09.14:948][783]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/grima'
+[2014.10.16-22.09.15:465][831]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/Horses'
+[2014.10.16-22.10.36:109][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (treeMod2)
+[2014.10.16-22.10.36:787][ 50]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (idle_5)
+[2014.10.16-22.10.38:002][186]Cmd: DUPLICATE
+[2014.10.16-22.10.38:002][186]Cmd: ACTOR DUPLICATE
+[2014.10.16-22.10.51:339][135]LogSavePackage: Save=2648.765625ms
+[2014.10.16-22.10.51:340][135]LogSavePackage: Moving 'F:/UnReal/treebeard/Unreal Project/DeathScene/Saved/LOTR001_with_cameras003_Auto72976043E47328E355CE3AE8FFF8EF827.tmp' to 'F:/UnReal/treebeard/Unreal Project/DeathScene/Saved/Autosaves/Game/LOTR001_with_cameras003_Auto7.umap'
+[2014.10.16-22.10.51:347][135]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LOTR001_with_cameras003' took 3.870
+[2014.10.16-22.10.51:347][135]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.870
+[2014.10.16-22.12.40:180][608]Cmd: DELETE
+[2014.10.16-22.12.40:180][608]Cmd: ACTOR DELETE
+[2014.10.16-22.12.40:187][608]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2014.10.16-22.12.40:206][608]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2014.10.16-22.12.47:861][408]LogEditorFactories: Performing atomic reimport of [F:/Textures/horse-white.jpg]
+[2014.10.16-22.12.47:861][408]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 F:/Textures/horse-white.jpg)
+[2014.10.16-22.12.47:877][408]LogTexture:Display: Building textures: horse-white (AutoDXT)
+[2014.10.16-22.12.48:049][408]LogEditorFactories: -- imported successfully
+[2014.10.16-22.13.05:313][559]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'TransBuffer_0' or package '/Engine/Transient'.
+[2014.10.16-22.14.17:356][263]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/Horses'
+[2014.10.16-22.14.25:444][ 73]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.16-22.14.25:456][ 73]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.10.16-22.14.25:485][ 73]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.10.16-22.14.25:485][ 73]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.10.16-22.14.25:486][ 73]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.10.16-22.14.25:486][ 73]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.10.16-22.14.25:487][ 73]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.16-22.14.26:808][153]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.16-22.14.26:808][153]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.16-22.14.26:808][153]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.16-22.14.29:168][324]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.16-22.14.29:170][324]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.16-22.14.29:197][324]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.16-22.14.29:758][364]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.16-22.14.29:758][364]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.16-22.14.29:758][364]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.16-22.14.31:155][509]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.16-22.14.31:184][509]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2014.10.16-22.14.31:774][550]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2014.10.16-22.14.31:774][550]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.16-22.14.31:774][550]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.16-22.14.34:576][863]LogMaterialEditor: Saving and Compiling material whorse
+[2014.10.16-22.14.34:841][863]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.16-22.14.34:882][863]LogMaterial: Missing cached shader map for material whorse, compiling.
+[2014.10.16-22.14.34:890][863]LogMaterial: Missing cached shader map for material whorse, compiling.
+[2014.10.16-22.14.34:915][863]LogMaterial: 0.022688 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.16-22.14.36:214][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Horses/whorse" FILE="F:/UnReal/treebeard/Unreal Project/DeathScene/Content/Props/Horses/whorse.uasset" SILENT=true
+[2014.10.16-22.14.36:533][863]LogSavePackage: Save=314.066040ms
+[2014.10.16-22.14.36:533][863]LogSavePackage: Moving 'F:/UnReal/treebeard/Unreal Project/DeathScene/Saved/whorse75CA1D874D2C217DFD0CC990C66ABE49.tmp' to 'F:/UnReal/treebeard/Unreal Project/DeathScene/Content/Props/Horses/whorse.uasset'
+[2014.10.16-22.14.41:860][451]LogMaterial:Warning: Material /Game/Props/Horses/whorse.whorse needed to have new flag set bUsedWithSkeletalMesh !
+[2014.10.16-22.14.41:862][451]LogMaterial: Missing cached shader map for material whorse, compiling.
+[2014.10.16-22.14.41:873][451]LogMaterial: 0.000173 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.16-22.14.43:777][607]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (idle_5)
+[2014.10.16-22.14.43:985][618]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.16-22.14.43:985][618]Aligned camera to fit all selected actors.
+[2014.10.16-22.14.53:785][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LOTR001_with_cameras003" FILE="F:/UnReal/treebeard/Unreal Project/DeathScene/Content/LOTR001_with_cameras003.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.16-22.14.53:839][339]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027066980
+[2014.10.16-22.14.56:531][339]LogSavePackage: Save=2682.674316ms
+[2014.10.16-22.14.56:531][339]LogSavePackage: Moving 'F:/UnReal/treebeard/Unreal Project/DeathScene/Saved/LOTR001_with_cameras003B722FD0B4D46C06F3DCA8C991C508638.tmp' to 'F:/UnReal/treebeard/Unreal Project/DeathScene/Content/LOTR001_with_cameras003.umap'
+[2014.10.16-22.15.16:160][429]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (1)
+[2014.10.16-22.15.17:872][614]Cmd: DELETE
+[2014.10.16-22.15.17:872][614]Cmd: ACTOR DELETE
+[2014.10.16-22.15.17:879][614]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2014.10.16-22.15.17:897][614]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2014.10.16-22.15.24:145][151]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.10.16-22.15.30:490][861]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/NewFolder'
+[2014.10.16-22.15.35:242][431]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/Gandalf'
+[2014.10.16-22.15.59:973][117]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 F:/UnReal/treebeard/Models/Gandalf/1.png)
+[2014.10.16-22.16.03:912][117]0.000013 seconds to analyze Texture2D /Game/Props/Gandalf/1.1
+
+[2014.10.16-22.16.03:913][117]LogTexture:Display: Building textures: 1 (AutoDXT)
+[2014.10.16-22.16.04:029][117]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.16-22.16.04:029][117]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/Gandalf'
+[2014.10.16-22.16.06:782][442]LogMaterial: Missing cached shader map for material 1_Mat, compiling.
+[2014.10.16-22.16.06:816][442]LogMaterial:Warning: Material /Game/Props/Gandalf/1_Mat.1_Mat needed to have new flag set bUsedWithStaticLighting !
+[2014.10.16-22.16.06:817][442]LogMaterial: Missing cached shader map for material 1_Mat, compiling.
+[2014.10.16-22.16.06:830][442]LogMaterial: 0.000200 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.16-22.16.10:782][843]Cmd: TRANSACTION UNDO
+[2014.10.16-22.16.10:782][843]LogEditorTransaction: Undo Apply Material to Surface
+[2014.10.16-22.16.10:784][843]LogActorComponent: ~FComponentReregisterContext: (/Game/LOTR001_with_cameras003.LOTR001_with_cameras003:PersistentLevel.ModelComponent_8) Component already registered.
+[2014.10.16-22.16.16:095][409]Cmd: TRANSACTION UNDO
+[2014.10.16-22.16.16:095][409]LogEditorTransaction: Undo Apply Material to Surface
+[2014.10.16-22.16.16:096][409]LogActorComponent: ~FComponentReregisterContext: (/Game/LOTR001_with_cameras003.LOTR001_with_cameras003:PersistentLevel.ModelComponent_8) Component already registered.
+[2014.10.16-22.16.24:417][929]LogMaterial: Missing cached shader map for material 1_Mat, compiling.
+[2014.10.16-22.16.24:418][929]LogMaterial:Warning: Failed to compile Material /Game/Props/Gandalf/1_Mat.1_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.16-22.16.24:418][929]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2014.10.16-22.16.30:422][301]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'TransBuffer_0' or package '/Engine/Transient'.
+[2014.10.16-22.16.36:183][587]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 F:/UnReal/treebeard/Models/Gandalf/1.FBX)
+[2014.10.16-22.16.36:185][587]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2014.10.16-22.16.36:185][587]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2014.10.16-22.16.36:185][587]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2014.10.16-22.16.36:185][587]LogFbx: ItemName: Model, ItemCount : 51
+[2014.10.16-22.16.36:185][587]LogFbx: ItemName: NodeAttribute, ItemCount : 91
+[2014.10.16-22.16.36:185][587]LogFbx: ItemName: Geometry, ItemCount : 1
+[2014.10.16-22.16.36:185][587]LogFbx: ItemName: Material, ItemCount : 12
+[2014.10.16-22.16.36:185][587]LogFbx: ItemName: Texture, ItemCount : 12
+[2014.10.16-22.16.36:185][587]LogFbx: ItemName: AnimationCurve, ItemCount : 306
+[2014.10.16-22.16.36:185][587]LogFbx: ItemName: AnimationCurveNode, ItemCount : 102
+[2014.10.16-22.16.36:185][587]LogFbx: ItemName: Deformer, ItemCount : 42
+[2014.10.16-22.16.36:185][587]LogFbx: ItemName: Pose, ItemCount : 1
+[2014.10.16-22.16.36:185][587]LogFbx: ItemName: Video, ItemCount : 12
+[2014.10.16-22.16.49:074][587]LogFbx: Loading FBX Scene from F:/UnReal/treebeard/Models/Gandalf/1.FBX
+[2014.10.16-22.16.49:130][587]LogFbx: FBX Scene Loaded Succesfully
+[2014.10.16-22.16.49:133][587]LogFbx: =================================================
+[2014.10.16-22.16.49:133][587]LogFbx: Dumping Node START [smdimport] : Total Deformer Count 1.
+[2014.10.16-22.16.49:133][587]LogFbx: 	[Node 1]  (Type Skin).
+[2014.10.16-22.16.49:133][587]LogFbx: =================================================
+[2014.10.16-22.16.49:133][587]LogFbx: Dumping Node END [smdimport]
+[2014.10.16-22.16.49:134][587]LogFbx: =================================================
+[2014.10.16-22.16.49:134][587]LogFbx: Dumping Node START [smdimport] : Total Deformer Count 1.
+[2014.10.16-22.16.49:134][587]LogFbx: 	[Node 1]  (Type Skin).
+[2014.10.16-22.16.49:134][587]LogFbx: =================================================
+[2014.10.16-22.16.49:134][587]LogFbx: Dumping Node END [smdimport]
+[2014.10.16-22.16.49:135][587]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node smdimport : Not all the deformers are stored in this BindPose
+[2014.10.16-22.16.49:135][587]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2014.10.16-22.16.49:136][587]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - smdimport
+[2014.10.16-22.16.49:136][587]LogFbx:Warning: Recreating bind pose succeeded.
+[2014.10.16-22.16.49:146][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_weapon_2_tga'
+[2014.10.16-22.16.49:146][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_weapon_2_tga'
+[2014.10.16-22.16.49:146][587]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Props/Gandalf/slow_weapon_2_tga.slow_weapon_2_tga'
+[2014.10.16-22.16.49:150][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_weapon_2'
+[2014.10.16-22.16.49:150][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_weapon_2'
+[2014.10.16-22.16.49:150][587]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Props/Gandalf/slow_weapon_2.slow_weapon_2'
+[2014.10.16-22.16.49:150][587]LogStreaming:Warning: Failed to read file 'slow_weapon_2.tga' error.
+[2014.10.16-22.16.49:150][587]LogStreaming:Warning: Failed to read file 'F:/UnReal/treebeard/Models/Gandalf/..\Desktop\slow_weapon_2.tga' error.
+[2014.10.16-22.16.49:150][587]LogStreaming:Warning: Failed to read file 'F:/UnReal/treebeard/Models/Gandalf/slow_weapon_2.tga' error.
+[2014.10.16-22.16.49:150][587]LogFbxMaterialImport:Warning: Unable to find TEXTure file slow_weapon_2.tga. Tried:
+ - slow_weapon_2.tga
+ - F:/UnReal/treebeard/Models/Gandalf/..\Desktop\slow_weapon_2.tga
+ - F:/UnReal/treebeard/Models/Gandalf/slow_weapon_2.tga
+[2014.10.16-22.16.49:157][587]LogMaterial: Missing cached shader map for material slow_weapon_2_tga, compiling.
+[2014.10.16-22.16.49:182][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_hair_2_tga'
+[2014.10.16-22.16.49:182][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_hair_2_tga'
+[2014.10.16-22.16.49:182][587]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Props/Gandalf/slow_hair_2_tga.slow_hair_2_tga'
+[2014.10.16-22.16.49:195][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_hair_2'
+[2014.10.16-22.16.49:195][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_hair_2'
+[2014.10.16-22.16.49:195][587]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Props/Gandalf/slow_hair_2.slow_hair_2'
+[2014.10.16-22.16.49:195][587]LogStreaming:Warning: Failed to read file 'slow_hair_2.tga' error.
+[2014.10.16-22.16.49:195][587]LogStreaming:Warning: Failed to read file 'F:/UnReal/treebeard/Models/Gandalf/..\Desktop\slow_hair_2.tga' error.
+[2014.10.16-22.16.49:195][587]LogStreaming:Warning: Failed to read file 'F:/UnReal/treebeard/Models/Gandalf/slow_hair_2.tga' error.
+[2014.10.16-22.16.49:195][587]LogFbxMaterialImport:Warning: Unable to find TEXTure file slow_hair_2.tga. Tried:
+ - slow_hair_2.tga
+ - F:/UnReal/treebeard/Models/Gandalf/..\Desktop\slow_hair_2.tga
+ - F:/UnReal/treebeard/Models/Gandalf/slow_hair_2.tga
+[2014.10.16-22.16.49:202][587]LogMaterial: Missing cached shader map for material slow_hair_2_tga, compiling.
+[2014.10.16-22.16.49:227][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_cape_2_tga'
+[2014.10.16-22.16.49:227][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_cape_2_tga'
+[2014.10.16-22.16.49:227][587]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Props/Gandalf/slow_cape_2_tga.slow_cape_2_tga'
+[2014.10.16-22.16.49:260][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_cape_2'
+[2014.10.16-22.16.49:260][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_cape_2'
+[2014.10.16-22.16.49:260][587]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Props/Gandalf/slow_cape_2.slow_cape_2'
+[2014.10.16-22.16.49:260][587]LogStreaming:Warning: Failed to read file 'slow_cape_2.tga' error.
+[2014.10.16-22.16.49:261][587]LogStreaming:Warning: Failed to read file 'F:/UnReal/treebeard/Models/Gandalf/..\Desktop\slow_cape_2.tga' error.
+[2014.10.16-22.16.49:261][587]LogStreaming:Warning: Failed to read file 'F:/UnReal/treebeard/Models/Gandalf/slow_cape_2.tga' error.
+[2014.10.16-22.16.49:261][587]LogFbxMaterialImport:Warning: Unable to find TEXTure file slow_cape_2.tga. Tried:
+ - slow_cape_2.tga
+ - F:/UnReal/treebeard/Models/Gandalf/..\Desktop\slow_cape_2.tga
+ - F:/UnReal/treebeard/Models/Gandalf/slow_cape_2.tga
+[2014.10.16-22.16.49:268][587]LogMaterial: Missing cached shader map for material slow_cape_2_tga, compiling.
+[2014.10.16-22.16.49:293][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_clothes_tga'
+[2014.10.16-22.16.49:293][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_clothes_tga'
+[2014.10.16-22.16.49:293][587]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Props/Gandalf/slow_clothes_tga.slow_clothes_tga'
+[2014.10.16-22.16.49:297][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_clothes'
+[2014.10.16-22.16.49:297][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_clothes'
+[2014.10.16-22.16.49:297][587]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Props/Gandalf/slow_clothes.slow_clothes'
+[2014.10.16-22.16.49:297][587]LogStreaming:Warning: Failed to read file 'slow_clothes.tga' error.
+[2014.10.16-22.16.49:297][587]LogStreaming:Warning: Failed to read file 'F:/UnReal/treebeard/Models/Gandalf/..\Desktop\slow_clothes.tga' error.
+[2014.10.16-22.16.49:323][587]LogTexture:Display: Building textures: slow_clothes (AutoDXT)
+[2014.10.16-22.16.49:409][587]LogMaterial: Missing cached shader map for material slow_clothes_tga, compiling.
+[2014.10.16-22.16.49:437][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_weapon_tga'
+[2014.10.16-22.16.49:437][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_weapon_tga'
+[2014.10.16-22.16.49:437][587]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Props/Gandalf/slow_weapon_tga.slow_weapon_tga'
+[2014.10.16-22.16.49:440][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_weapon'
+[2014.10.16-22.16.49:441][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_weapon'
+[2014.10.16-22.16.49:441][587]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Props/Gandalf/slow_weapon.slow_weapon'
+[2014.10.16-22.16.49:441][587]LogStreaming:Warning: Failed to read file 'slow_weapon.tga' error.
+[2014.10.16-22.16.49:441][587]LogStreaming:Warning: Failed to read file 'F:/UnReal/treebeard/Models/Gandalf/..\Desktop\slow_weapon.tga' error.
+[2014.10.16-22.16.49:474][587]LogTexture:Display: Building textures: slow_weapon (AutoDXT)
+[2014.10.16-22.16.49:644][587]LogMaterial: Missing cached shader map for material slow_weapon_tga, compiling.
+[2014.10.16-22.16.49:685][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_cape_translucent_tga'
+[2014.10.16-22.16.49:685][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_cape_translucent_tga'
+[2014.10.16-22.16.49:685][587]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Props/Gandalf/slow_cape_translucent_tga.slow_cape_translucent_tga'
+[2014.10.16-22.16.49:688][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_cape_translucent'
+[2014.10.16-22.16.49:688][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_cape_translucent'
+[2014.10.16-22.16.49:688][587]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Props/Gandalf/slow_cape_translucent.slow_cape_translucent'
+[2014.10.16-22.16.49:688][587]LogStreaming:Warning: Failed to read file 'slow_cape_translucent.tga' error.
+[2014.10.16-22.16.49:688][587]LogStreaming:Warning: Failed to read file 'F:/UnReal/treebeard/Models/Gandalf/..\Desktop\slow_cape_translucent.tga' error.
+[2014.10.16-22.16.49:688][587]LogStreaming:Warning: Failed to read file 'F:/UnReal/treebeard/Models/Gandalf/slow_cape_translucent.tga' error.
+[2014.10.16-22.16.49:688][587]LogFbxMaterialImport:Warning: Unable to find TEXTure file slow_cape_translucent.tga. Tried:
+ - slow_cape_translucent.tga
+ - F:/UnReal/treebeard/Models/Gandalf/..\Desktop\slow_cape_translucent.tga
+ - F:/UnReal/treebeard/Models/Gandalf/slow_cape_translucent.tga
+[2014.10.16-22.16.49:716][587]LogMaterial: Missing cached shader map for material slow_cape_translucent_tga, compiling.
+[2014.10.16-22.16.49:759][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_cape_tga'
+[2014.10.16-22.16.49:759][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_cape_tga'
+[2014.10.16-22.16.49:759][587]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Props/Gandalf/slow_cape_tga.slow_cape_tga'
+[2014.10.16-22.16.49:764][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_cape'
+[2014.10.16-22.16.49:764][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_cape'
+[2014.10.16-22.16.49:764][587]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Props/Gandalf/slow_cape.slow_cape'
+[2014.10.16-22.16.49:764][587]LogStreaming:Warning: Failed to read file 'slow_cape.tga' error.
+[2014.10.16-22.16.49:764][587]LogStreaming:Warning: Failed to read file 'F:/UnReal/treebeard/Models/Gandalf/..\Desktop\slow_cape.tga' error.
+[2014.10.16-22.16.49:779][587]LogTexture:Display: Building textures: slow_cape (AutoDXT)
+[2014.10.16-22.16.50:397][587]LogMaterial: Missing cached shader map for material slow_cape_tga, compiling.
+[2014.10.16-22.16.50:432][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_face_2_tga'
+[2014.10.16-22.16.50:432][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_face_2_tga'
+[2014.10.16-22.16.50:432][587]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Props/Gandalf/slow_face_2_tga.slow_face_2_tga'
+[2014.10.16-22.16.50:436][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_face_2'
+[2014.10.16-22.16.50:436][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_face_2'
+[2014.10.16-22.16.50:436][587]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Props/Gandalf/slow_face_2.slow_face_2'
+[2014.10.16-22.16.50:436][587]LogStreaming:Warning: Failed to read file 'slow_face_2.tga' error.
+[2014.10.16-22.16.50:436][587]LogStreaming:Warning: Failed to read file 'F:/UnReal/treebeard/Models/Gandalf/..\Desktop\slow_face_2.tga' error.
+[2014.10.16-22.16.50:436][587]LogStreaming:Warning: Failed to read file 'F:/UnReal/treebeard/Models/Gandalf/slow_face_2.tga' error.
+[2014.10.16-22.16.50:436][587]LogFbxMaterialImport:Warning: Unable to find TEXTure file slow_face_2.tga. Tried:
+ - slow_face_2.tga
+ - F:/UnReal/treebeard/Models/Gandalf/..\Desktop\slow_face_2.tga
+ - F:/UnReal/treebeard/Models/Gandalf/slow_face_2.tga
+[2014.10.16-22.16.50:461][587]LogMaterial: Missing cached shader map for material slow_face_2_tga, compiling.
+[2014.10.16-22.16.50:499][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_eyes_tga'
+[2014.10.16-22.16.50:499][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_eyes_tga'
+[2014.10.16-22.16.50:499][587]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Props/Gandalf/slow_eyes_tga.slow_eyes_tga'
+[2014.10.16-22.16.50:503][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_face'
+[2014.10.16-22.16.50:503][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_face'
+[2014.10.16-22.16.50:503][587]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Props/Gandalf/slow_face.slow_face'
+[2014.10.16-22.16.50:519][587]LogTexture:Display: Building textures: slow_face (AutoDXT)
+[2014.10.16-22.16.50:683][587]LogMaterial: Missing cached shader map for material slow_eyes_tga, compiling.
+[2014.10.16-22.16.50:720][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_face_tga'
+[2014.10.16-22.16.50:720][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_face_tga'
+[2014.10.16-22.16.50:720][587]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Props/Gandalf/slow_face_tga.slow_face_tga'
+[2014.10.16-22.16.50:724][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_face'
+[2014.10.16-22.16.50:724][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_face'
+[2014.10.16-22.16.50:724][587]LogStreaming:Warning: Failed to read file 'slow_face.tga' error.
+[2014.10.16-22.16.50:724][587]LogStreaming:Warning: Failed to read file 'F:/UnReal/treebeard/Models/Gandalf/..\Desktop\slow_face.tga' error.
+[2014.10.16-22.16.50:739][587]LogTexture:Display: Building textures: slow_face (AutoDXT)
+[2014.10.16-22.16.50:900][587]LogMaterial: Missing cached shader map for material slow_face_tga, compiling.
+[2014.10.16-22.16.50:937][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_hair_tga'
+[2014.10.16-22.16.50:937][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_hair_tga'
+[2014.10.16-22.16.50:937][587]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Props/Gandalf/slow_hair_tga.slow_hair_tga'
+[2014.10.16-22.16.50:942][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_hair'
+[2014.10.16-22.16.50:942][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_hair'
+[2014.10.16-22.16.50:942][587]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Props/Gandalf/slow_hair.slow_hair'
+[2014.10.16-22.16.50:943][587]LogStreaming:Warning: Failed to read file 'slow_hair.tga' error.
+[2014.10.16-22.16.50:943][587]LogStreaming:Warning: Failed to read file 'F:/UnReal/treebeard/Models/Gandalf/..\Desktop\slow_hair.tga' error.
+[2014.10.16-22.16.50:972][587]LogTexture:Display: Building textures: slow_hair (AutoDXT)
+[2014.10.16-22.16.51:137][587]LogMaterial: Missing cached shader map for material slow_hair_tga, compiling.
+[2014.10.16-22.16.51:173][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_hands_tga'
+[2014.10.16-22.16.51:173][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_hands_tga'
+[2014.10.16-22.16.51:173][587]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Props/Gandalf/slow_hands_tga.slow_hands_tga'
+[2014.10.16-22.16.51:177][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_hands'
+[2014.10.16-22.16.51:177][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/slow_hands'
+[2014.10.16-22.16.51:177][587]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Props/Gandalf/slow_hands.slow_hands'
+[2014.10.16-22.16.51:177][587]LogStreaming:Warning: Failed to read file 'slow_hands.tga' error.
+[2014.10.16-22.16.51:177][587]LogStreaming:Warning: Failed to read file 'F:/UnReal/treebeard/Models/Gandalf/..\Desktop\slow_hands.tga' error.
+[2014.10.16-22.16.51:193][587]LogTexture:Display: Building textures: slow_hands (AutoDXT)
+[2014.10.16-22.16.51:285][587]LogMaterial: Missing cached shader map for material slow_hands_tga, compiling.
+[2014.10.16-22.16.51:353][587]LogFbx:Warning: Bones digested - 50  Depth of hierarchy - 12
+[2014.10.16-22.16.51:471][587]LogSkeletalMesh: Chunk 0: 145 rigid vertices, 0 soft vertices, 1 active bones
+[2014.10.16-22.16.51:471][587]LogSkeletalMesh: Chunk 1: 165 rigid vertices, 266 soft vertices, 2 active bones
+[2014.10.16-22.16.51:471][587]LogSkeletalMesh: Chunk 2: 0 rigid vertices, 166 soft vertices, 6 active bones
+[2014.10.16-22.16.51:471][587]LogSkeletalMesh: Chunk 3: 294 rigid vertices, 1155 soft vertices, 18 active bones
+[2014.10.16-22.16.51:471][587]LogSkeletalMesh: Chunk 4: 233 rigid vertices, 0 soft vertices, 1 active bones
+[2014.10.16-22.16.51:471][587]LogSkeletalMesh: Chunk 5: 0 rigid vertices, 48 soft vertices, 2 active bones
+[2014.10.16-22.16.51:471][587]LogSkeletalMesh: Chunk 6: 2 rigid vertices, 431 soft vertices, 6 active bones
+[2014.10.16-22.16.51:471][587]LogSkeletalMesh: Chunk 7: 37 rigid vertices, 60 soft vertices, 2 active bones
+[2014.10.16-22.16.51:471][587]LogSkeletalMesh: Chunk 8: 42 rigid vertices, 0 soft vertices, 1 active bones
+[2014.10.16-22.16.51:471][587]LogSkeletalMesh: Chunk 9: 1050 rigid vertices, 40 soft vertices, 2 active bones
+[2014.10.16-22.16.51:471][587]LogSkeletalMesh: Chunk 10: 187 rigid vertices, 329 soft vertices, 2 active bones
+[2014.10.16-22.16.51:472][587]LogSkeletalMesh: Chunk 11: 489 rigid vertices, 1213 soft vertices, 32 active bones
+[2014.10.16-22.16.51:485][587]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 159 triangles
+[2014.10.16-22.16.51:485][587]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 606 triangles
+[2014.10.16-22.16.51:485][587]LogSkeletalMesh: Section 2: Material=2, Chunk=2, 216 triangles
+[2014.10.16-22.16.51:485][587]LogSkeletalMesh: Section 3: Material=3, Chunk=3, 2335 triangles
+[2014.10.16-22.16.51:485][587]LogSkeletalMesh: Section 4: Material=4, Chunk=4, 245 triangles
+[2014.10.16-22.16.51:485][587]LogSkeletalMesh: Section 5: Material=5, Chunk=5, 60 triangles
+[2014.10.16-22.16.51:485][587]LogSkeletalMesh: Section 6: Material=6, Chunk=6, 750 triangles
+[2014.10.16-22.16.51:485][587]LogSkeletalMesh: Section 7: Material=7, Chunk=7, 147 triangles
+[2014.10.16-22.16.51:485][587]LogSkeletalMesh: Section 8: Material=8, Chunk=8, 54 triangles
+[2014.10.16-22.16.51:485][587]LogSkeletalMesh: Section 9: Material=9, Chunk=9, 2100 triangles
+[2014.10.16-22.16.51:485][587]LogSkeletalMesh: Section 10: Material=10, Chunk=10, 726 triangles
+[2014.10.16-22.16.51:485][587]LogSkeletalMesh: Section 11: Material=11, Chunk=11, 2694 triangles
+[2014.10.16-22.16.51:488][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/1_PhysicsAsset'
+[2014.10.16-22.16.51:488][587]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Props/Gandalf/1_PhysicsAsset.1_PhysicsAsset'
+[2014.10.16-22.16.51:504][587]LogLinker:Warning: Can't find file '/Game/Props/Gandalf/1_Skeleton'
+[2014.10.16-22.16.51:504][587]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Props/Gandalf/1_Skeleton.1_Skeleton'
+[2014.10.16-22.16.51:534][587]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2014.10.16-22.16.51:534][587]FBXImport:Warning: Warning Warning: The following bones are missing from the bind pose.  This can happen for bones that are not vert weighted.  If they are not in the correct orientation after importing, please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh 
+
+ValveBiped.forward  
+ValveBiped.Bip01_L_Wrist  
+ValveBiped.Bip01_R_Wrist  
+ValveBiped.weapon_bone  
+ValveBiped.weapon_bone_RHand  
+ValveBiped.weapon_bone_LHand  
+ValveBiped.weapon_bone_Clip  
+ 
+[2014.10.16-22.16.51:549][587]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.16-22.16.51:549][587]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/Gandalf'
+[2014.10.16-22.16.51:818][588]LogMaterial:Warning: Material /Game/Props/Gandalf/slow_weapon_2_tga.slow_weapon_2_tga needed to have new flag set bUsedWithSkeletalMesh !
+[2014.10.16-22.16.51:857][588]LogMaterial: Missing cached shader map for material slow_weapon_2_tga, compiling.
+[2014.10.16-22.16.51:867][588]LogMaterial: 0.000179 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.16-22.16.51:867][588]LogMaterial:Warning: Material /Game/Props/Gandalf/slow_hair_2_tga.slow_hair_2_tga needed to have new flag set bUsedWithSkeletalMesh !
+[2014.10.16-22.16.51:868][588]LogMaterial: Missing cached shader map for material slow_hair_2_tga, compiling.
+[2014.10.16-22.16.51:877][588]LogMaterial: 0.000204 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.16-22.16.51:877][588]LogMaterial:Warning: Material /Game/Props/Gandalf/slow_cape_2_tga.slow_cape_2_tga needed to have new flag set bUsedWithSkeletalMesh !
+[2014.10.16-22.16.51:878][588]LogMaterial: Missing cached shader map for material slow_cape_2_tga, compiling.
+[2014.10.16-22.16.51:889][588]LogMaterial: 0.000157 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.16-22.16.51:889][588]LogMaterial:Warning: Material /Game/Props/Gandalf/slow_clothes_tga.slow_clothes_tga needed to have new flag set bUsedWithSkeletalMesh !
+[2014.10.16-22.16.51:890][588]LogMaterial: Missing cached shader map for material slow_clothes_tga, compiling.
+[2014.10.16-22.16.51:899][588]LogMaterial: 0.000204 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.16-22.16.51:899][588]LogMaterial:Warning: Material /Game/Props/Gandalf/slow_weapon_tga.slow_weapon_tga needed to have new flag set bUsedWithSkeletalMesh !
+[2014.10.16-22.16.51:901][588]LogMaterial: Missing cached shader map for material slow_weapon_tga, compiling.
+[2014.10.16-22.16.51:911][588]LogMaterial: 0.000198 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.16-22.16.51:912][588]LogMaterial:Warning: Material /Game/Props/Gandalf/slow_cape_translucent_tga.slow_cape_translucent_tga needed to have new flag set bUsedWithSkeletalMesh !
+[2014.10.16-22.16.51:913][588]LogMaterial: Missing cached shader map for material slow_cape_translucent_tga, compiling.
+[2014.10.16-22.16.51:925][588]LogMaterial: 0.000182 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.16-22.16.51:925][588]LogMaterial:Warning: Material /Game/Props/Gandalf/slow_cape_tga.slow_cape_tga needed to have new flag set bUsedWithSkeletalMesh !
+[2014.10.16-22.16.51:926][588]LogMaterial: Missing cached shader map for material slow_cape_tga, compiling.
+[2014.10.16-22.16.51:938][588]LogMaterial: 0.000143 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.16-22.16.51:938][588]LogMaterial:Warning: Material /Game/Props/Gandalf/slow_face_2_tga.slow_face_2_tga needed to have new flag set bUsedWithSkeletalMesh !
+[2014.10.16-22.16.51:940][588]LogMaterial: Missing cached shader map for material slow_face_2_tga, compiling.
+[2014.10.16-22.16.
