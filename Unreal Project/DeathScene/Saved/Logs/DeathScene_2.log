@@ -1,0 +1,77 @@
+Log file open, 10/21/14 08:49:49
+LogInit:Display: Running engine for game: DeathScene
+LogInit: Version: 4.4.1-2270799+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Aug 25 2014 14:19:12
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line:  /Temp/Autosaves/Game/UEDPCLOTR001_with_cameras003 -game -PIEVIACONSOLE -NoSplash -nomovie -ResX=1280 -ResY=720 -NoTextureStreaming -BENCHMARK -FPS=30 -MATINEEAVICAPTURE=MatineeActor_0 -MATINEEPACKAGE=LOTR001_with_cameras003  -Multiprocess -rocket
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.21-14.49.49:459][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.21-14.49.49:490][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.21-14.49.49:500][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.21-14.49.49:509][  0]LogInit: Object subsystem initialized
+[2014.10.21-14.49.49:512][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.21-14.49.49:512][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.21-14.49.49:519][  0]LogInit: Computer: MALEBOLGIA
+[2014.10.21-14.49.49:519][  0]LogInit: User: Sino
+[2014.10.21-14.49.49:521][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.10.21-14.49.49:521][  0]LogInit: High frequency timer resolution =2.241007 MHz
+[2014.10.21-14.49.49:521][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2014.10.21-14.49.49:522][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.21-14.49.49:522][  0]LogMemory: Process Physical Memory: 60.02 MB used, 60.15 MB peak
+[2014.10.21-14.49.49:522][  0]LogMemory: Process Virtual Memory: 36.03 MB used, 36.18 MB peak
+[2014.10.21-14.49.49:522][  0]LogMemory: Physical Memory: 5975.28 MB used, 16290.70 MB total
+[2014.10.21-14.49.49:522][  0]LogMemory: Virtual Memory: 278.60 MB used, 134217728.00 MB total
+[2014.10.21-14.49.49:631][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 650M (Feature Level 11_0)
+[2014.10.21-14.49.49:631][  0]LogD3D11RHI: Adapter has 965MB of dedicated video memory, 0MB of dedicated system memory, and 3072MB of shared system memory, 1 output[s]
+[2014.10.21-14.49.49:633][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.10.21-14.49.49:633][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.10.21-14.49.49:633][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.21-14.49.49:640][  0]LogRHI: Texture pool is 675 MB (70% of 965 MB)
+[2014.10.21-14.49.49:653][  0]LogD3D11RHI: Async texture creation enabled
+[2014.10.21-14.49.53:038][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.21-14.49.54:371][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.21-14.49.54:460][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.21-14.49.54:555][  0]LogDerivedDataCache: Loaded boot cache 0.09s 39MB C:/Users/Sino/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.21-14.49.54:556][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Sino/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.10.21-14.49.54:556][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Sino/Documents/CS3660/treebeard/Unreal Project/DeathScene/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.21-14.49.54:556][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.21-14.49.54:603][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.21-14.49.54:617][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sino/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.10.21-14.49.55:012][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.21-14.49.55:012][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.21-14.49.55:762][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.21-14.49.57:559][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/Sino/Documents/CS3660/treebeard/Unreal Project/DeathScene/Content/Movies/Default_Startup.mp4
+[2014.10.21-14.49.57:776][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_33b0_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_3358_0///////STATCAT_Advanced////
+[2014.10.21-14.49.57:776][  0]SourceControl: Info Source control is disabled
+[2014.10.21-14.49.57:776][  0]SourceControl: Info Source control is disabled
+[2014.10.21-14.49.57:790][  0]SourceControl: Info Source control is disabled
+[2014.10.21-14.49.57:889][  0]LogObj: 20996 objects as part of root set at end of initial load.
+[2014.10.21-14.49.57:889][  0]LogUObjectAllocator: 3965968 out of 0 bytes used by permanent object pool.
+[2014.10.21-14.49.58:308][  0]LogAutomationTest:Warning: ERR: Transient text cannot be serialized "Testing Transient serialization detection".
+[2014.10.21-14.49.58:308][  0]LogEngine: Initializing Engine...
+[2014.10.21-14.50.00:313][  0]LogHMD:Warning: No Oculus HMD detected! Is Oculus Run-Time installed and service is running?
+[2014.10.21-14.50.00:324][  0]LogHMD: Oculus shutdown.
+[2014.10.21-14.50.00:572][  0]LogInit: Texture streaming: Disabled
+[2014.10.21-14.50.00:722][  0]LogConsoleResponse:Display: 
+[2014.10.21-14.50.00:723][  0]LogNet: Browse: /Temp/Autosaves/Game/UEDPCLOTR001_with_cameras003?Name=Player
+[2014.10.21-14.50.00:723][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/UEDPCLOTR001_with_cameras003?Name=Player
+[2014.10.21-14.50.00:771][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.21-14.50.00:771][  0]LogMemory: Process Physical Memory: 274.47 MB used, 311.34 MB peak
+[2014.10.21-14.50.00:771][  0]LogMemory: Process Virtual Memory: 224.64 MB used, 267.93 MB peak
+[2014.10.21-14.50.00:771][  0]LogMemory: Physical Memory: 6132.39 MB used, 16290.70 MB total
+[2014.10.21-14.50.00:771][  0]LogMemory: Virtual Memory: 621.97 MB used, 134217728.00 MB total
+[2014.10.21-14.50.00:771][  0]LogMemory: 
+[2014.10.21-14.50.00:771][  0]Allocator Stats for TBB: (not implemented)
+[2014.10.21-14.50.02:801][  0]LogLinker:Warning: Can't find file '/Game/Textures/board001_Uvs'
+[2014.10.21-14.50.02:802][  0]LoadErrors: Info Failed to load /Game/Textures/board001_Uvs.board001_Uvs Referenced by MaterialExpressionTextureSample_0 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.10.21-14.50.02:802][  0]LogUObjectGlobals:Warning: Failed to load '/Game/Textures/board001_Uvs': Can't find file '/Game/Textures/board001_Uvs'
+[2014.10.21-14.50.02:802][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/board001_Uvs' while loading NULL.
+[2014.10.21-14.50.02:803][  0]LoadErrors: Info Failed to load /Game/Textures/board001_Uvs.board001_Uvs Referenced by MaterialExpressionTextureSample_0 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.10.21-14.50.02:803][  0]LogUObjectGlobals:Warning: Failed to load '/Game/Textures/board001_Uvs': Can't find file for asset '/Game/Textures/board001_Uvs' while loading NULL.
+[2014.10.21-14.50.02:803][  0]LogLinker:Warning: Can't find file '/Game/Textures/T_Rock_Sandstone_N'
+[2014.10.21-14.50.02:803][  0]LoadErrors: Info Failed to load /Game/Textures/T_Rock_Sandstone_N.T_Rock_Sandstone_N Referenced by MaterialExpressionTextureSample_1 Property /Script/Engine.MaterialExpressionTextureBase:Texture
+[2014.10.21-14.50.02:803][  0]LogUObjectGlobals:Warning: Failed to load '/Game/Textures/T_Rock_Sandstone_N': Can't find file '/Game/Textures/T_Rock_Sandstone_N'
+[2014.10.21-14.50.02:804][  0]LogLinker:Warning: Can't find file for asset '/Game/Textures/T_Rock_Sandstone_N' 
